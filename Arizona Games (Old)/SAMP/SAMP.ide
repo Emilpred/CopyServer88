@@ -1,0 +1,2841 @@
+# ------------------------------------------------------
+# ------------------------------------------------------
+# SA:MP IDE File
+# --------------
+# Objects in this file were created and/or edited by (in alphabetical order):
+# cessil, Kalcor, Matite and Micky (September 2010 to April 2015)
+#
+# Go to the SA:MP wiki for information about this file:
+# http://wiki.sa-mp.com
+# ------------------------------------------------------
+#
+# IMG File Fixes in SA:MP 0.3.7:
+# * Fixed the elevator COL brightness (ID:18755 - was 0 brightness)
+# * Fixed the missing metal grating texture for AnimTube (ID:19901)
+# * Fixed some of the draw distances (IDs:19475 to 19483 - changed from 300 to 299)
+# * Fixed the flags on one of the walls (ID:19371 - changed from 2097284 to 0)
+# * Fixed the wall sections COL brightness (IDs:19353 to 19465 - was 255 brightness)
+# * Replaced the face COLs with box COLs on many of the wall sections (IDs:19353 to 19465)
+# * Fixed the hot air balloons COL brightness (IDs:19332 to 19338 - was 0 brightness)
+# * Added mine.txd from VC to fix the existing GTASA landmine that had no texture (ID:1213)
+#   Note: if you want a non-dynamic mine use ID:19589
+# * Fixed the deer COL brightness (ID:19315 - was 0 brightness)
+# * Fixed the container COL brightness (ID:19321 - was 0 brightness)
+# * Changed the flags on EnExMarker2 (ID:19197 - changed from 2097156 to 2097220)
+# * Changed the flags on EnExMarker3 (ID:19198 - changed from 2097156 to 2097220)
+# * Added the UFO model to old unused object ID slot (ID:18846)
+# * Fixed the pumpkin COL brightness (ID:19320 - was 0 brightness)
+# * Added the security keypad 2 model to old unused object ID slot (ID:19305)
+# * Added the red flag model to old unused object ID slot (ID:19306)
+# * Added the blue flag model to old unused object ID slot (ID:19307)
+# * Added the ATM non-dynamic model to old unused object ID slot (ID:19324)
+# * Updated wall001 (ID:19353) to use vertex colours so it does not respond to dynamic lighting
+# * Updated wall031 (ID:19383) to use vertex colours so it does not respond to dynamic lighting
+# * Updated wall047 (ID:19399) to use vertex colours so it does not respond to dynamic lighting
+# * Updated wall066 (ID:19426) to use vertex colours so it does not respond to dynamic lighting
+# * Updated wall085 (ID:19445) to use vertex colours so it does not respond to dynamic lighting
+# * Updated SF Harry Plums building (ID:19486) to open the side doors, fix vertex colours and COL
+#
+#
+# ------------------------------------------------------
+# The objects defined below have been added by SA:MP.
+# You can replace them to define new objects
+# (but they will only be visible to you).
+#
+# Usable object IDs are:
+# * 18631 to 19999 (1369 total) reserved for SAMP.IDE
+# * 11682 to 12799 (1118 total) reserved for SAMP.IDE
+# * 15065 to 15999 (935 total) reserved for CUSTOM.IDE
+# ------------------------------------------------------
+#
+objs
+# ------------------------------------------------------
+# No Model File (used internally by SA:MP - do not remove or replace this model)
+18631, NoModelFile, NoModelFile, 50, 0
+# ------------------------------------------------------
+# Holding Objects
+18632, FishingRod, FishingRod, 100, 0
+18633, GTASAWrench1, MatTextures, 100, 0
+18634, GTASACrowbar1, MatTextures, 100, 0
+18635, GTASAHammer1, MatTextures, 100, 0
+18636, PoliceCap1, MatTextures, 100, 2097152
+18637, PoliceShield1, MatTextures, 100, 4
+18638, HardHat1, wmycon, 100, 2097152
+18639, BlackHat1, dwmolc2, 100, 2097152
+18640, Hair1, smyst, 100, 2097152
+18641, Flashlight1, Flashlight1, 100, 0
+18642, Taser1, Taser1, 100, 0
+18643, LaserPointer1, LaserPointer1, 100, 4
+18644, Screwdriver1, MatTextures, 100, 0
+18645, MotorcycleHelmet1, MatClothes, 100, 2097152
+# ------------------------------------------------------
+# Lights
+18646, PoliceLight1, MatColours, 150, 0
+18647, RedNeonTube1, MatTextures, 150, 0
+18648, BlueNeonTube1, MatTextures, 150, 0
+18649, GreenNeonTube1, MatTextures, 150, 0
+18650, YellowNeonTube1, MatTextures, 150, 0
+18651, PinkNeonTube1, MatTextures, 150, 0
+18652, WhiteNeonTube1, MatTextures, 150, 0
+18653, DiscoLightRed, Carter_block, 150, 0
+18654, DiscoLightGreen, Carter_block, 150, 0
+18655, DiscoLightBlue, Carter_block, 150, 0
+18656, LightBeamWhite, LightBeams, 200, 2097156
+18657, LightBeamRed, LightBeams, 200, 2097156
+18658, LightBeamBlue, LightBeams, 200, 2097156
+# ------------------------------------------------------
+# Spray Tags
+18659, SprayTag1, SprayTags, 50, 4
+18660, SprayTag2, SprayTags, 50, 4
+18661, SprayTag3, SprayTags, 50, 4
+18662, SprayTag4, SprayTags, 50, 4
+18663, SprayTag5, SprayTags, 50, 4
+18664, SprayTag6, SprayTags, 50, 4
+18665, SprayTag7, SprayTags, 50, 4
+18666, SprayTag8, SprayTags, 50, 4
+18667, SprayTag9, SprayTags, 50, 4
+# ------------------------------------------------------
+# Particle Effects
+18668, blood_heli, MatTextures, 100, 0
+18669, boat_prop, MatTextures, 100, 0
+18670, camflash, MatTextures, 100, 0
+18671, carwashspray, MatTextures, 100, 0
+18672, cementp, MatTextures, 100, 0
+18673, cigarette_smoke, MatTextures, 100, 0
+18674, cloudfast, MatTextures, 100, 0
+18675, coke_puff, MatTextures, 100, 0
+18676, coke_trail, MatTextures, 100, 0
+18677, exhale, MatTextures, 100, 0
+18678, explosion_barrel, MatTextures, 100, 0
+18679, explosion_crate, MatTextures, 100, 0
+18680, explosion_door, MatTextures, 100, 0
+18681, explosion_fuel_car, MatTextures, 100, 0
+18682, explosion_large, MatTextures, 100, 0
+18683, explosion_medium, MatTextures, 100, 0
+18684, explosion_molotov, MatTextures, 100, 0
+18685, explosion_small, MatTextures, 100, 0
+18686, explosion_tiny, MatTextures, 100, 0
+18687, extinguisher, MatTextures, 100, 0
+18688, fire, MatTextures, 150, 0
+18689, fire_bike, MatTextures, 100, 0
+18690, fire_car, MatTextures, 100, 0
+18691, fire_large, MatTextures, 100, 0
+18692, fire_med, MatTextures, 100, 0
+18693, Flame99, MatTextures, 100, 0
+18694, flamethrowerp, MatTextures, 100, 0
+18695, gunflash, MatTextures, 100, 0
+18696, gunsmoke, MatTextures, 100, 0
+18697, heli_dust, MatTextures, 100, 0
+18698, insects, MatTextures, 100, 0
+18699, jetpackp, MatTextures, 100, 0
+18700, jetthrust, MatTextures, 100, 0
+18701, molotov_flame, MatTextures, 100, 0
+18702, nitrop, MatTextures, 100, 0
+18703, overheat_car, MatTextures, 100, 0
+18704, overheat_car_elec, MatTextures, 100, 0
+18705, petrolcan, MatTextures, 100, 0
+18706, prt_blood, MatTextures, 100, 0
+18707, prt_boatsplash, MatTextures, 100, 0
+18708, prt_bubble, MatTextures, 100, 0
+18709, prt_cardebris, MatTextures, 100, 0
+18710, prt_collisionsmoke, MatTextures, 100, 0
+18711, prt_glass, MatTextures, 100, 0
+18712, prt_gunshell, MatTextures, 100, 0
+18713, prt_sand2, MatTextures, 100, 0
+18714, prt_sand, MatTextures, 100, 0
+18715, prt_smoke_huge, MatTextures, 150, 0
+18716, prt_smoke_expand, MatTextures, 100, 0
+18717, prt_spark, MatTextures, 100, 0
+18718, prt_spark_2, MatTextures, 100, 0
+18719, prt_wake, MatTextures, 100, 0
+18720, prt_watersplash, MatTextures, 100, 0
+18721, prt_wheeldirt, MatTextures, 100, 0
+18722, puke, MatTextures, 100, 0
+18723, riot_smoke, MatTextures, 100, 0
+18724, shootlight, MatTextures, 100, 0
+18725, smoke30lit, MatTextures, 100, 0
+18726, smoke30m, MatTextures, 100, 0
+18727, smoke50lit, MatTextures, 100, 0
+18728, smoke_flare, MatTextures, 100, 0
+18729, spraycanp, MatTextures, 100, 0
+18730, tank_fire, MatTextures, 100, 0
+18731, teargas99, MatTextures, 100, 0
+18732, teargasAD, MatTextures, 100, 0
+18733, tree_hit_fir, MatTextures, 100, 0
+18734, tree_hit_palm, MatTextures, 100, 0
+18735, vent2, MatTextures, 100, 0
+18736, vent, MatTextures, 100, 0
+18737, wallbust, MatTextures, 100, 0
+18738, water_fnt_tme, MatTextures, 100, 0
+18739, water_fountain, MatTextures, 100, 0
+18740, water_hydrant, MatTextures, 100, 0
+18741, water_ripples, MatTextures, 100, 0
+18742, water_speed, MatTextures, 100, 0
+18743, water_splash, MatTextures, 100, 0
+18744, water_splash_big, MatTextures, 100, 0
+18745, water_splsh_sml, MatTextures, 100, 0
+18746, water_swim, MatTextures, 100, 0
+18747, waterfall_end, MatTextures, 100, 0
+18748, WS_factorysmoke, MatTextures, 100, 0
+# ------------------------------------------------------
+# SA:MP Logos
+18749, SAMPLogoSmall, MatTextures, 150, 0
+18750, SAMPLogoBig, MatTextures, 299, 0
+# ------------------------------------------------------
+# Land Masses
+18751, IslandBase1, MatTextures, 299, 0
+18752, Volcano, Volcano, 299, 4
+# ------------------------------------------------------
+# Base Sections
+18753, Base125mx125m1, BaseSections, 299, 2097156
+18754, Base250mx250m1, BaseSections, 299, 2097156
+# ------------------------------------------------------
+# Elevator from VC
+18755, VCElevator1, VCInteriors, 50, 2097152
+18756, ElevatorDoor1, VCInteriors, 50, 0
+18757, ElevatorDoor2, VCInteriors, 50, 0
+18758, VCElevatorFront1, VCInteriors, 50, 2097152
+# ------------------------------------------------------
+# DM Cages
+18759, DMCage1, DMCages, 250, 2097156
+18760, DMCage2, DMCages, 250, 2097156
+# ------------------------------------------------------
+# Racing
+18761, RaceFinishLine1, MatRacing, 220, 2097156
+# ------------------------------------------------------
+# Parkour
+18762, Concrete1mx1mx5m, ConcreteBits, 100, 0
+18763, Concrete3mx3mx5m, ConcreteBits, 100, 0
+18764, Concrete5mx5mx5m, ConcreteBits, 100, 0
+18765, Concrete10mx10mx5m, ConcreteBits, 100, 0
+18766, Concrete10mx1mx5m, ConcreteBits, 100, 0
+18767, ConcreteStair1, ConcreteBits, 150, 0
+# ------------------------------------------------------
+# Sky Diving Platforms
+18768, SkyDivePlatform1, SkyDivePlatforms, 299, 2097152
+18769, SkyDivePlatform1a, SkyDivePlatforms, 299, 2097156
+18770, SkyDivePlatform1b, SkyDivePlatforms, 299, 0
+18771, SpiralStair1, MatStairs, 299, 0
+# ------------------------------------------------------
+# Tunnel Sections
+18772, TunnelSection1, TunnelSections, 299, 4
+18773, TunnelJoinSection1, TunnelSections, 299, 4
+18774, TunnelJoinSection2, TunnelSections, 299, 4
+18775, TunnelJoinSection3, TunnelSections, 299, 4
+18776, TunnelJoinSection4, TunnelSections, 299, 4
+18777, TunnelSpiral1, TunnelSections, 299, 4
+# ------------------------------------------------------
+# Ramps
+18778, RampT1, landjump, 220, 0
+18779, RampT2, MatRamps, 280, 0
+18780, RampT3, MatRamps, 280, 0
+18781, MeshRampBig, MatRamps, 220, 4
+18782, CookieRamp1, CookieRamp1, 220, 0
+18783, FunBoxTop1, MatRamps, 220, 2097284
+18784, FunBoxRamp1, MatRamps, 220, 2097284
+18785, FunBoxRamp2, MatRamps, 220, 2097284
+18786, FunBoxRamp3, MatRamps, 220, 2097284
+18787, FunBoxRamp4, MatRamps, 220, 2097284
+# ------------------------------------------------------
+# Modular Road Sections
+18788, MRoad40m, cs_ebridge, 250, 0
+18789, MRoad150m, cs_ebridge, 299, 0
+18790, MRoadBend180Deg1, cs_ebridge, 250, 0
+18791, MRoadBend45Deg, cs_ebridge, 250, 0
+18792, MRoadTwist15DegL, cs_ebridge, 250, 0
+18793, MRoadTwist15DegR, cs_ebridge, 250, 0
+18794, MRoadBend15Deg1, cs_ebridge, 250, 0
+18795, MRoadBend15Deg2, cs_ebridge, 250, 0
+18796, MRoadBend15Deg3, cs_ebridge, 250, 0
+18797, MRoadBend15Deg4, cs_ebridge, 250, 0
+18798, MRoadB45T15DegL, cs_ebridge, 250, 0
+18799, MRoadB45T15DegR, cs_ebridge, 250, 0
+18800, MRoadHelix1, MRoadHelix1, 250, 0
+18801, MRoadLoop1, cs_ebridge, 250, 0
+# ------------------------------------------------------
+# Modular Bridge Sections
+18802, MBridgeRamp1, cs_ebridge, 200, 0
+18803, MBridge150m1, cs_ebridge, 250, 0
+18804, MBridge150m2, cs_ebridge, 250, 0
+18805, MBridge150m3, cs_ebridge, 250, 0
+18806, MBridge150m4, cs_ebridge, 250, 0
+18807, MBridge75mHalf, cs_ebridge, 250, 0
+# ------------------------------------------------------
+# Tubes and Funnels
+18808, Tube50m1, MatTextures, 299, 0
+18809, Tube50mGlass1, MatTextures, 299, 4
+18810, Tube50mBulge1, MatTextures, 299, 0
+18811, Tube50mGlassBulge1, MatTextures, 299, 4
+18812, Tube50mFunnel1, MatTextures, 299, 0
+18813, Tube50mGlassFunnel1, MatTextures, 299, 4
+18814, Tube50mFunnel2, MatTextures, 299, 0
+18815, Tube50mFunnel3, MatTextures, 299, 0
+18816, Tube50mFunnel4, MatTextures, 299, 0
+18817, Tube50mTSection1, MatTextures, 299, 0
+18818, Tube50mGlassT1, MatTextures, 299, 4
+18819, Tube50mPlus1, MatTextures, 299, 0
+18820, Tube50mGlassPlus1, MatTextures, 299, 4
+18821, Tube50m45Bend1, MatTextures, 299, 0
+18822, Tube50mGlass45Bend1, MatTextures, 299, 4
+18823, Tube50m90Bend1, MatTextures, 299, 0
+18824, Tube50mGlass90Bend1, MatTextures, 299, 4
+18825, Tube50m180Bend1, MatTextures, 299, 0
+18826, Tube50mGlass180Bend, MatTextures, 299, 4
+18827, Tube100m2, MatTextures, 299, 0
+18828, SpiralTube1, MatRamps, 299, 2097156
+18829, RTexturetube, MickyTextures, 299, 0
+18830, RTexturebridge, MickyTextures, 299, 0
+18831, RT25mBend90Tube1, MickyTextures, 299, 0
+18832, RT25mBend180Tube1, MickyTextures, 299, 0
+18833, RT50mBend45Tube1, MickyTextures, 299, 0
+18834, RT50mBend180Tube1, MickyTextures, 299, 0
+18835, RBFunnel, MickyTextures, 299, 0
+18836, RBHalfpipe, MickyTextures, 299, 0
+18837, RB25mBend90Tube, MickyTextures, 299, 0
+18838, RB25mBend180Tube, MickyTextures, 299, 0
+18839, RB50mBend45Tube, MickyTextures, 299, 0
+18840, RB50mBend90Tube, MickyTextures, 299, 0
+18841, RB50mBend180Tube, MickyTextures, 299, 0
+18842, RB50mTube, MickyTextures, 299, 0
+# ------------------------------------------------------
+# Spheres
+18843, GlassSphere1, MatTextures, 299, 4
+18844, WaterUVAnimSphere1, MatTextures, 280, 4
+18845, RTexturesphere, MickyTextures, 299, 0
+# ------------------------------------------------------
+# Extracted UFO
+# -------------
+18846, UFO, des_ufoinn, 299, 0
+# ------------------------------------------------------
+# More Stuff
+18847, HugeHalfPipe1, glenpark7_lae, 299, 0
+18848, SamSiteNonDynamic, milbase, 150, 0
+18849, ParaDropNonDynamic, kmb_chute, 150, 0
+18850, HeliPad1, sfe_copchop, 200, 4
+# ------------------------------------------------------
+# Objects added in Beta Team IMG 1 (154 Objects)
+18851, TubeToRoad1, MatTextures, 299, 0
+18852, Tube100m1, MatTextures, 299, 0
+18853, Tube100m45Bend1, MatTextures, 299, 0
+18854, Tube100m90Bend1, MatTextures, 299, 0
+18855, Tube100m180Bend1, MatTextures, 299, 0
+18856, Cage5mx5mx3m, MatTextures, 200, 4
+18857, Cage20mx20mx10m, MatTextures, 250, 4
+18858, FoamHoop1, MatRamps, 250, 0
+18859, QuarterPipe1, glenpark7_lae, 250, 0
+#18860, skyscrpunbuilt2, buildsite, 299, 0
+#18861, scaffoldlift, buildsite, 150, 0
+18862, GarbagePileRamp1, MatTextures, 250, 2097152
+18863, SnowArc1, FakeSnow1, 299, 2097156
+18864, FakeSnow1, FakeSnow1, 299, 2097156
+18865, MobilePhone1, MobilePhone1, 100, 0
+18866, MobilePhone2, MobilePhone2, 100, 0
+18867, MobilePhone3, MobilePhone3, 100, 0
+18868, MobilePhone4, MobilePhone4, 100, 0
+18869, MobilePhone5, MobilePhone5, 100, 0
+18870, MobilePhone6, MobilePhone6, 100, 0
+18871, MobilePhone7, MobilePhone7, 100, 0
+18872, MobilePhone8, MobilePhone8, 100, 0
+18873, MobilePhone9, MobilePhone9, 100, 0
+18874, MobilePhone10, MobilePhone10, 100, 0
+18875, Pager1, Pager1, 100, 0
+18876, BigGreenGloop1, gloopX, 200, 2097152
+18877, FerrisWheelBit, FerrisWheel, 299, 4
+18878, FerrisBaseBit, FerrisWheel, 299, 2097156
+18879, FerrisCageBit, FerrisWheel, 200, 0
+18880, SpeedCamera1, SpeedCamera1, 150, 0
+18881, SkyDivePlatform2, MatRacing, 299, 2097152
+18882, HugeBowl1, HugeBowls, 299, 0
+18883, HugeBowl2, HugeBowls, 299, 0
+18884, HugeBowl3, HugeBowls, 299, 4
+18885, GunVendingMachine1, GunVendingMachine1, 50, 0
+18886, ElectroMagnet1, ElectroMagnet1, 150, 0
+18887, ForceField1, ForceFields, 150, 4
+18888, ForceField2, ForceFields, 150, 4
+18889, ForceField3, ForceFields, 150, 4
+18890, Rake1, Rake1, 50, 0
+18891, Bandana1, MatClothes, 100, 2097152
+18892, Bandana2, MatClothes, 100, 2097152
+18893, Bandana3, MatClothes, 100, 2097152
+18894, Bandana4, MatClothes, 100, 2097152
+18895, Bandana5, MatClothes, 100, 2097152
+18896, Bandana6, MatClothes, 100, 2097152
+18897, Bandana7, MatClothes, 100, 2097152
+18898, Bandana8, MatClothes, 100, 2097152
+18899, Bandana9, MatClothes, 100, 2097152
+18900, Bandana10, MatClothes, 100, 2097152
+18901, Bandana11, MatClothes, 100, 2097152
+18902, Bandana12, MatClothes, 100, 2097152
+18903, Bandana13, MatClothes, 100, 2097152
+18904, Bandana14, MatClothes, 100, 2097152
+18905, Bandana15, MatClothes, 100, 2097152
+18906, Bandana16, MatClothes, 100, 2097152
+18907, Bandana17, MatClothes, 100, 2097152
+18908, Bandana18, MatClothes, 100, 2097152
+18909, Bandana19, MatClothes, 100, 2097152
+18910, Bandana20, MatClothes, 100, 2097152
+18911, Mask1, MatClothes, 100, 2097152
+18912, Mask2, MatClothes, 100, 2097152
+18913, Mask3, MatClothes, 100, 2097152
+18914, Mask4, MatClothes, 100, 2097152
+18915, Mask5, MatClothes, 100, 2097152
+18916, Mask6, MatClothes, 100, 2097152
+18917, Mask7, MatClothes, 100, 2097152
+18918, Mask8, MatClothes, 100, 2097152
+18919, Mask9, MatClothes, 100, 2097152
+18920, Mask10, MatClothes, 100, 2097152
+18921, Beret1, MatClothes, 100, 2097152
+18922, Beret2, MatClothes, 100, 2097152
+18923, Beret3, MatClothes, 100, 2097152
+18924, Beret4, MatClothes, 100, 2097152
+18925, Beret5, MatClothes, 100, 2097152
+18926, Hat1, MatClothes, 100, 2097152
+18927, Hat2, MatClothes, 100, 2097152
+18928, Hat3, MatClothes, 100, 2097152
+18929, Hat4, MatClothes, 100, 2097152
+18930, Hat5, MatClothes, 100, 2097152
+18931, Hat6, MatClothes, 100, 2097152
+18932, Hat7, MatClothes, 100, 2097152
+18933, Hat8, MatClothes, 100, 2097152
+18934, Hat9, MatClothes, 100, 2097152
+18935, Hat10, MatClothes, 100, 2097152
+18936, Helmet1, MatClothes, 100, 2097152
+18937, Helmet2, MatClothes, 100, 2097152
+18938, Helmet3, MatClothes, 100, 2097152
+18939, CapBack1, MatClothes, 100, 2097152
+18940, CapBack2, MatClothes, 100, 2097152
+18941, CapBack3, MatClothes, 100, 2097152
+18942, CapBack4, MatClothes, 100, 2097152
+18943, CapBack5, MatClothes, 100, 2097152
+18944, HatBoater1, MatClothes, 100, 2097152
+18945, HatBoater2, MatClothes, 100, 2097152
+18946, HatBoater3, MatClothes, 100, 2097152
+18947, HatBowler1, MatClothes, 100, 2097152
+18948, HatBowler2, MatClothes, 100, 2097152
+18949, HatBowler3, MatClothes, 100, 2097152
+18950, HatBowler4, MatClothes, 100, 2097152
+18951, HatBowler5, MatClothes, 100, 2097152
+18952, BoxingHelmet1, MatClothes, 100, 2097152
+18953, CapKnit1, MatClothes, 100, 2097152
+18954, CapKnit2, MatClothes, 100, 2097152
+18955, CapOverEye1, MatClothes, 100, 2097152
+18956, CapOverEye2, MatClothes, 100, 2097152
+18957, CapOverEye3, MatClothes, 100, 2097152
+18958, CapOverEye4, MatClothes, 100, 2097152
+18959, CapOverEye5, MatClothes, 100, 2097152
+18960, CapRimUp1, MatClothes, 100, 2097152
+18961, CapTrucker1, MatClothes, 100, 2097152
+18962, CowboyHat2, CowboyHats, 100, 2097152
+18963, CJElvisHead, MatClothes, 100, 2097152
+18964, SkullyCap1, MatClothes, 100, 2097152
+18965, SkullyCap2, MatClothes, 100, 2097152
+18966, SkullyCap3, MatClothes, 100, 2097152
+18967, HatMan1, MatClothes, 100, 2097152
+18968, HatMan2, MatClothes, 100, 2097152
+18969, HatMan3, MatClothes, 100, 2097152
+18970, HatTiger1, MatClothes, 100, 2097152
+18971, HatCool1, MatClothes, 100, 2097152
+18972, HatCool2, MatClothes, 100, 2097152
+18973, HatCool3, MatClothes, 100, 2097152
+18974, MaskZorro1, MatClothes, 100, 2097152
+18975, Hair2, Hair2, 100, 2097152
+18976, MotorcycleHelmet2, MatClothes, 100, 2097152
+18977, MotorcycleHelmet3, MatClothes, 100, 2097152
+18978, MotorcycleHelmet4, noncolored, 100, 2097152
+18979, MotorcycleHelmet5, MatClothes, 100, 2097152
+18980, Concrete1mx1mx25m, ConcreteBits, 150, 0
+18981, Concrete1mx25mx25m, ConcreteBits, 150, 0
+18982, Tube100m3, MatTextures, 299, 0
+18983, Tube100m4, MatTextures, 299, 0
+18984, Tube100m5, MatTextures, 299, 0
+18985, Tube100m6, MatTextures, 299, 0
+18986, TubeToPipe1, MatTextures, 299, 0
+18987, Tube25m1, MatTextures, 299, 0
+18988, Tube25mCutEnd1, MatTextures, 299, 0
+18989, Tube25m45Bend1, MatTextures, 299, 0
+18990, Tube25m90Bend1, MatTextures, 299, 0
+18991, Tube25m180Bend1, MatTextures, 299, 0
+18992, Tube10m45Bend1, MatTextures, 299, 0
+18993, Tube10m90Bend1, MatTextures, 299, 0
+18994, Tube10m180Bend1, MatTextures, 299, 0
+18995, Tube5m1, MatTextures, 299, 0
+18996, Tube5m45Bend1, MatTextures, 299, 0
+18997, Tube1m1, MatTextures, 299, 0
+18998, Tube200m1, MatTextures, 299, 0
+18999, Tube200mBendy1, MatTextures, 299, 0
+19000, Tube200mBulge1, MatTextures, 299, 0
+19001, VCWideLoop1, MatRamps, 250, 0
+19002, FireHoop1, MatRamps, 250, 0
+19003, RampT5, MatRamps, 280, 0
+19004, RoundBuilding1, RoundBuilding1, 299, 2097156
+19005, RampT4, MatRamps, 280, 0
+19006, GlassesType1, MatGlasses, 100, 2097156
+19007, GlassesType2, MatGlasses, 100, 2097156
+19008, GlassesType3, MatGlasses, 100, 2097156
+19009, GlassesType4, MatGlasses, 100, 2097156
+19010, GlassesType5, MatGlasses, 100, 2097156
+19011, GlassesType6, MatGlasses, 100, 2097156
+19012, GlassesType7, MatGlasses, 100, 2097156
+19013, GlassesType8, MatGlasses, 100, 2097156
+19014, GlassesType9, MatGlasses, 100, 2097156
+19015, GlassesType10, MatGlasses, 100, 2097156
+19016, GlassesType11, MatGlasses, 100, 2097156
+19017, GlassesType12, MatGlasses, 100, 2097156
+19018, GlassesType13, MatGlasses, 100, 2097156
+19019, GlassesType14, MatGlasses, 100, 2097156
+19020, GlassesType15, MatGlasses, 100, 2097156
+19021, GlassesType16, MatGlasses, 100, 2097156
+19022, GlassesType17, MatGlasses, 100, 2097156
+19023, GlassesType18, MatGlasses, 100, 2097156
+19024, GlassesType19, MatGlasses, 100, 2097156
+19025, GlassesType20, MatGlasses, 100, 2097156
+19026, GlassesType21, MatGlasses, 100, 2097156
+19027, GlassesType22, MatGlasses, 100, 2097156
+19028, GlassesType23, MatGlasses, 100, 2097156
+19029, GlassesType24, MatGlasses, 100, 2097156
+19030, GlassesType25, MatGlasses, 100, 2097156
+19031, GlassesType26, MatGlasses, 100, 2097156
+19032, GlassesType27, MatGlasses, 100, 2097156
+19033, GlassesType28, MatGlasses, 100, 2097156
+19034, GlassesType29, MatGlasses, 100, 2097156
+19035, GlassesType30, MatGlasses, 100, 2097156
+19036, HockeyMask1, MatHockey, 100, 2097156
+19037, HockeyMask2, MatHockey, 100, 2097156
+19038, HockeyMask3, MatHockey, 100, 2097156
+19039, WatchType1, MatWatches, 100, 2097156
+19040, WatchType2, MatWatches, 100, 2097156
+19041, WatchType3, MatWatches, 100, 2097156
+19042, WatchType4, MatWatches, 100, 2097156
+19043, WatchType5, MatWatches, 100, 2097156
+19044, WatchType6, MatWatches, 100, 2097156
+19045, WatchType7, MatWatches, 100, 2097156
+19046, WatchType8, MatWatches, 100, 2097156
+19047, WatchType9, MatWatches, 100, 2097156
+19048, WatchType10, MatWatches, 100, 2097156
+19049, WatchType11, MatWatches, 100, 2097156
+19050, WatchType12, MatWatches, 100, 2097156
+19051, WatchType13, MatWatches, 100, 2097156
+19052, WatchType14, MatWatches, 100, 2097156
+19053, WatchType15, MatWatches, 100, 2097156
+# ------------------------------------------------------
+# Objects added in RC4 (109 Objects)
+19054, XmasBox1, XmasBoxes, 100, 0
+19055, XmasBox2, XmasBoxes, 100, 0
+19056, XmasBox3, XmasBoxes, 100, 0
+19057, XmasBox4, XmasBoxes, 100, 0
+19058, XmasBox5, XmasBoxes, 100, 0
+19059, XmasOrb1, XmasOrbs, 100, 0
+19060, XmasOrb2, XmasOrbs, 100, 0
+19061, XmasOrb3, XmasOrbs, 100, 0
+19062, XmasOrb4, XmasOrbs, 100, 0
+19063, XmasOrb5, XmasOrbs, 100, 0
+19064, SantaHat1, SantaHats, 100, 2097152
+19065, SantaHat2, SantaHats, 100, 2097152
+19066, SantaHat3, SantaHats, 100, 2097152
+19067, HoodyHat1, HoodyHats, 100, 2097152
+19068, HoodyHat2, HoodyHats, 100, 2097152
+19069, HoodyHat3, HoodyHats, 100, 2097152
+19070, WSDown1, WSSections, 299, 2097156
+19071, WSStraight1, WSSections, 299, 2097156
+19072, WSBend45Deg1, WSSections, 299, 2097156
+19073, WSRocky1, WSSections, 299, 2097156
+19074, Cage20mx20mx10mv2, MatTextures, 250, 4
+19075, Cage5mx5mx3mv2, MatTextures, 250, 4
+19076, XmasTree1, XmasTree1, 200, 2097156
+19077, Hair3, Hair3, 100, 2097152
+19078, TheParrot1, TheParrot, 100, 0
+19079, TheParrot2, TheParrot, 100, 0
+19080, LaserPointer2, LaserPointer2, 100, 4
+19081, LaserPointer3, LaserPointer3, 100, 4
+19082, LaserPointer4, LaserPointer4, 100, 4
+19083, LaserPointer5, LaserPointer5, 100, 4
+19084, LaserPointer6, LaserPointer6, 100, 4
+19085, EyePatch1, EyePatch1, 100, 2097152
+19086, ChainsawDildo1, sexdetail, 100, 2097152
+19087, Rope1, MatRopes, 150, 0
+19088, Rope2, MatRopes, 150, 0
+19089, Rope3, MatRopes, 150, 0
+19090, PomPomBlue, PomPoms, 100, 0
+19091, PomPomRed, PomPoms, 100, 0
+19092, PomPomGreen, PomPoms, 100, 0
+19093, HardHat2, NewHardHats, 100, 2097152
+19094, BurgerShotHat1, wfyburg, 100, 0
+19095, CowboyHat1, CowboyHats, 100, 2097152
+19096, CowboyHat3, CowboyHats, 100, 2097152
+19097, CowboyHat4, CowboyHats, 100, 2097152
+19098, CowboyHat5, CowboyHats, 100, 2097152
+19099, PoliceCap2, PoliceCaps, 100, 2097152
+19100, PoliceCap3, PoliceCaps, 100, 2097152
+19101, ArmyHelmet1, ArmyHelmets, 100, 2097152
+19102, ArmyHelmet2, ArmyHelmets, 100, 2097152
+19103, ArmyHelmet3, ArmyHelmets, 100, 2097152
+19104, ArmyHelmet4, ArmyHelmets, 100, 2097152
+19105, ArmyHelmet5, ArmyHelmets, 100, 2097152
+19106, ArmyHelmet6, ArmyHelmets, 100, 2097152
+19107, ArmyHelmet7, ArmyHelmets, 100, 2097152
+19108, ArmyHelmet8, ArmyHelmets, 100, 2097152
+19109, ArmyHelmet9, ArmyHelmets, 100, 2097152
+19110, ArmyHelmet10, ArmyHelmets, 100, 2097152
+19111, ArmyHelmet11, ArmyHelmets, 100, 2097152
+19112, ArmyHelmet12, ArmyHelmets, 100, 2097152
+19113, SillyHelmet1, SillyHelmets, 100, 2097152
+19114, SillyHelmet2, SillyHelmets, 100, 2097152
+19115, SillyHelmet3, SillyHelmets, 100, 2097152
+19116, PlainHelmet1, PlainHelmets, 100, 2097152
+19117, PlainHelmet2, PlainHelmets, 100, 2097152
+19118, PlainHelmet3, PlainHelmets, 100, 2097152
+19119, PlainHelmet4, PlainHelmets, 100, 2097152
+19120, PlainHelmet5, PlainHelmets, 100, 2097152
+19121, BollardLight1, metal, 200, 2097156
+19122, BollardLight2, metal, 200, 2097156
+19123, BollardLight3, metal, 200, 2097156
+19124, BollardLight4, metal, 200, 2097156
+19125, BollardLight5, metal, 200, 2097156
+19126, BollardLight6, metal, 200, 2097156
+19127, BollardLight7, metal, 200, 2097156
+19128, DanceFloor1, DanceFloors, 250, 0
+19129, DanceFloor2, DanceFloors, 250, 0
+19130, ArrowType1, MatArrows, 120, 0
+19131, ArrowType2, MatArrows, 120, 0
+19132, ArrowType3, MatArrows, 120, 0
+19133, ArrowType4, MatArrows, 120, 0
+19134, ArrowType5, MatArrows, 120, 0
+19135, EnExMarker1, EnExMarkers, 150, 0
+19136, Hair4, smyst2, 100, 0
+19137, CluckinBellHat1, wmybell, 100, 2097152
+19138, PoliceGlasses1, PoliceGlasses, 100, 2097152
+19139, PoliceGlasses2, PoliceGlasses, 100, 2097152
+19140, PoliceGlasses3, PoliceGlasses, 100, 2097152
+19141, SWATHelmet1, swat, 100, 2097152
+19142, SWATArmour1, swat, 100, 2097152
+19143, PinSpotLight1, PinSpotLights, 150, 0
+19144, PinSpotLight2, PinSpotLights, 150, 0
+19145, PinSpotLight3, PinSpotLights, 150, 0
+19146, PinSpotLight4, PinSpotLights, 150, 0
+19147, PinSpotLight5, PinSpotLights, 150, 0
+19148, PinSpotLight6, PinSpotLights, 150, 0
+19149, PinSpotLight7, PinSpotLights, 150, 0
+19150, PinSpotLight8, PinSpotLights, 150, 0
+19151, PinSpotLight9, PinSpotLights, 150, 0
+19152, PinSpotLight10, PinSpotLights, 150, 0
+19153, PinSpotLight11, PinSpotLights, 150, 0
+19154, PinSpotLight12, PinSpotLights, 150, 0
+19155, PinSpotLight13, PinSpotLights, 150, 0
+19156, PinSpotLight14, PinSpotLights, 150, 0
+19157, MetalLightBars1, MetalLightBars, 150, 0
+19158, MetalLightBars2, MetalLightBars, 150, 0
+19159, MirrorBall1, MirrorBall1, 150, 0
+19160, HardHat3, NewHardHats, 100, 2097152
+19161, PoliceHat1, NewPoliceHats, 100, 2097152
+19162, PoliceHat2, NewPoliceHats, 100, 2097152
+19163, GimpMask1, GimpMask1, 100, 0
+# ------------------------------------------------------
+# Objects added in RC5 (143 Objects)
+19164, GTASAMap1, gtamap, 150, 0
+19165, GTASAMap2, gtamap, 150, 0
+19166, GTASAMap3, gtamap, 100, 0
+19167, GTASAMap4, gtamap, 100, 0
+19168, GTASAMap5, gtamap, 100, 0
+19169, GTASAMap6, gtamap, 100, 0
+19170, GTASAMap7, gtamap, 100, 0
+19171, GTASAMap8, gtamap, 100, 0
+19172, SAMPPicture1, SAMPPictures, 100, 0
+19173, SAMPPicture2, SAMPPictures, 100, 0
+19174, SAMPPicture3, SAMPPictures, 100, 0
+19175, SAMPPicture4, SAMPPictures, 100, 0
+19176, LSOffice1Door1, skyscrapelan2, 150, 0
+19177, MapMarkerNew1, MapMarkers, 50, 0
+19178, MapMarkerNew2, MapMarkers, 50, 0
+19179, MapMarkerNew3, MapMarkers, 50, 0
+19180, MapMarkerNew4, MapMarkers, 50, 0
+19181, MapMarkerNew5, MapMarkers, 50, 0
+19182, MapMarkerNew6, MapMarkers, 50, 0
+19183, MapMarkerNew7, MapMarkers, 50, 0
+19184, MapMarkerNew8, MapMarkers, 50, 0
+19185, MapMarkerNew9, MapMarkers, 50, 0
+19186, MapMarkerNew10, MapMarkers, 50, 0
+19187, MapMarkerNew11, MapMarkers, 50, 0
+19188, MapMarkerNew12, MapMarkers, 50, 0
+19189, MapMarkerNew13, MapMarkers, 50, 0
+19190, MapMarkerNew14, MapMarkers, 50, 0
+19191, MapMarkerNew15, MapMarkers, 50, 0
+19192, MapMarkerNew16, MapMarkers, 50, 0
+19193, MapMarkerNew17, MapMarkers, 50, 0
+19194, MapMarkerNew18, MapMarkers, 50, 0
+19195, MapMarkerNew19, MapMarkers, 50, 0
+19196, MapMarkerNew20, MapMarkers, 50, 0
+19197, EnExMarker2, EnExMarkers, 150, 2097220
+19198, EnExMarker3, EnExMarkers, 150, 2097220
+19200, PoliceHelmet1, lapdm1, 100, 2097152
+19201, MapMarker1, MapMarkers, 50, 0
+19202, MapMarker2, MapMarkers, 50, 0
+19203, MapMarker3, MapMarkers, 50, 0
+19204, MapMarker4, MapMarkers, 50, 0
+19205, MapMarker5, MapMarkers, 50, 0
+19206, MapMarker6, MapMarkers, 50, 0
+19207, MapMarker7, MapMarkers, 50, 0
+19208, MapMarker8, MapMarkers, 50, 0
+19209, MapMarker9, MapMarkers, 50, 0
+19210, MapMarker10, MapMarkers, 50, 0
+19211, MapMarker11, MapMarkers, 50, 0
+19212, MapMarker12, MapMarkers, 50, 0
+19213, MapMarker13, MapMarkers, 50, 0
+19214, MapMarker14, MapMarkers, 50, 0
+19215, MapMarker15, MapMarkers, 50, 0
+19216, MapMarker16, MapMarkers, 50, 0
+19217, MapMarker17, MapMarkers, 50, 0
+19218, MapMarker18, MapMarkers, 50, 0
+19219, MapMarker19, MapMarkers, 50, 0
+19220, MapMarker20, MapMarkers, 50, 0
+19221, MapMarker21, MapMarkers, 50, 0
+19222, MapMarker22, MapMarkers, 50, 0
+19223, MapMarker23, MapMarkers, 50, 0
+19224, MapMarker24, MapMarkers, 50, 0
+19225, MapMarker25, MapMarkers, 50, 0
+19226, MapMarker26, MapMarkers, 50, 0
+19227, MapMarker27, MapMarkers, 50, 0
+19228, MapMarker28, MapMarkers, 50, 0
+19229, MapMarker29, MapMarkers, 50, 0
+19230, MapMarker30, MapMarkers, 50, 0
+19231, MapMarker31, MapMarkers, 50, 0
+19232, MapMarker32, MapMarkers, 50, 0
+19233, MapMarker33, MapMarkers, 50, 0
+19234, MapMarker34, MapMarkers, 50, 0
+19235, MapMarker35, MapMarkers, 50, 0
+19236, MapMarker36, MapMarkers, 50, 0
+19237, MapMarker37, MapMarkers, 50, 0
+19238, MapMarker38, MapMarkers, 50, 0
+19239, MapMarker39, MapMarkers, 50, 0
+19240, MapMarker40, MapMarkers, 50, 0
+19241, MapMarker41, MapMarkers, 50, 0
+19242, MapMarker42, MapMarkers, 50, 0
+19243, MapMarker43, MapMarkers, 50, 0
+19244, MapMarker44, MapMarkers, 50, 0
+19245, MapMarker45, MapMarkers, 50, 0
+19246, MapMarker46, MapMarkers, 50, 0
+19247, MapMarker47, MapMarkers, 50, 0
+19248, MapMarker48, MapMarkers, 50, 0
+19249, MapMarker49, MapMarkers, 50, 0
+19250, MapMarker50, MapMarkers, 50, 0
+19251, MapMarker51, MapMarkers, 50, 0
+19252, MapMarker52, MapMarkers, 50, 0
+19253, MapMarker53, MapMarkers, 50, 0
+19254, MapMarker54, MapMarkers, 50, 0
+19255, MapMarker55, MapMarkers, 50, 0
+19256, MapMarker56, MapMarkers, 50, 0
+19257, MapMarker57, MapMarkers, 50, 0
+19258, MapMarker58, MapMarkers, 50, 0
+19259, MapMarker59, MapMarkers, 50, 0
+19260, MapMarker60, MapMarkers, 50, 0
+19261, MapMarker61, MapMarkers, 50, 0
+19262, MapMarker62, MapMarkers, 50, 0
+19263, MapMarker63, MapMarkers, 50, 0
+19264, MapMarker1a, MapMarkers, 50, 0
+19265, MapMarker1b, MapMarkers, 50, 0
+19266, MapMarker31a, MapMarkers, 50, 0
+19267, MapMarker31b, MapMarkers, 50, 0
+19268, MapMarker31c, MapMarkers, 50, 0
+19269, MapMarker31d, MapMarkers, 50, 0
+19270, MapMarkerFire1, MapMarkers, 50, 0
+19271, MapMarkerLight1, MapMarkers, 50, 0
+19272, DMCage3, DMCages, 250, 2097156
+19273, KeypadNonDynamic, keypad, 100, 2097152
+19274, Hair5, wmoice, 100, 2097152
+#19275, SAMPLogo2, SAMPLogos, 100, 0
+#19276, SAMPLogo3, SAMPLogos, 100, 0
+19277, LiftType1, MatLifts, 200, 4
+19278, LiftPlatform1, SkyDivePlatforms, 299, 2097156
+19279, LCSmallLight1, MatLights, 120, 0
+19280, CarRoofLight1, MatLights, 120, 0
+19281, PointLight1, MatLights, 120, 4
+19282, PointLight2, MatLights, 120, 4
+19283, PointLight3, MatLights, 120, 4
+19284, PointLight4, MatLights, 120, 4
+19285, PointLight5, MatLights, 120, 4
+19286, PointLight6, MatLights, 120, 4
+19287, PointLight7, MatLights, 120, 4
+19288, PointLight8, MatLights, 120, 4
+19289, PointLight9, MatLights, 120, 4
+19290, PointLight10, MatLights, 120, 4
+19291, PointLight11, MatLights, 120, 4
+19292, PointLight12, MatLights, 120, 4
+19293, PointLight13, MatLights, 120, 4
+19294, PointLight14, MatLights, 120, 4
+19295, PointLight15, MatLights, 120, 4
+19296, PointLight16, MatLights, 120, 4
+19297, PointLight17, MatLights, 120, 4
+19298, PointLight18, MatLights, 120, 4
+19299, PointLightMoon1, MatLights, 170, 4
+19300, blankmodel, MatTextures, 100, 0
+# ------------------------------------------------------
+# Objects added by cessil (Late 2011)
+# -----------------------------------
+# Replacement sfpd interior without cell doors
+19301, mp_sfpd_nocell, mp_policeSF, 100, 0
+# Cell door components that can be used in all PDs
+19302, pd_jail_door01, pd_jail_door01, 299, 2097284
+19303, pd_jail_door02, pd_jail_door02, 299, 2097284
+19304, pd_jail_door_top01, pd_jail_door_top01, 299, 2097284
+# ------------------------------------------------------
+# The three objects below were missing in 0.3z and 
+# have been added in SA:MP 0.3.7 by Matite
+# ----------------------------------------
+# This security keypad is the same as ID 2886 except it has
+# a back on it so it can be used as a pickup.
+# It also has no collision.
+19305, sec_keypad2, keypad, 100, 0
+# This flag is the same as object ID 2993 except it is red.
+19306, kmb_goflag2, goflagx2, 100, 0
+# This flag is the same as object ID 2993 except it is blue.
+19307, kmb_goflag3, goflagx2, 100, 0
+# ------------------------------------------------------
+# Taxi signs which can be attached to vehicles
+19308, taxi01, taxi01, 150, 0
+19309, taxi02, taxi02, 150, 0
+19310, taxi03, taxi03, 150, 0
+19311, taxi04, taxi04, 150, 0
+# Area 51 fencing as seperate objects
+19312, a51fencing, a51fencing, 200, 2097156
+19313, a51fensin, a51fencing, 200, 2097156
+# Car bullhorns
+19314, bullhorns01, bullhorns01, 100, 0
+# Deer
+19315, deer01, deer01, 100, 0
+# Ferris wheel cage with no roof
+19316, FerrisCageBit01, FerrisWheel, 200, 0
+# Guitars
+19317, bassguitar01, bassguitar01, 100, 0
+19318, flyingv01, flyingv01, 100, 0
+19319, warlock01, warlock01, 100, 0
+# Pumpkin
+19320, pumpkin01, pumpkin01, 100, 0
+19321, cuntainer, continX, 100, 2097152
+# LS Mall Replacement
+19322, mallb_laW02, mall_law, 200, 0
+19323, lsmall_shop01, lsmall_shops, 200, 0
+# ------------------------------------------------------
+# The object below was missing in 0.3z and 
+# has been added in SA:MP 0.3.7 by Matite
+# ---------------------------------------
+# This ATM is the same as object ID 2942 except it is
+# not dynamic and the texture on the back has been
+# fixed.
+19324, kmb_atm1_2, kmb_atmx, 100, 0
+# ------------------------------------------------------
+19325, lsmall_window01, lsmall_shops, 200, 2097220
+19326, 7_11_sign01, 7_11_posters, 100, 0
+19327, 7_11_sign02, 7_11_posters, 100, 0
+19328, 7_11_sign03, 7_11_posters, 100, 0
+19329, 7_11_sign04, 7_11_posters, 100, 0
+# Fireman hats
+19330, fire_hat01, firehats, 100, 0
+19331, fire_hat02, firehats, 100, 0
+# Hot air balloons
+19332, Hot_Air_Balloon01, balloon_texts, 200, 2097152
+19333, Hot_Air_Balloon02, balloon_texts, 200, 2097152
+19334, Hot_Air_Balloon03, balloon_texts, 200, 2097152
+19335, Hot_Air_Balloon04, balloon_texts, 200, 2097152
+19336, Hot_Air_Balloon05, balloon_texts, 200, 2097152
+19337, Hot_Air_Balloon06, balloon_texts, 200, 2097152
+19338, Hot_Air_Balloon07, balloon_texts, 200, 2097152
+# Coffin
+19339, coffin01, coffin01, 200, 0
+# concrete slab for SF
+19340, cslab01, carshow_sfse, 200, 0
+# Easter eggs
+19341, easter_egg01, egg_texts, 100, 0
+19342, easter_egg02, egg_texts, 100, 0
+19343, easter_egg03, egg_texts, 100, 0
+19344, easter_egg04, egg_texts, 100, 0
+19345, easter_egg05, egg_texts, 100, 0
+# Hotdog
+19346, hotdog01, hotdog01, 100, 0
+# Made by cessil 03-2012
+19347, badge01, police_things, 100, 0
+19348, cane01, classy, 100, 0
+19349, monocle01, classy, 100, 2097156
+19350, moustache01, classy, 100, 0
+19351, moustache02, classy, 100, 0
+19352, tophat01, classy, 100, 0
+# Textured wall sections
+19353, wall001, all_walls, 100, 0
+19354, wall002, all_walls, 100, 0
+19355, wall003, all_walls, 100, 0
+19356, wall004, all_walls, 100, 0
+19357, wall005, all_walls, 100, 0
+19358, wall006, all_walls, 100, 0
+19359, wall007, all_walls, 100, 0
+19360, wall008, all_walls, 100, 0
+19361, wall009, all_walls, 100, 0
+19362, wall010, all_walls, 100, 0
+19363, wall011, all_walls, 100, 0
+19364, wall012, all_walls, 100, 0
+19365, wall013, all_walls, 100, 0
+19366, wall014, all_walls, 100, 0
+19367, wall015, all_walls, 100, 0
+19368, wall016, all_walls, 100, 0
+19369, wall017, all_walls, 100, 0
+19370, wall018, all_walls, 100, 0
+19371, wall019, all_walls, 100, 0
+19372, wall020, all_walls, 100, 0
+19373, wall021, all_walls, 100, 0
+19374, wall022, all_walls, 100, 0
+19375, wall023, all_walls, 100, 0
+19376, wall024, all_walls, 100, 0
+19377, wall025, all_walls, 100, 0
+19378, wall026, all_walls, 100, 0
+19379, wall027, all_walls, 100, 0
+19380, wall028, all_walls, 100, 0
+19381, wall029, all_walls, 100, 0
+19382, wall030, all_walls, 100, 0
+19383, wall031, all_walls, 100, 0
+19384, wall032, all_walls, 100, 0
+19385, wall033, all_walls, 100, 0
+19386, wall034, all_walls, 100, 0
+19387, wall035, all_walls, 100, 0
+19388, wall036, all_walls, 100, 0
+19389, wall037, all_walls, 100, 0
+19390, wall038, all_walls, 100, 0
+19391, wall039, all_walls, 100, 0
+19392, wall040, all_walls, 100, 0
+19393, wall041, all_walls, 100, 0
+19394, wall042, all_walls, 100, 0
+19395, wall043, all_walls, 100, 0
+19396, wall044, all_walls, 100, 0
+19397, wall045, all_walls, 100, 0
+19398, wall046, all_walls, 100, 0
+19399, wall047, all_walls, 100, 0
+19400, wall048, all_walls, 100, 0
+19401, wall049, all_walls, 100, 0
+19402, wall050, all_walls, 100, 0
+19403, wall051, all_walls, 100, 0
+19404, wall052, all_walls, 100, 0
+19405, wall053, all_walls, 100, 0
+19406, wall054, all_walls, 100, 0
+19407, wall055, all_walls, 100, 0
+19408, wall056, all_walls, 100, 0
+19409, wall057, all_walls, 100, 0
+19410, wall058, all_walls, 100, 0
+19411, wall059, all_walls, 100, 0
+19412, wall060, all_walls, 100, 0
+19413, wall061, all_walls, 100, 0
+19414, wall062, all_walls, 100, 0
+19415, wall063, all_walls, 100, 0
+19416, wall064, all_walls, 100, 0
+19417, wall065, all_walls, 100, 0
+19418, handcuffs01, police_things, 100, 0
+19419, police_lights01, police_things, 100, 0
+19420, police_lights02, police_things, 100, 0
+19421, headphones01, headphones, 100, 0
+19422, headphones02, headphones, 100, 0
+19423, headphones03, headphones, 100, 0
+19424, headphones04, headphones, 100, 0
+19425, speed_bump01, speed_bumps, 100, 0
+19426, wall066, all_walls, 100, 0
+19427, wall067, all_walls, 100, 0
+19428, wall068, all_walls, 100, 0
+19429, wall069, all_walls, 100, 0
+19430, wall070, all_walls, 100, 0
+19431, wall071, all_walls, 100, 0
+19432, wall072, all_walls, 100, 0
+19433, wall073, all_walls, 100, 0
+19434, wall074, all_walls, 100, 0
+19435, wall075, all_walls, 100, 0
+19436, wall076, all_walls, 100, 0
+19437, wall077, all_walls, 100, 0
+19438, wall078, all_walls, 100, 0
+19439, wall079, all_walls, 100, 0
+19440, wall080, all_walls, 100, 0
+19441, wall081, all_walls, 100, 0
+19442, wall082, all_walls, 100, 0
+19443, wall083, all_walls, 100, 0
+19444, wall084, all_walls, 100, 0
+19445, wall085, all_walls, 100, 0
+19446, wall086, all_walls, 100, 0
+19447, wall087, all_walls, 100, 0
+19448, wall088, all_walls, 100, 0
+19449, wall089, all_walls, 100, 0
+19450, wall090, all_walls, 100, 0
+19451, wall091, all_walls, 100, 0
+19452, wall092, all_walls, 100, 0
+19453, wall093, all_walls, 100, 0
+19454, wall094, all_walls, 100, 0
+19455, wall095, all_walls, 100, 0
+19456, wall096, all_walls, 100, 0
+19457, wall097, all_walls, 100, 0
+19458, wall098, all_walls, 100, 0
+19459, wall099, all_walls, 100, 0
+19460, wall100, all_walls, 100, 0
+19461, wall101, all_walls, 100, 0
+19462, wall102, all_walls, 100, 0
+19463, wall103, all_walls, 100, 0
+19464, wall104, all_walls, 100, 0
+19465, wall105, all_walls, 100, 0
+19466, window001, lsmall_shops, 100, 2097220
+19467, vehicle_barrier01, speed_bumps, 100, 0
+19468, bucket01, bucket01, 100, 2097152
+19469, scarf01, classy, 100, 2097152
+19470, forsale01, forsale01, 100, 2097152
+19471, forsale02, forsale01, 100, 2097152
+19472, gasmask01, gasmask01, 100, 0
+19473, grassplant01, grasshouse, 100, 2097156
+19474, pokertable01, kbroul1, 100, 0
+#-----------------------------------------------------------------
+# Blank planes for text signs
+19475, Plane001, signsurf, 299, 2097284
+19476, Plane002, signsurf, 299, 2097284
+19477, Plane003, signsurf, 299, 2097284
+19478, Plane004, signsurf, 299, 2097284
+19479, Plane005, signsurf, 299, 2097284
+19480, Plane006, signsurf, 299, 2097284
+19481, Plane007, signsurf, 299, 2097284
+19482, Plane008, signsurf, 299, 2097284
+19483, Plane009, signsurf, 299, 2097284
+#-----------------------------------------------------------------
+19484, landbit01_01, bakerybit2_sfse, 200, 0
+19485, Groundbit84_SFS_01, skyscrap_sfse, 200, 0
+#-----------------------------------------------------------------
+# SF Harry Plums Building
+# -----------------------
+# Updated the object below in 0.3.7 (side doors now open and
+# interior vertex colour fixes).
+19486, SFHarryPlums1, burgalrystore_sfse, 299, 4
+#-----------------------------------------------------------------
+# Non-coloured hats #1
+19487, tophat02, noncolored, 200, 0
+19488, HatBowler6, noncolored, 200, 0
+#-----------------------------------------------------------------
+19489, sfhouse1, boxhses_sfsx, 200, 2097280
+19490, sfhouse1int, all_walls, 200, 128
+19491, sfhouse2, boxhses_sfsx, 200, 128
+19492, sfhouse2int, all_walls, 200, 128
+19493, sfhouse3, boxhses_sfsx, 200, 128
+19494, sfhouse3int, all_walls, 200, 128
+19495, sfhouse4, boxhses_sfsx, 200, 2097280
+19496, sfhouse4int, all_walls, 200, 128
+19497, lvhouse1, vegashse2, 200, 2097280
+19498, lvhouse1int, all_walls, 200, 128
+19499, lvhouse2, vegashse3, 200, 2097280
+19500, lvhouse2int, all_walls, 200, 128
+19501, lvhouse3, vegashse6, 200, 2097280
+19502, lvhouse3int, all_walls, 200, 128
+19503, lvhouse4, vegashse4, 200, 128
+19504, lvhouse4int, all_walls, 200, 128
+19505, lshouse1, ganghouse1_lax, 200, 128
+19506, lshouse1int, all_walls, 200, 128
+19507, lshouse2, ganghouse1_lax, 200, 128
+19508, lshouse2int, all_walls, 200, 128
+19509, lshouse3, comedhos1_la, 200, 128
+19510, lshouse3int, all_walls, 200, 128
+19511, lshouse4, glenphouse_lax, 200, 128
+19512, lshouse4int, all_walls, 200, 128
+19513, whitephone, whitephone, 100, 0
+19514, SWATHgrey, swatgrey, 100, 2097152
+19515, SWATAgrey, swatgrey, 100, 2097152
+#-----------------------------------------------------------------
+# Non-coloured hair #1
+19516, Hair2_nc, noncolored, 200, 0
+19517, Hair3_nc, noncolored, 200, 0
+19518, Hair5_nc, noncolored, 200, 0
+19519, Hair1_nc, noncolored, 200, 0
+19520, pilotHat01, pilotPoliceHat, 200, 0
+19521, policeHat01, pilotPoliceHat, 200, 0
+#-----------------------------------------------------------------
+#-----------------------------------------------------------------
+# Objects Added by Matite in SA:MP 0.3.7 (late 2014 to early 2015)
+# ----------------------------------------------------------------
+# Property Icons
+# --------------
+19522, property_red, SAMPIcons, 200, 128
+19523, property_orange, SAMPIcons, 200, 128
+19524, property_yellow, SAMPIcons, 200, 128
+#-----------------------------------------------------------------
+# Wedding Cake
+# ------------
+19525, WeddingCake1, WeddingCake1, 100, 0
+#-----------------------------------------------------------------
+# ATM Fixed (previously it was black during the night)
+# ----------------------------------------------------
+19526, ATMFixed, CJ_CASINO_prop, 100, 0
+#-----------------------------------------------------------------
+# Halloween Stuff
+# ---------------
+19527, Cauldron1, Cauldron1, 100, 0
+19528, WitchesHat1, WitchesHat1, 100, 0
+#-----------------------------------------------------------------
+# Modular Island (grass, sand, concrete and roads)
+# ------------------------------------------------
+19529, Plane125x125Grass1, beach_sfs, 599, 2097152
+19530, Plane125x125Sand1, beach_sfs, 599, 2097152
+19531, Plane125x125Conc1, cs_ebridge, 599, 2097152
+19532, 15x125Road1, cs_ebridge, 599, 2097152
+19533, 15x62_5Road1, cs_ebridge, 599, 2097152
+19534, 15x15RoadInters1, MatRoadInters1, 599, 2097152
+19535, 15x15RoadInters2, MatRoadInters1, 599, 2097152
+19536, Plane62_5x125Grass1, beach_sfs, 599, 2097152
+19537, Plane62_5x125Sand1, beach_sfs, 599, 2097152
+19538, Plane62_5x125Conc1, cs_ebridge, 599, 2097152
+19539, Edge62_5x62_5Grass1, beach_sfs, 599, 2097152
+19540, Edge62_5x62_5Grass2, beach_sfs, 599, 2097152
+19541, Edge62_5x15Grass1, beach_sfs, 599, 2097152
+19542, Edge62_5x125Grass1, beach_sfs, 599, 2097152
+19543, Plane62_5x15Grass1, beach_sfs, 599, 2097152
+19544, Plane62_5x15Sand1, beach_sfs, 599, 2097152
+19545, Plane62_5x15Conc1, cs_ebridge, 599, 2097152
+19546, Edge62_5x62_5Grass3, beach_sfs, 599, 2097152
+19547, Hill125x125Grass1, beach_sfs, 599, 2097152
+19548, Hill125x125Sand1, beach_sfs, 599, 2097152
+19549, Edge62_5x32_5Grass1, beach_sfs, 599, 2097152
+# The three planes below are the same as the other
+# 125x125 planes above except they have some random
+# lighter areas visible during the night.
+19550, Plane125x125Grass2, beach_sfs, 599, 2097152
+19551, Plane125x125Sand2, beach_sfs, 599, 2097152
+19552, Plane125x125Conc2, cs_ebridge, 599, 2097152
+#-----------------------------------------------------------------
+# Extracted from Skins (hats, mask, boxing gloves and backpack)
+# -------------------------------------------------------------
+19553, StrawHat1, CWMOFR, 100, 2097152
+19554, Beanie1, ogloc, 100, 2097152
+19555, BoxingGloveL, vbmybox, 100, 2097152
+19556, BoxingGloveR, vbmybox, 100, 2097152
+19557, SexyMask1, wfysex, 100, 2097152
+19558, PizzaHat1, wmypizz, 100, 2097152
+19559, HikerBackpack1, wmybp, 100, 2097152
+#-----------------------------------------------------------------
+# Extracted from Supermarket Items
+# --------------------------------
+19560, MeatTray1, MeatTray1, 100, 0
+19561, CerealBox1, cj_ss_1, 100, 0
+19562, CerealBox2, cj_ss_1, 100, 0
+19563, JuiceBox1, cj_ss_1, 100, 0
+19564, JuiceBox2, cj_ss_1, 100, 0
+19565, IceCreamBarsBox1, cj_ss_4, 100, 0
+19566, FishFingersBox1, cj_ss_4, 100, 0
+19567, IcecreamContainer1, cj_ss_4, 100, 0
+19568, IcecreamContainer2, cj_ss_4, 100, 0
+19569, MilkCarton1, cj_ss_2, 100, 0
+19570, MilkBottle1, cj_ss_2, 100, 0
+19571, PizzaBox1, cj_ss_2, 100, 0
+19572, PisshBox1, cj_ss_1, 100, 0
+19573, BriquettesBag1, cj_ss_1, 100, 0
+#-----------------------------------------------------------------
+# Fruit
+# -----
+19574, Orange1, SAMPFruits, 100, 0
+19575, Apple1, SAMPFruits, 100, 0
+19576, Apple2, SAMPFruits, 100, 0
+19577, Tomato1, SAMPFruits, 100, 0
+19578, Banana1, SAMPFruits, 100, 0
+#-----------------------------------------------------------------
+# Loaf of Bread
+# -------------
+19579, BreadLoaf1, BreadLoaf1, 100, 0
+#-----------------------------------------------------------------
+# Extracted Pepperoni Pizza
+# -------------------------
+19580, Pizza1, cj_ff_acc1, 100, 0
+#-----------------------------------------------------------------
+# Extracted from Marco's Bistro Kitchen
+# -------------------------------------
+19581, MarcosFryingPan1, lee_kitch, 100, 0
+19582, MarcosSteak1, lee_kitch, 100, 0
+19583, MarcosKnife1, lee_kitch, 100, 0
+19584, MarcosSaucepan1, lee_kitch, 100, 0
+19585, MarcosPan1, lee_kitch, 100, 0
+19586, MarcosSpatula1, lee_kitch, 100, 4
+#-----------------------------------------------------------------
+# Extracted from a Stack of Plastic Trays and Edited
+# --------------------------------------------------
+19587, PlasticTray1, labins01_la, 100, 2097156
+#-----------------------------------------------------------------
+# Wooden Foot Bridge
+# ------------------
+19588, FootBridge1, FootBridge1, 299, 0
+#-----------------------------------------------------------------
+# Extracted and Edited Rubbish Skip
+# ---------------------------------
+19589, RubbishSkipEmpty1, break_s_bins, 100, 0
+#-----------------------------------------------------------------
+# Extracted from Woozie's Apartment
+# ---------------------------------
+19590, WooziesSword1, ab_wooziec, 100, 0
+19591, WooziesHandFan1, ab_wooziec, 100, 2097152
+#-----------------------------------------------------------------
+# Extracted from a Stack of Baskets and Edited
+# --------------------------------------------
+19592, ShopBasket1, temp_shop, 100, 2097152
+#-----------------------------------------------------------------
+# SF ZomboTech Building and Lab
+# -----------------------------
+# These objects can be used to replace the ZomboTech building in SF.
+# The filterscript called sf_zombotech can be used to remove the
+# existing GTASA map objects, replace the building, add the new lab
+# building below the ground and add an elevator.
+19593, ZomboTechBuilding1, bigwhitesfe, 299, 0
+19594, ZomboTechLab1, ZomboTechLab1, 299, 0
+#-----------------------------------------------------------------
+# LS Apartments
+# -------------
+# This object can be used to replace a block of apartments in LS.
+# The filterscript called ls_apartments1 can be used to remove the
+# existing GTASA map objects, replace the building and add an
+# elevator.
+# There is also a matching car park object (ID:19798).
+19595, LSAppartments1, LSAppartments1, 299, 2097156
+#-----------------------------------------------------------------
+# LS BeachSide
+# ------------
+# These objects can be used to replace a block of apartments on the
+# beach in LS. The filterscript called ls_beachside can be used to
+# add an elevator.
+# note: 19596 has been moved to model ID 6391 to replace the existing building
+# 19596, LSBeachSide, LSBeachSide, 299, 2097156
+19597, LSBeachSideInsides, LSBeachSide, 125, 0
+#-----------------------------------------------------------------
+# SF Building 1
+# -------------
+# These objects can be used to replace a building near the hospital
+# in SF. The filterscript called sf_building1 can be used to remove
+# the existing GTASA map objects and replace the building.
+19598, SFBuilding1Outside, SFBuilding1, 299, 2097156
+19599, SFBuilding1Inside, SFBuilding1, 125, 0
+19600, SFBuilding1Land, SFBuilding1, 299, 0
+#-----------------------------------------------------------------
+# Snow Plow
+# ---------
+# Attach to the front of the Barracks vehicle for best results.
+19601, SnowPlow1, SnowPlow1, 150, 0
+#-----------------------------------------------------------------
+# Landmine Edited
+# ---------------
+# Removed the red light at night and dynamic property.
+19602, Landmine1, mine1, 150, 0
+#-----------------------------------------------------------------
+# Water Plane
+# -----------
+# A 5m by 5m plane with semi-transparent water texture.
+19603, WaterPlane1, ballyswater, 150, 2097156
+# A 5m x 10m plane with semi transparent and animated water texture.
+19604, WaterPlane2, ballyswater, 150, 2097156
+#-----------------------------------------------------------------
+# Different Coloured EnEx Markers
+# -------------------------------
+# Red, Green and Blue.
+19605, EnExMarker4-2, EnExMarkers, 150, 68
+19606, EnExMarker4-3, EnExMarkers, 150, 68
+19607, EnExMarker4-4, EnExMarkers, 150, 68
+#-----------------------------------------------------------------
+# Stage and Music Equipment
+# -------------------------
+19608, WoodenStage1, WoodenStage1, 299, 0
+19609, DrumKit1, dr_gsstudio, 100, 2097156
+19610, Microphone1, Microphone1, 100, 0
+19611, MicrophoneStand1, Microphone1, 100, 2097156
+19612, GuitarAmp1, dr_gsstudio, 100, 0
+19613, GuitarAmp2, dr_gsstudio, 100, 0
+19614, GuitarAmp3, dr_gsstudio, 100, 0
+19615, GuitarAmp4, dr_gsstudio, 100, 0
+19616, GuitarAmp5, dr_gsstudio, 100, 0
+19617, GoldRecord1, dr_gsstudio, 100, 0
+#-----------------------------------------------------------------
+# Safe with Seperate Door
+# -----------------------
+# You can use the MoveObject() function to make the safe door
+# open and close. The safe_animated filterscript shows you an
+# example of how to do it.
+19618, Safe1, kbmiscfrn2, 100, 0
+19619, SafeDoor1, kbmiscfrn2, 100, 0
+#-----------------------------------------------------------------
+# New Police Light Bar Model
+# --------------------------
+# Uses UV animation so it works during the day too.
+19620, LightBar1, LightBar1, 200, 0
+#-----------------------------------------------------------------
+# Extracted from Cutscene IMG and Edited
+# --------------------------------------
+19621, OilCan1, OilCan1, 100, 0
+19622, Broom1, Broom1, 100, 0
+19623, Camera1, Camera1, 100, 0
+19624, Case1, Case1, 100, 0
+19625, Ciggy1, Ciggy1, 50, 0
+19626, Spade1, Spade1, 100, 0
+19627, Wrench1, Wrench1, 100, 0
+#-----------------------------------------------------------------
+# Modular Road Banked Corners
+# ---------------------------
+19628, MRoadBend90Banked1, cs_ebridge, 250, 5
+19629, MRoadBend90Banked2, cs_ebridge, 250, 5
+#-----------------------------------------------------------------
+# 3D Fish (Bream)
+# ---------------
+19630, Fish1, Fish1SAMP, 100, 4
+#-----------------------------------------------------------------
+# Sledge Hammer
+# -------------
+19631, SledgeHammer1, SledgeHammer1, 100, 0
+#-----------------------------------------------------------------
+# Burning Logs
+# ------------
+19632, FireWood1, FireWood1, 100, 0
+#-----------------------------------------------------------------
+# 360 Degree Ramps
+# ----------------
+19633, Ramp360Degree1, landjump, 200, 0
+19634, Ramp360Degree2, landjump, 299, 0
+19635, Ramp360Degree3, landjump, 299, 0
+#-----------------------------------------------------------------
+# Fruit Crates
+# ------------
+# For transporting on a truck or adding to the shop shelf below.
+19636, RedApplesCrate1, FruitCrates1, 100, 2097156
+19637, GreenApplesCrate1, FruitCrates1, 100, 2097156
+19638, OrangesCrate1, FruitCrates1, 100, 2097156
+19639, EmptyCrate1, FruitCrates1, 100, 0
+#-----------------------------------------------------------------
+# Empty Shop Shelf
+# ----------------
+# Stock it with your preferred items. Three fruit crates will fit
+# side by side on the bottom shelf.
+19640, EmptyShopShelf1, new_cabinets3, 100, 2097156
+#-----------------------------------------------------------------
+# Wooden Fence Section
+# --------------------
+19641, FenceSection1, FenceSection1, 250, 4
+#-----------------------------------------------------------------
+# Half Tube Objects
+# -----------------
+# The MatTubes TXD file contains different coloured textures
+# (RedDirt1, GreenDirt1, BlueDirt1, YellowDirt1 and PurpleDirt1)
+# that can be used to re-colour the tubes below by using the
+# SetObjectMaterial or SetPlayerObjectMaterial functions.
+# Re-colouring the tubes this way preserves the shading (the
+# vertex colours and vertex illumination).
+#
+# The tubes are available in three sizes... normal (100%), 
+# medium (50%) and small (25%).
+# ------------------------------------------
+# The tubes in this section are normal size:
+19642, TubeSeg10m1, MatTubes, 299, 0
+19643, TubeSeg10m2a, MatTubes, 299, 0
+19644, TubeSeg10m2b, MatTubes, 299, 0
+19645, TubeSeg25m1, MatTubes, 299, 0
+19646, TubeHalf10m1, MatTubes, 299, 0
+19647, TubeHalf10mJoin1a, MatTubes, 299, 0
+19648, TubeHalf10mJoin1b, MatTubes, 299, 0
+19649, TubeHalf50m1, MatTubes, 299, 0
+19650, TubeFlat25x25m1, MatTubes, 299, 0
+19651, TubeHalfSpiral1a, MatTubes, 299, 0
+19652, TubeHalfSpiral1b, MatTubes, 299, 0
+19653, TubeHalfSpiral2a, MatTubes, 299, 0
+19654, TubeHalfSpiral2b, MatTubes, 299, 0
+19655, TubeHalfSpiral3a, MatTubes, 299, 0
+19656, TubeHalfSpiral3b, MatTubes, 299, 0
+19657, TubeHalfSpiral4a, MatTubes, 299, 0
+19658, TubeHalfSpiral4b, MatTubes, 299, 0
+19659, TubeHalf180Bend1a, MatTubes, 299, 0
+19660, TubeHalf180Bend1b, MatTubes, 299, 0
+19661, TubeHalf90Bend1a, MatTubes, 299, 0
+19662, TubeHalf90Bend1b, MatTubes, 299, 0
+19663, TubeHalf50mDip1, MatTubes, 299, 0
+19664, TubeHalf50mBump1, MatTubes, 299, 0
+19665, TubeHalfLoop1a, MatTubes, 299, 0
+19666, TubeHalfLoop1b, MatTubes, 299, 0
+19667, TubeHalfLoop2a, MatTubes, 299, 0
+19668, TubeHalfLoop2b, MatTubes, 299, 0
+19669, TubeHalfBowl1, MatTubes, 299, 0
+19670, TubeSupport1, dynsigns, 299, 0
+19671, TubeSupport2, dynsigns, 299, 0
+19672, TubeHalfLight1, dynsigns, 299, 0
+19673, TubeHalf5Bend1a, MatTubes, 299, 0
+19674, TubeHalf5Bend1b, MatTubes, 299, 0
+19675, TubeHalf5Bend2a, MatTubes, 299, 0
+19676, TubeHalf5Bend2b, MatTubes, 299, 0
+19677, TubeHalfTwist1a, MatTubes, 299, 0
+19678, TubeHalfTwist1b, MatTubes, 299, 0
+19679, TubeHalfTwist2a, MatTubes, 299, 0
+19680, TubeHalfTwist2b, MatTubes, 299, 0
+19681, TubeHalf45Bend1a, MatTubes, 299, 0
+19682, TubeHalf45Bend1b, MatTubes, 299, 0
+19683, TubeHalf15Bend1a, MatTubes, 299, 0
+19684, TubeHalf15Bend1b, MatTubes, 299, 0
+19685, TubeHalf15Bend2a, MatTubes, 299, 0
+19686, TubeHalf15Bend2b, MatTubes, 299, 0
+19687, TubeHalf25m1, MatTubes, 299, 0
+19688, TubeHalf45Bend3, MatTubes, 299, 0
+19689, TubeHalf45Bend4, MatTubes, 299, 0
+# ------------------------------------------
+# The tubes in this section join normal
+# tubes (above) to medium tubes (below):
+19690, TubeHalfNtoMJoin1a, MatTubes, 299, 0
+19691, TubeHalfNtoMJoin1b, MatTubes, 299, 0
+# ------------------------------------------
+# The tubes in this section are medium size:
+19692, MTubeSeg5m1, MatTubes, 299, 0
+19693, MTubeSeg5m2a, MatTubes, 299, 0
+19694, MTubeSeg5m2b, MatTubes, 299, 0
+19695, MTubeSeg12_5m1, MatTubes, 299, 0
+19696, MTubeHalf10m1, MatTubes, 299, 0
+19697, MTubeHalf5mJoin1a, MatTubes, 299, 0
+19698, MTubeHalf5mJoin1b, MatTubes, 299, 0
+19699, MTubeHalf25m1, MatTubes, 299, 0
+19700, MTubeFlt12_5x12_5m1, MatTubes, 299, 0
+19701, MTubeHalfSpiral1a, MatTubes, 299, 0
+19702, MTubeHalfSpiral1b, MatTubes, 299, 0
+19703, MTubeHalfSpiral2a, MatTubes, 299, 0
+19704, MTubeHalfSpiral2b, MatTubes, 299, 0
+19705, MTubeHalfSpiral3a, MatTubes, 299, 0
+19706, MTubeHalfSpiral3b, MatTubes, 299, 0
+19707, MTubeHalfSpiral4a, MatTubes, 299, 0
+19708, MTubeHalfSpiral4b, MatTubes, 299, 0
+19709, MTubeHalf180Bend1a, MatTubes, 299, 0
+19710, MTubeHalf180Bend1b, MatTubes, 299, 0
+19711, MTubeHalf90Bend1a, MatTubes, 299, 0
+19712, MTubeHalf90Bend1b, MatTubes, 299, 0
+19713, MTubeHalf25mDip1, MatTubes, 299, 0
+19714, MTubeHalf25mBump1, MatTubes, 299, 0
+19715, MTubeHalfBowl1, MatTubes, 299, 0
+19716, MTubeSupport1, dynsigns, 299, 0
+19717, MTubeSupport2, dynsigns, 299, 0
+19718, MTubeHalfLight1, dynsigns, 299, 0
+19719, MTubeHalf5Bend1a, MatTubes, 299, 0
+19720, MTubeHalf5Bend1b, MatTubes, 299, 0
+19721, MTubeHalf5Bend2a, MatTubes, 299, 0
+19722, MTubeHalf5Bend2b, MatTubes, 299, 0
+19723, MTubeHalf45Bend1a, MatTubes, 299, 0
+19724, MTubeHalf45Bend1b, MatTubes, 299, 0
+19725, MTubeHalf15Bend1a, MatTubes, 299, 0
+19726, MTubeHalf15Bend1b, MatTubes, 299, 0
+19727, MTubeHalf15Bend2a, MatTubes, 299, 0
+19728, MTubeHalf15Bend2b, MatTubes, 299, 0
+19729, MTubeHalf45Bend3, MatTubes, 299, 0
+19730, MTubeHalf45Bend4, MatTubes, 299, 0
+# ------------------------------------------
+# The tubes in this section join medium
+# tubes (above) to small tubes (below):
+19731, TubeHalfMtoSJoin1a, MatTubes, 299, 0
+19732, TubeHalfMtoSJoin1B, MatTubes, 299, 0
+# ------------------------------------------
+# The tubes in this section are small size:
+19733, STubeSeg5m1, MatTubes, 299, 0
+19734, STubeSeg5m2a, MatTubes, 299, 0
+19735, STubeSeg5m2b, MatTubes, 299, 0
+19736, STubeSeg6_25m1, MatTubes, 299, 0
+19737, STubeHalf10m1, MatTubes, 299, 0
+19738, STubeHalf5mJoin1a, MatTubes, 299, 0
+19739, STubeHalf5mJoin1b, MatTubes, 299, 0
+19740, STubeHalf12_5m1, MatTubes, 299, 0
+19741, STubeFlat6_25m1, MatTubes, 299, 0
+19742, STubeHalfSpiral1a, MatTubes, 299, 0
+19743, STubeHalfSpiral1b, MatTubes, 299, 0
+19744, STubeHalfSpiral2a, MatTubes, 299, 0
+19745, STubeHalfSpiral2b, MatTubes, 299, 0
+19746, STubeHalfSpiral3a, MatTubes, 299, 0
+19747, STubeHalfSpiral3b, MatTubes, 299, 0
+19748, STubeHalfSpiral4a, MatTubes, 299, 0
+19749, STubeHalfSpiral4b, MatTubes, 299, 0
+19750, STubeHalf180Bend1a, MatTubes, 299, 0
+19751, STubeHalf180Bend1b, MatTubes, 299, 0
+19752, STubeHalf90Bend1a, MatTubes, 299, 0
+19753, STubeHalf90Bend1b, MatTubes, 299, 0
+19754, STubeHalf12_5mDip1, MatTubes, 299, 0
+19755, STubeHalf12_5mBump1, MatTubes, 299, 0
+19756, STubeHalfBowl1, MatTubes, 299, 0
+19757, STubeSupport1, dynsigns, 299, 0
+19758, STubeSupport2, dynsigns, 299, 0
+19759, STubeHalfLight1, dynsigns, 299, 0
+19760, STubeHalf5Bend1a, MatTubes, 299, 0
+19761, STubeHalf5Bend1b, MatTubes, 299, 0
+19762, STubeHalf5Bend2a, MatTubes, 299, 0
+19763, STubeHalf5Bend2b, MatTubes, 299, 0
+19764, STubeHalf45Bend1a, MatTubes, 299, 0
+19765, STubeHalf45Bend1b, MatTubes, 299, 0
+19766, STubeHalf15Bend1a, MatTubes, 299, 0
+19767, STubeHalf15Bend1b, MatTubes, 299, 0
+19768, STubeHalf15Bend2a, MatTubes, 299, 0
+19769, STubeHalf15Bend2b, MatTubes, 299, 0
+19770, STubeHalf45Bend3, MatTubes, 299, 0
+19771, STubeHalf45Bend4, MatTubes, 299, 0
+#-----------------------------------------------------------------
+# Crushed Car Cube
+# ----------------
+19772, CrushedCarCube1, CrushedCarCube1, 100, 0
+# ----------------------------------------------------------------
+# Police and FBI Stuff
+# --------------------
+19773, GunHolster1, MatCopStuff, 100, 0
+19774, PoliceBadge2, MatCopStuff, 100, 2097152
+19775, PoliceBadge3, MatCopStuff, 100, 2097152
+19776, FBIIDCard1, MatCopStuff, 100, 2097152
+19777, FBILogo1, MatCopStuff, 100, 2097156
+19778, InsigniaDetective1, MatPoliceInsignias, 100, 2097156
+19779, InsigniaDetective2, MatPoliceInsignias, 100, 2097156
+19780, InsigniaDetective3, MatPoliceInsignias, 100, 2097156
+19781, InsigniaSergeant1, MatPoliceInsignias, 100, 2097156
+19782, InsigniaSergeant2, MatPoliceInsignias, 100, 2097156
+19783, InsigniaPOfficer2, MatPoliceInsignias, 100, 2097156
+19784, InsigniaPOfficer3, MatPoliceInsignias, 100, 2097156
+19785, InsigniaSeniorLdOff, MatPoliceInsignias, 100, 2097156
+# ----------------------------------------------------------------
+# LCD TVs
+# -------
+# Material index 1 is the LCD screen... it can be used to put
+# any picture from a TXD file on the screen.
+19786, LCDTVBig1, SAMPLCDTVs1, 100, 0
+19787, LCDTV1, SAMPLCDTVs1, 100, 0
+#-----------------------------------------------------------------
+#-----------------------------------------------------------------
+# Objects Added by Matite in SA:MP 0.3.7 RC2
+# ------------------------------------------
+# Modular Island Road Corner
+# --------------------------
+# This road corner is designed to work with the other modular
+# island road objects above (IDs:19529 to 19552).
+19788, 15x15RoadCorner1, MatRoadInters1, 599, 2097152
+# ----------------------------------------------------------------
+# Cubes
+# -----
+# The UV mapping is 1:1 per face to allow re-texturing. The 5mx5m
+# and 10mx10m cubes have faces inside so a player can be within
+# them.
+19789, Cube1mx1m, cs_ebridge, 150, 0
+19790, Cube5mx5m, cs_ebridge, 299, 0
+19791, Cube10mx10m, cs_ebridge, 299, 0
+# ----------------------------------------------------------------
+# Normal Sized Keycard
+# --------------------
+19792, SAMPKeycard1, SAMPKeycard1, 50, 0
+#-----------------------------------------------------------------
+# Fire Wood Log
+# -------------
+19793, FireWoodLog1, FireWood1, 100, 0
+#-----------------------------------------------------------------
+# LS Prison Walls and Gates
+# -------------------------
+# These objects are designed to replace the walls and gates at
+# the LS Prison so you can add your own working gates. Use the
+# new filterscript called ls_prisonwalls to see an example.
+19794, LSPrisonWalls1, civic04_lan, 299, 128
+19795, LSPrisonGateEast, civic04_lan, 299, 128
+19796, LSPrisonGateSouth, civic04_lan, 299, 128
+#-----------------------------------------------------------------
+# Police Visor Strobe
+# -------------------
+# Uses UV animation so it works during the day too.
+19797, PoliceVisorStrobe1, PoliceVisorStrobe1, 200, 0
+#-----------------------------------------------------------------
+# LS Apartments Car Park
+# ----------------------
+# This car park object can be used along with the replacement 
+# block of LS apartments (ID:19595).
+# The filterscript called ls_apartments1 shows an example of how
+# it can be used.
+19798, LSACarPark1, LSACarPark1, 150, 0
+# ----------------------------------------------------------------
+# Caligulas Casino Vault Door Edited
+# ----------------------------------
+# Edited to fix the pivot so it can be used with MoveObject() and
+# also fixed the night vertex colours. Original object ID is 2634.
+19799, CaligulasVaultDoor, all_vault, 150, 0
+#-----------------------------------------------------------------
+# LS BeachSide Car Park
+# ---------------------
+# This car park object can be used along with the replacement 
+# LS BeachSide building (IDs 19596 and 19597).
+# The filterscript called ls_beachside shows an example of how
+# it can be used.
+19800, LSBCarPark1, LSACarPark1, 150, 0
+#-----------------------------------------------------------------
+# Balaclava
+# ---------
+19801, Balaclava1, Balaclava1, 100, 2097152
+#-----------------------------------------------------------------
+# Static Door
+# -----------
+# This door is the same as object ID 1502 except it is static.
+# You can animate it opening and closing with the MoveObject() 
+# function.
+19802, GenDoorINT04Static, int_doors, 50, 128
+#-----------------------------------------------------------------
+# Tow Truck Lights
+# ----------------
+# These lights can be used on top of the tow truck. The light
+# configuration was created by Vince.
+# Note that they will only be visible at night.
+19803, TowTruckLights1, MatTextures, 150, 0
+#-----------------------------------------------------------------
+# Padlock
+# -------
+19804, Padlock1, Padlock1, 50, 0
+#-----------------------------------------------------------------
+# Extracted Items
+# ---------------
+# This whiteboard has a transparent material overlay (index 1)
+# so you can use it with the SetObjectMaterialText() or 
+# SetPlayerObjectMaterialText() functions
+19805, Whiteboard1, Whiteboard1, 50, 2097152
+19806, Chandelier1, svbits, 50, 0
+19807, Telephone1, Telephone1, 50, 0
+19808, Keyboard1, Keyboard1, 50, 0
+19809, MetalTray1, MetalTray1, 50, 2097152
+19810, StaffOnlySign1, StaffOnlySign1, 50, 0
+19811, BurgerBox1, BurgerBox1, 50, 0
+19812, BeerKeg1, ce_breweryref, 100, 0
+19813, ElectricalOutlet1, ElectricalOutlets, 50, 0
+19814, ElectricalOutlet2, ElectricalOutlets, 50, 0
+19815, ToolBoard1, ToolBoard1, 50, 0
+19816, OxygenCylinder1, OxygenCylinder1, 50, 0
+19817, CarFixerRamp1, CarFixerRamp1, 100, 2097152
+19818, WineGlass1, lee_strip2_1, 50, 2097152
+19819, CocktailGlass1, lee_strip2_1, 50, 2097152
+19820, AlcoholBottle1, lee_strip2_1, 50, 0
+19821, AlcoholBottle2, lee_strip2_1, 50, 0
+19822, AlcoholBottle3, lee_strip2_1, 50, 0
+19823, AlcoholBottle4, lee_strip2_1, 50, 0
+19824, AlcoholBottle5, lee_strip2_1, 50, 0
+19825, SprunkClock1, SprunkClock1, 50, 0
+19826, LightSwitch1, LightSwitches, 50, 0
+19827, LightSwitch2, LightSwitches, 50, 0
+19828, LightSwitch3Off, LightSwitches, 50, 0
+19829, LightSwitch3On, LightSwitches, 50, 0
+19830, Blender1, csblender, 50, 0
+19831, Barbeque1, csbarbq, 50, 0
+19832, AmmoBox1, csammobox, 50, 0
+19833, Cow1, Cow1, 150, 0
+19834, PoliceLineTape1, PoliceLineTape1, 50, 0
+19835, CoffeeCup1, d_s, 50, 0
+#-----------------------------------------------------------------
+# Objects That Use Particle.TXD
+# -----------------------------
+19836, BloodPool1, particle, 50, 2097156
+19837, GrassClump1, particle, 50, 2097156
+19838, GrassClump2, particle, 50, 2097156
+19839, GrassClump3, particle, 50, 2097156
+#-----------------------------------------------------------------
+# Animated Waterfalls
+# -------------------
+19840, WaterFall1, vegaswaterfall, 150, 2097284
+19841, WaterFall2, vegaswaterfall, 150, 2097284
+19842, WaterFallWater1, vegaswaterfall, 150, 2097284
+#-----------------------------------------------------------------
+# Metal Panels
+# ------------
+19843, MetalPanel1, MetalPanels, 100, 0
+19844, MetalPanel2, MetalPanels, 100, 0
+19845, MetalPanel3, MetalPanels, 100, 0
+19846, MetalPanel4, MetalPanels, 100, 0
+#-----------------------------------------------------------------
+# Leg of Ham
+# ----------
+19847, LegHam1, LegHam1, 50, 0
+#-----------------------------------------------------------------
+# CargoBob Platform
+# -----------------
+# This platform is designed to attach to the side of the CargoBob
+# helicopter using the AttachObjectToVehicle function so you can
+# carry people around.
+19848, CargoBobPlatform1, ab_cargo_int, 150, 0
+#-----------------------------------------------------------------
+# Modular Island House 1
+# ----------------------
+# These objects are designed to work with the other modular
+# island objects above (IDs:19529 to 19552). Use the new
+# filterscript called modular_houses to see an example.
+19849, MIHouse1Land, MIHouse1, 599, 4
+19850, MIHouse1Land2, MIHouse1, 599, 0
+19851, MIHouse1Land3, MIHouse1, 599, 0
+19852, MIHouse1Land4, MIHouse1, 599, 0
+19853, MIHouse1Land5, MIHouse1, 599, 0
+19854, MIHouse1Outside, MIHouse1, 599, 4
+19855, MIHouse1Inside, MIHouse1, 150, 0
+19856, MIHouse1IntWalls1, MIHouse1, 150, 0
+19857, MIHouse1Door1, MIHouse1, 50, 132
+19858, MIHouse1Door2, vegashse2, 50, 132
+19859, MIHouse1Door3, vegashse3, 50, 132
+19860, MIHouse1Door4, vegashse5, 50, 132
+19861, MIHouse1GarageDoor1, MIHouse1, 50, 128
+19862, MIHouse1GarageDoor2, vegashse3, 50, 128
+19863, MIHouse1GarageDoor3, vegashse5, 50, 128
+19864, MIHouse1GarageDoor4, vegashse6, 50, 128
+19865, MIFenceWood1, vegashse2, 100, 132
+19866, MIFenceBlocks1, vegashse2, 100, 128
+#-----------------------------------------------------------------
+# Non-Breakable Mail Box
+# ----------------------
+# This mail box is same as object ID 1478 except it is not
+# dynamic (breakable) and the night vertex colours (NVC) 
+# have been fixed.
+19867, MailBox1, break_garden, 100, 0
+#-----------------------------------------------------------------
+# Non-Breakable Mesh Fences and Gate
+# ----------------------------------
+# These fence sections are the same as object IDs 1411 and 1412
+# except they are not dynamic (breakable). 
+19868, MeshFence1, break_fen_mesh2, 100, 132
+19869, MeshFence2, break_fen_mesh2, 100, 132
+# This metal gate is the same as object ID 3036 except it is not
+# dynamic (breakable).
+19870, MetalGate1, ctgtxx, 100, 132
+#-----------------------------------------------------------------
+#-----------------------------------------------------------------
+# Objects Added by Matite in SA:MP 0.3.7 RC3
+# ------------------------------------------
+19871, CordonStand1, airp_prop, 50, 0
+19872, CarFixerRamp2, CarFixerRamp1, 100, 2097152
+19873, ToiletPaperRoll1, BathroomStuff1, 50, 0
+19874, SoapBar1, BathroomStuff1, 50, 0
+# This door is the same as object ID 2947 except it is not
+# dynamic (breakable) and the pivot point has been moved.
+19875, CRDoor01New, sw_doors, 50, 128
+#-----------------------------------------------------------------
+# Dillimore Gas Station
+# ---------------------
+# Replaces object IDs 12853 and 12854 with an enterable version 
+# of the Dillimore Gas Station. Use the new filterscript called
+# dillimore_gas to see an example.
+19876, DillimoreGasExt1, cunte_gas01, 299, 2097284
+19877, DillimoreGasInt1, cunte_gas01, 100, 2097284
+#-----------------------------------------------------------------
+# GTASA Skateboard
+# ----------------
+# Edited to work as a normal object and added vertex colours.
+19878, Skateboard1, skateboard, 100, 0
+#-----------------------------------------------------------------
+# LS Wells Fargo Building
+# -----------------------
+# This building is a replacement for the LS Wells Fargo building
+# (object ID 4007). Use the new filterscript called ls_wellsfargo
+# to see an example.
+19879, WellsFargoBuild1, lanblokc, 299, 0
+19880, WellsFargoGrgDoor1, lanblokc, 100, 0
+#-----------------------------------------------------------------
+# Kylie's Barn Fixed
+# ------------------
+# This barn is the same as object ID 14871 except the collision
+# (COL) has been fixed. Use the new filterscript called kylies_barn
+# to see an example.
+19881, KylieBarnFixed1, gf3, 50, 0
+#-----------------------------------------------------------------
+# Marco's Steak Cooked
+# --------------------
+# This steak is the same as object ID 19582 except it is cooked.
+19882, MarcosSteak2, MarcosSteak2, 100, 0
+#-----------------------------------------------------------------
+# Slice of Bread
+# --------------
+19883, BreadSlice1, BreadSlice1, 50, 0
+#-----------------------------------------------------------------
+# More Water Slide Sections
+# -------------------------
+# These objects are designed to work with the old existing object 
+# IDs 19070 to 19073.
+19884, WSBend45Deg2, WSSections, 299, 2097156
+19885, WSStraight2, WSSections, 299, 2097156
+19886, WSStraight3, WSSections, 299, 2097156
+19887, WSStart1, WSSections, 299, 2097156
+19888, WSBend45Deg3, WSSections, 299, 2097156
+19889, WSBend45Deg4, WSSections, 299, 2097156
+19890, WSStraight4, WSSections, 299, 2097156
+19891, WSTubeJoiner1, WSSections, 299, 2097156
+19892, WSRoadJoiner1, WSSections, 299, 2097156
+#-----------------------------------------------------------------
+# Laptop (Old Style)
+# ------------------
+# Same laptop in open and closed positions. You can change the
+# screen using the SetObjectMaterial() function on index 1.
+# There are three screen variations in the TXD file:
+# * LaptopScreen1 = GTASA map screen (default)
+# * LaptopScreen2 = Text screen
+# * LaptopScreen3 = Police database screen
+19893, LaptopSAMP1, LaptopSAMP1, 50, 0
+19894, LaptopSAMP2, LaptopSAMP1, 50, 0
+#-----------------------------------------------------------------
+# Ladder Fire Truck Lights
+# ------------------------
+# These lights can be used on top of the ladder fire truck.
+# Note that they will only be visible at night.
+19895, LadderFireTruckLts1, MatTextures, 150, 0
+#-----------------------------------------------------------------
+# Misc Items
+# ----------
+19896, CigarettePack1, CigarettePacks, 50, 0
+19897, CigarettePack2, CigarettePacks, 50, 0
+19898, OilFloorStain1, hubprops1_sfse, 50, 2097156
+19899, ToolCabinet1, hubprops2_sfse, 50, 2097152
+19900, ToolCabinet2, hubprops2_sfse, 50, 0
+# 19901 = Anim Tube ANIM object
+# 19902 = EnEx Marker ANIM object
+19903, MechanicComputer1, hubprops2_sfse, 50, 4
+19904, ConstructionVest1, bmyap, 100, 2097152
+#-----------------------------------------------------------------
+# Area 51 (69) Buildings
+# ----------------------
+# Same as the original buildings but now with an interior.
+19905, A51Building1, a51_ext, 299, 0
+19906, A51Building1GrgDoor, a51_ext, 50, 0
+19907, A51Building2, a51_ext, 299, 0
+19908, A51Building2GrgDoor, a51_ext, 50, 0
+19909, A51Building3, a51_ext, 299, 0
+19910, A51Building3GrgDoor, a51_ext, 50, 0
+# The door below is designed to fit on the A51/69 Military Hangar
+# (object ID 3268). It takes two doors to close the entrance.
+19911, A51HangarDoor1, a51_ext, 100, 0
+#-----------------------------------------------------------------
+# Metal Gate and Big Fence
+# ------------------------
+# This gate is the same as object ID 980 except it has no signs
+# on it and the pivot point is on the edge.
+19912, SAMPMetalGate1, electricgate, 100, 4
+# Big metal fence.
+19913, SAMPBigFence1, electricgate, 299, 4
+#-----------------------------------------------------------------
+# Extracted from Cutscene IMG and Edited
+# --------------------------------------
+19914, CutsceneBat1, csbat, 50, 0
+19915, CutsceneCooker1, cscooker, 50, 0
+19916, CutsceneFridge1, csfridge, 50, 0
+19917, CutsceneEngine1, csengine, 50, 0
+19918, CutsceneBox1, csheistbox, 50, 0
+19919, CutscenePerch1, csparrotperch, 50, 0
+19920, CutsceneRemote1, csremote, 50, 0
+19921, CutsceneToolBox1, cstoolkit, 50, 0
+#-----------------------------------------------------------------
+# Modular Kitchen
+# ---------------
+19922, MKTable1, cswzkitch, 50, 0
+19923, MKIslandCooker1, cswzkitch, 50, 0
+19924, MKExtractionHood1, cswzkitch, 50, 0
+19925, MKWorkTop1, cswzkitch, 50, 0
+19926, MKWorkTop2, cswzkitch, 50, 0
+19927, MKWorkTop3, cswzkitch, 50, 0
+19928, MKWorkTop4, cswzkitch, 50, 0
+19929, MKWorkTop5, cswzkitch, 50, 0
+19930, MKWorkTop6, cswzkitch, 50, 0
+19931, MKWorkTop7, cswzkitch, 50, 0
+19932, MKWallOvenCabinet1, cswzkitch, 50, 0
+19933, MKWallOven1, MKWallOven1, 50, 0
+19934, MKCupboard1, cswzkitch, 50, 0
+19935, MKCupboard2, cswzkitch, 50, 0
+19936, MKCupboard3, cswzkitch, 50, 0
+19937, MKCupboard4, cswzkitch, 50, 0
+19938, MKShelf1, cswzkitch, 50, 0
+19939, MKShelf2, cswzkitch, 50, 0
+19940, MKShelf3, cswzkitch, 50, 0
+#-----------------------------------------------------------------
+# Misc Items
+# ----------
+19941, GoldBar1, GoldBar1, 50, 0
+19942, PoliceRadio1, PoliceRadio1, 50, 0
+19943, StonePillar1, ab_pillartemp, 150, 0
+19944, BodyBag1, des_cen, 50, 0
+#-----------------------------------------------------------------
+# Checkpoints
+# -----------
+19945, CPSize16Red, EnExMarkers, 299, 2097220
+19946, CPSize16Green, EnExMarkers, 299, 2097220
+19947, CPSize16Blue, EnExMarkers, 299, 2097220
+#-----------------------------------------------------------------
+# Road Signs
+# ----------
+# Misc road signs
+19948, SAMPRoadSign1, SAMPRoadSigns, 50, 128
+19949, SAMPRoadSign2, SAMPRoadSigns, 50, 128
+19950, SAMPRoadSign3, SAMPRoadSigns, 50, 128
+19951, SAMPRoadSign4, SAMPRoadSigns, 50, 128
+19952, SAMPRoadSign5, SAMPRoadSigns, 50, 128
+19953, SAMPRoadSign6, SAMPRoadSigns, 50, 128
+19954, SAMPRoadSign7, SAMPRoadSigns, 50, 128
+19955, SAMPRoadSign8, SAMPRoadSigns, 50, 128
+19956, SAMPRoadSign9, SAMPRoadSigns, 50, 128
+19957, SAMPRoadSign10, SAMPRoadSigns, 50, 128
+19958, SAMPRoadSign11, SAMPRoadSigns, 50, 128
+19959, SAMPRoadSign12, SAMPRoadSigns, 50, 128
+19960, SAMPRoadSign13, SAMPRoadSigns, 50, 128
+19961, SAMPRoadSign14, SAMPRoadSigns, 50, 128
+19962, SAMPRoadSign15, SAMPRoadSigns, 50, 128
+19963, SAMPRoadSign16, SAMPRoadSigns, 50, 128
+19964, SAMPRoadSign17, SAMPRoadSigns, 50, 128
+19965, SAMPRoadSign18, SAMPRoadSigns, 50, 128
+19966, SAMPRoadSign19, SAMPRoadSigns, 50, 128
+19967, SAMPRoadSign20, SAMPRoadSigns, 50, 128
+19968, SAMPRoadSign21, SAMPRoadSigns, 50, 128
+19969, SAMPRoadSign22, SAMPRoadSigns, 50, 128
+19970, SAMPRoadSign23, SAMPRoadSigns, 50, 128
+19971, SAMPRoadSign24, SAMPRoadSigns, 50, 128
+19972, SAMPRoadSign25, SAMPRoadSigns, 50, 128
+19973, SAMPRoadSign26, SAMPRoadSigns, 50, 128
+19974, SAMPRoadSign27, SAMPRoadSigns, 50, 128
+19975, SAMPRoadSign28, SAMPRoadSigns, 50, 128
+19976, SAMPRoadSign29, SAMPRoadSigns, 50, 128
+19977, SAMPRoadSign30, SAMPRoadSigns, 50, 128
+19978, SAMPRoadSign31, SAMPRoadSigns, 50, 128
+19979, SAMPRoadSign32, SAMPRoadSigns, 50, 128
+# The two signs below have a transparent material overlay (index 3)
+# so you can use it with the SetObjectMaterialText() or 
+# SetPlayerObjectMaterialText() functions
+19980, SAMPRoadSign33, SAMPRoadSigns, 50, 128
+19981, SAMPRoadSign34, SAMPRoadSigns, 50, 128
+# Speed limit signs
+19982, SAMPRoadSign35, SAMPRoadSigns, 50, 128
+19983, SAMPRoadSign36, SAMPRoadSigns, 50, 128
+19984, SAMPRoadSign37, SAMPRoadSigns, 50, 128
+19985, SAMPRoadSign38, SAMPRoadSigns, 50, 128
+19986, SAMPRoadSign39, SAMPRoadSigns, 50, 128
+19987, SAMPRoadSign40, SAMPRoadSigns, 50, 128
+19988, SAMPRoadSign41, SAMPRoadSigns, 50, 128
+19989, SAMPRoadSign42, SAMPRoadSigns, 50, 128
+19990, SAMPRoadSign43, SAMPRoadSigns, 50, 128
+19991, SAMPRoadSign44, SAMPRoadSigns, 50, 128
+19992, SAMPRoadSign45, SAMPRoadSigns, 50, 128
+#-----------------------------------------------------------------
+# Extracted from Cutscene IMG and Edited
+# --------------------------------------
+19993, CutsceneBowl1, csbowl, 50, 0
+19994, CutsceneChair1, cschair, 50, 0
+19995, CutsceneAmmoClip1, csclip, 50, 0
+19996, CutsceneFoldChair1, csfoldchair, 50, 2097152
+19997, CutsceneGrgTable1, csgrgtable, 50, 0
+19998, CutsceneLighterFl, cslighterfluid, 50, 0
+19999, CutsceneChair2, csrcrdchair, 50, 0
+#-----------------------------------------------------------------
+#-----------------------------------------------------------------
+# 11682 to 12799 ID Range
+# -----------------------
+# Extracted and edited cutscene objects continued from above
+11682, CutsceneCouch1, csmafcouch, 50, 0
+11683, CutsceneCouch2, csmafcouch, 50, 0
+11684, CutsceneCouch3, csmafcouch, 50, 0
+11685, CutsceneCouch4, csmafcouch, 50, 0
+#-----------------------------------------------------------------
+# Redsands West Casino Extracted and Edited Items
+# -----------------------------------------------
+11686, CBarSection1, int_casinoint3, 50, 0
+11687, CBarStool1, int_casinoint3, 50, 0
+11688, CWorkTop1, int_casinoint3, 50, 0
+11689, CBoothSeat1, int_casinoint3, 50, 0
+11690, CTable1, int_casinoint3, 50, 0
+11691, CTable2, int_casinoint3, 50, 0
+#-----------------------------------------------------------------
+#-----------------------------------------------------------------
+# Objects Added by Matite in SA:MP 0.3.7 RC4
+# ------------------------------------------
+# A51 Replacement Land Bit
+# ------------------------
+# This object is designed to replace the land section at the
+# Area 51 (69) Base (object ID 16203). Use the new filterscript 
+# called a51_base to see an example.
+11692, A51LandBit1, a51_ext, 599, 0
+#-----------------------------------------------------------------
+# Hills
+# -----
+11693, Hills250x250Grass1, beach_sfs, 599, 0
+11694, Hill250x250Rocky1, des_sw, 599, 0
+11695, Hill250x250Rocky2, des_sw, 599, 0
+11696, Hill250x250Rocky3, Hill250x250Rocky3, 599, 0
+#-----------------------------------------------------------------
+# Modular Rope Bridge
+# -------------------
+11697, RopeBridgePart1, RopeBridge, 299, 0
+11698, RopeBridgePart2, RopeBridge, 299, 0
+#-----------------------------------------------------------------
+# More Road Signs
+# ---------------
+# The speed limit sign below has a transparent material overlay 
+# (index 3) so you can use it with the SetObjectMaterialText() 
+# or SetPlayerObjectMaterialText() functions
+11699, SAMPRoadSign46, SAMPRoadSigns, 50, 132
+11700, SAMPRoadSign47, SAMPRoadSigns, 50, 128
+#-----------------------------------------------------------------
+# Ambulance Lights
+# ----------------
+# First object is with lights on and second is with lights off.
+11701, AmbulanceLights1, AmbulanceLights1, 150, 0
+11702, AmbulanceLights2, AmbulanceLights1, 150, 0
+#-----------------------------------------------------------------
+# Magnetic Crane Object
+# ---------------------
+# This object is the same as object ID 1382 except GTASA will not
+# automatically attach the crane cable and magnet to it.
+11703, MagnoCrane_03_2, cranes_dyn2_cj, 150, 4
+#-----------------------------------------------------------------
+# Extracted Items
+# ---------------
+11704, BDupsMask1, bdupsnew, 100, 2097152
+11705, BlackTelephone1, cuntcuts, 50, 0
+11706, SmallWasteBin1, cuntcuts, 50, 0
+11707, TowelRack1, cuntcuts, 50, 0
+11708, BrickSingle1, sw_well1, 50, 0
+11709, AbattoirSink1, ab_abbatoir01, 50, 0
+11710, FireExitSign1, eastbeach8_lae2, 75, 0
+11711, ExitSign1, eastbeach8_lae2, 75, 0
+11712, Cross1, Cross1, 50, 0
+11713, FireExtPanel1, maint1, 50, 0
+11714, MaintenanceDoors1, maint1, 50, 0
+11715, MetalFork1, gb_dirtycrock01, 50, 0
+11716, MetalKnife1, gb_dirtycrock01, 50, 0
+11717, WooziesCouch1, ab_wooziec, 50, 0
+11718, SweetsSaucepan1, SweetsStuff1, 50, 0
+11719, SweetsSaucepan2, SweetsStuff1, 50, 0
+11720, SweetsBed1, SweetsStuff1, 50, 0
+11721, Radiator1, lahss2_2int2, 50, 0
+11722, SauceBottle1, ab_trukstpb, 50, 0
+11723, SauceBottle2, ab_trukstpb, 50, 0
+11724, FireplaceSurround1, svcunthoose, 50, 0
+11725, Fireplace1, svcunthoose, 50, 0
+11726, HangingLight1, sfhosemed2, 50, 0
+11727, PaperChaseLight1, papaerchaseoffice, 50, 0
+11728, PaperChasePhone1, papaerchaseoffice, 50, 0
+11729, GymLockerClosed1, intring_gymint3, 50, 0
+11730, GymLockerOpen1, intring_gymint3, 50, 0
+11731, WHeartBed1, whore_rms, 50, 4
+11732, WHeartBath1, whore_rms, 50, 0
+11733, WRockingHorse1, whore_rms, 50, 0
+11734, WRockingChair1, whore_rms, 50, 0
+11735, WBoot1, whore_rms, 50, 0
+11736, MedicalSatchel1, paperchase_bits2, 50, 0
+11737, RockstarMat1, carter_block_2, 50, 0
+11738, MedicCase1, MedicCase1, 50, 0
+#-----------------------------------------------------------------
+# Extracted from Marco's Bistro
+# -----------------------------
+11739, MCake1, MarcosStuff1, 50, 0
+11740, MCake2, MarcosStuff1, 50, 0
+11741, MCake3, MarcosStuff1, 50, 0
+11742, MCakeSlice1, MarcosStuff1, 50, 0
+11743, MCoffeeMachine1, MarcosStuff1, 50, 0
+11744, MPlate1, MarcosStuff1, 50, 0
+#-----------------------------------------------------------------
+# Hold All (Carry Bag) Edited
+# ---------------------------
+# This object is the same as ID 2919 except it is smaller and
+# not dynamic.
+11745, HoldAllEdited1, kmb_chute, 50, 4
+#-----------------------------------------------------------------
+# Misc
+# ----
+11746, DoorKey1, DoorKey1, 50, 0
+11747, Bandage1, Bandages, 50, 0
+11748, BandagePack1, Bandages, 50, 0
+#-----------------------------------------------------------------
+# Cutscene Handcuffs
+# ------------------
+11749, CSHandcuffs1, CSHandcuffs1, 50, 0
+# The handcuffs below are the same as above except they are folded
+# in half so they can be attached to an officers belt.
+11750, CSHandcuffs2, CSHandcuffs1, 50, 0
+#-----------------------------------------------------------------
+# Area Boundaries
+# ---------------
+11751, AreaBoundary50m, EnExMarkers, 599, 2097220
+11752, AreaBoundary10m, EnExMarkers, 599, 2097220
+11753, AreaBoundary1m, EnExMarkers, 599, 2097220
+#-----------------------------------------------------------------
+#-----------------------------------------------------------------
+end
+tobj
+end
+path
+end
+2dfx
+end
+#-----------------------------------------------------------------
+# Animated (ANIM) Objects
+# -----------------------
+# Note: You cannot have more than three ANIM objects in total
+#       listed below and/or in the Custom.IDE file.
+#-----------------------------------------------------------------
+anim
+19901, AnimTube, MatTextures, AnimTube, 299, 0
+19902, EnExMarker4, EnExMarkers, EnExMarker4, 150, 68
+end
+txdp
+end
+#-----------------------------------------------------------------
+# Ped skin variants added for 0.3.7
+#-----------------------------------------------------------------
+peds
+300, lapdna, lapd1, COP, STAT_COP, swat, 1FFF, 0, null, 9,9, PED_TYPE_EMG,VOICE_EMG_LAPD1 ,VOICE_EMG_LAPD8 
+301, sfpdna, sfpd1, COP, STAT_COP, swat, 1FFF, 0, null, 9,9, PED_TYPE_EMG,VOICE_EMG_SFPD1 ,VOICE_EMG_SFPD5 
+302, lvpdna, lvpd1, COP, STAT_COP, swat, 1FFF, 0, null, 9,9, PED_TYPE_EMG,VOICE_EMG_LVPD1 ,VOICE_EMG_LVPD5 
+303, lapdpc, lapdpc, COP, STAT_COP, swat, 1FFF, 0, null, 9,9, PED_TYPE_EMG,VOICE_EMG_LAPD1 ,VOICE_EMG_LAPD8
+304, lapdpd, lapdpd, COP, STAT_COP, swat, 1FFF, 0, null, 9,9, PED_TYPE_EMG,VOICE_EMG_LAPD1 ,VOICE_EMG_LAPD8
+305, lvpdpc, lvpdpc, COP, STAT_COP, swat, 1FFF, 0, null, 9,9, PED_TYPE_EMG,VOICE_EMG_LVPD1 ,VOICE_EMG_LVPD5
+306, WFYCLPD, WFYCLPD, CIVFEMALE, STAT_STREET_GIRL, woman, 1FFF,0, null,1,4,PED_TYPE_GFD,VOICE_GFD_WFYCLOT ,VOICE_GFD_WFYCLOT
+307, VBFYCPD, VBFYCPD, CIVFEMALE, STAT_SUIT_GIRL, woman, 130C,0, null,3,7,PED_TYPE_GEN,VOICE_GEN_BFYCRP ,VOICE_GEN_BFYCRP
+308, WFYCLEM, WFYCLEM, CIVFEMALE, STAT_STREET_GIRL, sexywoman,1983,1, null,4,6,PED_TYPE_GEN,VOICE_GEN_WFYST,VOICE_GEN_WFYST
+309, WFYCLLV, WFYCLLV, CIVFEMALE, STAT_STREET_GIRL, woman, 1FFF,0, null,1,4,PED_TYPE_GFD,VOICE_GFD_WFYCLOT ,VOICE_GFD_WFYCLOT
+310, csherna, csherna, COP, STAT_COP, swat, 1FFF, 0, null, 9,9, PED_TYPE_EMG,VOICE_EMG_RCOP1 ,VOICE_EMG_RCOP4
+311, dsherna, dsherna, COP, STAT_COP, swat, 1FFF, 0, null, 9,9, PED_TYPE_EMG,VOICE_EMG_RCOP1 ,VOICE_EMG_RCOP4
+312, albert, albert, CRIMINAL, STAT_CRIMINAL, gang1, 110F, 1, man, 5, 0, PED_TYPE_GEN, VOICE_GEN_BMYDJ, VOICE_GEN_BMYDJ
+313, amiran, amiran, CIVMALE, STAT_COWARD, man, 120C, 0, man, 10, 9, PED_TYPE_GEN, VOICE_GEN_BMYRI, VOICE_GEN_BMYRI
+314, bathory, bathory, CIVMALE, STAT_TOUGH_GUY, man, 170F, 1, man, 10, 1, PED_TYPE_GEN, VOICE_GEN_BBDYG1, VOICE_GEN_BBDYG1
+315, brulov, brulov, CIVMALE, STAT_GEEK_GUY, man, 1000, 1, man, 2, 6, PED_TYPE_GEN, VOICE_GEN_WMYGAR, VOICE_GEN_WMYGAR
+316, creed, creed, CRIMINAL, STAT_CRIMINAL, man, 110F, 1, man, 0, 0, PED_TYPE_GEN, VOICE_GEN_HMYST, VOICE_GEN_HMYST
+317, delorenzy, delorenzy, CRIMINAL, STAT_CRIMINAL, man, 110F, 0, man, 4, 4, PED_TYPE_GEN, VOICE_GEN_OMYST, VOICE_GEN_OMYST
+318, edvardbil, edvardbil, CRIMINAL, STAT_CRIMINAL, man, 110F, 0, man, 9, 7, PED_TYPE_GEN, VOICE_GEN_OMYST, VOICE_GEN_OMYST
+319, lj, lj, CRIMINAL, STAT_CRIMINAL, man, 110F, 1, null, 4, 9, PED_TYPE_GEN, VOICE_GEN_VWMYCD, VOICE_GEN_VWMYCD
+329, evaelfie, evaelfie, CIVFEMALE, STAT_STREET_GIRL, woman, 1FFF, 0, null, 1, 4, PED_TYPE_GEN, VOICE_GEN_VWFYWAI, VOICE_GEN_VWFYWAI
+332, feduk, feduk, CIVMALE, STAT_STREET_GUY, man, 1983, 1, null, 4, 3, PED_TYPE_GEN, VOICE_GEN_BBDYG1, VOICE_GEN_BBDYG1
+340, kovalevsky, kovalevsky, CIVMALE, STAT_TOUGH_GUY, man, 0, 1, null, 5, 2, PED_TYPE_GEN, VOICE_GEN_BMYCON, VOICE_GEN_BMYCON
+382, litvin, litvin, CRIMINAL, STAT_CRIMINAL, man, 110F, 1, null, 2, 2, PED_TYPE_GEN, VOICE_EMG_LAPD1, VOICE_EMG_LAPD1
+383, maras, maras, GANG5, STAT_GANG5, gang1, 110F, 1, man, 3, 4, PED_TYPE_GANG, VOICE_GNG_DNB1, VOICE_GNG_DNB1
+398, morgershtern, morgershtern, CIVMALE, STAT_SENSIBLE_GUY, man, 1000, 1, man, 1, 4, PED_TYPE_GFD, VOICE_GFD_WMYPIZZ, VOICE_GFD_WMYPIZZ
+399, nurmagamedov, nurmagamedov, CRIMINAL, STAT_CRIMINAL, man, 110F, 1, man, 8, 10, PED_TYPE_GEN, VOICE_GEN_BMYBOUN, VOICE_GEN_BMYBOUN
+795, oxymiron, oxymiron, CIVMALE, STAT_TAXIDRIVER, man, 0040, 0, null, 2, 9, PED_TYPE_GEN, VOICE_GEN_VWMOTR2, VOICE_GEN_VWMOTR2
+796, dante, dante, CIVMALE, STAT_SUIT_GUY, man, 120C, 0, man, 10, 11, PED_TYPE_GEN, VOICE_GEN_SBMOCD, VOICE_GEN_SBMOCD
+797, ravyazan, ravyazan, CIVMALE, STAT_OLD_GUY, man, 110F, 0, man, 1, 1, PED_TYPE_GEN, VOICE_EMG_EMT1, VOICE_EMG_EMT1
+798, romeru, romeru, GANG6, STAT_GANG6, man, 110F, 1, man, 2, 2, PED_TYPE_GANG, VOICE_GNG_VMAFF4, VOICE_GNG_VMAFF4
+799, sammason, sammason, GANG8, STAT_GANG8, gang2, 110F, 1, man, 0, 0, PED_TYPE_GANG, VOICE_GNG_VLA3, VOICE_GNG_VLA4
+907, shurigina, shurigina, CIVFEMALE, STAT_SUIT_GIRL, sexywoman, 1FFF, 0, null, 0, 3, PED_TYPE_GFD, VOICE_GFD_MILLIE, VOICE_GFD_MILLIE
+908, valik, valik, CIVMALE, STAT_SUIT_GUY, man, 120C, 1, null, 4, 0, PED_TYPE_GEN, VOICE_GEN_OMOKUNG, VOICE_GEN_OMOKUNG
+1206, basta, basta, GANG1, STAT_GANG1, gang1, 110F, 1, null, 3, 3, PED_TYPE_GANG, VOICE_GNG_BALLAS5, VOICE_GNG_BALLAS5
+1326, byzova, byzova, CIVFEMALE, STAT_SUIT_GIRL, sexywoman, 1FFF, 0, null, 0, 3, PED_TYPE_GFD, VOICE_GFD_MILLIE, VOICE_GFD_MILLIE
+1573, dzyuba, dzyuba, CIVMALE, STAT_STREET_GUY, man, 1983, 1, null, 4, 3, PED_TYPE_GEN, VOICE_GEN_BMYDJ, VOICE_GEN_BMYDJ
+1699, urgant, urgant, CRIMINAL, STAT_CRIMINAL, man, 110F, 1, null, 2, 2, PED_TYPE_GEN, VOICE_GNG_SFR1, VOICE_GNG_SFR1
+2883, khovanksy, khovanksy, CIVMALE, STAT_STREET_GUY, man, 130C, 1, null, 0, 8, PED_TYPE_GEN, VOICE_GNG_STRI1, VOICE_GNG_STRI1
+2884, lukashenko, lukashenko, CIVMALE, STAT_STREET_GUY, man, 1FFF, 0, null, 1, 4, PED_TYPE_GEN, VOICE_GEN_NOVOICE, VOICE_GEN_NOVOICE
+3136, maddyson, maddyson, GANG5, STAT_GANG5, gang1, 110F, 1, man, 3, 4, PED_TYPE_GANG, VOICE_GNG_DNB3, VOICE_GNG_DNB5
+3137, noize, noize, CIVMALE, STAT_TRAMP_MALE, man, 1000, 0, man, 1, 4, PED_TYPE_GEN, VOICE_EMG_LAPD1, VOICE_EMG_LAPD1
+3138, technic, technic, CIVMALE, STAT_SENSIBLE_GUY, man, 1000, 1, man, 1, 4, PED_TYPE_GEN, VOICE_GNG_VMAFF3, VOICE_GNG_VMAFF3
+3139, restorator, restorator, CIVMALE, STAT_SENSIBLE_GUY, man, 1000, 1, man, 1, 4, PED_TYPE_GEN, VOICE_GEN_OMYST, VOICE_GEN_OMYST
+3140, richi, richi, CIVMALE, STAT_SENSIBLE_GUY, man, 1000, 1, man, 1, 4, PED_TYPE_GFD, VOICE_GFD_WMYBARB, VOICE_GFD_WMYBARB
+3141, sashagrey, sashagrey, CIVFEMALE, STAT_STREET_GIRL, sexywoman, 1000, 1, null, 1, 4, PED_TYPE_GEN, VOICE_GEN_NOVOICE, VOICE_GEN_NOVOICE
+3142, yurydud, yurydud, CIVMALE, STAT_SUIT_GUY, man, 120C, 0, man, 10, 11, PED_TYPE_GEN, VOICE_GEN_BMYPI, VOICE_GEN_BMYPI
+3143, snowman, snowman, CIVMALE, STAT_STREET_GUY, man, 1FFF, 0, null, 1, 4, PED_TYPE_GEN, VOICE_GEN_NOVOICE, VOICE_GEN_NOVOICE
+3144, elf, elf, COP, STAT_COP, swat, 1FFF, 0, null, 9, 9, PED_TYPE_EMG, VOICE_EMG_LVPD1, VOICE_EMG_LVPD5
+3145, farmernewyear, farmernewyear, CIVMALE, STAT_STD_MISSION, fatman, 1FFF, 0, null, 9, 9, PED_TYPE_SPC, 0, 0
+3146, dedmoroz, dedmoroz, CIVMALE, STAT_STREET_GUY, man, 1FFF, 0, null, 1, 4, PED_TYPE_GEN, VOICE_GEN_NOVOICE, VOICE_GEN_NOVOICE
+3147, yoda, yoda, CIVMALE, STAT_TOUGH_GUY, oldman, 1983, 0, man, 6, 2, PED_TYPE_GEN, VOICE_GEN_VWMYCR, VOICE_GEN_VWMYCR
+3148, leshiy, leshiy, CIVMALE, STAT_STREET_GUY, man, 1FFF, 0, null, 1, 4, PED_TYPE_GEN, VOICE_GEN_NOVOICE, VOICE_GEN_NOVOICE
+3149, newshuba, newshuba, COP, STAT_COP, swat, 1FFF, 0, null, 9, 9, PED_TYPE_EMG, VOICE_EMG_LAPD1, VOICE_EMG_LAPD8
+3150, deer, deer, CIVMALE,      STAT_STREET_GUY,      deer,            1FFF,       0,       deer,       1,       4,         PED_TYPE_GEN,      VOICE_GEN_NOVOICE,    VOICE_GEN_NOVOICE
+3151, penguin, penguin, FIREMAN, STAT_FIREMAN, swat, 1FFF, 0, null, 9, 9, PED_TYPE_GEN, VOICE_GEN_NOVOICE, VOICE_GEN_NOVOICE
+3152, snegurochka, snegurochka, CIVFEMALE, STAT_STREET_GIRL, sexywoman, 1000, 1, null, 1, 4, PED_TYPE_GEN, VOICE_GEN_NOVOICE, VOICE_GEN_NOVOICE
+3153, footba, footba, COP, STAT_COP, swat, 1FFF, 0, null, 9, 9, PED_TYPE_EMG, VOICE_EMG_LAPD1, VOICE_EMG_LAPD8
+3154, elfa, elfa, COP, STAT_COP, swat, 1FFF, 0, null, 9, 9, PED_TYPE_EMG, VOICE_EMG_LAPD1, VOICE_EMG_LAPD8
+3159, gentelman1, gentelman1, GANG8, STAT_GANG8, gang2, 110F, 1, man, 0, 0, PED_TYPE_GANG, VOICE_GNG_VLA3, VOICE_GNG_VLA4
+3160, gentelman2, gentelman2, GANG8, STAT_GANG8, gang2, 110F, 1, man, 0, 0, PED_TYPE_GANG, VOICE_GNG_VLA3, VOICE_GNG_VLA4
+3161, gentelman3, gentelman3, GANG8, STAT_GANG8, gang2, 110F, 1, man, 0, 0, PED_TYPE_GANG, VOICE_GNG_VLA3, VOICE_GNG_VLA4
+3162, gentelman4, gentelman4, GANG8, STAT_GANG8, gang2, 110F, 1, man, 0, 0, PED_TYPE_GANG, VOICE_GNG_VLA3, VOICE_GNG_VLA4
+3163, gentelman5, gentelman5, GANG8, STAT_GANG8, gang2, 110F, 1, man, 0, 0, PED_TYPE_GANG, VOICE_GNG_VLA3, VOICE_GNG_VLA4
+3164, gentelman6, gentelman6, GANG8, STAT_GANG8, gang2, 110F, 1, man, 0, 0, PED_TYPE_GANG, VOICE_GNG_VLA3, VOICE_GNG_VLA4
+3165, minecraft1, minecraft1, CIVMALE, STAT_TRAMP_MALE,    man, 1000, 0,        null, 1, 4, PED_TYPE_GEN, VOICE_GEN_SWMYHP1, VOICE_GEN_SWMYHP1
+3166, minecraft2, minecraft2, CIVMALE, STAT_TOURIST,       man, 1983, 1,        null, 0, 3, PED_TYPE_GEN, VOICE_GNG_BALLAS5, VOICE_GNG_BALLAS5
+3176, minecraft3, minecraft3, CIVMALE, STAT_SUIT_GUY,      man, 120C, 1,        null, 8, 0, PED_TYPE_GEN, VOICE_EMG_SWAT1, VOICE_EMG_SWAT1
+3177, minecraft4, minecraft4, CRIMINAL, STAT_CRIMINAL,     man, 110F, 0,        man, 4, 4, PED_TYPE_GEN, VOICE_GEN_OMYST, VOICE_GEN_OMYST
+3179, minecraft5, minecraft5, CIVMALE, STAT_TRAMP_MALE,    man, 1000, 0,        null, 1, 4, PED_TYPE_GEN, VOICE_GEN_SBMYRI, VOICE_GEN_SBMYRI
+3180, minecraft6, minecraft6, CIVFEMALE, STAT_STREET_GIRL, sexywoman, 130C, 0,  null, 5, 9, PED_TYPE_GEN, VOICE_GEN_HFYST, VOICE_GEN_HFYST
+3181, minecraft7, minecraft7, COP, STAT_COP,               swat, 1FFF, 0,       null, 9, 9, PED_TYPE_EMG, VOICE_EMG_ARMY1, VOICE_EMG_ARMY3	
+3182, minecraft8, minecraft8, GANG4, STAT_GANG4,           gang1, 110F, 1,      man, 8, 8, PED_TYPE_GANG, VOICE_GNG_SFR5, VOICE_GNG_SFR5
+3183, minecraft9, minecraft9, CIVMALE, STAT_TOUGH_GUY,     man, 1FFF, 0,        null, 0, 7, PED_TYPE_GEN, VOICE_GEN_NOVOICE, VOICE_GEN_NOVOICE
+3184, minecraft10, minecraft10, CRIMINAL, STAT_CRIMINAL,   man, 110F, 1,        man, 5, 0, PED_TYPE_GEN, VOICE_GNG_CESAR, VOICE_GNG_CESAR
+3185, navalny, navalny, COP, STAT_COP, swat, 1FFF, 0, null, 9, 9, PED_TYPE_EMG, VOICE_EMG_FBI2, VOICE_EMG_FBI6	
+3186, putin, putin, CIVMALE, STAT_STD_MISSION, man, 1FFF, 0, null, 9, 9, PED_TYPE_SPC, 0, 0
+3188, ironman, ironman, COP, STAT_COP, swat, 1FFF, 0, null, 9, 9, PED_TYPE_EMG, VOICE_EMG_LAPD1, VOICE_EMG_LAPD8
+3189, spiderman, spiderman, COP, STAT_COP, swat, 1FFF, 0, null, 9, 9, PED_TYPE_EMG, VOICE_EMG_LAPD1, VOICE_EMG_LAPD8
+3190, venom, venom, COP, STAT_COP, swat, 1FFF, 0, null, 9, 9, PED_TYPE_EMG, VOICE_EMG_LAPD1, VOICE_EMG_LAPD8
+3191, captainamerica, captainamerica, COP, STAT_COP, swat, 1FFF, 0, null, 9, 9, PED_TYPE_EMG, VOICE_EMG_LAPD1, VOICE_EMG_LAPD8
+3192, batman, batman, COP, STAT_COP, swat, 1FFF, 0, null, 9, 9, PED_TYPE_EMG, VOICE_EMG_LAPD1, VOICE_EMG_LAPD8
+3225, anonimys, anonimys, GANG1, STAT_GANG1, gang1, 110F, 1, null, 3, 3, PED_TYPE_GANG, VOICE_GNG_BALLAS5, VOICE_GNG_BALLAS5
+3226, rabbit1, rabbit1, COP, STAT_COP, swat, 1FFF, 0, null, 9, 9, PED_TYPE_EMG, VOICE_EMG_LVPD1, VOICE_EMG_LVPD5
+3227, rabbit2, rabbit2, CIVMALE, STAT_SENSIBLE_GUY, man, 1000, 1, man, 1, 4, PED_TYPE_GEN, VOICE_GEN_BMYAP, VOICE_GEN_BMYAP
+3228, rabbit3, rabbit3, COP, STAT_COP, swat, 1FFF, 0, null, 9, 9, PED_TYPE_EMG, VOICE_EMG_ARMY1, VOICE_EMG_ARMY3
+3229, rabbit4, rabbit4, CIVFEMALE, STAT_SHOPPER, woman, 120C, 0, null, 4, 6, PED_TYPE_GEN, VOICE_GEN_BFOST, VOICE_GEN_BFOST
+3230, rabbit5, rabbit5, CIVFEMALE, STAT_SHOPPER, woman, 120C, 0, null, 4, 6, PED_TYPE_GEN, VOICE_GEN_DNFOLC1, VOICE_GEN_DNFOLC1
+3231, rabbitfarmer, rabbitfarmer, CIVMALE, STAT_BEACH_GUY, man, 1000, 0, beach, 7, 3, PED_TYPE_GEN, VOICE_GEN_BMYRI, VOICE_GEN_BMYRI
+3349, alpachino, alpachino, PLAYER1, STAT_PLAYER, player, 1983, 1, null, 4, 3, PED_TYPE_GANG, VOICE_GNG_VMAFF5, VOICE_GNG_VMAFF5
+3416, bradpitt, bradpitt, GANG6, STAT_GANG6, man, 110F, 1, man, 2, 2, PED_TYPE_GANG, VOICE_GNG_VMAFF4, VOICE_GNG_VMAFF4
+3429, dikaprio, dikaprio, GANG6, STAT_GANG6, man, 110F, 1, man, 2, 2, PED_TYPE_GANG, VOICE_GNG_VMAFF3, VOICE_GNG_VMAFF3
+3610, disel, disel, GANG5, STAT_GANG5, gang1, 110F, 1, man, 3, 4, PED_TYPE_GANG, VOICE_GNG_DNB1, VOICE_GNG_DNB1
+3611, kianu, kianu, GANG7, STAT_GANG7, man, 110F, 1, man, 4, 4, PED_TYPE_GANG, VOICE_GNG_STRI1, VOICE_GNG_STRI1
+3784, mask, mask, CRIMINAL, STAT_CRIMINAL, man, 110F, 1, null, 2, 2, PED_TYPE_GEN, VOICE_GFD_BMYTATT, VOICE_GFD_BMYTATT
+3870, robertjr, robertjr, CRIMINAL, STAT_CRIMINAL, man, 110F, 1, null, 2, 2, PED_TYPE_GANG, VOICE_GNG_MAFBOSS, VOICE_GNG_MAFBOSS
+3871, shwarz, shwarz, CIVMALE, STAT_COWARD, man, 120C, 1, man, 6, 3, PED_TYPE_GEN, VOICE_GNG_SMOKE, VOICE_GNG_SMOKE
+3883, statham, statham, CIVMALE, STAT_SUIT_GUY, man, 120C, 1, null, 4, 0, PED_TYPE_GEN, VOICE_EMG_RCOP1, VOICE_EMG_RCOP1
+3889, tarantino, tarantino, GANG7, STAT_GANG7, man, 110F, 1, man, 4, 4, PED_TYPE_GANG, VOICE_GNG_STRI1, VOICE_GNG_STRI5
+4549, stalone, stalone, CIVMALE, STAT_TOUGH_GUY, man, 1000, 1, man, 1, 4, PED_TYPE_GFD, VOICE_GFD_WMYAMMO, VOICE_GFD_WMYAMMO
+4763, murphy, murphy, GANG6, STAT_GANG6, man, 110F, 1, man, 2, 2, PED_TYPE_GANG, VOICE_GNG_VMAFF4, VOICE_GNG_VMAFF4
+4764, hardy, hardy, CRIMINAL, STAT_CRIMINAL, man, 110F, 1, null, 2, 2, PED_TYPE_GEN, VOICE_GNG_JIZZY, VOICE_GNG_JIZZY
+4765, tyson, tyson, GANG2, STAT_GANG2, gang2, 110F, 1, null, 5, 5, PED_TYPE_GANG, VOICE_GNG_FAM5, VOICE_GNG_FAM5
+4766, kanye, kanye, GANG2, STAT_GANG2, gang2, 110F, 1, null, 5, 5, PED_TYPE_GANG, VOICE_GNG_FAM1, VOICE_GNG_FAM2
+4767, mcgregor, mcgregor, CIVMALE, STAT_TOUGH_GUY, man, 1000, 0, man, 1, 4, PED_TYPE_GEN, VOICE_GEN_WMYBOX, VOICE_GEN_WMYBOX
+4768, travolta, travolta, GANG7, STAT_GANG7, man, 110F, 1, man, 4, 4, PED_TYPE_GANG, VOICE_GNG_STRI1, VOICE_GNG_STRI1
+4769, cluni, cluni, CIVMALE, STAT_SUIT_GUY, man, 1000, 1, man, 1, 4, PED_TYPE_GEN, VOICE_GEN_OMOST, VOICE_GEN_OMOST
+4770, markcyker, markcyker, CRIMINAL, STAT_CRIMINAL, man, 110F, 1, man, 0, 3, PED_TYPE_GEN, VOICE_GNG_VMAFF5, VOICE_GNG_VMAFF5
+4771, dwaynej, dwaynej, CIVMALE, STAT_TOUGH_GUY, man, 1000, 0, man, 1, 4, PED_TYPE_GEN, VOICE_GEN_BMYBOX, VOICE_GEN_BMYBOX
+4772, kage, kage, CIVMALE, STAT_COWARD, man, 170F, 1, null, 1, 2, PED_TYPE_GEN, VOICE_GEN_SOMYBU, VOICE_GEN_SOMYBU
+4773, will, will, CIVMALE, STAT_COWARD, man, 170F, 1, null, 1, 1, PED_TYPE_GEN, VOICE_GEN_WMYJG, VOICE_GEN_WMYJG
+4804, aaron, aaron, CIVMALE, STAT_STREET_GUY, gang2, 1983, 1, null, 0, 3, PED_TYPE_GEN, VOICE_GEN_DWMOLC1, VOICE_GEN_DWMOLC1
+4805, cooper, cooper, CIVMALE, STAT_STREET_GUY, gang2, 1983, 1, null, 0, 3, PED_TYPE_GEN, VOICE_GEN_OMORI, VOICE_GEN_OMORI
+5085, defo, defo, CIVMALE, STAT_OLD_GUY, man, 1003, 0, man, 8, 1, PED_TYPE_GEN, VOICE_GNG_MAFBOSS, VOICE_GNG_MAFBOSS
+5090, evans, evans, GANG1, STAT_GANG1, gang1, 110F, 1, null, 3, 3, PED_TYPE_GANG, VOICE_GNG_BALLAS5, VOICE_GNG_BALLAS5
+5091, ryan, ryan, GANG1, STAT_GANG1, gang1, 110F, 1, null, 3, 3, PED_TYPE_GANG, VOICE_GNG_BALLAS5, VOICE_GNG_BALLAS5
+5092, hannem, hannem, CIVMALE, STAT_SHOPPER, man, 120C, 1, null, 6, 9, PED_TYPE_GEN, VOICE_GEN_SOMOST, VOICE_GEN_SOMOST
+5093, hbirth1, hbirth1, CIVMALE, STAT_STD_MISSION, man, 1FFF, 0, null, 9, 9, PED_TYPE_SPC, 0, 0
+5094, hbirth2, hbirth2, CIVMALE, STAT_STD_MISSION, man, 1FFF, 0, null, 9, 9, PED_TYPE_SPC, 0, 0
+5095, hbirth3, hbirth3, CIVMALE, STAT_STD_MISSION, fatman, 1FFF, 0, null, 9, 9, PED_TYPE_SPC, 0, 0
+5096, hbirth4, hbirth4, CIVMALE, STAT_STD_MISSION, man, 1FFF, 0, null, 9, 9, PED_TYPE_SPC, 0, 0
+5097, hbirth5, hbirth5, CIVMALE, STAT_STD_MISSION, man, 1FFF, 0, null, 9, 9, PED_TYPE_SPC, 0, 0
+5098, hbirth6, hbirth6, CIVFEMALE, STAT_SUIT_GIRL, woman, 130C, 0, null, 3, 7, PED_TYPE_GEN, VOICE_GEN_OFORI, VOICE_GEN_OFORI
+5099, hbirth7, hbirth7, CIVFEMALE, STAT_STREET_GIRL, sexywoman, 1000, 1, man, 1, 4, PED_TYPE_GEN, VOICE_GFD_BARBARA, VOICE_GFD_BARBARA
+5100, hbirth8, hbirth8, CIVMALE, STAT_STD_MISSION, man, 1FFF, 0, null, 9, 9, PED_TYPE_SPC, 0, 0
+5101, hbirth9, hbirth9, CIVMALE, STAT_STD_MISSION, man, 1FFF, 0, null, 9, 9, PED_TYPE_SPC, 0, 0
+5102, hbirth10, hbirth10, CIVMALE, STAT_STD_MISSION, man, 1FFF, 0, null, 9, 9, PED_TYPE_SPC, 0, 0
+5103, jackiechan, jackiechan, GANG7, STAT_GANG7, man, 110F, 1, man, 4, 4, PED_TYPE_GANG, VOICE_GNG_STRI1, VOICE_GNG_STRI1
+5104, maccon, maccon, GANG6, STAT_GANG6, man, 110F, 1, man, 2, 2, PED_TYPE_GANG, VOICE_GNG_VMAFF3, VOICE_GNG_VMAFF3
+5376, matt, matt, GANG6, STAT_GANG6, man, 110F, 1, man, 2, 2, PED_TYPE_GANG, VOICE_GNG_VMAFF4, VOICE_GNG_VMAFF4
+5377, morgan, morgan, CIVMALE, STAT_STD_MISSION, man, 1FFF, 0, null, 9, 9, PED_TYPE_SPC, 0, 0
+5378, tatum, tatum, COP, STAT_COP, swat, 1FFF, 0, null, 9, 9, PED_TYPE_EMG, VOICE_EMG_LAPD1, VOICE_EMG_LAPD8	
+5379, woker, woker, GANG8, STAT_GANG8, gang2, 110F, 1, man, 0, 0, PED_TYPE_GANG, VOICE_GNG_VLA3, VOICE_GNG_VLA4
+5380, wood, wood, CIVMALE, STAT_TOUGH_GUY, oldman, 1983, 0, man, 6, 2, PED_TYPE_GEN, VOICE_EMG_RCOP1, VOICE_EMG_RCOP1
+6014, hall0, hall0, CIVMALE, STAT_SENSIBLE_GUY, man, 0, 0, man, 1, 4, PED_TYPE_GANG, VOICE_GNG_BIG_BEAR, VOICE_GNG_BIG_BEAR
+6015, hall1, hall1, CIVMALE, STAT_SENSIBLE_GUY, man, 0, 0, man, 1, 4, PED_TYPE_GEN, VOICE_EMG_SWAT1, VOICE_EMG_SWAT1
+6016, hall2, hall2, CIVMALE, STAT_COWARD, man, 120C, 1, null, 2, 4, PED_TYPE_GEN, VOICE_GNG_OGLOC, VOICE_GNG_OGLOC
+6017, hall4, hall4, CIVMALE, STAT_OLD_GUY, oldman, 1000, 0, null, 1, 1, PED_TYPE_GEN, VOICE_GEN_WMYCD1, VOICE_GEN_WMYCD1
+6018, hall5, hall5, CIVMALE, STAT_SENSIBLE_GUY, fatman, 0, 0, fatman, 1, 4, PED_TYPE_GANG, VOICE_GNG_BIG_BEAR, VOICE_GNG_BIG_BEAR
+6019, hall6, hall6, CIVMALE, STAT_SENSIBLE_GUY, man, 1000, 1, man, 1, 4, PED_TYPE_GEN, VOICE_GEN_SWMYHP1, VOICE_GEN_SWMYHP1
+6020, hall7, hall7, CIVMALE, STAT_OLD_GUY, man, 1000, 0, man, 1, 4, PED_TYPE_GEN, VOICE_GNG_FAM5, VOICE_GNG_FAM5
+6021, hasbik, hasbik, CIVMALE, STAT_STREET_GUY, man, 1FFF, 0, null, 1, 4, PED_TYPE_GEN, VOICE_GNG_CESAR, VOICE_GNG_CESAR
+6022, hellmem, hellmem, CIVMALE, STAT_TAXIDRIVER, man, 0040, 0, null, 8, 0, PED_TYPE_GEN, VOICE_GEN_BBDYG2, VOICE_GEN_BBDYG2
+6023, pubgmaskgirl, pubgmaskgirl, CIVFEMALE, STAT_STREET_GIRL, woman, 1FFF, 0, null, 1, 4, PED_TYPE_GFD, VOICE_GFD_WFYCLOT, VOICE_GFD_WFYCLOT
+6024, pubgmaskman, pubgmaskman, COP, STAT_COP, swat, 1FFF, 0, null, 9, 9, PED_TYPE_EMG, VOICE_EMG_SWAT1, VOICE_EMG_SWAT6
+6025, pubggirl1, pubggirl1, CIVFEMALE, STAT_STREET_GIRL, woman, 1FFF, 0, null, 1, 4, PED_TYPE_GFD, VOICE_GFD_WFYCLOT, VOICE_GFD_WFYCLOT
+6026, pubgman1, pubgman1, COP, STAT_COP, swat, 1FFF, 0, null, 9, 9, PED_TYPE_EMG, VOICE_EMG_SWAT1, VOICE_EMG_SWAT6
+6027, pubggirl2, pubggirl2, CIVFEMALE, STAT_STREET_GIRL, woman, 1FFF, 0, null, 1, 4, PED_TYPE_GFD, VOICE_GFD_WFYCLOT, VOICE_GFD_WFYCLOT
+6028, pubgman2, pubgman2, COP, STAT_COP, swat, 1FFF, 0, null, 9, 9, PED_TYPE_EMG, VOICE_EMG_SWAT1, VOICE_EMG_SWAT6
+6029, pubggirl3, pubggirl3, CIVFEMALE, STAT_STREET_GIRL, woman, 1FFF, 0, null, 1, 4, PED_TYPE_GFD, VOICE_GFD_WFYCLOT, VOICE_GFD_WFYCLOT
+6030, pubgman3, pubgman3, COP, STAT_COP, swat, 1FFF, 0, null, 9, 9, PED_TYPE_EMG, VOICE_EMG_SWAT1, VOICE_EMG_SWAT6
+6031, pubggirl4, pubggirl4, CIVFEMALE, STAT_STREET_GIRL, woman, 1FFF, 0, null, 1, 4, PED_TYPE_GFD, VOICE_GFD_WFYCLOT, VOICE_GFD_WFYCLOT
+6032, pubgman4, pubgman4, COP, STAT_COP, swat, 1FFF, 0, null, 9, 9, PED_TYPE_EMG, VOICE_EMG_SWAT1, VOICE_EMG_SWAT6
+12700, chistmasbomj1, chistmasbomj1, CIVMALE, STAT_TRAMP_MALE, man, 1000, 0, man, 1, 4, PED_TYPE_GEN, VOICE_GNG_DNB2, VOICE_GNG_DNB2
+12701, chistmasbomj2, chistmasbomj2, CIVMALE, STAT_OLD_GUY, man, 1003, 0, man, 1, 10, PED_TYPE_GEN, VOICE_EMG_LAPD1, VOICE_EMG_LAPD1
+12702, chistmasbomj3, chistmasbomj3, CIVMALE, STAT_TOUGH_GUY, oldman, 1983, 0, man, 6, 2, PED_TYPE_GEN, VOICE_GEN_OMOST, VOICE_GEN_OMOST
+12703, chistmasbomj4, chistmasbomj4, CIVMALE, STAT_OLD_GUY, oldman, 1983, 0, man, 1, 1, PED_TYPE_GEN, VOICE_GEN_DWMYLC2, VOICE_GEN_DWMYLC2
+12704, chistmasbomj5, chistmasbomj5, CIVMALE, STAT_SENSIBLE_GUY, man, 1000, 1, man, 1, 4, PED_TYPE_GFD, VOICE_GFD_WMYBARB, VOICE_GFD_WMYBARB
+12705, elf2021, elf2021, CIVMALE, STAT_TOURIST, man, 1983, 1, null, 0, 3, PED_TYPE_GEN, VOICE_EMG_SWAT1, VOICE_EMG_SWAT1
+12706, grinch, grinch, CRIMINAL, STAT_CRIMINAL, gang1, 110F, 1, man, 5, 0, PED_TYPE_GEN, VOICE_GEN_BMYDJ, VOICE_GEN_BMYDJ
+12707, littlebill, littlebill, CRIMINAL, STAT_CRIMINAL, gang1, 110F, 1, man, 5, 0, PED_TYPE_GEN, VOICE_GEN_BMYDJ, VOICE_GEN_BMYDJ
+12708, santa, santa, CIVMALE, STAT_STREET_GUY, man, 1FFF, 0, null, 1, 4, PED_TYPE_GEN, VOICE_GEN_NOVOICE, VOICE_GEN_NOVOICE
+12709, yearroliki1, yearroliki1, CIVMALE, STAT_SKATER, skate, 1000, 0, skate, 9, 9, PED_TYPE_GEN, VOICE_GNG_LSV3, VOICE_GNG_LSV3
+12710, yearroliki2, yearroliki2, CIVFEMALE, STAT_SKATER, skate, 1000, 1, skate, 1, 4, PED_TYPE_GEN, VOICE_GEN_HFYST, VOICE_GEN_HFYST
+12711, yearroliki3, yearroliki3, CIVMALE, STAT_SKATER, skate, 1000, 0, skate, 9, 9, PED_TYPE_GEN, VOICE_GNG_MAFBOSS, VOICE_GNG_MAFBOSS
+12712, yearroliki4, yearroliki4, CIVFEMALE, STAT_SKATER, skate, 1000, 1, skate, 1, 4, PED_TYPE_GEN, VOICE_GFD_HELENA, VOICE_GFD_HELENA
+15010, bestavto, bestavto, PLAYER1, STAT_PLAYER, sexywoman, 0, 0, null, 9, 9	, PED_TYPE_PLAYER, VOICE_PLY_CR, VOICE_PLY_CR
+15011, bestavtobar, bestavtobar, PLAYER1, STAT_PLAYER, man, 0, 0, null, 9, 9	, PED_TYPE_PLAYER, VOICE_PLY_CR, VOICE_PLY_CR
+15012, bestclad, bestclad, PLAYER1, STAT_PLAYER, man, 0, 0, null, 9, 9	, PED_TYPE_PLAYER, VOICE_PLY_CR, VOICE_PLY_CR
+15013, bestcliver, bestcliver, PLAYER1, STAT_PLAYER, man, 0, 0, null, 9, 9	, PED_TYPE_PLAYER, VOICE_PLY_CR, VOICE_PLY_CR
+15014, bestcr, bestcr, PLAYER1, STAT_PLAYER, man, 0, 0, null, 9, 9	, PED_TYPE_PLAYER, VOICE_PLY_CR, VOICE_PLY_CR
+15015, bestshaxt, bestshaxt, PLAYER1, STAT_PLAYER, man, 0, 0, null, 9, 9	, PED_TYPE_PLAYER, VOICE_PLY_CR, VOICE_PLY_CR
+15016, mortaljax, mortaljax, COP, STAT_COP, swat, 1FFF, 0, null, 9, 9, PED_TYPE_EMG, VOICE_EMG_FBI2, VOICE_EMG_FBI6
+15017, mortalliu, mortalliu, CIVMALE, STAT_COWARD, man, 120C, 0, null, 9, 3, PED_TYPE_GEN, VOICE_EMG_FBI2, VOICE_EMG_FBI2
+15018, mortalnoob, mortalnoob, CIVMALE, STAT_TRAMP_MALE, man, 1000, 0, null, 1, 4, PED_TYPE_GEN, VOICE_GNG_SMOKE, VOICE_GNG_SMOKE
+15019, mortalsony, mortalsony, CIVFEMALE, STAT_STREET_GIRL, woman, 1003, 1, null, 4, 7, PED_TYPE_GEN, VOICE_GEN_SBFYRI, VOICE_GEN_SBFYRI
+15021, mortaltsung, mortaltsung, CIVMALE, STAT_SUIT_GUY, man, 120C, 1, null, 8, 0, PED_TYPE_GEN, VOICE_EMG_EMT1, VOICE_EMG_EMT1
+15022, mortraiden, mortraiden, CIVMALE, STAT_TOUGH_GUY, man, 1FFF, 0, null, 2, 0, PED_TYPE_GEN, VOICE_GEN_NOVOICE, VOICE_GEN_NOVOICE
+15023, mortscorpion, mortscorpion, CIVMALE, STAT_TOUGH_GUY, man, 1FFF, 0, null, 2, 0, PED_TYPE_GEN, VOICE_GEN_NOVOICE, VOICE_GEN_NOVOICE
+15024, mortsub, mortsub, CIVMALE, STAT_TOUGH_GUY, man, 1FFF, 0, null, 2, 0, PED_TYPE_GEN, VOICE_GEN_NOVOICE, VOICE_GEN_NOVOICE
+15065, new1, new1, CIVMALE, STAT_SENSIBLE_GUY, man, 0, 0, man, 1, 4, PED_TYPE_GEN, VOICE_GEN_WMYJG, VOICE_GEN_WMYJG
+15066, new2, new2, CIVMALE, STAT_COWARD, man, 120C, 0, man, 9, 8, PED_TYPE_GEN, VOICE_GEN_DWMYLC2, VOICE_GEN_DWMYLC2
+15067, new3, new3, CIVMALE, STAT_BEACH_GUY, man, 1000, 0, beach, 7, 3, PED_TYPE_GEN, VOICE_GNG_VLA5, VOICE_GNG_VLA5
+15068, new4, new4, CRIMINAL, STAT_CRIMINAL, gang1, 110F, 1, man, 5, 0, PED_TYPE_GEN, VOICE_GEN_BMYDJ, VOICE_GEN_BMYDJ
+15069, new5, new5, CIVMALE, STAT_TOUGH_GUY, man, 170F, 1, man, 10, 1, PED_TYPE_GEN, VOICE_GEN_BBDYG1, VOICE_GEN_BBDYG1
+15070, new6, new6, CIVMALE, STAT_GEEK_GUY, man, 1000, 1, man, 2, 6, PED_TYPE_GEN, VOICE_GEN_WMYGAR, VOICE_GEN_WMYGAR
+15071, new7, new7, CIVMALE, STAT_CRIMINAL, man, 110F, 0, man, 4, 4, PED_TYPE_GEN, VOICE_GEN_OMYST, VOICE_GEN_OMYST
+15072, new8, new8, CIVMALE, STAT_OLD_GUY, man, 1003, 0, null, 1, 2, PED_TYPE_GEN, VOICE_EMG_FBI2, VOICE_EMG_FBI2
+15073, new9, new9, CIVMALE, STAT_COWARD, man, 170F, 0, null, 7, 3, PED_TYPE_GEN, VOICE_EMG_LAPD1, VOICE_EMG_LAPD1
+15074, new10, new10, CIVMALE, STAT_COWARD, man, 120C, 0, man, 10, 9, PED_TYPE_GEN, VOICE_GEN_BMYRI, VOICE_GEN_BMYRI
+15075, new11, new11, CIVMALE, STAT_SUIT_GUY, man, 1983, 1, null, 6, 4, PED_TYPE_GEN, VOICE_GEN_VBMOCD, VOICE_GEN_VBMOCD
+15076, new12, new12, CIVMALE, STAT_SENSIBLE_GUY, man, 0800, 1, man, 6, 2, PED_TYPE_GEN, VOICE_GEN_OMYST, VOICE_GEN_OMYST
+15077, new13, new13, CIVMALE, STAT_TOUGH_GUY, man, 110F, 1, man, 0, 0, PED_TYPE_GEN, VOICE_GEN_DWMYLC2, VOICE_GEN_DWMYLC2
+15078, new14, new14, CIVMALE, STAT_COWARD, man, 1882, 1, man, 2, 8, PED_TYPE_GEN, VOICE_GNG_BALLAS3, VOICE_GNG_BALLAS3
+15079, new15, new15, CIVFEMALE, STAT_TOURIST, woman, 1003, 1, null, 6, 6, PED_TYPE_GEN, VOICE_GEN_CWFYHB1, VOICE_GEN_CWFYHB1
+15080, new16, new16, CIVFEMALE, STAT_COWARD, woman, 120C, 1, null, 2, 7, PED_TYPE_GEN, VOICE_GEN_SBFYPRO, VOICE_GEN_SBFYPRO
+15081, new17, new17, CIVFEMALE, STAT_COWARD, jogwoman, 1000, 0, beach, 9, 9, PED_TYPE_GEN, VOICE_GEN_HFYBE, VOICE_GEN_HFYBE
+15082, new18, new18, CIVFEMALE, STAT_COWARD, sexywoman, 120C, 1, null, 4, 6, PED_TYPE_GEN, VOICE_GEN_CWFOFR, VOICE_GEN_CWFOFR
+15083, new19, new19, CIVFEMALE, STAT_STREET_GIRL, sexywoman, 1983, 1, null, 4, 6, PED_TYPE_GEN, VOICE_GEN_SBFORI, VOICE_GEN_SBFORI
+15084, new20, new20, CIVFEMALE, STAT_CRIMINAL, woman, 110F, 1, man, 4, 3, PED_TYPE_GEN, VOICE_GEN_DNFOLC2, VOICE_GEN_DNFOLC2
+15086, 03bestcar, 03bestcar, COP, STAT_COP, swat, 1FFF, 0, null, 9, 9, PED_TYPE_EMG, VOICE_EMG_LAPD1, VOICE_EMG_LAPD8
+15087, 03besthouse, 03besthouse, CRIMINAL, STAT_CRIMINAL, man, 110F, 0, man, 4, 4, PED_TYPE_GEN, VOICE_GEN_OMYST, VOICE_GEN_OMYST
+15088, 03bomj, 03bomj, CIVMALE, STAT_TRAMP_MALE, man, 1000, 0, null, 1, 4, PED_TYPE_GEN, VOICE_GEN_BMYBOX, VOICE_GEN_BMYBOX
+15089, 03bomj1, 03bomj1, CIVMALE, STAT_STREET_GUY, man, 1983, 1, null, 4, 3, PED_TYPE_GEN, VOICE_EMG_FBI2, VOICE_EMG_FBI2
+15090, 03bomj2, 03bomj2, CIVMALE, STAT_STREET_GUY, man, 1003, 0, man, 8, 9, PED_TYPE_GEN, VOICE_GEN_OMOBOAT, VOICE_GEN_OMOBOAT
+15091, 03brayant, 03brayant, GANG1, STAT_GANG1, gang1, 110F, 1, null, 3, 3, PED_TYPE_GANG, VOICE_GNG_BALLAS1, VOICE_GNG_BALLAS2
+15092, 03chiken, 03chiken, CIVMALE, STAT_TRAMP_MALE, man, 1000, 0, man, 1, 4, PED_TYPE_GEN, VOICE_GEN_VWMYCR, VOICE_GEN_VWMYCR
+15093, 03cristiano, 03cristiano, GANG8, STAT_GANG8, gang2, 110F, 1, man, 0, 0, PED_TYPE_GANG, VOICE_GNG_VLA3, VOICE_GNG_VLA4
+15094, 03messi, 03messi, GANG8, STAT_GANG8, gang1, 110F, 1, man, 0, 0, PED_TYPE_GANG, VOICE_GNG_VLA5, VOICE_GNG_VLA5
+15095, 03ovechkin, 03ovechkin, GANG8, STAT_GANG8, gang1, 110F, 1, man, 0, 0, PED_TYPE_GANG, VOICE_GNG_VLA1, VOICE_GNG_VLA2
+15096, 03usyk, 03usyk, CIVMALE, STAT_TOUGH_GUY, man, 1000, 0, man, 1, 4, PED_TYPE_GEN, VOICE_GEN_WMYBOX, VOICE_GEN_WMYBOX
+15097, 03zelenskiy, 03zelenskiy, CIVMALE, STAT_STD_MISSION, man, 1FFF, 0, null, 9, 9, PED_TYPE_SPC, 0, 0
+15296, family1, family1, GANG2, STAT_GANG2, gang2, 110F, 1, null, 5, 5, PED_TYPE_GANG, VOICE_GNG_FAM5, VOICE_GNG_FAM5
+15297, family2, family2, GANG3, STAT_GANG3, gang2, 110F, 1, null, 9, 2, PED_TYPE_GANG, VOICE_GNG_LSV3, VOICE_GNG_LSV4
+15298, family3, family3, GANG3, STAT_GANG3, gang1, 110F, 1, null, 9, 2, PED_TYPE_GANG, VOICE_GNG_LSV5, VOICE_GNG_LSV5
+15299, family4, family4, GANG4, STAT_GANG4, gang1, 110F, 1, man, 8, 8, PED_TYPE_GANG, VOICE_GNG_SFR1, VOICE_GNG_SFR2
+15300, family5, family5, GANG4, STAT_GANG4, gang2, 110F, 1, man, 8, 8, PED_TYPE_GANG, VOICE_GNG_SFR3, VOICE_GNG_SFR4
+15301, family6, family6, GANG4, STAT_GANG4, gang1, 110F, 1, man, 8, 8, PED_TYPE_GANG, VOICE_GNG_SFR5, VOICE_GNG_SFR5
+15302, family7, family7, GANG1, STAT_GANG1, gang1, 110F, 1, null, 3, 3, PED_TYPE_GANG, VOICE_GNG_BALLAS1, VOICE_GNG_BALLAS2
+15303, family8, family8, GANG1, STAT_GANG1, gang2, 110F, 1, null, 3, 3, PED_TYPE_GANG, VOICE_GNG_BALLAS3, VOICE_GNG_BALLAS4
+15304, family9, family9, GANG1, STAT_GANG1, gang1, 110F, 1, null, 3, 3, PED_TYPE_GANG, VOICE_GNG_BALLAS5, VOICE_GNG_BALLAS5
+15305, family10, family10, GANG2, STAT_GANG2, gang2, 110F, 1, null, 5, 5, PED_TYPE_GANG, VOICE_GNG_FAM1, VOICE_GNG_FAM2
+15306, family11, family11, GANG2, STAT_GANG2, gang1, 110F, 1, null, 5, 5, PED_TYPE_GANG, VOICE_GNG_FAM3, VOICE_GNG_FAM4
+15307, family12, family12, GANG2, STAT_GANG2, gang2, 110F, 1, null, 5, 5, PED_TYPE_GANG, VOICE_GNG_FAM5, VOICE_GNG_FAM5
+15308, family13, family13, GANG4, STAT_GANG4, gang1, 110F, 1, man, 8, 8, PED_TYPE_GANG, VOICE_GNG_SFR1, VOICE_GNG_SFR2
+15309, family14, family14, GANG4, STAT_GANG4, gang2, 110F, 1, man, 8, 8, PED_TYPE_GANG, VOICE_GNG_SFR3, VOICE_GNG_SFR4
+15310, family15, family15, GANG4, STAT_GANG4, gang1, 110F, 1, man, 8, 8, PED_TYPE_GANG, VOICE_GNG_SFR5, VOICE_GNG_SFR5
+15311, family16, family16, GANG7, STAT_GANG7, man, 110F, 1, man, 4, 4, PED_TYPE_GANG, VOICE_GNG_STRI1, VOICE_GNG_STRI5
+15312, family17, family17, GANG7, STAT_GANG7, man, 110F, 1, man, 4, 4, PED_TYPE_GANG, VOICE_GNG_STRI1, VOICE_GNG_STRI1
+15313, family18, family18, GANG7, STAT_GANG7, man, 110F, 1, man, 4, 4, PED_TYPE_GANG, VOICE_GNG_STRI1, VOICE_GNG_STRI1
+15314, family19, family19, GANG5, STAT_GANG5, gang1, 110F, 1, man, 3, 4, PED_TYPE_GANG, VOICE_GNG_DNB1, VOICE_GNG_DNB1
+15315, family20, family20, GANG5, STAT_GANG5, gang2, 110F, 1, man, 3, 4, PED_TYPE_GANG, VOICE_GNG_DNB2, VOICE_GNG_DNB2
+15316, family21, family21, GANG5, STAT_GANG5, gang1, 110F, 1, man, 3, 4, PED_TYPE_GANG, VOICE_GNG_DNB3, VOICE_GNG_DNB5
+15317, family22, family22, CRIMINAL, STAT_CRIMINAL, man, 110F, 1, null, 2, 2, PED_TYPE_GEN, VOICE_GEN_SWMOST, VOICE_GEN_SWMOST
+15318, family23, family23, CRIMINAL, STAT_CRIMINAL, man, 110F, 1, null, 2, 2, PED_TYPE_GEN, VOICE_GEN_BMYMOUN, VOICE_GEN_BMYMOUN
+15319, family24, family24, CRIMINAL, STAT_CRIMINAL, man, 110F, 1, null, 2, 2, PED_TYPE_GANG, VOICE_GNG_MAFBOSS, VOICE_GNG_MAFBOSS
+15320, family25, family25, GANG8, STAT_GANG8, gang1, 110F, 1, man, 0, 0, PED_TYPE_GANG, VOICE_GNG_VLA1, VOICE_GNG_VLA2
+15321, family26, family26, GANG8, STAT_GANG8, gang2, 110F, 1, man, 0, 0, PED_TYPE_GANG, VOICE_GNG_VLA3, VOICE_GNG_VLA4
+15322, family27, family27, GANG8, STAT_GANG8, gang1, 110F, 1, man, 0, 0, PED_TYPE_GANG, VOICE_GNG_VLA5, VOICE_GNG_VLA5
+15323, family28, family28, GANG1, STAT_GANG1, gang1, 110F, 1, null, 3, 3, PED_TYPE_GANG, VOICE_GNG_BALLAS1, VOICE_GNG_BALLAS2
+15324, family29, family29, GANG1, STAT_GANG1, gang2, 110F, 1, null, 3, 3, PED_TYPE_GANG, VOICE_GNG_BALLAS3, VOICE_GNG_BALLAS4
+15325, family30, family30, GANG1, STAT_GANG1, gang1, 110F, 1, null, 3, 3, PED_TYPE_GANG, VOICE_GNG_BALLAS5, VOICE_GNG_BALLAS5
+15458, vc_skin1, vc_skin1, CIVMALE, STAT_SENSIBLE_GUY, man, 0, 0, man, 1, 4, PED_TYPE_GEN, VOICE_GEN_SBMYRI, VOICE_GEN_SBMYRI
+15459, vc_skin2, vc_skin2, CIVMALE, STAT_SENSIBLE_GUY, man, 0, 0, man, 1, 4, PED_TYPE_GEN, VOICE_GNG_TORENO, VOICE_GNG_TORENO
+15460, vc_skin3, vc_skin3, CIVMALE, STAT_GEEK_GUY, man, 1000, 1, man, 2, 6, PED_TYPE_GEN, VOICE_GEN_WMYGAR, VOICE_GEN_WMYGAR
+15461, vc_skin4, vc_skin4, CIVMALE, STAT_OLD_GUY, man, 1003, 0, null, 1, 2, PED_TYPE_GEN, VOICE_GNG_CESAR, VOICE_GNG_CESAR
+15462, vc_skin5, vc_skin5, CIVMALE, STAT_TOUGH_GUY, man, 1983, 1, null, 2, 1, PED_TYPE_GEN, VOICE_GNG_LSV5, VOICE_GNG_LSV5
+15463, vc_skin6, vc_skin6, CIVFEMALE, STAT_COWARD, sexywoman, 120C, 1, null, 7, 3, PED_TYPE_GEN, VOICE_GEN_DNFOLC2, VOICE_GEN_DNFOLC2
+15464, vc_skin7, vc_skin7, CRIMINAL, STAT_CRIMINAL, man, 110F, 1, man, 2, 6, PED_TYPE_GEN, VOICE_GEN_VWMYCR, VOICE_GEN_VWMYCR
+15465, vc_skin8, vc_skin8, CRIMINAL, STAT_CRIMINAL, man, 110F, 1, man, 2, 6, PED_TYPE_GEN, VOICE_EMG_LAPD1, VOICE_EMG_LAPD1
+15466, vc_skin9, vc_skin9, CIVMALE, STAT_SENSIBLE_GUY, man, 1000, 1, man, 1, 4, PED_TYPE_GEN, VOICE_GFD_WMYAMMO, VOICE_GFD_WMYAMMO
+15467, vc_skin10, vc_skin10, CIVMALE, STAT_SUIT_GUY, man, 120C, 0, man, 10, 10, PED_TYPE_GEN, VOICE_GNG_SFR1, VOICE_GNG_SFR1
+15468, vc_skin11, vc_skin11, CIVMALE, STAT_COWARD, man, 170F, 1, null, 1, 2, PED_TYPE_GEN, VOICE_EMG_LAPD1, VOICE_EMG_LAPD1
+15469, vc_skin12, vc_skin12, CIVMALE, STAT_TOUGH_GUY, man, 110F, 1, man, 0, 0, PED_TYPE_GEN, VOICE_GEN_SBMOTR1, VOICE_GEN_SBMOTR1
+15470, vc_skin13, vc_skin13, CIVMALE, STAT_TAXIDRIVER, man, 0040, 0, null, 8, 0, PED_TYPE_GEN, VOICE_GEN_OMORI, VOICE_GEN_OMORI
+15471, vc_skin14, vc_skin14, CIVFEMALE, STAT_STREET_GIRL, sexywoman, 1000, 1, null, 1, 4, PED_TYPE_GEN, VOICE_GFD_KATIE, VOICE_GFD_KATIE
+15472, vc_skin15, vc_skin15, CIVMALE, STAT_TOUGH_GUY, man, 0, 1, null, 2, 5, PED_TYPE_GEN, VOICE_EMG_FBI2, VOICE_EMG_FBI2
+15473, vc_skin16, vc_skin16, CIVMALE, STAT_STREET_GUY, man, 1FFF, 1, null, 1, 4, PED_TYPE_GFD, VOICE_GFD_WMYCLOT, VOICE_GFD_WMYCLOT
+15474, vc_skin17, vc_skin17, CIVMALE, STAT_TOUGH_GUY, man, 0, 1, null, 7, 0, PED_TYPE_GEN, VOICE_GEN_NOVOICE, VOICE_GEN_NOVOICE
+15475, vc_skin18, vc_skin18, CIVFEMALE, STAT_STREET_GIRL, sexywoman, 130C, 0, null, 3, 7, PED_TYPE_GEN, VOICE_GEN_BFYPRO, VOICE_GEN_BFYPRO
+15476, vc_skin19, vc_skin19, CIVMALE, STAT_STREET_GUY, man, 1983, 1, null, 0, 5, PED_TYPE_GEN, VOICE_GEN_WMYLG, VOICE_GEN_WMYLG
+15477, vc_skin20, vc_skin20, CIVMALE, STAT_TAXIDRIVER, man, 0040, 0, null, 2, 9, PED_TYPE_GEN, VOICE_GNG_JIZZY, VOICE_GNG_JIZZY
+15478, vc_skin21, vc_skin21, CIVMALE, STAT_TOUGH_GUY, man, 1433, 1, null, 6, 6, PED_TYPE_GEN, VOICE_GEN_BBDYG2, VOICE_GEN_BBDYG2
+15479, vc_skin22, vc_skin22, CIVMALE, STAT_OLD_GUY, man, 1003, 0, man, 10, 2, PED_TYPE_GEN, VOICE_GEN_BBDYG1, VOICE_GEN_BBDYG1
+15480, vc_skin23, vc_skin23, CIVMALE, STAT_TRAMP_MALE, man, 1000, 0, man, 1, 4, PED_TYPE_GEN, VOICE_GEN_BMYPI, VOICE_GEN_BMYPI
+15481, vc_skin24, vc_skin24, CIVFEMALE, STAT_STREET_GIRL, sexywoman, 1000, 1, null, 1, 4, PED_TYPE_GEN, VOICE_GEN_DWFOLC, VOICE_GEN_DWFOLC
+15482, vc_skin25, vc_skin25, CIVFEMALE, STAT_COWARD, sexywoman, 120C, 1, null, 7, 9, PED_TYPE_GEN, VOICE_GEN_WFOST, VOICE_GEN_WFOST
+15483, vc_skin26, vc_skin26, CIVFEMALE, STAT_STREET_GIRL, woman, 1983, 1, null, 0, 3, PED_TYPE_GEN, VOICE_GEN_DNFYLC, VOICE_GEN_DNFYLC
+15484, vc_skin27, vc_skin27, CIVMALE, STAT_BEACH_GUY, man, 1000, 0, beach, 7, 3, PED_TYPE_GEN, VOICE_GFD_WMYPIZZ, VOICE_GFD_WMYPIZZ
+15696, bomj001, bomj001, CIVMALE, STAT_TOUGH_GUY, man, 1983, 1, null, 2, 1, PED_TYPE_GEN, VOICE_GEN_SBMYCR, VOICE_GEN_SBMYCR
+15697, bomj002, bomj002, CIVMALE, STAT_TRAMP_MALE, man, 1000, 0, man, 1, 4, PED_TYPE_GEN, VOICE_GNG_STRI1, VOICE_GNG_STRI1
+15698, bomj003, bomj003, CIVMALE, STAT_TRAMP_MALE, man, 1000, 0, man, 1, 4, PED_TYPE_GEN, VOICE_GEN_BMYCON, VOICE_GEN_BMYCON
+15699, bomj004, bomj004, CIVMALE, STAT_TOUGH_GUY, man, 1983, 1, null, 1, 1, PED_TYPE_GEN, VOICE_GEN_SBMYST, VOICE_GEN_SBMYST
+15700, bomjclassic1, bomjclassic1, PLAYER1, STAT_PLAYER, player, 1983, 1, null, 4, 3, PED_TYPE_GEN, VOICE_GEN_BBDYG1, VOICE_GEN_BBDYG1
+15701, bomjclassic2, bomjclassic2, PLAYER1, STAT_PLAYER, player, 1000, 0, man, 1, 4, PED_TYPE_GEN, VOICE_GNG_TORENO, VOICE_GNG_TORENO
+15702, bomjclassic3, bomjclassic3, PLAYER1, STAT_PLAYER, player, 1000, 0, man, 1, 4, PED_TYPE_GEN, VOICE_GFD_WMYCLOT, VOICE_GFD_WMYCLOT
+15703, bomjclassic4, bomjclassic4, PLAYER1, STAT_PLAYER, player, 1983, 0, man, 6, 2, PED_TYPE_GEN, VOICE_GNG_SFR1, VOICE_GNG_SFR1
+15704, bomjclassic5, bomjclassic5, PLAYER1, STAT_PLAYER, player, 1983, 1, null, 1, 1, PED_TYPE_GEN, VOICE_GEN_BBDYG1, VOICE_GEN_BBDYG1
+15705, bomjg001, bomjg001, CIVFEMALE, STAT_TOURIST, woman, 1003, 1, null, 6, 6, PED_TYPE_GEN, VOICE_GEN_BFYPRO, VOICE_GEN_BFYPRO
+15706, bomjg002, bomjg002, PROSTITUTE, STAT_PROSTITUTE, pro, 1000, 1, null, 3, 3, PED_TYPE_GEN, VOICE_GEN_DNFOLC2, VOICE_GEN_DNFOLC2
+15890, blog1, blog1, CIVMALE, STAT_GEEK_GUY, man, 1000, 1, man, 2, 6, PED_TYPE_GEN, VOICE_GEN_WMYGAR, VOICE_GEN_WMYGAR
+15891, blog2, blog2, CRIMINAL, STAT_CRIMINAL, gang2, 110F, 0, man, 5, 5, PED_TYPE_GEN, VOICE_EMG_EMT1, VOICE_EMG_EMT1
+15892, blog3, blog3, CIVFEMALE, STAT_STREET_GIRL, sexywoman, 1000, 1, null, 1, 4, PED_TYPE_GEN, VOICE_GEN_HFYPRO, VOICE_GEN_HFYPRO
+15893, blog4, blog4, GANG8, STAT_GANG8, gang1, 110F, 1, man, 0, 0, PED_TYPE_GANG, VOICE_GNG_VLA5, VOICE_GNG_VLA5
+15894, blog5, blog5, GANG6, STAT_GANG6, man, 110F, 1, man, 2, 2, PED_TYPE_GANG, VOICE_GNG_VMAFF3, VOICE_GNG_VMAFF3
+15895, pcon2, pcon2, CIVMALE, STAT_TOUGH_GUY, man, 1000, 0, man, 1, 4, PED_TYPE_GEN, VOICE_GEN_WMYBOX, VOICE_GEN_WMYBOX
+15896, blog7, blog7, CIVMALE, STAT_SUIT_GUY, man, 1983, 1, null, 6, 4, PED_TYPE_GEN, VOICE_GEN_BMYCON, VOICE_GEN_BMYCON
+15899, tidex1, tidex1, CIVMALE, STAT_STD_MISSION, man, 1FFF, 0, null, 9, 9, PED_TYPE_SPC, VOICE_GNG_TRUTH, VOICE_GNG_TRUTH
+15900, tidex2, tidex2, CIVMALE, STAT_SENSIBLE_GUY, man, 0, 0, man, 1, 4, PED_TYPE_GEN, VOICE_EMG_LAPD1, VOICE_EMG_LAPD1
+15901, tidex3, tidex3, GANG6, STAT_GANG6, gang1, 110F, 1, man, 2, 2, PED_TYPE_GANG, VOICE_GNG_VMAFF1, VOICE_GNG_VMAFF2
+15966, hnina, hnina, CIVFEMALE, STAT_COWARD, sexywoman, 120C, 1, null, 7, 9, PED_TYPE_GEN, VOICE_GFD_DENISE, VOICE_GFD_DENISE
+15967, hzombie1, hzombie1, CIVMALE, STAT_STD_MISSION, man, 1FFF, 0, null, 9, 9, PED_TYPE_SPC, VOICE_GEN_NOVOICE, VOICE_GEN_NOVOICE
+15968, hzombie2, hzombie2, CIVMALE, STAT_STREET_GUY, man, 1983, 1, null, 9, 7, PED_TYPE_GEN, VOICE_GEN_NOVOICE, VOICE_GEN_NOVOICE
+15969, hzombie3, hzombie3, CRIMINAL, STAT_CRIMINAL, man, 110F, 1, man, 6, 0, PED_TYPE_GEN, VOICE_GEN_NOVOICE, VOICE_GEN_NOVOICE
+15970, hzombie4, hzombie4, CIVMALE, STAT_OLD_GUY, man, 1003, 0, null, 8, 0, PED_TYPE_GEN, VOICE_GEN_NOVOICE, VOICE_GEN_NOVOICE
+15971, hzombie5, hzombie5, GANG6, STAT_GANG6, man, 110F, 1, man, 2, 2, PED_TYPE_GANG, VOICE_GEN_NOVOICE, VOICE_GEN_NOVOICE
+15972, hzombie6, hzombie6, CIVMALE, STAT_STREET_GUY, man, 1FFF, 0, null, 1, 4, PED_TYPE_GEN, VOICE_GEN_NOVOICE, VOICE_GEN_NOVOICE
+15973, hzombie7, hzombie7, CIVMALE, STAT_COWARD, man, 120C, 0, null, 9, 3, PED_TYPE_GEN, VOICE_GEN_NOVOICE, VOICE_GEN_NOVOICE
+15974, hzombie8, hzombie8, CIVMALE, STAT_STREET_GUY, man, 1FFF, 1, null, 1, 4, PED_TYPE_GFD, VOICE_GEN_NOVOICE, VOICE_GEN_NOVOICE
+15975, hzombie9, hzombie9, CIVMALE, STAT_STD_MISSION, man, 1FFF, 0, null, 9, 9, PED_TYPE_SPC, VOICE_GEN_NOVOICE, VOICE_GEN_NOVOICE
+15976, ork, ork, CIVMALE, STAT_STD_MISSION, man, 1FFF, 0, null, 9, 9, PED_TYPE_SPC, VOICE_GEN_NOVOICE, VOICE_GEN_NOVOICE
+15977, szombie1, szombie1, CIVMALE, STAT_SENSIBLE_GUY, man, 0, 0, man, 1, 4, PED_TYPE_GEN, VOICE_GEN_NOVOICE, VOICE_GEN_NOVOICE
+15978, szombie2, szombie2, CIVMALE, STAT_SENSIBLE_GUY, man, 0, 0, man, 1, 4, PED_TYPE_GEN, VOICE_GEN_NOVOICE, VOICE_GEN_NOVOICE
+15979, szombie3, szombie3, CIVMALE, STAT_STREET_GUY, man, 1FFF, 0, null, 1, 4, PED_TYPE_GEN, VOICE_GEN_NOVOICE, VOICE_GEN_NOVOICE
+15980, szombie5, szombie5, CIVMALE, STAT_STREET_GUY, man, 1FFF, 0, null, 1, 4, PED_TYPE_GEN, VOICE_GEN_NOVOICE, VOICE_GEN_NOVOICE
+15981, szombie4, szombie4, CIVFEMALE, STAT_STREET_GIRL, woman, 1FFF, 0, null, 1, 4, PED_TYPE_GEN, VOICE_GEN_NOVOICE, VOICE_GEN_NOVOICE
+15982, szombie6, szombie6, CIVFEMALE, STAT_COWARD, sexywoman, 120C, 1, man, 6, 4, PED_TYPE_GEN, VOICE_GEN_NOVOICE, VOICE_GEN_NOVOICE
+15983, szombie7, szombie7, CIVMALE, STAT_SENSIBLE_GUY, man, 1000, 1, man, 1, 4, PED_TYPE_GEN, VOICE_GEN_NOVOICE, VOICE_GEN_NOVOICE
+15984, szombie8, szombie8, CIVFEMALE, STAT_COWARD, sexywoman, 120C, 1, null, 7, 3, PED_TYPE_GEN, VOICE_GEN_NOVOICE, VOICE_GEN_NOVOICE
+15985, bigfoot_man, bigfoot_man, CIVMALE, STAT_SENSIBLE_GUY, fatman, 0, 0, fatman, 1, 4, PED_TYPE_GANG, VOICE_GEN_NOVOICE, VOICE_GEN_NOVOICE
+15986, clown_man, clown_man, CIVMALE, STAT_STREET_GUY, man, 1FFF, 0, null, 1, 4, PED_TYPE_GEN, VOICE_GEN_NOVOICE, VOICE_GEN_NOVOICE
+15987, fredi_street, fredi_street, CIVMALE, STAT_OLD_GUY, man, 1003, 0, null, 1, 2, PED_TYPE_GEN, VOICE_GNG_SWEET, VOICE_GNG_SWEET
+15988, jayson_friday13, jayson_friday13, CRIMINAL, STAT_CRIMINAL, man, 110F, 1, man, 0, 0, PED_TYPE_GEN, VOICE_GEN_HMYST, VOICE_GEN_HMYST
+15989, mymia_man, mymia_man, GANG1, STAT_GANG1, gang1, 110F, 1, null, 3, 3, PED_TYPE_GANG, VOICE_GEN_NOVOICE, VOICE_GEN_NOVOICE
+15990, zombie_girl1, zombie_girl1, CIVFEMALE, STAT_COWARD, jogwoman, 1000, 0, beach, 9, 9, PED_TYPE_GEN, VOICE_GEN_NOVOICE, VOICE_GEN_NOVOICE
+15991, zombie_man1, zombie_man1, CIVMALE, STAT_STREET_GUY, man, 1983, 1, null, 4, 3, PED_TYPE_GEN, VOICE_GEN_NOVOICE, VOICE_GEN_NOVOICE
+15992, zombie_man2, zombie_man2, GANG3, STAT_GANG3, gang1, 110F, 1, null, 9, 2, PED_TYPE_GANG, VOICE_GEN_NOVOICE, VOICE_GEN_NOVOICE
+15884, zombie_man3, zombie_man3, CIVMALE, STAT_TOUGH_GUY, man, 1FFF, 0, man, 2, 1, PED_TYPE_GEN, VOICE_GEN_NOVOICE, VOICE_GEN_NOVOICE
+15994, zombie_man4, zombie_man4, CIVMALE, STAT_TRAMP_MALE, man, 1000, 0, man, 1, 4, PED_TYPE_GEN, VOICE_GEN_NOVOICE, VOICE_GEN_NOVOICE
+16815, gimpy_diffuse, gimpy_diffuse, CIVMALE, STAT_STREET_GUY, man, 1003, 0, man, 8, 9, PED_TYPE_GEN, VOICE_GEN_WMYGAR, VOICE_GEN_WMYGAR
+16816, leatherface, leatherface, CIVMALE, STAT_STREET_GUY, man, 1983, 1, null, 4, 3, PED_TYPE_GEN, VOICE_GNG_FAM5, VOICE_GNG_FAM5
+16817, nlo, nlo, CIVMALE, STAT_TRAMP_MALE, man, 1000, 0, man, 1, 4, PED_TYPE_GEN, VOICE_GEN_OMOBOAT, VOICE_GEN_OMOBOAT
+16818, piggsy, piggsy, CIVMALE, STAT_SENSIBLE_GUY, fatman, 0, 0, fatman, 1, 4, PED_TYPE_GANG, VOICE_GNG_BIG_BEAR, VOICE_GNG_BIG_BEAR
+16819, yasher, yasher, CIVMALE, STAT_SENSIBLE_GUY, man, 0, 0, man, 1, 4, PED_TYPE_GANG, VOICE_GNG_BIG_BEAR, VOICE_GNG_BIG_BEAR
+16820, zombieevil, zombieevil, CIVMALE, STAT_BEACH_GUY, man, 1000, 0, beach, 7, 3, PED_TYPE_GEN, VOICE_GEN_SWMORI, VOICE_GEN_SWMORI
+16843, trevor, trevor, CIVMALE, STAT_STD_MISSION, man, 1FFF, 0, null, 9, 9, PED_TYPE_SPC, VOICE_GNG_TRUTH, VOICE_GNG_TRUTH
+16844, dark_elf, dark_elf, CIVMALE, STAT_BEACH_GUY, man, 1000, 0, beach, 7, 3, PED_TYPE_GEN, VOICE_GEN_BBDYG2, VOICE_GEN_BBDYG2
+16845, leshiy_new, leshiy_new, CIVMALE, STAT_BEACH_GUY, man, 1000, 0, beach, 7, 3, PED_TYPE_GEN, VOICE_GEN_HMYST, VOICE_GEN_HMYST
+16846, light_elf, light_elf, CIVMALE, STAT_BEACH_GUY, man, 1000, 0, beach, 7, 3, PED_TYPE_GEN, VOICE_EMG_LVPD1, VOICE_EMG_LVPD1
+16847, chiken, chiken, CIVMALE, STAT_BEACH_GUY, man, 1000, 0, beach, 7, 3, PED_TYPE_GEN, VOICE_GEN_HMYBE, VOICE_GEN_HMYBE
+16848, snowman1, snowman1, CIVMALE, STAT_BEACH_GUY, man, 1000, 0, beach, 7, 3, PED_TYPE_GEN, VOICE_GFD_WMYBARB, VOICE_GFD_WMYBARB
+16849, snowman2, snowman2, CIVMALE, STAT_BEACH_GUY, man, 1000, 0, beach, 7, 3, PED_TYPE_GEN, VOICE_GEN_BBDYG1, VOICE_GEN_BBDYG1
+16830, snowman3, snowman3, CIVMALE, STAT_BEACH_GUY, man, 1000, 0, beach, 7, 3, PED_TYPE_GEN, VOICE_GEN_SBMYCR, VOICE_GEN_SBMYCR
+16831, cyberpunk_lucy, cyberpunk_lucy, CIVFEMALE, STAT_PLAYER, player, 1983, 1, null, 4, 3, PED_TYPE_GEN, VOICE_GFD_KATIE, VOICE_GFD_KATIE
+16832, cyberpunk_rebecca, cyberpunk_rebecca, CIVFEMALE, STAT_PLAYER, player, 1983, 1, null, 4, 3, PED_TYPE_GEN, VOICE_GFD_HELENA, VOICE_GFD_HELENA
+16833, cyberpunk_david, cyberpunk_david, PLAYER1, STAT_PLAYER, player, 1983, 1, null, 4, 3, PED_TYPE_GEN, VOICE_GEN_BMYDJ, VOICE_GEN_BMYDJ
+16834, dora, dora, CIVFEMALE, STAT_PLAYER, player, 1983, 1, null, 4, 3, PED_TYPE_GFD, VOICE_GFD_MICHELLE ,VOICE_GFD_MICHELLE
+16835, maybe_baby, maybe_baby, CIVFEMALE, STAT_STREET_GIRL, sexywoman, 1FFF, 0, null, 0, 3, PED_TYPE_GFD, VOICE_GFD_MICHELLE, VOICE_GFD_MICHELLE
+16836, witch, witch, CIVFEMALE, STAT_PLAYER, player, 1983, 1, null, 4, 3, PED_TYPE_GFD, VOICE_GFD_BARBARA ,VOICE_GFD_BARBARA
+16837, addams, addams, CIVFEMALE, STAT_PLAYER, player, 1983, 1, null, 4, 3, PED_TYPE_GFD, VOICE_GFD_KATIE ,VOICE_GFD_KATIE
+16838, harly_queen, harly_queen, PLAYER1, STAT_PLAYER, player, 1983, 1, null, 4, 3, PED_TYPE_GFD, VOICE_GFD_BARBARA ,VOICE_GFD_BARBARA
+16839, scream, scream, GANG4, STAT_GANG4, gang1, 110F, 1, man, 8, 8, PED_TYPE_GANG, VOICE_GNG_SFR5, VOICE_GNG_SFR5
+16840, alice_madness, alice_madness, CIVFEMALE, STAT_PLAYER, player, 1983, 1, null, 4, 3, PED_TYPE_GFD, VOICE_GFD_KATIE ,VOICE_GFD_KATIE
+16841, geralt_witcher, geralt_witcher, PLAYER1, STAT_PLAYER, player, 1983, 1, null, 4, 3, PED_TYPE_GEN, VOICE_GNG_BALLAS5, VOICE_GNG_BALLAS5
+16850, ciri_witcher, ciri_witcher, CIVFEMALE, STAT_PLAYER, player, 1983, 1, null, 4, 3, PED_TYPE_GFD, VOICE_GFD_KATIE ,VOICE_GFD_KATIE
+16851, albert_mironov, albert_mironov, CRIMINAL, STAT_CRIMINAL, gang1, 110F, 1, man, 5, 0, PED_TYPE_GEN, VOICE_GEN_BMYDJ, VOICE_GEN_BMYDJ
+16852, valentin, valentin, GANG8, STAT_GANG8, gang2, 110F, 1, man, 0, 0, PED_TYPE_GANG, VOICE_GNG_VLA3, VOICE_GNG_VLA4
+16891, mayson, mayson, CIVMALE, STAT_SUIT_GUY, man, 120C, 1, null, 4, 0, PED_TYPE_GEN, VOICE_GEN_WMYCONB, VOICE_GEN_WMYCONB
+16901, jinx, jinx, CIVFEMALE, STAT_PLAYER, player, 1983, 1, null, 4, 3, PED_TYPE_GEN, VOICE_GFD_DENISE ,VOICE_GFD_DENISE
+16902, ortega, ortega, CIVFEMALE, STAT_PLAYER, player, 1983, 1, null, 4, 3, PED_TYPE_GFD, VOICE_GFD_MICHELLE ,VOICE_GFD_MICHELLE
+16960, admingirl1, admingirl1, CIVFEMALE, STAT_STREET_GIRL, woman, 1FFF, 0, null, 0, 3, PED_TYPE_GFD, VOICE_GFD_HELENA, VOICE_GFD_HELENA
+16961, admingirl2, admingirl2, CIVFEMALE, STAT_COWARD, sexywoman, 120C, 1, null, 7, 9, PED_TYPE_GEN, VOICE_GEN_CWFYHB1, VOICE_GEN_CWFYHB1
+16962, adminman1, adminman1, GANG8, STAT_GANG8, gang2, 110F, 1, man, 0, 0, PED_TYPE_GANG, VOICE_GNG_VLA3, VOICE_GNG_VLA4
+16963, adminman3, adminman3, GANG6, STAT_GANG6, man, 110F, 1, man, 2, 2, PED_TYPE_GANG, VOICE_GNG_VMAFF3, VOICE_GNG_VMAFF3
+16965, adminman4, adminman4, GANG2, STAT_GANG2, gang2, 110F, 1, null, 5, 5, PED_TYPE_GANG, VOICE_GNG_FAM5, VOICE_GNG_FAM5
+16966, adminman5, adminman5, GANG3, STAT_GANG3, gang1, 110F, 1, null, 9, 2, PED_TYPE_GANG, VOICE_GNG_LSV5, VOICE_GNG_LSV5
+16967, adminman6, adminman6, CIVMALE, STAT_STREET_GUY, man, 1FFF, 0, null, 1, 4, PED_TYPE_GEN, VOICE_GNG_CESAR, VOICE_GNG_CESAR
+16968, adminman7, adminman7, CIVMALE, STAT_STD_MISSION, man, 1FFF, 0, null, 9, 9, PED_TYPE_SPC, VOICE_GEN_NOVOICE, VOICE_GEN_NOVOICE
+16997, security1, security1, CIVFEMALE, STAT_COWARD, woman, 120C, 0, man, 7, 3, PED_TYPE_GEN, VOICE_GEN_SBFYRI, VOICE_GEN_SBFYRI
+16998, security2, security2, CIVMALE, STAT_STREET_GUY, man, 0800, 0, null, 6, 4, PED_TYPE_GEN, VOICE_GEN_WMYBMX, VOICE_GEN_WMYBMX
+16999, security3, security3, CRIMINAL, STAT_CRIMINAL, man, 110F, 1, null, 2, 2, PED_TYPE_GEN, VOICE_GNG_RYDER, VOICE_GNG_RYDER
+17475, security4, security4, GANG6, STAT_GANG6, man, 110F, 1, man, 2, 2, PED_TYPE_GANG, VOICE_GNG_VMAFF3, VOICE_GNG_VMAFF3
+17476, willi, willi, CRIMINAL, STAT_CRIMINAL, man, 110F, 1, null, 2, 2, PED_TYPE_GANG, VOICE_GNG_MAFBOSS, VOICE_GNG_MAFBOSS
+17477, tan, tan, PROSTITUTE, STAT_PROSTITUTE, pro, 1000, 1, man, 1, 4, PED_TYPE_GEN, VOICE_GEN_HFYST, VOICE_GEN_HFYST
+17478, snape, snape, CIVMALE, STAT_STD_MISSION, man, 1FFF, 0, null, 9, 9, PED_TYPE_SPC, VOICE_GEN_NOVOICE, VOICE_GEN_NOVOICE
+17479, ron, ron, CIVMALE, STAT_STREET_GUY, man, 130C, 1, null, 3, 7, PED_TYPE_GEN, VOICE_GEN_BMYPI, VOICE_GEN_BMYPI
+17480, luci, luci, CIVFEMALE, STAT_PLAYER, player, 1983, 1, null, 4, 3, PED_TYPE_GEN, VOICE_GFD_MILLIE ,VOICE_GFD_MILLIE
+17481, hermiona, hermiona, CIVFEMALE, STAT_SUIT_GIRL, busywoman, 120C, 0, man, 4, 0, PED_TYPE_GFD, VOICE_GFD_MICHELLE ,VOICE_GFD_MICHELLE
+17482, harry, harry, CIVMALE, STAT_SUIT_GUY, man, 120C, 1, null, 4, 0, PED_TYPE_GEN, VOICE_GEN_SWMORI, VOICE_GEN_SWMORI
+17483, hagrid, hagrid, PLAYER1, STAT_PLAYER, player, 1983, 1, null, 4, 3, PED_TYPE_GEN, VOICE_GEN_NOVOICE, VOICE_GEN_NOVOICE
+17484, draco, draco, CIVMALE, STAT_STREET_GUY, man, 1FFF, 0, null, 1, 4, PED_TYPE_GEN, VOICE_GNG_CESAR, VOICE_GNG_CESAR
+18131, aragon, aragon, CIVMALE, STAT_STREET_GUY, man, 1FFF, 1, null, 1, 4, PED_TYPE_GFD, VOICE_GFD_WMYCLOT, VOICE_GFD_WMYCLOT
+18132, cbale, cbale, CIVMALE, STAT_STREET_GUY, man, 1FFF, 0, null, 1, 4, PED_TYPE_GEN, VOICE_GNG_WOOZIE, VOICE_GNG_WOOZIE
+18133, gandalf, gandalf, CIVMALE, STAT_TOUGH_GUY, man, 0, 1, null, 5, 2, PED_TYPE_GEN, VOICE_GEN_VWMYCR, VOICE_GEN_VWMYCR
+18134, gordon, gordon, CIVMALE, STAT_TAXIDRIVER, man, 0040, 0, null, 6, 5, PED_TYPE_GEN, VOICE_GEN_VWMYCD, VOICE_GEN_VWMYCD
+18135, hansel, hansel, CIVMALE, STAT_SENSIBLE_GUY, man, 1000, 1, man, 1, 4, PED_TYPE_GEN, VOICE_GEN_SBMOTR1, VOICE_GEN_SBMOTR1
+18136, johny, johny, CIVMALE, STAT_COWARD, man, 1882, 1, man, 2, 8, PED_TYPE_GEN, VOICE_GEN_SBMYCR, VOICE_GEN_SBMYCR
+18137, kupidon, kupidon, CIVMALE, STAT_SENSIBLE_GUY, man, 1000, 1, man, 1, 4, PED_TYPE_GFD, VOICE_GFD_WMYPIZZ, VOICE_GFD_WMYPIZZ
+18138, legolas, legolas, CIVMALE, STAT_SENSIBLE_GUY, man, 1000, 1, man, 1, 4, PED_TYPE_GFD, VOICE_GFD_WMYBARB, VOICE_GFD_WMYBARB
+18139, rblue, rblue, CIVMALE, STAT_TOUGH_GUY, man, 170F, 1, null, 2, 6, PED_TYPE_GEN, VOICE_GEN_WMYSGRAD, VOICE_GEN_WMYSGRAD
+18140, rred, rred, CIVMALE, STAT_TOUGH_GUY, man, 170F, 1, null, 2, 6, PED_TYPE_GEN, VOICE_GEN_WMYSGRAD, VOICE_GEN_WMYSGRAD
+18141, rwhite, rwhite, CIVMALE, STAT_TOUGH_GUY, man, 170F, 1, null, 2, 6, PED_TYPE_GEN, VOICE_GEN_WMYSGRAD, VOICE_GEN_WMYSGRAD
+18142, stalin, stalin, PLAYER1, STAT_PLAYER, player, 1983, 1, null, 4, 3, PED_TYPE_GEN, VOICE_GNG_MAFBOSS, VOICE_GNG_MAFBOSS
+18143, stiller, stiller, PLAYER1, STAT_PLAYER, player, 1983, 1, null, 4, 3, PED_TYPE_GEN, VOICE_GEN_WMYBMX, VOICE_GEN_WMYBMX
+18144, tylerd, tylerd, PLAYER1, STAT_PLAYER, player, 1983, 1, null, 4, 3, PED_TYPE_GEN, VOICE_GNG_VLA3, VOICE_GNG_VLA4
+18145, beliy, beliy, CIVMALE, STAT_OLD_GUY, man, 1003, 0, null, 1, 2, PED_TYPE_GEN, VOICE_GEN_SWMYRI, VOICE_GEN_SWMYRI
+18146, bodrov, bodrov, CIVMALE, STAT_SENSIBLE_GUY, man, 1000, 1, man, 1, 4, PED_TYPE_GFD, VOICE_GFD_BMYBARB, VOICE_GFD_BMYBARB
+18147, letov, letov, CIVMALE, STAT_SHOPPER, man, 120C, 1, null, 6, 9, PED_TYPE_GEN, VOICE_GEN_WMYCONB, VOICE_GEN_WMYCONB
+18148, mavrodi, mavrodi, CIVMALE, STAT_SHOPPER, man, 120C, 1, null, 6, 9, PED_TYPE_GEN, VOICE_GNG_DNB1, VOICE_GNG_DNB1
+#18149, pyoker, pyoker, CIVMALE, STAT_STREET_GUY, man, 1FFF, 0, null, 1, 4, PED_TYPE_GEN, VOICE_GNG_CESAR, VOICE_GNG_CESAR
+18150, drockw, drockw, GANG8, STAT_GANG8, gang1, 110F, 1, man, 0, 0, PED_TYPE_GANG, VOICE_GNG_VLA5, VOICE_GNG_VLA5
+18151, tsoy, tsoy, CIVMALE, STAT_SENSIBLE_GUY, man, 1000, 1, man, 1, 4, PED_TYPE_GFD, VOICE_GFD_WMYBARB, VOICE_GFD_WMYBARB
+#18149, frog, frog, CIVMALE, STAT_SENSIBLE_GUY, man, 1000, 1, man, 1, 4, PED_TYPE_GFD, VOICE_GFD_WMYBARB, VOICE_GFD_WMYBARB
+18162, mehanika69, mehanika69, PROSTITUTE, STAT_PROSTITUTE, pro, 1000, 1, man, 1, 4, PED_TYPE_GEN, VOICE_GEN_SBFYRI, VOICE_GEN_SBFYRI
+18163, kenobi, kenobi, CIVMALE, STAT_OLD_GUY, man, 120C, 0, null, 10, 10, PED_TYPE_GEN, VOICE_GEN_SBMYRI, VOICE_GEN_SBMYRI
+18168, vader, vader, CIVMALE, STAT_COWARD, man, 170F, 1, null, 1, 2, PED_TYPE_GEN, VOICE_GFD_WMYCLOT, VOICE_GFD_WMYCLOT
+999, umpa_lump, umpa_lump, CIVMALE, STAT_STD_MISSION, man, 1FFF, 0, null, 9, 9, PED_TYPE_SPC, VOICE_GNG_TRUTH, VOICE_GNG_TRUTH
+6585, yen, yen, CIVFEMALE, STAT_PLAYER, player, 1983, 1, null, 4, 3, PED_TYPE_GEN, VOICE_GFD_KATIE ,VOICE_GFD_KATIE
+6586, twinl, twin, CIVFEMALE, STAT_STREET_GIRL, sexywoman, 1983, 1, null, 4, 6, PED_TYPE_GEN, VOICE_GEN_WFYSTEW, VOICE_GEN_WFYSTEW
+6587, twinr, twin, CIVFEMALE, STAT_STREET_GIRL, sexywoman, 1983, 1, null, 4, 6, PED_TYPE_GEN, VOICE_GEN_CWFYFR1, VOICE_GEN_CWFYFR1
+6588, taker, taker, CRIMINAL, STAT_CRIMINAL, man, 110F, 1, man, 2, 6, PED_TYPE_GEN, VOICE_GEN_BMYBOX, VOICE_GEN_BMYBOX
+6589, jrc, jrc, CIVMALE, STAT_TOUGH_GUY, man, 1000, 0, man, 1, 4, PED_TYPE_GEN, VOICE_GEN_WMYBOX, VOICE_GEN_WMYBOX
+6591, huntert, huntert, CIVMALE, STAT_TOUGH_GUY, man, 1000, 0, man, 1, 4, PED_TYPE_GEN, VOICE_GEN_BMYBOX, VOICE_GEN_BMYBOX
+6592, hogan, hogan, CIVMALE, STAT_BEACH_GUY, man, 1000, 0, beach, 7, 3, PED_TYPE_GEN, VOICE_GEN_HMYBE, VOICE_GEN_HMYBE
+6593, hbk, hbk, CIVMALE, STAT_BEACH_GUY, man, 1000, 0, beach, 7, 3, PED_TYPE_GEN, VOICE_GNG_STRI1, VOICE_GNG_STRI1
+6594, egg, egg, CIVMALE, STAT_COWARD, man, 170F, 1, null, 1, 2, PED_TYPE_GEN, VOICE_GNG_LSV3, VOICE_GNG_LSV3
+6595, cena, cena, PLAYER1, STAT_PLAYER, player, 1983, 1, null, 4, 3, PED_TYPE_GEN, VOICE_GNG_SWEET, VOICE_GNG_SWEET
+6598, cat1, cat1, CIVMALE, STAT_COWARD, man, 170F, 1, null, 1, 2, PED_TYPE_GEN, VOICE_GNG_CESAR, VOICE_GNG_CESAR
+6599, braun, braun, PLAYER1, STAT_PLAYER, player, 1983, 1, null, 4, 3, PED_TYPE_GEN, VOICE_GEN_SWMYRI, VOICE_GEN_SWMYRI
+15448, hika, hika, CIVFEMALE, STAT_PLAYER, player, 1983, 1, null, 4, 3, PED_TYPE_GFD, VOICE_GFD_KATIE ,VOICE_GFD_KATIE
+6701, billie, billie, PLAYER1, STAT_PLAYER, player, 1983, 1, null, 4, 3, PED_TYPE_GEN, VOICE_GNG_SWEET, VOICE_GNG_SWEET
+6703, belleniko, belleniko, CIVFEMALE, STAT_STREET_GIRL, sexywoman, 1983, 1, null, 4, 6, PED_TYPE_GEN, VOICE_GEN_HFYBE, VOICE_GEN_HFYBE
+6704, dit, dit, CRIMINAL, STAT_CRIMINAL, man, 110F, 1, man, 2, 6, PED_TYPE_GEN, VOICE_GEN_SBMYST, VOICE_GEN_SBMYST
+6705, dvoreckov, dvoreckov, PLAYER1, STAT_PLAYER, player, 1983, 1, null, 4, 3, PED_TYPE_GEN, VOICE_GEN_SOMYBU, VOICE_GEN_SOMYBU
+6706, ernesto, ernesto, CIVMALE, STAT_STREET_GUY, man, 1983, 1, null, 4, 3, PED_TYPE_GEN, VOICE_GEN_OMOST, VOICE_GEN_OMOST
+6707, gorshok, gorshok, CIVMALE, STAT_TRAMP_MALE, man, 1000, 0, man, 1, 4, PED_TYPE_GEN, VOICE_GEN_CWMYFR, VOICE_GEN_CWMYFR
+6708, noro, noro, CIVMALE, STAT_STREET_GUY, man, 1003, 0, null, 0, 8, PED_TYPE_GEN, VOICE_GEN_SBMOST, VOICE_GEN_SBMOST
+14146, quincy, quincy, CIVMALE, STAT_TOUGH_GUY, man, 0, 1, null, 5, 2, PED_TYPE_GEN, VOICE_EMG_LVPD1, VOICE_EMG_LVPD1
+14147, seagers, seagers, CIVMALE, STAT_TOUGH_GUY, man, 0, 1, null, 2, 5, PED_TYPE_GEN, VOICE_EMG_RCOP1, VOICE_EMG_RCOP1
+14148, eb, eb, CIVMALE, STAT_TOUGH_GUY, man, 0, 1, null, 7, 0, PED_TYPE_GEN, VOICE_GEN_BMYCON, VOICE_GEN_BMYCON
+14169, artur, artur, PLAYER1, STAT_PLAYER, player, 1983, 1, null, 4, 3, PED_TYPE_GEN,VOICE_GEN_OMOST,VOICE_GEN_OMOST
+14192, bbt, bbt, PLAYER1, STAT_PLAYER, player, 1983, 1, null, 4, 3, PED_TYPE_GANG,VOICE_GNG_VLA3 ,VOICE_GNG_VLA4
+14337, belik, belik, CIVMALE, STAT_SUIT_GUY, man,1000,1, null,1,2,PED_TYPE_GEN,VOICE_GEN_WMYPLT ,VOICE_GEN_WMYPLT
+14341, bratok, bratok, CIVMALE, STAT_STREET_GUY, man, 1FFF,0, null,1,4,PED_TYPE_GEN,VOICE_GNG_JIZZY, VOICE_GNG_JIZZY
+14342, conor, conor, CIVMALE, STAT_STREET_GUY, man, 1FFF,0, null,1,4,PED_TYPE_GEN,VOICE_GEN_NOVOICE, VOICE_GEN_NOVOICE
+14343, daeneris, daeneris, CIVFEMALE, STAT_STREET_GIRL, woman, 1FFF,0, null,1,4,PED_TYPE_GFD,VOICE_GFD_WFYCLOT ,VOICE_GFD_WFYCLOT
+14344, eilish, eilish, CIVFEMALE, STAT_PLAYER, player, 1983, 1, null, 4, 3, PED_TYPE_GFD,VOICE_GFD_MICHELLE ,VOICE_GFD_MICHELLE
+14345, graims, graims, PLAYER1, STAT_PLAYER, player, 1983, 1, null, 4, 3, PED_TYPE_SPC, VOICE_GEN_NOVOICE , VOICE_GEN_NOVOICE
+14346, joel, joel, CIVMALE, STAT_STREET_GUY, man, 1FFF,0, null,1,4,PED_TYPE_GEN,VOICE_GNG_CESAR, VOICE_GNG_CESAR
+14347, kratos, kratos, GANG3, STAT_GANG3, gang1, 110F,1, null,9,2,PED_TYPE_GANG,VOICE_GNG_LSV5 ,VOICE_GNG_LSV5
+14348, levi, levi, CIVMALE, STAT_STREET_GUY, man, 1FFF,0, null,1,4,PED_TYPE_GEN,VOICE_GNG_WOOZIE, VOICE_GNG_WOOZIE
+14349, merser, merser, PLAYER1, STAT_PLAYER, player, 1983, 1, null, 4, 3, PED_TYPE_GANG,VOICE_GNG_FAM3 ,VOICE_GNG_FAM4
+14350, mia, mia, CIVFEMALE, STAT_STREET_GIRL, woman, 1FFF,0, null,0,3,PED_TYPE_GFD,VOICE_GFD_DENISE ,VOICE_GFD_DENISE
+14351, reizor, reizor, PLAYER1, STAT_PLAYER, player, 1983, 1, null, 4, 3, PED_TYPE_GEN,VOICE_GNG_CESAR, VOICE_GNG_CESAR
+14352, silver, silver, GANG1, STAT_GANG1, gang1, 110F,1, null,3,3,PED_TYPE_GANG,VOICE_GNG_BALLAS5 ,VOICE_GNG_BALLAS5
+14353, snoy, snoy, GANG7, STAT_GANG7, man, 110F,1, man,4,4,PED_TYPE_GANG,VOICE_GNG_STRI1 ,VOICE_GNG_STRI1
+14354, tris, tris, CIVFEMALE, STAT_PLAYER, player, 1983, 1, null, 4, 3, PED_TYPE_GFD,VOICE_GFD_KATIE ,VOICE_GFD_KATIE
+6661, ak, ak, CIVMALE, STAT_GEEK_GUY, man,1000,1, man,2,6,PED_TYPE_GEN,VOICE_GEN_WMYBP ,VOICE_GEN_WMYBP 
+6662, bandit, bandit, CIVMALE, STAT_TOUGH_GUY, man,1983,1, null,2,1,PED_TYPE_GEN,VOICE_GEN_DWMYLC1,VOICE_GEN_DWMYLC2
+6663, degtyarev, degtyarev, COP, STAT_COP, swat, 1FFF, 0, null, 9,9, PED_TYPE_EMG,VOICE_EMG_SWAT1 ,VOICE_EMG_SWAT6 
+6664, dolgovec, dolgovec, COP, STAT_COP, swat, 1FFF, 0, null, 9,9, PED_TYPE_EMG,VOICE_EMG_SWAT1 ,VOICE_EMG_SWAT6 
+6665, karl, karl, PLAYER1, STAT_PLAYER, player, 1983, 1, null, 4, 3,PED_TYPE_GEN,VOICE_GEN_DWMYLC1,VOICE_GEN_DWMYLC2
+6666, me4eniy, me4eniy, COP, STAT_COP, swat, 1FFF, 0, null, 9,9, PED_TYPE_EMG,VOICE_EMG_SWAT1 ,VOICE_EMG_SWAT6 
+6667, natasha, natasha, CIVMALE, STAT_SENSIBLE_GUY, fatman, 0, 0, fatman, 1,4, PED_TYPE_GANG, VOICE_GNG_BIG_BEAR, VOICE_GNG_BIG_BEAR
+6668, penek, penek, CIVMALE, STAT_TOURIST, man, 1983,1, man,0,5,PED_TYPE_GEN,VOICE_GEN_HMYST ,VOICE_GEN_HMYST 
+6669, sidorovich, sidorovich, PLAYER1, STAT_PLAYER, player, 1983, 1, null, 4, 3, PED_TYPE_GANG, VOICE_GNG_BIG_BEAR, VOICE_GNG_BIG_BEAR
+6670, vova, vova, CIVMALE, STAT_OLD_GUY, oldman,1000,0, null,1,1,PED_TYPE_GEN,VOICE_GEN_WMOPJ ,VOICE_GEN_WMOPJ 
+6671, wanderer, wanderer, CIVMALE, STAT_SUIT_GUY, man,1000,1, null,1,2,PED_TYPE_GEN,VOICE_GEN_WMYPLT ,VOICE_GEN_WMYPLT
+6672, wolter, wolter, PLAYER1, STAT_PLAYER, player, 1983, 1, null, 4, 3,PED_TYPE_GEN,VOICE_GEN_WMOSCI ,VOICE_GEN_WMOSCI 
+14339, hran, hran, CIVMALE, STAT_OLD_GUY, man, 120C,0, null,10,10,PED_TYPE_GEN,VOICE_GEN_WMOSCI ,VOICE_GEN_WMOSCI 
+6689, girl1, girl1, CIVFEMALE, STAT_STREET_GIRL, sexywoman, 1FFF,0, null,0,3 PED_TYPE_GFD,VOICE_GFD_MICHELLE ,VOICE_GFD_MICHELLE
+6690, girl2, girl2, CIVFEMALE, STAT_STREET_GIRL, woman, 1FFF,0, null,1,4,PED_TYPE_GFD,VOICE_GFD_WFYCLOT ,VOICE_GFD_WFYCLOT
+6691, men1, men1, GANG8, STAT_GANG8, gang2, 110F, 1, man, 0, 0, PED_TYPE_GANG, VOICE_GNG_VLA3, VOICE_GNG_VLA4
+6692, dmen4, dmen4, GANG3, STAT_GANG3, gang1, 110F,1, null,9,2,PED_TYPE_GANG,VOICE_GNG_LSV5 ,VOICE_GNG_LSV5
+12629, ellie, ellie, CIVFEMALE, STAT_STREET_GIRL, woman, 1FFF,0, null,1,4,PED_TYPE_GFD,VOICE_GFD_WFYCLOT ,VOICE_GFD_WFYCLOT
+14358,  kolabaka,           kolabaka,            CIVMALE,      STAT_STREET_GUY,      dog,            1FFF,       0,       dog,       1,       4,         PED_TYPE_GEN,      VOICE_GEN_NOVOICE,    VOICE_GEN_NOVOICE
+12654, baiden, baiden, CIVMALE, STAT_STREET_GUY, man, 1FFF,0, null,1,4,PED_TYPE_GEN,VOICE_GNG_WOOZIE, VOICE_GNG_WOOZIE
+12655, bumbl, bumbl, GANG8, STAT_GANG8, gang2, 110F, 1, man, 0, 0, PED_TYPE_GANG, VOICE_GNG_VLA3, VOICE_GNG_VLA4
+12656, demorog, demorog, GANG3, STAT_GANG3, gang1, 110F,1, null,9,2,PED_TYPE_GANG,VOICE_GNG_LSV5 ,VOICE_GNG_LSV5
+12658, optimus, optimus, CIVMALE, STAT_SUIT_GUY, man,1000,1, null,1,2,PED_TYPE_GEN,VOICE_GEN_WMYPLT ,VOICE_GEN_WMYPLT
+12667, sanboy, sanboy, CIVMALE, STAT_TOURIST, man, 1983,1, man,0,5,PED_TYPE_GEN,VOICE_GEN_HMYST ,VOICE_GEN_HMYST 
+12675, shagg, shagg, CIVMALE, STAT_STREET_GUY, man, 1FFF,0, null,1,4,PED_TYPE_GEN,VOICE_GNG_JIZZY, VOICE_GNG_JIZZY
+15020, shut, shut, CIVMALE, STAT_STREET_GUY, man, 1FFF,0, null,1,4,PED_TYPE_GEN,VOICE_GNG_CESAR, VOICE_GNG_CESAR
+15440, velma, velma, CIVFEMALE, STAT_STREET_GIRL, sexywoman, 1983, 1, null, 4, 6, PED_TYPE_GEN, VOICE_GEN_HFYBE, VOICE_GEN_HFYBE
+15567, zomb_big, zomb_big, CIVMALE, STAT_STD_MISSION, man, 1FFF, 0, null, 9, 9, PED_TYPE_SPC, VOICE_GNG_TRUTH, VOICE_GNG_TRUTH
+15570, scooby, scooby, CIVMALE,      STAT_STREET_GUY,      dog,            1FFF,       0,       dog,       1,       4,         PED_TYPE_GEN,      VOICE_GEN_NOVOICE,    VOICE_GEN_NOVOICE
+15571, scooby_hallowen, scooby_hallowen, CIVMALE,      STAT_STREET_GUY,      dog,            1FFF,       0,       dog,       1,       4,         PED_TYPE_GEN,      VOICE_GEN_NOVOICE,    VOICE_GEN_NOVOICE
+15573, werewolf, werewolf, CIVMALE, STAT_STD_MISSION, man, 1FFF, 0, null, 9, 9, PED_TYPE_SPC, VOICE_GEN_NOVOICE, VOICE_GEN_NOVOICE
+18149, bomj2, bomj2, CIVMALE, STAT_TOUGH_GUY, man,1433,1, null,6,6,PED_TYPE_GEN,VOICE_GNG_CESAR, VOICE_GNG_CESAR
+15945, bomjg1, bomjg1, PROSTITUTE, STAT_PROSTITUTE, pro, 1000, 1, null, 3, 3, PED_TYPE_GEN, VOICE_GEN_DNFOLC2, VOICE_GEN_DNFOLC2
+15947, bomjg2, bomjg2, CIVFEMALE, STAT_TOURIST, woman, 1003, 1, null, 6, 6, PED_TYPE_GEN, VOICE_GEN_BFYPRO, VOICE_GEN_BFYPRO
+15948, bomjm, bomjm, CIVMALE, STAT_TRAMP_MALE, man,1000,0, man,1,4,PED_TYPE_GEN,GANG,VOICE_GNG_LSV5 ,VOICE_GNG_LSV5
+15949, bomz3, bomz3, CRIMINAL, STAT_CRIMINAL, man, 110F,0, man,4,4,PED_TYPE_GEN,VOICE_GEN_OMOST,VOICE_GEN_OMOST
+16810, bomz4, bomz4, CIVMALE, STAT_TOUGH_GUY, man, 170F,1, man,10,1,PED_TYPE_GEN,VOICE_GEN_BBDYG1 ,VOICE_GEN_BBDYG1 
+16905, svat, svat, COP, STAT_COP, swat, 1FFF, 0, null, 9,9, PED_TYPE_EMG,VOICE_EMG_SWAT1 ,VOICE_EMG_SWAT6 
+#test
+5381, beth, beth, CIVFEMALE, STAT_COWARD, sexywoman, 120C,1, null,7,9,PED_TYPE_GEN,VOICE_GEN_BFYRI ,VOICE_GEN_BFYRI 
+5382, big_g, big_g, PLAYER1, STAT_PLAYER, player, 1983, 1, null, 4, 3,PED_TYPE_GEN,VOICE_GEN_WMOSCI ,VOICE_GEN_WMOSCI 
+5383, gnom, gnom, PLAYER1, STAT_PLAYER, player, 1983, 1, null, 4, 3,PED_TYPE_GEN,VOICE_GEN_WMOSCI ,VOICE_GEN_WMOSCI 
+5384, goblin1, goblin, CIVMALE, STAT_OLD_GUY, oldman,1003,0, man,1,4,PED_TYPE_GEN,VOICE_GEN_OMOKUNG ,VOICE_GEN_OMOKUNG 
+5385, goblin2, goblin, CIVMALE, STAT_OLD_GUY, oldman,1003,0, man,1,4,PED_TYPE_GEN,VOICE_GEN_OMOKUNG ,VOICE_GEN_OMOKUNG 
+5386, goblin3, goblin, CIVMALE, STAT_OLD_GUY, oldman,1003,0, man,1,4,PED_TYPE_GEN,VOICE_GEN_OMOKUNG ,VOICE_GEN_OMOKUNG 
+5387, grinchjim, grinchjim, CIVMALE, STAT_STD_MISSION, man, 1FFF, 0, null, 9,9, PED_TYPE_SPC,VOICE_GNG_TRUTH ,VOICE_GNG_TRUTH
+5388, lmike, lmike, CIVMALE, STAT_STD_MISSION, man, 1FFF, 0, null, 9,9, PED_TYPE_SPC,VOICE_GNG_TRUTH ,VOICE_GNG_TRUTH
+5389, morty, morty CIVMALE, STAT_TRAMP_MALE, man, 1000,0, null,1,4,PED_TYPE_GEN,VOICE_GEN_SWMOTR4,VOICE_GEN_SWMOTR4
+5683, olen, olen, CIVMALE,      STAT_STREET_GUY,      dog,            1FFF,       0,       dog,       1,       4,         PED_TYPE_GEN,      VOICE_GEN_NOVOICE,    VOICE_GEN_NOVOICE
+5684, osel, osel, CIVMALE,      STAT_STREET_GUY,      dog,            1FFF,       0,       dog,       1,       4,         PED_TYPE_GEN,      VOICE_GEN_NOVOICE,    VOICE_GEN_NOVOICE
+5685, rick, rick, CIVMALE, STAT_STD_MISSION, man, 1FFF, 0, null, 9,9, PED_TYPE_SPC,VOICE_GNG_TRUTH ,VOICE_GNG_TRUTH
+5686, rofls, rofls, CIVMALE, STAT_STD_MISSION, man, 1FFF, 0, null, 9,9, PED_TYPE_SPC,VOICE_GNG_TRUTH ,VOICE_GNG_TRUTH
+5687, yeti, yeti, PLAYER1, STAT_PLAYER, player, 1983, 1, null, 4, 3,PED_TYPE_GEN,VOICE_GEN_WMOSCI ,VOICE_GEN_WMOSCI 
+5688, fiona, fiona, CIVFEMALE, STAT_STREET_GIRL, sexywoman,1983,1, null,4,6,PED_TYPE_GEN,VOICE_GEN_WFYST,VOICE_GEN_WFYST
+5689, fionah, fionah, CIVFEMALE, STAT_STREET_GIRL, sexywoman,1983,1, null,4,6,PED_TYPE_GEN,VOICE_GEN_WFYST,VOICE_GEN_WFYST
+5690, shrek, shrek, CIVMALE, STAT_TRAMP_MALE, man, 1000,0, null,1,4,PED_TYPE_GEN,VOICE_GEN_SWMOTR4,VOICE_GEN_SWMOTR4
+5691, shrek2, shrek2, CIVMALE, STAT_TRAMP_MALE, man, 1000,0, null,1,4,PED_TYPE_GEN,VOICE_GEN_SWMOTR4,VOICE_GEN_SWMOTR4
+5692, wolf, wolf, PLAYER1, STAT_PLAYER, player, 1983, 1, null, 4, 3,PED_TYPE_GEN,VOICE_GEN_WMOSCI ,VOICE_GEN_WMOSCI 
+6545, adidas, adidas, PLAYER1, STAT_PLAYER, player, 1983, 1, null, 4, 3,PED_TYPE_GEN,VOICE_GEN_WMOSCI ,VOICE_GEN_WMOSCI 
+6546, farquad, farquad, PLAYER1, STAT_PLAYER, player, 1983, 1, null, 4, 3,PED_TYPE_GEN,VOICE_GEN_WMOSCI ,VOICE_GEN_WMOSCI 
+6547, gwendolyn, gwendolyn, PROSTITUTE, STAT_PROSTITUTE, pro,1000,1, man,1,4,PED_TYPE_GEN,VOICE_GEN_WFYPRO,VOICE_GEN_WFYPRO
+6548, jizzly, jizzly, CIVMALE, STAT_TRAMP_MALE, man, 1000,0, null,1,4,PED_TYPE_GEN,VOICE_GEN_SWMOTR4,VOICE_GEN_SWMOTR4
+6549, marat, marat, PLAYER1, STAT_PLAYER, player, 1983, 1, null, 4, 3,PED_TYPE_GEN,VOICE_GEN_WMOSCI ,VOICE_GEN_WMOSCI 
+6550, palto, palto, PLAYER1, STAT_PLAYER, player, 1983, 1, null, 4, 3,PED_TYPE_GEN,VOICE_GEN_WMOSCI ,VOICE_GEN_WMOSCI 
+6551, ptich, ptich, PLAYER1, STAT_PLAYER, player, 1983, 1, null, 4, 3,PED_TYPE_GEN,VOICE_GEN_WMOSCI ,VOICE_GEN_WMOSCI 
+6552, summer, summer, PLAYER1, STAT_PLAYER, player, 1983, 1, null, 4, 3,PED_TYPE_GEN,VOICE_GEN_WMOSCI ,VOICE_GEN_WMOSCI 
+#
+6557, aura, aura, CIVFEMALE, STAT_STREET_GIRL, sexywoman,1983,1, null,4,6,PED_TYPE_GEN,VOICE_GEN_WFYST,VOICE_GEN_WFYST
+6558, aza, aza, CIVFEMALE, STAT_STREET_GIRL, sexywoman,1983,1, null,4,6,PED_TYPE_GEN,VOICE_GEN_WFYST,VOICE_GEN_WFYST
+6559, crack, crack, PLAYER1, STAT_PLAYER, player, 1983, 1, null, 4, 3,PED_TYPE_GEN,VOICE_GEN_WMOSCI ,VOICE_GEN_WMOSCI 
+6560, fishscale, fishscale, PLAYER1, STAT_PLAYER, player, 1983, 1, null, 4, 3,PED_TYPE_GEN,VOICE_GEN_WMOSCI ,VOICE_GEN_WMOSCI 
+6561, gojo, gojo, GANG8, STAT_GANG8, gang2, 110F, 1, man, 0, 0, PED_TYPE_GANG, VOICE_GNG_VLA3, VOICE_GNG_VLA4
+6562, midas, midas, PLAYER1, STAT_PLAYER, player, 1983, 1, null, 4, 3,PED_TYPE_GEN,VOICE_GEN_WMOSCI ,VOICE_GEN_WMOSCI 
+6563, nalog1, nalog1, CIVMALE, STAT_SUIT_GUY, man, 120C, 1, null, 4, 0, PED_TYPE_GEN, VOICE_EMG_RCOP1, VOICE_EMG_RCOP1
+6583, nalog2, nalog2, CIVFEMALE, STAT_SUIT_GIRL, sexywoman, 1FFF, 0, null, 0, 3, PED_TYPE_GFD, VOICE_GFD_MILLIE, VOICE_GFD_MILLIE
+6584, ninja, ninja, PLAYER1, STAT_PLAYER, player, 1983, 1, null, 4, 3,PED_TYPE_GEN,VOICE_GEN_WMOSCI ,VOICE_GEN_WMOSCI 
+6590, peely, peely, GANG1, STAT_GANG1, gang1, 110F,1, null,3,3,PED_TYPE_GANG,VOICE_GNG_BALLAS5 ,VOICE_GNG_BALLAS5
+6596, stonegolem, stonegolem, PLAYER1, STAT_PLAYER, player, 1983, 1, null, 4, 3,PED_TYPE_GEN,VOICE_GEN_WMOSCI ,VOICE_GEN_WMOSCI 
+6597, wildcat, wildcat, CIVFEMALE, STAT_COWARD, sexywoman, 120C,1, null,7,9,PED_TYPE_GEN,VOICE_GEN_BFYRI ,VOICE_GEN_BFYRI 
+6627, irina, irina, CIVFEMALE, STAT_STREET_GIRL, sexywoman, 1000, 1, null, 1, 4, PED_TYPE_GEN, VOICE_GEN_HFYPRO, VOICE_GEN_HFYPRO
+# avatar skins
+12641,   toph,               toph,                PLAYER1,      STAT_PLAYER,        player,          1983,       1,       null,      4,       3,         PED_TYPE_GEN,      VOICE_GFD_DENISE,      VOICE_GFD_DENISE
+12642,   aang,               aang,                CIVMALE,      STAT_SUIT_GUY,        man,            1000,       1,       man,       1,       4,         PED_TYPE_GEN,      VOICE_EMG_RCOP1,       VOICE_EMG_RCOP1
+12643,   zuko,               zuko,                CIVMALE,      STAT_STD_MISSION,        man,            1000,       1,       man,       1,       4,         PED_TYPE_GEN,      VOICE_GNG_TRUTH,     VOICE_GNG_TRUTH
+# pubg skins
+12644,   pubgf,              pubgf,               CIVFEMALE,    STAT_STREET_GIRL,     woman,          1983,       1,       null,      6,       1,         PED_TYPE_GEN,      VOICE_GFD_WFYCLOT,      VOICE_GFD_WFYCLOT
+12645,   pubgm1,             pubgm1,              PLAYER1,      STAT_PLAYER,        player,          1983,       1,       null,      4,       3,         PED_TYPE_GEN,      VOICE_GNG_VLA3,    VOICE_GNG_VLA4
+12646,   pubg1,              pubg1,               CIVFEMALE,    STAT_STREET_GIRL,     woman,          1983,       1,       null,      6,       1,         PED_TYPE_GEN,      VOICE_GFD_DENISE,      VOICE_GFD_DENISE
+12647,   pubg2,              pubg2,               CIVMALE,      STAT_TOUGH_GUY,        man,            1000,       1,       man,       1,       4,         PED_TYPE_GEN,      VOICE_GEN_BBDYG1,    VOICE_GEN_BBDYG1
+# evangelion skins
+12648,   asuka,              asuka,               PLAYER1,      STAT_PLAYER,        player,          1983,       1,       null,      4,       3,         PED_TYPE_GEN,      VOICE_GEN_WFYSTEW,      VOICE_GEN_WFYSTEW
+12649,   rei,                rei,                 CIVFEMALE,    STAT_STREET_GIRL,     woman,          1983,       1,       null,      6,       1,         PED_TYPE_GEN,      VOICE_GEN_WFYSTEW,      VOICE_GEN_WFYSTEW
+# youtubers
+12650,    mell,              mell,               PLAYER1,      STAT_PLAYER,        player,          1983,       1,       null,      4,       3,         PED_TYPE_GEN,      VOICE_GNG_VLA3,    VOICE_GNG_VLA4
+# fortnite skins
+12660,   acuddle,            acuddle,             PLAYER1,      STAT_PLAYER,        player,          1983,       1,       null,      4,       3,         PED_TYPE_GEN,      VOICE_GEN_SBFYRI,      VOICE_GEN_SBFYRI
+12661,   vi,                 vi,                  PLAYER1,      STAT_PLAYER,        player,          1983,       1,       null,      4,       3,         PED_TYPE_GEN,      VOICE_GEN_SBFYRI,      VOICE_GEN_SBFYRI
+12662,   castor,             castor,              PLAYER1,      STAT_PLAYER,        player,          1983,       1,       null,      4,       3,         PED_TYPE_GEN,      VOICE_GNG_JIZZY,    VOICE_GNG_JIZZY
+12663,   crazy8,             crazy8,              PLAYER1,      STAT_PLAYER,        player,          1983,       1,       null,      4,       3,         PED_TYPE_GEN,      VOICE_EMG_LVPD1,    VOICE_EMG_LVPD1
+12664,   doggo,              doggo,               PLAYER1,      STAT_PLAYER,        player,          1983,       1,       null,      4,       3,         PED_TYPE_GEN,      VOICE_GNG_JIZZY,    VOICE_GNG_JIZZY
+12665,   fallenl,            fallenl,             PLAYER1,      STAT_PLAYER,        player,          1983,       1,       null,      4,       3,         PED_TYPE_GEN,      VOICE_EMG_LVPD1,    VOICE_EMG_LVPD1
+# quest characters
+12672,   bunny1,             bunny1,             CIVMALE,      STAT_STD_MISSION,        man,            1000,       1,       man,       1,       4,         PED_TYPE_GEN,      VOICE_GNG_TRUTH,    VOICE_GNG_TRUTH
+12673,   bunny2,             bunny1,             CIVMALE,      STAT_STD_MISSION,        man,            1000,       1,       man,       1,       4,         PED_TYPE_GEN,      VOICE_GNG_TRUTH,    VOICE_GNG_TRUTH
+12674,   bunny3,             bunny1,             CIVMALE,      STAT_STD_MISSION,        man,            1000,       1,       man,       1,       4,         PED_TYPE_GEN,      VOICE_GNG_TRUTH,    VOICE_GNG_TRUTH
+#
+12676,   alien,              alien,              CIVMALE,      STAT_STREET_GUY,        man,            1000,       1,       man,       1,       4,         PED_TYPE_GEN,      VOICE_GEN_NOVOICE,    VOICE_GEN_NOVOICE
+#
+14266,   a4,             a4,             CIVMALE,   STAT_STREET_GUY,    man,    1983,   1, null,    4,  3,         PED_TYPE_GEN,      VOICE_GEN_OMOST,    VOICE_GEN_OMOST
+14267,   acad,             acad,             CIVMALE,      STAT_STD_MISSION,        man,            1000,       1,       man,       1,       4,         PED_TYPE_GEN,      VOICE_GNG_TRUTH,    VOICE_GNG_TRUTH
+14268,   beast,             beast,             PLAYER1,      STAT_PLAYER,        player,          1983,       1,       null,      4,       3,         PED_TYPE_GANG,      VOICE_GNG_VLA3,      VOICE_GNG_VLA4
+14269,   brian,             brian,             CIVMALE, STAT_TRAMP_MALE, man, 1000,0, null,1,4,PED_TYPE_GEN,VOICE_GEN_SWMOTR4,VOICE_GEN_SWMOTR4
+14270,   dvid,             dvid,             CRIMINAL, STAT_CRIMINAL, man, 110F,0, man,4,4,PED_TYPE_GEN,VOICE_GEN_OMOST,VOICE_GEN_OMOST
+14271,   fil,             fil,             CIVMALE, STAT_STREET_GUY, man, 1FFF,0, null,1,4,PED_TYPE_GEN,VOICE_GNG_JIZZY, VOICE_GNG_JIZZY
+14272,   ghoul,             ghoul,             PLAYER1,      STAT_PLAYER,        player,          1983,       1,       null,      4,       3,         PED_TYPE_GEN,      VOICE_GEN_SBFYRI,      VOICE_GEN_SBFYRI
+14273,   homeland,             homeland,             PLAYER1,      STAT_PLAYER,        player,          1983,       1,       null,      4,       3,         PED_TYPE_GEN,      VOICE_GEN_SBFYRI,      VOICE_GEN_SBFYRI
+14274,   kosmos,             kosmos,             CIVMALE, STAT_STREET_GUY, man, 1FFF,0, null,1,4,PED_TYPE_GEN,VOICE_GNG_JIZZY, VOICE_GNG_JIZZY
+14275,   malfoy,             malfoy,             CIVMALE,   STAT_STREET_GUY,    man,    1983,   1, null,    4,  3,         PED_TYPE_GEN,      VOICE_GEN_OMOST,    VOICE_GEN_OMOST
+14276,   marshm,             marshm,             PLAYER1,      STAT_PLAYER,        player,          1983,       1,       null,      4,       3,         PED_TYPE_GEN,      VOICE_GEN_SBFYRI,      VOICE_GEN_SBFYRI
+14277,   meow,             meow,             PLAYER1,      STAT_PLAYER,        player,          1983,       1,       null,      4,       3,         PED_TYPE_GEN,      VOICE_GEN_SBFYRI,      VOICE_GEN_SBFYRI
+14278,   pchela,             pchela,             CIVMALE, STAT_STREET_GUY, man, 1FFF,0, null,1,4,PED_TYPE_GEN,VOICE_GNG_JIZZY, VOICE_GNG_JIZZY
+14279,   roger,             roger,             CIVMALE,      STAT_STD_MISSION,        man,            1000,       1,       man,       1,       4,         PED_TYPE_GEN,      VOICE_GNG_TRUTH,    VOICE_GNG_TRUTH
+14280,   lucif,              lucif,              PLAYER1,      STAT_PLAYER,        player,          1983,       1,       null,      4,       3,         PED_TYPE_GEN,      VOICE_GEN_SBFYRI,      VOICE_GEN_SBFYRI
+#
+15727,   bigbomj1,             CWMYHB2,             CIVMALE, STAT_TOUGH_GUY, man,1983,1, null,1,1,PED_TYPE_GEN,VOICE_GEN_CWMYHB2,VOICE_GEN_CWMYHB2
+15728,   bigbomj2,             SBMYTR3,             CIVMALE, STAT_TRAMP_MALE, man,1000,0, man,1,4,PED_TYPE_GEN,VOICE_GEN_SBMYTR3 ,VOICE_GEN_SBMYTR3 
+15729,   bigbomj3,             SWMOTR5,             CIVMALE, STAT_TRAMP_MALE, man, 1000,0, null,1,4,PED_TYPE_GEN,VOICE_GEN_SWMOTR5,VOICE_GEN_SWMOTR5
+#
+15400, arab1, arab1, PLAYER1,      STAT_PLAYER,        player,          1983,       1,       null,      4,       3,         PED_TYPE_GANG,      VOICE_GNG_VLA3,      VOICE_GNG_VLA4
+15401, arab2, arab2, CIVFEMALE, STAT_COWARD, sexywoman, 120C,1, man,6,4,PED_TYPE_GEN,VOICE_GEN_SOFYRI,VOICE_GEN_SOFYRI
+15624, arab3, arab3, PLAYER1,      STAT_PLAYER,        player,          1983,       1,       null,      4,       3,         PED_TYPE_GEN,      VOICE_GEN_SBFYRI,      VOICE_GEN_SBFYRI
+15402, bomj1, bomj1, CRIMINAL, STAT_CRIMINAL, man, 110F,0, man,4,4,PED_TYPE_GEN,VOICE_GEN_WMYDRUG ,VOICE_GEN_WMYDRUG 
+15403, bomj3, bomj3, CIVMALE, STAT_TRAMP_MALE, man,1000,0, man,1,4,PED_TYPE_GEN,VOICE_GEN_SWMOTR3,VOICE_GEN_SWMOTR3
+15404, maneken, maneken, CIVMALE, STAT_STD_MISSION, man, 1FFF, 0, null, 9,9, PED_TYPE_GEN,      VOICE_GEN_NOVOICE,    VOICE_GEN_NOVOICE
+15405, bukin, bukin, PLAYER1,      STAT_PLAYER,        player,          1983,       1,       null,      4,       3,         PED_TYPE_GEN,      VOICE_EMG_LVPD1,    VOICE_EMG_LVPD1
+15406, fenni, fenni, PLAYER1,      STAT_PLAYER,        player,          1983,       1,       null,      4,       3,         PED_TYPE_GEN,      VOICE_GNG_TRUTH,    VOICE_GNG_TRUTH
+15408, frank, frank, GANG1, STAT_GANG1, gang1, 110F,1, null,3,3,PED_TYPE_GANG,VOICE_GNG_BALLAS1 ,VOICE_GNG_BALLAS2 
+15409, ghost, ghost, PLAYER1,      STAT_PLAYER,        player,          1983,       1,       null,      4,       3,         PED_TYPE_GEN,      VOICE_EMG_LVPD1,    VOICE_EMG_LVPD1
+15410, iza, iza, PLAYER1,      STAT_PLAYER,        player,          1983,       1,       null,      4,       3,         PED_TYPE_GEN,      VOICE_GEN_OMOST,    VOICE_GEN_OMOST
+15411, katsu, katsu, PLAYER1,      STAT_PLAYER,        player,          1983,       1,       null,      4,       3,         PED_TYPE_GANG,      VOICE_GNG_VLA3,      VOICE_GNG_VLA4
+15412, maysonv, maysonv, PLAYER1,      STAT_PLAYER,        player,          1983,       1,       null,      4,       3,         PED_TYPE_GEN,      VOICE_GEN_SBFYRI,      VOICE_GEN_SBFYRI
+15413, michael, michael, CIVMALE, STAT_SUIT_GUY, man, 120C,1, null,4,0,PED_TYPE_GEN,VOICE_GEN_SOMYRI,VOICE_GEN_SOMYRI
+15441, pcon, pcon, PLAYER1,      STAT_PLAYER,        player,          1983,       1,       null,      4,       3,         PED_TYPE_GEN,      VOICE_GEN_OMOST,    VOICE_GEN_OMOST
+15450, phil, phil, CIVMALE, STAT_STD_MISSION, man, 1FFF, 0, null, 9,9, PED_TYPE_GEN,      VOICE_GEN_NOVOICE,    VOICE_GEN_NOVOICE
+15557, vercetti, vercetti, CIVMALE, STAT_TAXIDRIVER, man, 0040, 0, null, 2, 9, PED_TYPE_GEN, VOICE_GNG_JIZZY, VOICE_GNG_JIZZY
+15714, durov, durov, PLAYER1,      STAT_PLAYER,        player,          1983,       1,       null,      4,       3,         PED_TYPE_GEN,      VOICE_EMG_LVPD1,    VOICE_EMG_LVPD1
+15715, hitok, hitok, PLAYER1,      STAT_PLAYER,        player,          1983,       1,       null,      4,       3,         PED_TYPE_GEN,      VOICE_GNG_TRUTH,    VOICE_GNG_TRUTH
+15716, judge, judge, CIVMALE, STAT_SUIT_GUY, man,1000,1, man,1,4,PED_TYPE_GEN,VOICE_GEN_VWMYBJD ,VOICE_GEN_VWMYBJD 
+#15717, pcon2, pcon2, CIVMALE,   STAT_STREET_GUY,    man,    1983,   1, null,    4,  3,         PED_TYPE_GEN,      VOICE_GEN_OMOST,    VOICE_GEN_OMOST 
+15718, sndk, sndk, PLAYER1,      STAT_PLAYER,        player,          1983,       1,       null,      4,       3,         PED_TYPE_GEN,      VOICE_GEN_SBFYRI,      VOICE_GEN_SBFYRI
+#
+15577,   antoha,               antoha,              PLAYER1,      STAT_PLAYER,        player,          1983,       1,       null,      4,       3,         PED_TYPE_GEN,      VOICE_GEN_OMOST,    VOICE_GEN_OMOST
+15578,   aqua,                 aqua,                PLAYER1,      STAT_PLAYER,        player,          1983,       1,       null,      4,       3,         PED_TYPE_GEN,      VOICE_GEN_BBDYG1,    VOICE_GEN_BBDYG1
+15579,   beetlej,              beetlej,             PLAYER1,      STAT_PLAYER,        player,          1983,       1,       null,      4,       3,         PED_TYPE_GEN,      VOICE_GNG_TRUTH,    VOICE_GNG_TRUTH
+15588,   csgo,                 csgo,                PLAYER1,      STAT_PLAYER,        player,          1983,       1,       null,      4,       3,         PED_TYPE_GEN,      VOICE_GEN_BBDYG1,    VOICE_GEN_BBDYG1
+15589,   csparrow,             csparrow,            PLAYER1,      STAT_PLAYER,        player,          1983,       1,       null,      4,       3,         PED_TYPE_GEN,      VOICE_GEN_SBFYRI,      VOICE_GEN_SBFYRI
+15593,   denji,                denji,               PLAYER1,      STAT_PLAYER,        player,          1983,       1,       null,      4,       3,         PED_TYPE_GEN,      VOICE_GEN_OMOST,    VOICE_GEN_OMOST
+15596,   dpool,                dpool,               PLAYER1,      STAT_PLAYER,        player,          1983,       1,       null,      4,       3,         PED_TYPE_GEN,      VOICE_GNG_TRUTH,    VOICE_GNG_TRUTH
+15598,   dvoreck,              dvoreck,             CIVMALE, STAT_OLD_GUY, man, 1003, 0, null, 1, 2, PED_TYPE_GEN, VOICE_GEN_SWMYRI, VOICE_GEN_SWMYRI
+15600,   edit,                 edit,                CIVFEMALE, STAT_COWARD, jogwoman, 1000, 0, beach, 9, 9, PED_TYPE_GEN, VOICE_GEN_HFYBE, VOICE_GEN_HFYBE
+15601,   fester,               fester,              CIVMALE, STAT_COWARD, man, 170F, 1, null, 1, 2, PED_TYPE_GEN, VOICE_GNG_CESAR, VOICE_GNG_CESAR
+15603,   ghost_bomj,           ghost_bomj,          CIVMALE, STAT_TRAMP_MALE, man,1000,0, man,1,4,PED_TYPE_GEN,VOICE_GEN_BMOTR1,VOICE_GEN_BMOTR1
+15604,   ghost_cj,             ghost_cj,            CIVMALE, STAT_TRAMP_MALE, man,1000,0, man,1,4,PED_TYPE_GEN,VOICE_GEN_BMOTR1,VOICE_GEN_BMOTR1
+15606,   ghost_ponchik,        ghost_ponchik,       GANG2, STAT_GANG2, gang2, 110F,1, null,5,5,PED_TYPE_GANG,VOICE_GNG_FAM1 ,VOICE_GNG_FAM2 
+15611,   ghost_stantz,         ghost_stantz,        CIVMALE, STAT_TOUGH_GUY, man,1433,1, null,6,6,PED_TYPE_GEN,VOICE_GEN_WMYMECH ,VOICE_GEN_WMYMECH 
+15612,   hyde,                 hyde,                CIVMALE, STAT_STD_MISSION, man, 1FFF, 0, null, 9,9, PED_TYPE_GEN,      VOICE_GEN_NOVOICE,    VOICE_GEN_NOVOICE
+15613,   jewish,               jewish,              CIVMALE, STAT_SUIT_GUY, man,1000,1, man,1,4,PED_TYPE_GEN,VOICE_GEN_VWMYBJD ,VOICE_GEN_VWMYBJD 
+15614,   kolyan,               kolyan,              PLAYER1,      STAT_PLAYER,        player,          1983,       1,       null,      4,       3,         PED_TYPE_GANG,      VOICE_GNG_VLA3,      VOICE_GNG_VLA4
+15615,   krug,                 krug,                PLAYER1,      STAT_PLAYER,        player,          1983,       1,       null,      4,       3,         PED_TYPE_GEN,      VOICE_GEN_BBDYG1,    VOICE_GEN_BBDYG1
+15616,   kult,                 kult,                CIVMALE, STAT_SENSIBLE_GUY, man,1000,1, man,1,4,PED_TYPE_GEN,VOICE_GEN_BMOST ,VOICE_GEN_BMOST 
+15617,   larisa,               larisa,              CIVFEMALE, STAT_SUIT_GIRL, busywoman, 120C,0, man,4,0,PED_TYPE_GEN,VOICE_GEN_SOFYBU,VOICE_GEN_SOFYBU
+15625,   lego,                 lego,                CIVMALE, STAT_STD_MISSION, man, 1FFF, 0, null, 9,9, PED_TYPE_GEN,      VOICE_GEN_NOVOICE,    VOICE_GEN_NOVOICE
+15707,   leshen,               leshen,              CIVMALE, STAT_STD_MISSION, man, 1FFF, 0, null, 9,9, PED_TYPE_GEN,      VOICE_GEN_NOVOICE,    VOICE_GEN_NOVOICE
+15709,   makima,               makima,              PLAYER1,      STAT_PLAYER,        player,          1983,       1,       null,      4,       3,         PED_TYPE_GEN, VOICE_GEN_WFYSTEW, VOICE_GEN_WFYSTEW
+15712,   nsparrow,             nsparrow,            PLAYER1,      STAT_PLAYER,        player,          1983,       1,       null,      4,       3,         PED_TYPE_GEN,      VOICE_GEN_OMOST,    VOICE_GEN_OMOST
+15717,   power,                power,               PLAYER1,      STAT_PLAYER,        player,          1983,       1,       null,      4,       3,         PED_TYPE_GEN,      VOICE_GEN_WFYSTEW,      VOICE_GEN_WFYSTEW
+15719,   sherf,                sherf,               COP, STAT_COP, swat, 1FFF, 0, null, 9,9, PED_TYPE_EMG,VOICE_EMG_RCOP1 ,VOICE_EMG_RCOP4
+15726,   slender2,             slender2,            CIVMALE, STAT_STD_MISSION, man, 1FFF, 0, null, 9,9, PED_TYPE_GEN,      VOICE_GEN_NOVOICE,    VOICE_GEN_NOVOICE
+15732,   swensd,               swensd,              PLAYER1,      STAT_PLAYER,        player,          1983,       1,       null,      4,       3,         PED_TYPE_GEN, VOICE_GEN_CWFYFR1, VOICE_GEN_CWFYFR1
+15867,   vovan,                vovan,               PLAYER1,      STAT_PLAYER,        player,          1983,       1,       null,      4,       3,         PED_TYPE_GEN,      VOICE_GNG_TRUTH,    VOICE_GNG_TRUTH
+15868,   wolvr,                wolvr,               PLAYER1,      STAT_PLAYER,        player,          1983,       1,       null,      4,       3,         PED_TYPE_GEN,      VOICE_GEN_SBFYRI,      VOICE_GEN_SBFYRI
+#
+15958,    reedus,               reedus,              PLAYER1,      STAT_PLAYER,        player,          1983,       1,       null,      4,       3,         PED_TYPE_GEN,      VOICE_GEN_SBFYRI,      VOICE_GEN_SBFYRI
+# the nightmare before christmas
+11786,    shock,               shock,               CIVMALE,   STAT_STREET_GUY,    man,    1983,   1, null,    4,  3,         PED_TYPE_GEN,      VOICE_GEN_OMOST,    VOICE_GEN_OMOST
+11787,    sclaus,              sclaus,              CIVMALE,   STAT_STREET_GUY,    man,    1983,   1, null,    4,  3,         PED_TYPE_GEN,      VOICE_GEN_OMOST,    VOICE_GEN_OMOST
+11789,    barrel,              barrel,              CIVMALE,   STAT_STREET_GUY,    man,    1983,   1, null,    4,  3,         PED_TYPE_GEN,      VOICE_GEN_OMOST,    VOICE_GEN_OMOST
+11790,    lock,                lock,                CIVMALE,   STAT_STREET_GUY,    man,    1983,   1, null,    4,  3,         PED_TYPE_GEN,      VOICE_GEN_OMOST,    VOICE_GEN_OMOST
+11791,    jackx,               jackx,               CIVMALE,   STAT_STREET_GUY,    man,    1983,   1, null,    4,  3,         PED_TYPE_GEN,      VOICE_GEN_OMOST,    VOICE_GEN_OMOST
+11792,    jackskel,            jackskel,            CIVMALE,   STAT_STREET_GUY,    man,    1983,   1, null,    4,  3,         PED_TYPE_GEN,      VOICE_GEN_OMOST,    VOICE_GEN_OMOST
+11793,    sally,               sally,               CIVFEMALE, STAT_STREET_GIRL, woman, 1003,1, null,4,7,PED_TYPE_GEN,VOICE_GEN_SOFYST,VOICE_GEN_SOFYST
+11813,    mummy_boi,           mummy_boi,           CIVMALE,   STAT_STREET_GUY,    man,    1983,   1, null,    4,  3,         PED_TYPE_GEN,      VOICE_GEN_OMOST,    VOICE_GEN_OMOST
+11814,    ogboogie,            ogboogie,            CIVMALE,   STAT_STREET_GUY,    man,    1983,   1, null,    4,  3,         PED_TYPE_GEN,      VOICE_GEN_OMOST,    VOICE_GEN_OMOST
+12061,    behemoth,            behemoth,            CIVMALE,   STAT_STREET_GUY,    man,    1983,   1, null,    4,  3,         PED_TYPE_GEN,      VOICE_GEN_OMOST,    VOICE_GEN_OMOST
+12062,    cursekid,            cursekid,            CIVMALE,   STAT_STREET_GUY,    man,    1983,   1, null,    4,  3,         PED_TYPE_GEN,      VOICE_GEN_OMOST,    VOICE_GEN_OMOST
+12063,    xmsmayor,            xmsmayor,            CIVMALE,   STAT_STREET_GUY,    man,    1983,   1, null,    4,  3,         PED_TYPE_GEN,      VOICE_GEN_OMOST,    VOICE_GEN_OMOST
+# dota 2
+11795,    antim,               antim,               GANG8, STAT_GANG8, gang2, 110F,1, man,0,0,PED_TYPE_GANG,VOICE_GNG_VLA3 ,VOICE_GNG_VLA4 
+11796,    facevoid,            facevoid,            PLAYER1,      STAT_PLAYER,        player,          1983,       1,       null,      4,       3,         PED_TYPE_GANG,VOICE_GNG_LSV5 ,VOICE_GNG_LSV5 
+11797,    phantoml,            phantoml,            GANG1, STAT_GANG1, gang1, 110F,1, null,3,3,PED_TYPE_GANG,VOICE_GNG_BALLAS5 ,VOICE_GNG_BALLAS5 
+11798,    pudge,               pudge,               CIVMALE, STAT_SENSIBLE_GUY, fatman, 0, 0, fatman, 1,4, PED_TYPE_GANG, VOICE_GNG_BIG_BEAR, VOICE_GNG_BIG_BEAR
+11799,    ringm,               ringm,               PLAYER1,      STAT_PLAYER,        player,          1983,       1,       null,      4,       3,         PED_TYPE_GEN,      VOICE_GEN_SBFYRI,      VOICE_GEN_SBFYRI
+11801,    voker,               voker,               PLAYER1,      STAT_PLAYER,        player,          1983,       1,       null,      4,       3,         PED_TYPE_GEN,      VOICE_GEN_SBFYRI,      VOICE_GEN_SBFYRI
+11802,    wking,               wking,               PLAYER1,      STAT_PLAYER,        player,          1983,       1,       null,      4,       3,         PED_TYPE_GEN,      VOICE_GEN_SBFYRI,      VOICE_GEN_SBFYRI
+11803,    amf,                 amf,                 PLAYER1,      STAT_PLAYER,        player,          1983,       1,       null,      4,       3,         PED_TYPE_GEN,      VOICE_GEN_SBFYRI,      VOICE_GEN_SBFYRI
+11804,    lanaya,              lanaya,              PLAYER1,      STAT_PLAYER,        player,          1983,       1,       null,      4,       3,         PED_TYPE_GEN,      VOICE_GEN_SBFYRI,      VOICE_GEN_SBFYRI
+11805,    marci,               marci,               PLAYER1,      STAT_PLAYER,        player,          1983,       1,       null,      4,       3,         PED_TYPE_GEN,      VOICE_GEN_SBFYRI,      VOICE_GEN_SBFYRI
+11807,    rilai,               rilai,               PLAYER1,      STAT_PLAYER,        player,          1983,       1,       null,      4,       3,         PED_TYPE_GEN,      VOICE_GEN_SBFYRI,      VOICE_GEN_SBFYRI
+11812,    traxa,               traxa,               PLAYER1,      STAT_PLAYER,        player,          1983,       1,       null,      4,       3,         PED_TYPE_GEN,      VOICE_GEN_SBFYRI,      VOICE_GEN_SBFYRI
+#
+11808,    joke,                joke,               PLAYER1,      STAT_PLAYER,        player,          1983,       1,       null,      4,       3,         PED_TYPE_GEN,      VOICE_GEN_SBFYRI,      VOICE_GEN_SBFYRI
+11809,    supa,                supa,               PLAYER1,      STAT_PLAYER,        player,          1983,       1,       null,      4,       3,         PED_TYPE_GEN,      VOICE_GEN_SBFYRI,      VOICE_GEN_SBFYRI
+#
+12151,     invisible,           invisible,              CIVMALE,      STAT_SUIT_GUY,        man,            1000,       1,       man,       1,       4,         PED_TYPE_GEN,      VOICE_GEN_VWMYBJD,    VOICE_GEN_VWMYBJD
+#
+12171,   harly,              harly,               PLAYER1,      STAT_PLAYER,        player,          1983,       1,       null,      4,       3,         PED_TYPE_GEN,      VOICE_GFD_DENISE,      VOICE_GFD_DENISE
+#
+12176,     rab_m,           rab_m,              CIVMALE, STAT_SENSIBLE_GUY, man, 0, 0, man, 1,4, PED_TYPE_GEN, VOICE_GEN_MALE01, VOICE_GEN_MALE01
+12177,    rab_w,            rab_w,               CIVFEMALE, STAT_STREET_GIRL, woman,1983,1, null,6,1,PED_TYPE_GEN,VOICE_GEN_HFYST ,VOICE_GEN_HFYST 
+12178,    farmer,               farmer,               PLAYER1,      STAT_PLAYER,        player,          1983,       1,       null,      4,       3,         PED_TYPE_GEN,      VOICE_GEN_OMOST,    VOICE_GEN_OMOST
+#
+12152, hika1,    hika1,   CIVFEMALE,  STAT_PLAYER,    player,     1983,   1,  null,   4,  3,  PED_TYPE_GFD,   VOICE_GFD_KATIE,    VOICE_GFD_KATIE
+12153, hika2,    hika2,   CIVFEMALE,  STAT_PLAYER,    player,     1983,   1,  null,   4,  3,  PED_TYPE_GFD,   VOICE_GFD_KATIE,    VOICE_GFD_KATIE
+12154, hika3,    hika3,   CIVFEMALE,  STAT_PLAYER,    player,     1983,   1,  null,   4,  3,  PED_TYPE_GFD,   VOICE_GFD_KATIE,    VOICE_GFD_KATIE
+12155, hika4,    hika4,   CIVFEMALE,  STAT_PLAYER,    player,     1983,   1,  null,   4,  3,  PED_TYPE_GFD,   VOICE_GFD_KATIE,    VOICE_GFD_KATIE
+12156, hika5,    hika5,   CIVFEMALE,  STAT_PLAYER,    player,     1983,   1,  null,   4,  3,  PED_TYPE_GFD,   VOICE_GFD_KATIE,    VOICE_GFD_KATIE
+#
+12157, babka1,    babka1,   CIVFEMALE,  STAT_PLAYER,    player,     1983,   1,  null,   4,  3,  PED_TYPE_GFD,   VOICE_GFD_KATIE,    VOICE_GFD_KATIE
+12158, babka2,    babka2,   CIVFEMALE,  STAT_PLAYER,    player,     1983,   1,  null,   4,  3,  PED_TYPE_GFD,   VOICE_GFD_KATIE,    VOICE_GFD_KATIE
+12159, depo,    depo,   CRIMINAL, STAT_CRIMINAL, man, 110F,0, man,4,4,PED_TYPE_GEN,VOICE_GEN_OMOST,VOICE_GEN_OMOST
+12160, diva,    diva,   CIVFEMALE,  STAT_PLAYER,    player,     1983,   1,  null,   4,  3,  PED_TYPE_GFD,   VOICE_GFD_KATIE,    VOICE_GFD_KATIE
+12161, dtrump,    dtrump,    PLAYER1,      STAT_PLAYER,        player,          1983,       1,       null,      4,       3,         PED_TYPE_GEN,      VOICE_GNG_TRUTH,    VOICE_GNG_TRUTH
+12162, face,    face,   CIVMALE, STAT_STREET_GUY, man, 1983, 1, null, 4, 3, PED_TYPE_GEN, VOICE_GEN_OMOST, VOICE_GEN_OMOST
+12163, grib1,    grib1,   CIVFEMALE,  STAT_PLAYER,    player,     1983,   1,  null,   4,  3,  PED_TYPE_GFD,   VOICE_GFD_KATIE,    VOICE_GFD_KATIE
+12164, grib2,    grib2,   CIVFEMALE,  STAT_PLAYER,    player,     1983,   1,  null,   4,  3,  PED_TYPE_GFD,   VOICE_GFD_KATIE,    VOICE_GFD_KATIE
+12165, molly,    molly,   CIVMALE, STAT_STREET_GUY, man, 1983, 1, null, 4, 3, PED_TYPE_GEN, VOICE_GEN_OMOST, VOICE_GEN_OMOST
+12166, nagiev,    nagiev,   CIVFEMALE,  STAT_PLAYER,    player,     1983,   1,  null,   4,  3,  PED_TYPE_GFD,   VOICE_GFD_KATIE,    VOICE_GFD_KATIE
+12167, nvasil,    nvasil,   CIVFEMALE,  STAT_PLAYER,    player,     1983,   1,  null,   4,  3,  PED_TYPE_GFD,   VOICE_GFD_KATIE,    VOICE_GFD_KATIE
+12168, rabitgrl,    rabitgrl,   CIVFEMALE, STAT_SUIT_GIRL, busywoman, 120C,0, man,4,0,PED_TYPE_GEN,VOICE_GEN_SOFYBU,VOICE_GEN_SOFYBU
+12169, slavik,    slavik,   CIVFEMALE,  STAT_PLAYER,    player,     1983,   1,  null,   4,  3,  PED_TYPE_GFD,   VOICE_GFD_KATIE,    VOICE_GFD_KATIE
+12182, pharaoh,    pharaoh,   CRIMINAL, STAT_CRIMINAL, man, 110F,0, man,4,4,PED_TYPE_GEN,VOICE_GEN_OMOST,VOICE_GEN_OMOST
+12183, mercy,    mercy,   CIVFEMALE,  STAT_PLAYER,    player,     1983,   1,  null,   4,  3,  PED_TYPE_GFD,   VOICE_GFD_KATIE,    VOICE_GFD_KATIE
+12184, fox,    fox,   CIVMALE, STAT_STD_MISSION, man, 1FFF, 0, null, 9,9, PED_TYPE_GEN,      VOICE_GEN_NOVOICE,    VOICE_GEN_NOVOICE
+12185, judy,    judy,   CIVMALE, STAT_STD_MISSION, man, 1FFF, 0, null, 9,9, PED_TYPE_GEN,      VOICE_GEN_NOVOICE,    VOICE_GEN_NOVOICE
+12186, schlg,    schlg,   PROSTITUTE, STAT_PROSTITUTE, pro,1000,1, man,1,4,PED_TYPE_GEN,VOICE_GEN_WFYPRO,VOICE_GEN_WFYPRO
+12187, schlm,    schlm,   CIVMALE, STAT_SENSIBLE_GUY, man, 1000, 1, man, 1, 4, PED_TYPE_GFD, VOICE_GFD_WMYPIZZ, VOICE_GFD_WMYPIZZ
+12188, larin,    larin,   GANG6, STAT_GANG6, man, 110F, 1, man, 2, 2, PED_TYPE_GANG, VOICE_GNG_VMAFF4, VOICE_GNG_VMAFF4
+12392, armyponch,    armyponch,   COP, STAT_COP, swat, 1FFF, 0, null, 9, 9, PED_TYPE_EMG, VOICE_EMG_ARMY1, VOICE_EMG_ARMY3
+#
+12395,    ghrid,               ghrid,               CIVMALE,   STAT_PLAYER,    player,     1983,   1,  null,   4,  3,  PED_TYPE_GFD,   VOICE_GFD_KATIE,    VOICE_GFD_KATIE
+#
+13945,   footbal,             footbal,             CIVMALE,      STAT_STD_MISSION,        mine_anim,            1000,       1,       mine_anim,       1,       4,         PED_TYPE_GEN,      VOICE_GNG_TRUTH,    VOICE_GNG_TRUTH
+13946,   minefarmer,          minefarmer,          CIVMALE,      STAT_STD_MISSION,        mine_anim,            1000,       1,       mine_anim,       1,       4,         PED_TYPE_GEN,      VOICE_GNG_TRUTH,    VOICE_GNG_TRUTH
+13947,   villager,            villager,            CIVMALE,      STAT_STD_MISSION,        mine_anim,            1000,       1,       mine_anim,       1,       4,         PED_TYPE_GEN,      VOICE_GNG_TRUTH,    VOICE_GNG_TRUTH
+13956,   minechiken,          minechiken,          CIVMALE, STAT_STD_MISSION, man, 1FFF, 0, null, 9,9, PED_TYPE_SPC,VOICE_GNG_TRUTH ,VOICE_GNG_TRUTH
+14003,   minechiken_big,      minechiken,          CIVMALE, STAT_STD_MISSION, man, 1FFF, 0, null, 9,9, PED_TYPE_SPC,VOICE_GNG_TRUTH ,VOICE_GNG_TRUTH
+#
+14048,  rollerm,    rollerm,    CIVMALE,    STAT_SKATER,    skatef,  1000,   0,  skatef,  9,  9,  PED_TYPE_GEN,   VOICE_GNG_LSV3,     VOICE_GNG_LSV3
+14049,  rollerw,    rollerw,    CIVFEMALE,  STAT_SKATER,    skatef,  1000,   1,  skatef,  1,  4,  PED_TYPE_GEN,   VOICE_GEN_HFYST,    VOICE_GEN_HFYST
+#
+14050,    prcatg,               prcatg,               GANG2, STAT_GANG2, gang2, 110F,1, null,5,5,PED_TYPE_GANG,VOICE_GNG_FAM5 ,VOICE_GNG_FAM5 
+14051,    pkiberg,              pkiberg,              CIVFEMALE, STAT_STREET_GIRL, woman, 1FFF,0, null,0,3,PED_TYPE_GFD,VOICE_GFD_DENISE ,VOICE_GFD_DENISE 
+14052,    pscm,                 pscm,                 CIVMALE, STAT_GEEK_GUY, man,1000,1, man,2,6,PED_TYPE_GEN,VOICE_GEN_WMYBP ,VOICE_GEN_WMYBP 
+14053,    ppanam,               ppanam,               CIVFEMALE, STAT_COWARD, jogwoman,1000,0, beach,9,9,PED_TYPE_GEN,VOICE_GEN_WFYJG ,VOICE_GEN_WFYJG 
+14054,    ppunk,                ppunk,                CRIMINAL, STAT_CRIMINAL, man, 110F,1, man,2,6,PED_TYPE_GEN,VOICE_GEN_WMYCR ,VOICE_GEN_WMYCR 
+14055,    pbiker,               pbiker,               PLAYER1,      STAT_PLAYER,        player,          1983,       1,       null,      4,       3,         PED_TYPE_GEN,      VOICE_GEN_OMOST,    VOICE_GEN_OMOST
+14056,    photdog,              photdog,              CIVMALE, STAT_SENSIBLE_GUY, man,1000,1, man,1,4,PED_TYPE_GFD,VOICE_GFD_WMYBELL ,VOICE_GFD_WMYBELL 
+14057,    pcat,                 pcat,                 CIVFEMALE, STAT_SUIT_GIRL, busywoman, 120C,1, man,3,7,PED_TYPE_GEN,VOICE_GEN_BFYBU ,VOICE_GEN_BFYBU 
+14082,    ksam,                 ksam,                 GANG8, STAT_GANG8, gang2, 110F,1, man,0,0,PED_TYPE_GANG,VOICE_GNG_VLA3 ,VOICE_GNG_VLA4 
+14083,    panm,                 panm,                 PLAYER1,      STAT_PLAYER,        player,          1983,       1,       null,      4,       3,         PED_TYPE_GEN,      VOICE_GEN_OMOST,    VOICE_GEN_OMOST
+14084,    rbcat,                rbcat,                CIVMALE, STAT_STD_MISSION, man, 1FFF, 0, null, 9,9, PED_TYPE_SPC,VOICE_GNG_TRUTH ,VOICE_GNG_TRUTH
+14085,    robo_chicken,         robo_chicken,         CIVMALE, STAT_STD_MISSION, man, 1FFF, 0, null, 9,9, PED_TYPE_SPC,VOICE_GNG_TRUTH ,VOICE_GNG_TRUTH
+#
+15164, armybomj1, army, COP, STAT_COP, swat, 1FFF, 0, null, 9,9, PED_TYPE_EMG, VOICE_EMG_ARMY1 ,VOICE_EMG_ARMY3 								
+15165, armybomj2, army, COP, STAT_COP, swat, 1FFF, 0, null, 9,9, PED_TYPE_EMG, VOICE_EMG_ARMY1 ,VOICE_EMG_ARMY3
+15166,    bsty,              bsty,              CIVMALE,   STAT_PLAYER,    player,     1983,   1,  null,   4,  3,  PED_TYPE_GFD,   VOICE_GFD_KATIE,    VOICE_GFD_KATIE
+#
+15176,    sahur,             sahur,              CIVMALE, STAT_STD_MISSION, man, 1FFF, 0, null, 9,9, PED_TYPE_GEN,      VOICE_GEN_NOVOICE,    VOICE_GEN_NOVOICE
+15177,    shpio,             shpio,              CIVMALE, STAT_STD_MISSION, man, 1FFF, 0, null, 9,9, PED_TYPE_GEN,      VOICE_GEN_NOVOICE,    VOICE_GEN_NOVOICE
+#
+6791,    zomfat,             zomfat,             CIVMALE, STAT_STD_MISSION, man, 1FFF, 0, null, 9,9, PED_TYPE_GEN,      VOICE_GEN_NOVOICE,    VOICE_GEN_NOVOICE
+6792,    zomskin,            zomskin,            CIVMALE, STAT_STD_MISSION, man, 1FFF, 0, null, 9,9, PED_TYPE_GEN,      VOICE_GEN_NOVOICE,    VOICE_GEN_NOVOICE
+12032,    devilboss,         devilboss,          CIVMALE, STAT_STD_MISSION, man, 1FFF, 0, null, 9,9, PED_TYPE_GEN,      VOICE_GEN_NOVOICE,    VOICE_GEN_NOVOICE
+15179,    golem,             golem,              CIVMALE, STAT_STD_MISSION, man, 1FFF, 0, null, 9,9, PED_TYPE_GEN,      VOICE_GEN_NOVOICE,    VOICE_GEN_NOVOICE
+#
+6793,    davydj,             davydj,             CIVMALE,   STAT_PLAYER,    player,     1983,   1,  null,   4,  3, PED_TYPE_GEN,VOICE_GEN_WMYBOX ,VOICE_GEN_WMYBOX 
+6794,    pir3,               pir3,               CIVFEMALE, STAT_COWARD, woman,1000,0, beach,1,4,PED_TYPE_GEN,VOICE_GEN_WFYBE ,VOICE_GEN_WFYBE 
+6795,    pirat,              pirat,              CRIMINAL, STAT_CRIMINAL, gang1, 110F,1, man,5,0,PED_TYPE_GEN,VOICE_GEN_SBMYCR,VOICE_GEN_SBMYCR
+6796,    pirm1,              pirm1,              CIVMALE, STAT_OLD_GUY, man, 1003,0, null,10,2,PED_TYPE_GEN,VOICE_GEN_WMYGAR ,VOICE_GEN_WMYGAR 
+6797,    pirw2,              pirw2,              CIVFEMALE, STAT_GEEK_GIRL, sexywoman,1000,1, null,6,4,PED_TYPE_GEN,VOICE_GEN_WFYSTEW ,VOICE_GEN_WFYSTEW 
+6798,    fpirat,             fpirat,             CIVFEMALE, STAT_COWARD, woman, 120C,0, null,7,4,PED_TYPE_GEN,VOICE_GEN_SBFYRI,VOICE_GEN_SBFYRI
+#
+12033,    icec,          icec,                   GANG1, STAT_GANG1, gang1, 110F,1, null,3,3,PED_TYPE_GANG,VOICE_GNG_BALLAS1 ,VOICE_GNG_BALLAS2 
+12034,    biggi,         biggi,                  CIVMALE,   STAT_PLAYER,    player,     1983,   1,  null,   4,  3,  PED_TYPE_SPC, VOICE_GNG_SMOKE , VOICE_GNG_SMOKE
+12035,    tupak,         tupak,                  CIVMALE,   STAT_PLAYER,    player,     1983,   1,  null,   4,  3,  PED_TYPE_SPC, VOICE_GNG_SWEET , VOICE_GNG_SWEET
+12036,    locd,          locd,                   CIVMALE,   STAT_PLAYER,    player,     1983,   1,  null,   4,  3,  PED_TYPE_GANG,VOICE_GNG_FAM1 ,VOICE_GNG_FAM2 
+12037,    arocky,        arocky,                 CIVMALE,   STAT_PLAYER,    player,     1983,   1,  null,   4,  3,  PED_TYPE_GANG,VOICE_GNG_FAM5 ,VOICE_GNG_FAM5 
+12038,    corleone,      corleone,               CIVMALE,   STAT_PLAYER,    player,     1983,   1,  null,   4,  3,  PED_TYPE_GANG,VOICE_GNG_MAFBOSS ,VOICE_GNG_MAFBOSS 
+12039,    alt,           alt,                    CIVMALE,   STAT_PLAYER,    player,     1983,   1,  null,   4,  3,  PED_TYPE_GEN,VOICE_GFD_CATALINA, VOICE_GFD_CATALINA
+12042,    xtentacion,    xtentacion,             CIVMALE,   STAT_PLAYER,    player,     1983,   1,  null,   4,  3,  PED_TYPE_GANG,VOICE_GNG_FAM3 ,VOICE_GNG_FAM4 
+12043,    treho,         treho,                  GANG8, STAT_GANG8, gang2, 110F,1, man,0,0,PED_TYPE_GANG,VOICE_GNG_VLA3 ,VOICE_GNG_VLA4 
+12044,    snoop,         snoop,                  CIVMALE,   STAT_PLAYER,    player,     1983,   1,  null,   4,  3,  PED_TYPE_GANG,VOICE_GNG_BALLAS5 ,VOICE_GNG_BALLAS5 
+12045,    diedn,         diedn,                  GANG3, STAT_GANG3, gang1, 110F,1, null,9,2,PED_TYPE_GANG,VOICE_GNG_LSV5 ,VOICE_GNG_LSV5 
+12046,    yoland,        yoland,                CIVFEMALE, STAT_SUIT_GIRL, sexywoman, 1FFF,0, null,0,3,PED_TYPE_GFD,VOICE_GFD_KATIE ,VOICE_GFD_KATIE 
+#
+12040,    lfam1,         fam1,                   CIVMALE,   STAT_PLAYER,    player,     1983,   1,  null,   4,  3,  PED_TYPE_GANG,VOICE_GNG_FAM1 ,VOICE_GNG_FAM2 
+12041,    llsv1,         lsv1,                   CIVMALE,   STAT_PLAYER,    player,     1983,   1,  null,   4,  3,  PED_TYPE_GANG,VOICE_GNG_LSV1 ,VOICE_GNG_LSV2
+#
+12047,    skuf,             skuf,              CIVMALE,   STAT_PLAYER,    player,     1983,   1,  null,   4,  3,  PED_TYPE_GEN,VOICE_GNG_TORENO, VOICE_GNG_TORENO
+#
+12610,    jan,             jan,              CIVMALE,   STAT_PLAYER,    player,     1983,   1,  null,   4,  3,  PED_TYPE_GEN,VOICE_GNG_TORENO, VOICE_GNG_TORENO
+#
+12778,    yoda1,             yoda1,              CIVMALE, STAT_STD_MISSION, man, 1FFF, 0, null, 9,9, PED_TYPE_SPC,VOICE_GEN_NOVOICE ,VOICE_GEN_NOVOICE
+12779,    warh1,             warh1,              CIVMALE,   STAT_PLAYER,    player,     1983,   1,  null,   4,  3,  PED_TYPE_GEN,VOICE_GEN_BMYBOUN, VOICE_GEN_BMYBOUN
+12780,    stray,             stray,              CIVMALE,   STAT_PLAYER,    stray,     1983,   1,  stray,   4,  3,  PED_TYPE_GEN,VOICE_GEN_NOVOICE, VOICE_GEN_NOVOICE
+12781,    spcfarm,             spcfarm,              CIVMALE,   STAT_PLAYER,    player,     1983,   1,  null,   4,  3,  PED_TYPE_GEN,VOICE_GNG_TRUTH, VOICE_GNG_TRUTH
+12782,    grut,             grut,              CIVMALE, STAT_STD_MISSION, man, 1FFF, 0, null, 9,9, PED_TYPE_GEN,      VOICE_GEN_NOVOICE,    VOICE_GEN_NOVOICE
+12784,    doom,             doom,              CIVMALE,   STAT_PLAYER,    player,     1983,   1,  null,   4,  3,  PED_TYPE_GEN,VOICE_GEN_DWMYLC1,VOICE_GEN_DWMYLC2
+12785,    cosmom,             cosmom,              COP, STAT_COP, swat, 1FFF, 0, null, 9,9, PED_TYPE_EMG,VOICE_EMG_SWAT1 ,VOICE_EMG_SWAT6
+12786,    chik,             chik,              CIVFEMALE,   STAT_PLAYER,    player,     1983,   1,  null,   4,  3,  PED_TYPE_GFD,      VOICE_GFD_KATIE,    VOICE_GFD_KATIE
+12787,    bomjr,             bomjr,              CIVMALE,   STAT_PLAYER,    player,     1983,   1,  null,   4,  3,  PED_TYPE_GEN,VOICE_GEN_CWMYHB2,VOICE_GEN_CWMYHB2
+12788,    bomjb,             bomjb,              CIVMALE,   STAT_PLAYER,    player,     1983,   1,  null,   4,  3,  PED_TYPE_GEN,VOICE_GEN_WMOTR1,VOICE_GEN_WMOTR1
+#
+15530,    ant,             ant,              CIVMALE,   STAT_PLAYER,    player,     1983,   1,  null,   4,  3,  PED_TYPE_EMG,VOICE_EMG_LAPD1 ,VOICE_EMG_LAPD8 
+15531,    antxs,             antxs,              CIVMALE,   STAT_PLAYER,    player,     1983,   1,  null,   4,  3,  PED_TYPE_EMG,VOICE_EMG_LAPD1 ,VOICE_EMG_LAPD8 
+15532,    mary,             mary,              CIVFEMALE,  STAT_SKATER,    skatef,  1000,   1,  skatef,  1,  4, PED_TYPE_GFD,VOICE_GFD_MILLIE ,VOICE_GFD_MILLIE 
+15533,    prbos,             prbos,              CIVMALE,   STAT_PLAYER,    player,     1983,   1,  null,   4,  3,  PED_TYPE_GEN,VOICE_GEN_NOVOICE, VOICE_GEN_NOVOICE
+15534,    prish,             prish,              CIVMALE,   STAT_PLAYER,    player,     1983,   1,  null,   4,  3,  PED_TYPE_GEN,VOICE_GEN_NOVOICE, VOICE_GEN_NOVOICE
+15535,    raiden,             raiden,              CIVMALE,   STAT_PLAYER,    player,     1983,   1,  null,   4,  3,  PED_TYPE_GANG,VOICE_GNG_LSV5 ,VOICE_GNG_LSV5
+15536,    sidni,             sidni,              CIVFEMALE,   STAT_PLAYER,    player,     1983,   1,  null,   4,  3,  PED_TYPE_GFD,VOICE_GFD_WFYCLOT ,VOICE_GFD_WFYCLOT 
+15537,    spcfarmxs,             spcfarmxs,              CIVMALE,   STAT_PLAYER,    player,     1983,   1,  null,   4,  3,  PED_TYPE_GEN,VOICE_GNG_TRUTH, VOICE_GNG_TRUTH
+15538,    ham2,             ham2,              CIVMALE,   STAT_PLAYER,    player,     1983,   1,  null,   4,  3,  PED_TYPE_GEN,VOICE_GEN_SOMOST,VOICE_GEN_SOMOST
+#
+15803,    bomjy,             bomjy,              CIVMALE,   STAT_PLAYER,    player,     1983,   1,  null,   4,  3,  PED_TYPE_GEN,VOICE_GEN_SWMOTR3,VOICE_GEN_SWMOTR3
+15804,    spacehik,             spacehik,              CIVFEMALE,   STAT_PLAYER,    player,     1983,   1,  null,   4,  3,  PED_TYPE_GFD,      VOICE_GFD_KATIE,    VOICE_GFD_KATIE
+#
+15823,    antxl,             ant,              CIVMALE,   STAT_PLAYER,    player,     1983,   1,  null,   4,  3,  PED_TYPE_EMG,VOICE_EMG_LAPD1 ,VOICE_EMG_LAPD8 
+15194,    boatkid,           boatkid,             CIVMALE, STAT_SENSIBLE_GUY, man, 0, 0, man, 1,4, PED_TYPE_GANG, VOICE_GNG_BIG_BEAR, VOICE_GNG_BIG_BEAR
+end
+txdp
+maysonv, mayson
+pcon2, pcon
+ghost_bomj, ghost_stantz
+ghost_cj, ghost_stantz
+ghost_ponchik, ghost_stantz
+army, cwmyhb2
+cwmyhb2, swmotr3
+end

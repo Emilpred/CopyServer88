@@ -1,0 +1,345 @@
+Start game (commit e93d9d08)
+Hook crt
+CrtMain
+Disable DEP
+Game: Arizona
+Branch: Main
+desctent_builder initialize stage on_load_library
+Fix default resolution
+Disable 16bit
+Extend SDR formats support
+Disable DWM
+Hook launch errors
+Hook game exit
+Hook game load logging
+Fix refresh rate
+Fix startup errors
+Hook fonts
+Find documets dir
+Use default SAMP font
+Unrecognized token: -g
+Arguments: C:\Users\Arminas\AppData\Roaming\polyvBu10wkPQv6zcZ2cptsa1w\samp03\game\waffle.exe -c -h 195.18.27.226 -p 2837 -n Milancholi -g -arizona -mem 8192 -graphics 
+Hook AddFontResourceA( "gtaweap3.ttf" )
+Hook AddFontResourceA( "sampaux3.ttf" )
+Load SAMP R3 ( 0x43d0000 )
+Force use russian fonts
+Locale: en-US (1252)
+Detect multibyte locale without russian characters. Using wide chars convertation
+Disable limit for maximum FPS
+desctent_builder initialize stage on_load_samp
+desctent_builder initialize stage on_load_limit_adjuster
+Create compatible layer for mods without FLA support
+ImproveMods: IMG archives was supported - loading module
+descent_builder: Can't initialize ImproveMods - filesystem error: directory iterator cannot open directory: No such file or directory [C:\Users\Arminas\AppData\Roaming\polyvBu10wkPQv6zcZ2cptsa1w\samp03\game\mods]
+Extend dff limits in SAMP
+Hook startupInfo
+Replace settings file to: arizona.set
+Seasons disabled
+Hook SAA
+Hook gameloop
+Load Runtime
+Done
+Load crashlog
+Faied - 45a
+Win ver: 10.0 build 26200 (10)
+Load asi-plugins
+Load ASI "$fastman92limitAdjuster.asi" at 0x519b0000
+Load ASI "AZVoice.asi" at 0x510f0000
+Load ASI "core.asi" at 0x50d60000
+Load ASI "crashes.asi" at 0x50d10000
+Load ASI "fixFTH.asi" at 0x50c80000
+Load ASI "FramerateVigilante.SA.asi" at 0x50c60000
+Load ASI "KeyListener.asi" at 0x50c50000
+Load ASI "libcef.asi" at 0x50bc0000
+Load ASI "mousefix.asi" at 0x50ba0000
+Load ASI "NormalMapFix.asi" at 0x50e0000
+Load ASI "SilentPatchSA.asi" at 0x50b30000
+Load ASI "StreamMemFix.asi" at 0x55e0000
+Load ASI "_chat.asi" at 0x50a50000
+Load ASI "_CoreGame.asi" at 0x50990000
+Fix CLEO opcodes
+Loading CEF
+Done
+desctent_builder initialize stage on_load_plugins
+All plugins is loaded
+DEBUG: The previously saved language is now in use
+Load videomode: 23
+Init cursor
+Init d3d9
+Hook dx
+CPU:
+	Arch: 9
+	Level: 0x19
+	Type: 0x21d8
+	Count: 24
+MEMORY:
+	Page size: 4096
+	Min address: 0x10000
+	Max address: 0xfffeffff
+	Total: 31889MB
+	Available for system: 28952MB
+	Available for game: 3113MB
+	Available for textures: 3978MB
+VIDEO:
+	Video adapter 0:
+		Device: \\.\DISPLAY1 ( 0x10de, 0x2c05 )
+		Driver: nvldumd.dll ( 2000000010069c )
+		Description: NVIDIA GeForce RTX 5070 Ti
+		Vertex shader version: fffe0300
+		Pixel shader version: ffff0300
+Pools initialize
+Load IMG archives
+Loading the Game: Loading DEFAULT.IDE 
+Loading the Game: Loading VEHICLES.IDE 
+Loading the Game: Loading PEDS.IDE 
+Loading the Game: Loading WEAPONS.IDE 
+Loading the Game: Loading WEAPONS.COL
+Loading the Game: Loading vegepart.IDE 
+Loading the Game: Loading barriers.IDE 
+Loading the Game: Loading dynamic.IDE 
+Loading the Game: Loading dynamic2.IDE 
+Loading the Game: Loading multiobj.IDE 
+Loading the Game: Loading procobj.IDE 
+Loading the Game: Loading LAn.IDE 
+Loading the Game: Loading LAn2.IDE 
+Loading the Game: Loading LAs.IDE 
+Loading the Game: Loading LAs2.IDE 
+Loading the Game: Loading LAe.IDE 
+Loading the Game: Loading LAe2.IDE 
+Loading the Game: Loading LAw2.IDE 
+Loading the Game: Loading LAw.IDE 
+Loading the Game: Loading LAwn.IDE 
+Loading the Game: Loading LAhills.IDE 
+Loading the Game: Loading LAxref.IDE 
+Loading the Game: Loading SFn.IDE 
+Loading the Game: Loading SFs.IDE 
+Loading the Game: Loading SFse.IDE 
+Loading the Game: Loading SFe.IDE 
+Loading the Game: Loading SFw.IDE 
+Loading the Game: Loading SFxref.IDE 
+Loading the Game: Loading vegasN.IDE 
+Loading the Game: Loading vegasS.IDE 
+Loading the Game: Loading vegasE.IDE 
+Loading the Game: Loading vegasW.IDE 
+Loading the Game: Loading vegaxref.IDE 
+Loading the Game: Loading countryN.IDE 
+Loading the Game: Loading countN2.IDE 
+Loading the Game: Loading countryS.IDE 
+Loading the Game: Loading countryE.IDE 
+Loading the Game: Loading countryW.IDE 
+Loading the Game: Loading counxref.IDE 
+Loading the Game: Loading int_LA.IDE 
+Loading the Game: Loading int_SF.IDE 
+Loading the Game: Loading int_veg.IDE 
+Loading the Game: Loading int_cont.IDE 
+Loading the Game: Loading levelmap.IDE 
+Loading the Game: Loading levelxre.IDE 
+Loading the Game: Loading gen_int1.IDE 
+Loading the Game: Loading gen_int2.IDE 
+Loading the Game: Loading gen_intb.IDE 
+Loading the Game: Loading gen_int3.IDE 
+Loading the Game: Loading gen_int4.IDE 
+Loading the Game: Loading gen_int5.IDE 
+Loading the Game: Loading savehous.IDE 
+Loading the Game: Loading stadint.IDE 
+Loading the Game: Loading seabed.IDE 
+Loading the Game: Loading ACCESSORIES.IDE 
+Loading the Game: Loading gamemods.IDE 
+Loading the Game: Loading pubg.IDE 
+Loading the Game: Loading easter.ide 
+Loading the Game: Loading tower.ide 
+Loading the Game: Loading arz_cm.ide 
+Loading the Game: Loading nvm.ide 
+Loading the Game: Loading auto_school.ide 
+Loading the Game: Loading winter_loc.ide 
+Loading the Game: Loading lux_village.ide 
+Loading the Game: Loading venator.ide 
+Loading the Game: Loading re_roads.ide 
+Loading the Game: Loading pubg.IDE 
+Loading the Game: Loading CUSTOM_INT.IDE 
+Loading the Game: Loading airport.IDE 
+Loading the Game: Loading airportN.IDE 
+Loading the Game: Loading VC_generic.IDE 
+Loading the Game: Loading bank.IDE 
+Loading the Game: Loading bridge.IDE 
+Loading the Game: Loading cisland.IDE 
+Loading the Game: Loading club.IDE 
+Loading the Game: Loading concerth.IDE 
+Loading the Game: Loading docks.IDE 
+Loading the Game: Loading downtown.IDE 
+Loading the Game: Loading downtows.IDE 
+Loading the Game: Loading golf.IDE 
+Loading the Game: Loading haiti.IDE 
+Loading the Game: Loading haitin.IDE 
+Loading the Game: Loading hotel.IDE 
+Loading the Game: Loading islandsf.IDE 
+Loading the Game: Loading lawyers.IDE 
+Loading the Game: Loading littleha.IDE 
+Loading the Game: Loading mall.IDE 
+Loading the Game: Loading mansion.IDE 
+Loading the Game: Loading nbeach.IDE 
+Loading the Game: Loading nbeachbt.IDE 
+Loading the Game: Loading nbeachw.IDE 
+Loading the Game: Loading oceandn.IDE 
+Loading the Game: Loading oceandrv.IDE 
+Loading the Game: Loading stadint_vc.IDE 
+Loading the Game: Loading starisl.IDE 
+Loading the Game: Loading stripclb.IDE 
+Loading the Game: Loading washintn.IDE 
+Loading the Game: Loading washints.IDE 
+Loading the Game: Loading VC_seabed.IDE 
+Loading the Game: Loading props.IDE 
+Loading the Game: Loading props2.IDE 
+Loading the Game: Loading propext.IDE 
+Loading the Game: Loading veh_mods.IDE 
+Loading the Game: Loading TXDCUT.IDE 
+Loading the Game: Loading samp.IDE 
+Loading the Game: Loading custom.IDE 
+Loading the Game: Loading Object Data
+Loading the Game: Loading Setup vehicle info data
+Loading the Game: Loading Streaming Init
+Loading the Game: Loading Collision
+Loading the Game: Loading MAP.ZON 
+Loading the Game: Loading INFO.ZON 
+Loading the Game: Loading LAn.IPL 
+Loading the Game: Loading LAn2.IPL 
+Loading the Game: Loading LAs.IPL 
+Loading the Game: Loading LAs2.IPL 
+Loading the Game: Loading LAe.IPL 
+Loading the Game: Loading LAe2.IPL 
+Loading the Game: Loading LAw.IPL 
+Loading the Game: Loading LAwn.IPL 
+Loading the Game: Loading LAw2.IPL 
+Loading the Game: Loading LAhills.IPL 
+Loading the Game: Loading SFn.IPL 
+Loading the Game: Loading SFs.IPL 
+Loading the Game: Loading SFse.IPL 
+Loading the Game: Loading SFe.IPL 
+Loading the Game: Loading SFw.IPL 
+Loading the Game: Loading vegasN.IPL 
+Loading the Game: Loading vegasS.IPL 
+Loading the Game: Loading vegasE.IPL 
+Loading the Game: Loading vegasW.IPL 
+Loading the Game: Loading countryN.IPL 
+Loading the Game: Loading countN2.IPL 
+Loading the Game: Loading countrys.IPL 
+Loading the Game: Loading countryE.IPL 
+Loading the Game: Loading countryW.IPL 
+Loading the Game: Loading pubg.ipl 
+Loading the Game: Loading pubg1.ipl 
+Loading the Game: Loading pubg2.ipl 
+Loading the Game: Loading pubg_1.ipl 
+Loading the Game: Loading pubgV1.ipl 
+Loading the Game: Loading pubgV2.ipl 
+Loading the Game: Loading pubgV3.ipl 
+Loading the Game: Loading pubgV4.ipl 
+Loading the Game: Loading easter.ipl 
+Loading the Game: Loading tower.ipl 
+Loading the Game: Loading arz_cm.ipl 
+Loading the Game: Loading nvm.ipl 
+Loading the Game: Loading auto_school.ipl 
+Loading the Game: Loading winter_loc.ipl 
+Loading the Game: Loading lux_village.ipl 
+Loading the Game: Loading venator.ipl 
+Loading the Game: Loading re_roads.ipl 
+Loading the Game: Loading CUSTOM_INT.IPL 
+Loading the Game: Loading GAMEMODS.IPL 
+Loading the Game: Loading addons.IPL 
+Loading the Game: Loading airport.IPL 
+Loading the Game: Loading bank.IPL 
+Loading the Game: Loading bridge.IPL 
+Loading the Game: Loading cisland.IPL 
+Loading the Game: Loading club.IPL 
+Loading the Game: Loading concerth.IPL 
+Loading the Game: Loading docks.IPL 
+Loading the Game: Loading downtown.IPL 
+Loading the Game: Loading golf.IPL 
+Loading the Game: Loading haiti.IPL 
+Loading the Game: Loading hotel.IPL 
+Loading the Game: Loading islandsf.IPL 
+Loading the Game: Loading lawyers.IPL 
+Loading the Game: Loading littleha.IPL 
+Loading the Game: Loading mall.IPL 
+Loading the Game: Loading mansion.IPL 
+Loading the Game: Loading nbeach.IPL 
+Loading the Game: Loading nbeachbt.IPL 
+Loading the Game: Loading nbeachw.IPL 
+Loading the Game: Loading oceandn.IPL 
+Loading the Game: Loading oceandrv.IPL 
+Loading the Game: Loading stadint_vc.IPL 
+Loading the Game: Loading starisl.IPL 
+Loading the Game: Loading stripclb.IPL 
+Loading the Game: Loading washintn.IPL 
+Loading the Game: Loading washints.IPL 
+Loading the Game: Loading VC_seabed.IPL 
+Loading the Game: Loading int_LA.IPL 
+Loading the Game: Loading int_SF.IPL 
+Loading the Game: Loading int_veg.IPL 
+Loading the Game: Loading int_cont.IPL 
+Loading the Game: Loading gen_int1.IPL 
+Loading the Game: Loading gen_int2.IPL 
+Loading the Game: Loading gen_intb.IPL 
+Loading the Game: Loading gen_int3.IPL 
+Loading the Game: Loading gen_int4.IPL 
+Loading the Game: Loading gen_int5.IPL 
+Loading the Game: Loading stadint.IPL 
+Loading the Game: Loading savehous.IPL 
+Loading the Game: Loading levelmap.IPL 
+Loading the Game: Loading seabed.IPL 
+Loading the Game: Loading paths.ipl 
+Loading the Game: Loading paths2.ipl 
+Loading the Game: Loading paths3.ipl 
+Loading the Game: Loading paths4.ipl 
+Loading the Game: Loading paths5.ipl 
+Loading the Game: Loading cull.ipl 
+Loading the Game: Loading tunnels.ipl 
+Loading the Game: Loading occluSF.ipl 
+Loading the Game: Loading occluveg.ipl 
+Loading the Game: Loading occluLA.ipl 
+Loading the Game: Loading occluint.ipl 
+Loading the Game: Loading audiozon.ipl 
+Loading the Game: Add Particles
+Loading the Game: Setup paths
+Loading the Game: Setup water
+Loading the Game: Setup streaming
+Loading the Game: Load animations
+Loading the Game: Setup streaming
+Loading the Game: Ped Init
+Loading the Game: Setup game variables
+Loading the Game: Load scripts
+Loading the Game: Setup game variables
+Loading the Game: Start script
+Loading the Game: Load scene
+Loading the Game: Procedural Interiors
+Init events
+Load turnlights.txd
+Create plugin
+Subscribe on mainloop
+Init game
+Initialize custom menu
+Initialize limits
+Initialize photo fix
+Initialize translation
+Initialize slow chat
+Initialize chat key
+Initialize custom screens
+Initialize fast fonts
+Initialize chat state
+Initialize preloader
+Initialize FixAudio
+Initialize base time: 9270000ns
+Start unpacking frontend.zip
+Unpacking successful runned
+Initialize chat log
+Initialize TT fix
+Initialize stream fix
+Initialize net time: 8486000ns
+Initialize plugins
+Initialize time: 20767000ns
+desctent_builder initialize stage on_load_game
+Hook RakClient
+Hook RakClient vtbl
+desctent_builder initialize stage on_samp_initialized
+Register fps command
+Register fogdist command
+Exit process from core.asi + 0xa4ff4

@@ -1,0 +1,135 @@
+Starting fastman92 limit adjuster 6.0, compilation time: Mar 26 2021 04:55:38 (UTC)
+Website: http://fastman92.com
+
+Launch time: 5-11-2026 22:36:14 (UTC), 00:36 (local)
+Launched during the night.
+
+Solution platform: WIN_X86
+FASTMAN92_LIMIT_ADJUSTER_RELEASE_DIRECTORY is not defined. Documentation files will not be written.
+Game detected: GTA SA 1.0 US HOODLUM 14383616 bytes
+Game uses dynamic image base? No
+Game preferred image base: 0x400000
+Game current image base: 0x400000
+
+Number of FLA modules: 70
+Delayed processing of limits? No
+
+Root base directory: 
+Root directory: C:\Users\Arminas\AppData\Roaming\polyvBu10wkPQv6zcZ2cptsa1w\samp03\game
+Initial directory: C:\Users\Arminas\AppData\Roaming\polyvBu10wkPQv6zcZ2cptsa1w\samp03\game
+INI filename: fastman92limitAdjuster_GTASA.ini
+
+Global exception handler has been registered.
+---------------------------------------------
+At least one ID limit is changed. ID limits will be patched.
+COL ID limit is over 256 and requires something more than uint8_t. Applying COL ID uint32_t patches.
+IPL ID limit is over 256 and requires something more than uint8_t. Applying IPL ID uint32_t patches.
+
+New ID limits:
+0 - 24299 (24300) - DFF models defined within IDE files
+24300 - 31249 (6950) - TXD texture archives.
+31250 - 31549 (300) - COL collision archives.
+31550 - 31905 (356) - IPL Binary IPL files.
+31906 - 31969 (64) - DAT files limited to nodes*.dat
+31970 - 32149 (180) - IFP animation archives.
+32150 - 32624 (475) - RRR car recordings, carrec*.rrr files
+32625 - 32706 (82) - SCM scripts
+32707 - 32708 (2) - Loaded list
+32709 - 32710 (2) - Requested list
+32711 - count of all file IDs
+
+
+Addresses:
+CModelInfo::ms_modelInfoPtrs: 0x19D3500
+CStreaming::ms_aInfoForModel: 0x4C97020
+CAnimManager::ms_aAnimBlocks: 0xB5D4A0
+CVehicleRecording::StreamingArray: 0x97D880
+CTheScripts::StreamedScripts: 0xA47B60
+
+
+Format of new savefiles will be different: patch for block of IPL flags is applied! Number of IPL flags will depend on current IPL ID limit.
+Format of new savefiles will be different: patch for enhanced format of model flags block is applied!
+Format of new savefiles will be different: patch for save game of variable length is applied!
+---------------------------------------------
+Modified count of killable model IDs: 24510
+---------------------------------------------
+Format of new savefiles will be different: patch for car generators with CCarGenerator_extended structure is applied!
+Format of new savefiles will be different: patch for save game of variable length is applied!
+Modified limit Car generators to: 500 Is CCarGenerator_extended structure used: 1
+---------------------------------------------
+---------------------------------------------
+Modified limit of DYNAMIC LIMITS: VehicleStructs to: 300
+---------------------------------------------
+Modified limit of DYNAMIC LIMITS: rwObjectInstances to: 5000
+---------------------------------------------
+Modified limit of DYNAMIC LIMITS: Matrices to: 20000
+---------------------------------------------
+Modified limit of DYNAMIC LIMITS: EntryInfoNodes to: 4500
+---------------------------------------------
+Modified limit of DYNAMIC LIMITS: Collision links to: 100
+---------------------------------------------
+Modified limit of DYNAMIC LIMITS: ColModels to: 32511
+---------------------------------------------
+Modified limit of IPL: entity index array to: 140
+---------------------------------------------
+Modified limit of IDE:hier section to 189
+---------------------------------------------
+Modified limit of IDE:tobj section to 516
+---------------------------------------------
+Modified limit of IDE:cars section to 878
+---------------------------------------------
+Modified limit of IDE:peds section to 1033
+---------------------------------------------
+Modified limit of IDE:weap section to 87
+---------------------------------------------
+Modified max number of IMG archives to: 36
+---------------------------------------------
+Modified limit of DIRECTORY LIMITS: Extra to: 5500
+---------------------------------------------
+Modified limit of WATER LIMITS -> Water quads to: 304
+---------------------------------------------
+Modified limit of WATER LIMITS -> Water vertices to: 1025
+---------------------------------------------
+Modified limit of 'Max number of stream handles' to: 256
+---------------------------------------------
+Modified limit of RENDERER: Invisible entity pointers to: 300
+---------------------------------------------
+Modified limit of RENDERER: Visible super LOD pointers to: 200
+---------------------------------------------
+Modified limit of RENDERER: Visible LOD pointers to: 2000
+---------------------------------------------
+Modified limit of RENDERER: Visible entity pointers to: 2000
+---------------------------------------------
+Modified limit of VISIBILITY: Alpha really draw last list limit to: 200
+---------------------------------------------
+Modified limit of OTHER LIMITS: Coronas to: 128
+---------------------------------------------
+Vehicle special features are enabled
+Number of hydra vehicles = 1
+Hydra 0 = 520
+Number of ZR350 vehicles = 1
+ZR350 0 = 477
+ZR350 1 = 6682
+ZR350 2 = 15098
+ZR350 3 = 15114
+ZR350 4 = 15553
+ZR350 5 = 15558
+ZR350 6 = 15733
+ZR350 7 = 15909
+ZR350 8 = 16955
+---------------------------------------------
+Error reporting going to be applied.
+GTA_ERROR_ATTEMPT_TO_LOAD_OBJECT_INSTANCE_WITH_UNDEFINED_ID enabled.
+GTA_ERROR_MODEL_DOES_NOT_HAVE_COLLISION_LOADED enabled.
+GTA_ERROR_IMG_ARCHIVE_NEEDS_REBUILDING enabled.
+Error reporting is applied now.
+---------------------------------------------
+Weapon type loader is enabled. NumberOfWeaponTypes = 109.
+---------------------------------------------
+Radar blip sprite filename loader: config was loaded. ms_numberOfTypeIDs = 128
+---------------------------------------------
+Vehicle audio loader is enabled
+---------------------------------------------
+Number of memory changes made: 2400
+---------------------------------------------
+Game closed.

@@ -1,0 +1,5 @@
+00:36:16 | AZVoice v1.1.3
+00:36:16 | [Debug] Initialization phase 1 passed
+00:36:16 | [Debug] Initialization phase 2 passed
+00:36:16 | [Error] Startup error: GetCdnChannels not found
+00:37:25 | Closing session...

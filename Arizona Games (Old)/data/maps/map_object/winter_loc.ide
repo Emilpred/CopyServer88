@@ -1,0 +1,68 @@
+objs
+#####локация площади (напротив банка)
+12000, legisq_main, legisq, 300, 0
+12017, lod_legisq_main, legisq, 1200, 0
+12049, legisq_building, legisq, 300, 0
+12001, lod_legisq_building, legisq, 300, 0
+12002, legisq_black_fence, legisq, 300, 4
+12003, legisq_building_e, legisq, 300, 0
+12011, legisq_trash, legisq, 300, 0
+12012, legisq_bench, legisq, 300, 0
+12013, legisq_electricity, legisq, 300, 0
+12014, legisq_parking_st, legisq, 300, 0
+12015, legisq_phone, legisq, 300, 0
+12004, vinebloktran_lawn_c, sunrise05_lawn, 150, 0
+12006, lawnbushb1, lawnbush, 100, 2097156
+12007, lawnbushb2, lawnbush, 100, 2097156
+12008, lawnbushb3, lawnbush, 100, 2097156
+12009, lawnbushb4, lawnbush, 100, 2097156
+12010, lawnbushb5, lawnbush, 100, 2097156
+12005, lawnbushb6, lawnbush, 100, 2097156
+12016, lawngrndasas1, lawngrnd, 100, 0
+#####пункт выдачи
+6832, pick_up_ext, pick_up_point, 300, 0
+6833, lod_pick_up_ext, pick_up_point, 1200, 128
+6841, pick_up_ground, pick_up_point, 300, 0
+6850, lod_pick_up_ground, pick_up_point, 1200, 0
+6838, pick_up_name, pick_up_point, 300, 0
+6839, pick_up_fence, pick_up_point, 300, 0
+6840, pick_up_props, pick_up_point, 200, 4
+6834, pick_up_parking, pick_up_point, 300, 0
+6843, pick_up_int, pick_up_point, 300, 0
+6844, pick_up_bench, pick_up_point, 300, 0
+#####ремонт автомобилей
+6845, car_serv_ext, car_serv, 300, 0
+6846, lod_car_serv_ext, car_serv, 1200, 128
+6847, car_serv_int, car_serv, 300, 0
+6849, car_serv_props, car_serv, 200, 4
+end
+txdp
+#####локация площади (напротив банка)
+legisq, laeroads
+#####дороги для дорожных служб
+lae2roadshub, road_damage
+freeway2_las2, road_damage
+des_s, road_damage
+des_se1, road_damage
+cunteroads1, road_damage
+cunteroads5, road_damage
+#cs_roads
+player_props, road_damage
+cuntwroad, road_damage
+lanroad, road_damage
+lasroads_las2, road_damage
+roads_law, road_damage
+law2_roadsb, road_damage
+#roads_lawn
+arz_cm, road_damage
+genroads_sfse, road_damage
+navyroad_sfse, road_damage
+vgseroads, road_damage
+vgsehighways, road_damage
+end
+#####ремонт автомобилей
+countn2_9.col - s_bit_08.col
+vegase_10.col - vgsEedge26.col
+vegase_10.col - vgsEedge27.col
+countryw_2.col - cuntwland54b.col
+countryw_2.col - cuntwroad21.col

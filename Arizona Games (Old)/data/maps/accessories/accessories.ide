@@ -1,0 +1,1611 @@
+objs
+#5381, obj6_watch_1, acsar_tx, 5, 2097284
+#5382, obj6_watch_3, acsar_tx, 5, 2097284
+#5383, obj6_watch_7, acsar_tx, 5, 2097284
+#5384, obj6_watch_4, acsar_tx, 5, 2097284
+#5385, obj6_watch_5, acsar_tx, 5, 2097284
+#5386, obj6_watch_2, acsar_tx, 5, 2097284
+#5387, obj6_watch_6, acsar_tx, 5, 2097284
+#5388, obj6_headp_1, acsar_tx, 12, 2097284
+#5389, obj6_headp_2, acsar_tx, 12, 2097284
+#5683, obj6_headp_4, acsar_tx, 12, 2097284
+#5684, obj6_headp_3, acsar_tx, 12, 2097284
+#5685, obj6_cap_1, acsar_tx, 18, 2097284
+#5686, obj6_cap_2, acsar_tx, 18, 2097284
+#5687, obj6_cap_3, acsar_tx, 18, 2097284
+#5688, obj6_cap_4, acsar_tx, 18, 2097284
+#5689, obj6_cap_5, acsar_tx, 18, 2097284
+#5690, obj6_mask_1, acsar_tx, 18, 2097284
+#5691, obj6_mask_2, acsar_tx, 18, 2097284
+#5692, obj6_mask_3, acsar_tx, 18, 2097284
+#5693, obj6_mask_4, acsar_tx, 18, 2097284
+#5694, obj6_mask_5, acsar_tx, 18, 2097284
+#5695, obj6_helmet_1, acsar_tx, 24, 2097284
+#5696, obj6_helmet_3, acsar_tx, 24, 2097284
+#5697, obj6_helmet_2, acsar_tx, 24, 2097284
+#5698, obj6_helmet_4, acsar_tx, 24, 2097284
+#5699, obj6_hat_1, acsar_tx, 20, 2097284
+#5700, obj6_hat_2, acsar_tx, 20, 2097284
+#5701, obj6_hat_3, acsar_tx, 20, 2097284
+#5702, obj6_hat_4, acsar_tx, 20, 2097284
+#6011, obj6_hat_5, acsar_tx, 20, 2097284
+6818, obj6_bikeback_1, acsar_tx, 28, 2097284
+#6013, obj7_delta_backp_1, acsar_tx, 28, 2097284
+##
+#12634, obj10_backp_1, acsar_tx, 22, 2097284
+#12635, obj10_backp_2, acsar_tx, 22, 2097284
+#12636, obj10_helmet_1, acsar_tx, 18, 2097284
+#12637, obj10_helmet_2, acsar_tx, 18, 2097284
+#12638, obj10_helmet_3, acsar_tx, 18, 2097284
+#12639, obj10_helmet_4, acsar_tx, 18, 2097284
+#12640, obj10_helmet_5, acsar_tx, 18, 2097284
+#12641, obj10_mask_1, acsar_tx, 14, 2097284
+#12642, obj10_mask_2, acsar_tx, 14, 2097284
+#12643, obj10_mask_2a, acsar_tx, 14, 2097284
+#12644, obj10_mask_2b, acsar_tx, 14, 2097284
+#12645, obj10_mask_3, acsar_tx, 12, 2097284
+#12646, obj10_sword_1, acsar_tx, 18, 2097284
+#12647, obj10_wings_1, acsar_tx, 24, 2097284
+#12648, obj10_wings_1a, acsar_tx, 24, 2097284
+#12649, obj10_wings_1b, acsar_tx, 24, 2097284
+#12650, obj10_wings_1c, acsar_tx, 24, 2097284
+#12651, obj10_wings_1d, acsar_tx, 24, 2097284
+#12652, obj12_pickaxe_1, acsar_tx, 20, 2097284
+#12653, obj12_rake_1, acsar_tx, 20, 2097284
+##12654, obj15_stick_1, acs_obj_TXD, 15, 2097284
+##12655, obj15_hat_1, acs_obj_TXD, 15, 2097284 
+##12656, obj15_hat_2, acs_obj_TXD, 15, 2097284
+#12657, obj15_mask_1, acs_obj_TXD, 15, 2097284
+##12658, obj15_sword_1, acs_obj_TXD, 20, 2097284
+#12659, obj15_wings_1, acs_obj_TXD, 25, 2097284
+#12660, obj15_hat_3, acs_obj_TXD, 15, 2097284
+#12661, obj15_bow_1, acs_obj_TXD, 20, 2097284
+#12662, obj15_helmet_1, acs_obj_TXD, 22, 2097284
+#12663, obj15_helmet_2, acs_obj_TXD, 22, 2097284
+#12664, obj15_vest_1, acs_obj_TXD, 25, 2097284
+#12665, obj15_wings_2d, acs_obj_TXD, 24, 2097284
+#12666, obj15_wings_2d001, acs_obj_TXD, 24, 2097284
+##12667, obj15_stick_2N, acs_obj_TXD, 15, 2097284
+#12668, obj15_vest_1R, acs_obj_TXD, 25, 2097284
+#12669, obj15_vest_1GS, acs_obj_TXD, 25, 2097284
+##
+#12672, obj18_armor_1, obj18TXD, 25, 2097284
+15607, obj18_axe_1, obj18TXD, 18, 2097284
+#12674, obj18_backp_1, obj18TXD, 18, 2097284
+##12675, obj18_coat_1, obj18TXD, 25, 2097284
+15608, obj18_glove_1, obj18TXD, 15, 2097284
+#12677, obj18_glove_r_2, obj18TXD, 15, 2097284
+15609, obj18_hammer_1, obj18TXD, 15, 2097284
+#12679, obj18_helmet_1, obj18TXD, 18, 2097284
+#12680, obj18_helmet_2, obj18TXD, 18, 2097284
+#12681, obj18_hook_1, obj18TXD, 18, 2097284
+#12682, obj18_lsaber_1, obj18TXD, 18, 2097284
+#12683, obj18_mask_1, obj18TXD, 18, 2097284
+#12684, obj18_shield_1, obj18TXD, 22, 2097284
+#12685, obj18_skate_1, obj18TXD, 22, 2097284
+#12686, obj18_stick_1, obj18TXD, 20, 2097284
+#12687, obj18_stick_2, obj18TXD, 20, 2097284
+#12688, obj18_stick_3, obj18TXD, 20, 2097284
+##
+#12689, obj17_backp_1, obj18TXD, 20, 2097284
+#12690, obj17_helmet_1, obj18TXD, 24, 2097284
+#12691, obj17_helmet_2, obj18TXD, 24, 2097284
+#12692, obj17_helmet_3, obj18TXD, 24, 2097284
+#12693, obj17_mask_1, obj18TXD, 18, 2097284
+#12694, obj17_mask_2, obj18TXD, 18, 2097284
+#12695, obj17_mask_3, obj18TXD, 18, 2097284
+#12696, obj17_mask_4, obj18TXD, 18, 2097284
+#12697, obj17_mask_5, obj18TXD, 18, 2097284
+##
+14766, car_box_2, car_box_2, 30, 2097284
+##accs_fish
+##6254, obj25_swimb_l_1, txd_accsfish, 10, 0
+##6258, obj25_swimb_r_1, txd_accsfish, 10, 0
+##6259, obj25_wrist_l_1, txd_accsfish, 10, 0
+##6260, obj25_wrist_r_1, txd_accsfish, 10, 0
+##6261, obj25_gunback_1, txd_accsfish, 15, 2097284
+##6262, obj25_backp_1, txd_accsfish, 20, 0
+#6263, obj25_sword_1, txd_accsfish, 15, 2097284
+##6264, obj25_necklace_1, txd_accsfish, 6, 2097284
+#6265, obj25_vest_1, txd_accsfish, 25, 0
+##6266, obj25_belt_1, txd_accsfish, 15, 2097284
+#6267, obj25_divemask_1, txd_accsfish, 12, 2097284
+#6268, obj25_pirhat_1, txd_accsfish, 15, 2097284
+#6269, obj25_pircoat_1, txd_accsfish, 10, 2097284
+#6270, obj25_shield_1, txd_accsfish, 20, 0
+#6271, obj25_scullmask_1, txd_accsfish, 15, 2097284
+##6272, obj25_backp_2, txd_accsfish, 10, 2097284
+##accs_oil
+#6273, obj26_gravgun_1, txd_accsoil, 18, 2097284
+#6274, obj26_glasses_1, txd_accsoil, 6, 2097284
+#6275, obj26_shocker_1, txd_accsoil, 12, 0
+##6276, obj26_helmet_1, txd_accsoil, 15, 2097284
+#6277, obj26_handsword_1, txd_accsoil, 28, 0
+##6278, obj26_backp_1, txd_accsoil, 24, 0
+#6279, obj26_axe_1, txd_accsoil, 18, 2097284
+##acs1
+#6552, obj27_backp_1, acs1, 24, 2097284
+#6541, obj27_backp_2, acs1, 24, 0
+#6542, obj27_backp_3, acs1, 24, 0
+#6543, obj27_shovel_1, acs1, 20, 0
+#6544, obj28_backp_1, acs1, 22, 0
+#6545, obj28_backp_2, acs1, 22, 0
+#6546, obj28_backp_3, acs1, 22, 0
+#6547, obj28_bow_1, acs1, 22, 2097284
+#6548, obj28_mask_1, acs1, 18, 2097284
+#6549, obj28_mask_2, acs1, 18, 2097284
+#6550, obj28_mask_3, acs1, 18, 2097284
+#6551, obj28_shlder_1, acs1, 16, 0
+6553, obj27_kiosk_rdy_1, acs1, 50, 2097284
+6554, obj27_kiosk_rdy_2, acs1, 50, 2097284
+6555, obj27_kiosk_rdy_3, acs1, 50, 2097284
+##acs_amongus
+#6033, amon_1, acs_amongus, 25, 0
+#6034, amon_2, acs_amongus, 25, 0
+#6540, amon_3, acs_amongus, 25, 0
+#6576, amon_4, acs_amongus, 25, 0
+#6577, amon_5, acs_amongus, 25, 0
+#6578, amon_6, acs_amongus, 25, 0
+#6579, amon_7, acs_amongus, 25, 0
+#6580, amon_8, acs_amongus, 25, 0
+#6581, amon_9, acs_amongus, 25, 0
+#6582, amon_10, acs_amongus, 25, 0
+#6583, amon_11, acs_amongus, 25, 0
+#6584, amon_12, acs_amongus, 25, 0
+##acs_bandage
+#6590, bandage_6, acs_bandage, 8, 2097152
+#6596, bandage_12, acs_bandage, 8, 2097152
+#6597, bandage_13, acs_bandage, 8, 2097152
+#6600, bandage_16, acs_bandage, 8, 2097152
+##acs_horn
+#6603, rojki_cel, acs_horn, 18, 0
+#6698, rojki_cel1, acs_horn, 18, 0
+#6720, rojki_cel3, acs_horn, 18, 0
+##plush_toys
+#6723, toy, acs_toys, 25, 0
+#6724, toy1, acs_toys, 25, 0
+#6725, toy2, acs_toys, 25, 0
+#6726, toy3, acs_toys, 25, 0
+#6727, toy4, acs_toys, 25, 0
+#6728, toy5, acs_toys, 25, 0
+#6729, toy6, acs_toys, 25, 0
+#6730, toy7, acs_toys, 25, 0
+#6731, toy8, acs_toys, 25, 0
+#6732, toy9, acs_toys, 25, 0
+#6733, toy10, acs_toys, 25, 0
+#6734, toy11, acs_toys, 25, 0
+#6735, toy12, acs_toys, 25, 0
+#6736, toy13, acs_toys, 25, 0
+#6737, toy14, acs_toys, 25, 0
+#6738, toy15, acs_toys, 25, 0
+#6739, shark_blue, acs_toys, 25, 0
+#6740, shark_pink, acs_toys, 25, 0
+#12583, bear_hat, acs_toys, 18, 2097152
+#12698, stitch, acs_toys, 20, 0
+#12699, huggy_wuggy, acs_toys, 25, 0
+#14555, kissy_missy, acs_toys, 25, 0
+##acs_middle_ages
+##15020, obj7_sword_4, acs_middle_ages, 20, 2097152
+#15338, shield_3, acs_middle_ages, 25, 0
+#15345, shield_10, acs_middle_ages, 25, 0
+##sword
+#15350, sword_1, acs_middle_ages, 20, 0
+#15351, sword_2, acs_middle_ages, 20, 0
+#15352, sword_3, acs_middle_ages, 20, 0
+#15353, sword_4, acs_middle_ages, 20, 0
+#15354, Katana_x, acs_middle_ages, 25, 0
+##man_purse
+#15355, bars00, acs_man_purse, 18, 0
+#15356, bars01, acs_man_purse, 18, 0
+#15357, bars02, acs_man_purse, 18, 0
+#15358, bars03, acs_man_purse, 18, 0
+#15359, bars04, acs_man_purse, 18, 0
+#15360, bars05, acs_man_purse, 18, 0
+#15361, truchSMK00, acs_man_purse, 20, 0
+#15362, truchSMK02, acs_man_purse, 20, 0
+#15363, truchSMK01, acs_man_purse, 20, 0
+#15364, truchSMK04, acs_man_purse, 20, 0
+#15365, obj7_purse_1, acs_man_purse, 16, 2097152
+#15366, obj7_purse_2, acs_man_purse, 16, 2097152
+#15367, obj7_purse_3, acs_man_purse, 16, 2097152
+#15368, obj7_purse_4, acs_man_purse, 16, 2097152
+#15369, obj7_purse_5, acs_man_purse, 16, 2097152
+#15370, obj2_suitc_1, acs_man_purse, 20, 0
+#15371, obj2_suitc_1a, acs_man_purse, 20, 0
+#15372, obj2_suitc_1b, acs_man_purse, 20, 0
+#15373, obj2_suitc_1d, acs_man_purse, 20, 0
+##acs_backpack
+#15388, jetAks1, acs_backpack, 25, 0
+#15389, obj4_backp_1, acs_backpack, 25, 0
+#15396, pikachu01, acs_backpack, 20, 0
+#15397, reckzk04, acs_backpack, 20, 2130052
+#15398, reckzk00, acs_backpack, 20, 2130052
+#15399, reckzk01, acs_backpack, 20, 2130052
+#15400, reckzk02, acs_backpack, 20, 2130052
+#15401, reckzk03, acs_backpack, 20, 2130052
+##acs_armor
+#15402, obj2_vest_1, acs_armor, 30, 0
+#15403, obj2_vest_1a, acs_armor, 30, 0
+#15404, obj2_vest_1b, acs_armor, 30, 0
+#15405, obj2_vest_1c, acs_armor, 30, 0
+#15406, obj2_vest_1d, acs_armor, 30, 0
+#15407, uppr_2_u, acs_armor, 30, 0
+#15408, uppr_3_u, acs_armor, 30, 0
+#15409, uppr_4_u, acs_armor, 30, 0
+#15410, uppr_5_u, acs_armor, 30, 0
+#15411, uppr_1_u, acs_armor, 30, 0
+#15412, truchSMK03, acs_man_purse, 20, 0
+#16853, obj_armor_noel1, acs_armor, 25, 0
+#16854, obj_armor_noel2, acs_armor, 25, 0
+#16855, obj_armor_noel3, acs_armor, 25, 0
+#16856, obj01_rim, acs_armor, 25, 0
+#16857, obj01_rim2, acs_armor, 25, 0
+##acs_hair
+##15440, obj7_wig_7, acs_hair, 20, 2097152
+##acs_bag
+#15441, bag_lv_7, acs_bag, 20, 0
+#6709, bag_lv_12, acs_bag, 20, 0
+#15449, bag_lv_15, acs_bag, 20, 0
+#15450, bag_th_1, acs_bag, 20, 0
+#15455, obj2_bag_1, acs_bag, 20, 0
+#15456, obj2_bag_1a, acs_bag, 20, 0
+#15557, sumk_p02, acs_bag, 20, 0
+#15558, sumk_p03, acs_bag, 20, 0
+##acs_hat
+##15567, obj7_hat_4, acs_head, 20, 2097152
+#15568, obj7_hat_5, acs_head, 20, 2097152
+##15570, obj7_hat_7, acs_head, 20, 2097152
+##15571, obj4_hat_1, acs_head, 18, 0
+##15573, obj4_hat_3, acs_head, 18, 0
+##15574, obj4_hat_4, acs_head, 18, 0
+#6702, ears_stitch, acs_head, 18, 0
+#15587, beer_hat, acs_head, 25, 0
+#15589, cap_white, acs_head, 18, 2097152
+#15591, cap_rabbit, acs_head, 18, 2097152
+#acs_mask
+#15592, kaneki, acs_mask, 20, 0
+#15596, mask_4, acs_mask, 20, 2097152
+#15598, mask_17, acs_mask, 20, 2097152
+#15600, mask11, acs_mask, 18, 0
+#15601, mask22, acs_mask, 18, 0
+#15602, mask33, acs_mask, 18, 0
+#15603, mask44, acs_mask, 18, 0
+#15604, mask2100, acs_mask, 18, 2097284
+#15607, obj7_mask_3, acs_mask, 20, 2097152
+#15608, obj7_mask_4, acs_mask, 20, 2097152
+#15610, obj7_mask_7, acs_mask, 20, 2097152
+#15611, obj7_mask_1, acs_mask, 20, 2097152
+##acs_surfing
+#15614, doska02, acs_surfing, 25, 0
+##acs_skateboard
+#15617, skate00, acs_skateboard, 25, 0
+##acs_keys
+##acs_fun
+#15622, kagune, acs_fun, 30, 0 
+#15623, kup_krill, acs_fun, 25, 0
+#15624, kup_lyk, acs_fun, 20, 0
+#15625, lollipop, acs_fun, 25, 0
+##acs36_37
+##15710, obj36_arm_stf_l_1, acs36_37, 20, 4
+##15711, obj36_arm_stf_r_1, acs36_37, 20, 4
+##15870, obj36_butfly_1, acs36_37, 6, 0
+#15871, obj36_flag_1, acs36_37, 24, 4
+#15872, obj36_hat_1, acs36_37, 22, 4
+#15873, obj36_hat_2, acs36_37, 22, 4
+##15874, obj36_hat_3, acs36_37, 22, 4
+#15875, obj36_hat_4, acs36_37, 22, 4
+#15876, obj36_hat_5, acs36_37, 22, 4
+#15877, obj36_hat_6, acs36_37, 22, 4
+#15878, obj36_head_1, acs36_37, 20, 0
+#15879, obj36_head_2, acs36_37, 20, 0
+#15880, obj36_head_3, acs36_37, 20, 0
+#15881, obj36_mask_1, acs36_37, 14, 4
+#15707, obj36_mask_2, acs36_37, 14, 4
+##15708, obj36_skirt_1, acs36_37, 22, 4
+#15709, obj36_wings_1, acs36_37, 30, 4
+#15712, obj37_dragon_1, acs36_37, 30, 0
+##15713, obj37_tail_1, acs36_37, 25, 0
+#15714, obj37_vest_1, acs36_37, 30, 0
+##acs_31
+#15726, obj38_hat_1, acs_31TXD, 18, 0
+#15727, obj38_necklace_1, acs_31TXD, 20, 0
+#15728, obj38_glasses_1, acs_31TXD, 12, 0
+#15729, obj38_vest_1, acs_31TXD, 30, 0
+#15730, obj38_hair_1, acs_31TXD, 20, 0
+#15731, obj38_mask_1, acs_31TXD, 8, 0
+#15732, obj38_synth_1, acs_31TXD, 18, 0
+##15733, obj38_hair_2, acs_31TXD, 20, 0
+##15734, obj38_pineapple_1, acs_31TXD, 20, 0
+#15735, obj38_skate_1, acs_31TXD, 20, 0
+#15736, obj38_necklace_2, acs_31TXD, 20, 0
+#15737, obj38_skate_2, acs_31TXD, 20, 0
+#15738, obj38_surik_1, acs_31TXD, 20, 0
+#15739, obj38_glasses_2, acs_31TXD, 12, 0
+#15740, obj38_mask_2, acs_31TXD, 18, 0
+#15741, obj38_hat_2, acs_31TXD, 18, 0
+##15742, obj38_boombox_1, acs_31TXD, 20, 0
+##15743, obj38_helmet_1, acs_31TXD, 22, 0
+#15744, obj38_guitar_1, acs_31TXD, 25, 0
+#15745, obj38_claw_1, acs_31TXD, 20, 0
+##binoculars
+#15869, binoculars, binoculars, 12, 0
+##stat_skins
+#15885, bfybe_s, bfybe, 30, 0
+#15886, wmybe_s, wmybe, 30, 0
+#15887, wfybe_s, wfybe, 30, 0
+#15888, bmybe_s, bmybe, 30, 0
+#15889, hmybe_s, hmybe, 30, 0
+##halloween
+#15931, obj39_spider_1, obj39, 30, 0
+#15932, obj39_armor_1, obj39, 25, 0
+##15934, obj39_horns_1, obj39, 25, 0
+##15935, obj39_armor_3, obj39, 25, 0
+#15936, obj39_armor_2, obj39, 25, 0
+##15937, obj39_dem_shldr_1, obj39, 25, 0
+#15939, obj39_dem_helmet_1, obj39, 25, 0
+#15941, obj39_sat_cape_1, obj39, 25, 4
+##15942, obj39_sat_hand_1_R, obj39, 25, 4
+##15943, obj39_sat_hand_1_L, obj39, 25, 4
+#15944, obj39_drag_head_1, obj39, 25, 0
+##15945, obj39_drag_tail_1, obj39, 25, 0
+#15946, obj39_drag_hand_1_R, obj39, 25, 0
+##15947, obj39_drag_tail_L, obj39, 25, 0
+##15948, obj39_drag_spine_1, obj39, 25, 0
+##15949, obj39_drag_shldr1R, obj39, 25, 0
+#15950, obj39_drag_shldr1L, obj39, 25, 0
+## 16879, snowboard1, snowboard, 180, 0
+## 16880, snowboard2, snowboard, 180, 0
+## 16881, snowboard3, snowboard, 180, 0
+## 16882, snowboard4, snowboard, 180, 0
+## 16883, snowboard5, snowboard, 180, 0
+## 16884, snowboard6, snowboard, 180, 0
+## snowboard
+#15897, snowboard1, snowboard, 25, 0
+#15898, snowboard2, snowboard, 25, 0
+#15933, snowboard3, snowboard, 25, 0
+#15938, snowboard4, snowboard, 25, 0
+#15940, snowboard5, snowboard, 25, 0
+#15993, snowboard6, snowboard, 25, 0
+##newyear22
+#16808, obj001_gun1, new_year2023, 25, 0
+#16809, obj002_horns, new_year2023, 25, 0
+##16810, obj003_elf, new_year2023, 20, 0
+#16811, obj004_hat, new_year2023, 20, 0
+#16812, xglass, new_year2023, 10, 0
+#16814, snow_mask, new_year2023, 18, 0
+#16823, snow_shield, new_year2023, 25, 0
+#16824, snow_sword, new_year2023, 20, 0
+#16825, weapon_candy, new_year2023, 20, 0
+#16826, xmasgun1, new_year2023, 25, 0
+#16813, rabbit_mask, new_year2023, 20, 0
+#16859, rabbit_mask1, new_year2023, 20, 0
+#16860, rabbit_mask2, new_year2023, 20, 0
+#16861, rabbit_mask3, new_year2023, 20, 0
+#16862, rabbit_mask4, new_year2023, 20, 0
+#16863, rabbit_mask5, new_year2023, 20, 0
+#16864, rabbit_mask6, new_year2023, 20, 0
+#16868, glasses_cp, cyberpunk, 6, 4
+#16869, helmet2077_1, cyberpunk, 20, 0
+#16870, helmet2077_2, cyberpunk, 20, 0
+#16872, gun_cp1, cyberpunk, 18, 0
+#16873, gun_cp2, cyberpunk, 18, 0
+#16874, obj_lk01, new_year2023, 22, 0
+#16875, lich_sword, new_year2023, 22, 0
+##
+##16905, obj40_backplane_1, obj40_42, 22, 0
+#16906, obj40_cloak_1, obj40_42, 25, 0
+#16907, obj40_cookieman_1, obj40_42, 25, 0
+##16909, obj40_glove_L_1, obj40_42, 12, 0
+##16910, obj40_glove_R_1, obj40_42, 12, 0
+#16911, obj40_helmet_1, obj40_42, 20, 0
+#16912, obj40_mish_1, obj40_42, 12, 4
+##16913, obj40_moon_1, obj40_42, 12, 0
+#16914, obj40_santa_belt_1, obj40_42, 12, 0
+#16915, obj40_santa_shld_1, obj40_42, 20, 4
+#16916, obj40_skates_neck_1, obj40_42, 12, 4
+#16917, obj40_star_1, obj40_42, 10, 0
+##16918, obj40_sticks_1, obj40_42, 10, 0
+##16919, obj40_tree_s_head_1, obj40_42, 18, 0
+#16921, obj40_tree_s_body_1, obj40_42, 24, 4
+##16922, obj40_wig_1, obj40_42, 18, 0
+#16923, obj40_harp_1, obj40_42, 20, 0
+##16924, obj40_ice_skirt, obj40_42, 20, 0
+##
+#16925, obj42_backpack_1, obj40_42, 22, 4
+#16926, obj42_cardb_helm_1, obj40_42, 18, 4
+##16927, obj42_cardb_shl_l_1, obj40_42, 18, 4
+##16928, obj42_cardb_shl_r_1, obj40_42, 18, 4
+#16929, obj42_cardb_vest_1, obj40_42, 18, 4
+#16930, obj42_flamingo_1, obj40_42, 18, 0
+#16931, obj42_glasses_1, obj40_42, 6, 4
+#16932, obj42_vest_1, obj40_42, 30, 0
+##
+#16973, adidascap, ny23, 18, 0
+#16974, adminhand, ny23, 25, 0
+#16975, armourburger, ny23, 30, 0
+#16976, boxerban, ny23, 25, 0
+#16977, burgerhat, ny23, 25, 0
+#16978, chaosbladeleft, ny23, 25, 0
+#16979, chaosbladeright, ny23, 25, 0
+#16980, chaosblades, ny23, 25, 0
+#16981, hshinobi, ny23, 20, 0
+#16982, hummerban, ny23, 22, 0
+#16983, loudspeaker, ny23, 20, 0
+#16984, sblade, ny23, 12, 0
+#16985, shithead, ny23, 25, 0
+#16986, starbuckscap, ny23, 18, 0
+#16987, tiktokcap1, ny23, 18, 0
+#16988, tiktokcap2, ny23, 18, 0
+#16989, tonyheart, ny23, 15, 0
+#16990, vetementscap, ny23, 18, 0
+##
+#16991, e_scooter1, e_scooters, 30, 0 
+#16992, e_scooter2, e_scooters, 30, 0 
+#16993, e_scooter3, e_scooters, 30, 0
+##obj43
+#######15743, obj38_helmet_1,
+##17989, obj43_hat_1, obj43, 22, 0
+##17990, obj43_bezel_1, obj43, 22, 4
+#######6264, obj25_necklace_1
+#17991, obj43_collar_1, obj43, 22, 4
+#######19036, HockeyMask1,
+##17992, obj43_arrow_1, obj43, 18, 4
+##17993, obj43_lips_1, obj43, 18, 4
+##17994, obj43_fata_1, obj43, 18, 4
+#######19559, HikerBackpack1,
+#17995, obj43_bear_1, obj43, 24, 0
+##17996, obj43_lollipop_1, obj43, 20, 0
+##17997, obj43_flowers_1, obj43, 18, 4
+#######19520, pilotHat01
+##17999, obj43_cap_1, obj43, 15, 0
+#######19006, GlassesType1,
+##18037, obj43_glasses_1, obj43, 6, 4
+#######6258, obj25_swimb_r_1,
+##18103, obj43_bow_R_1, obj43, 8, 0
+#######6259, obj25_wrist_l_1,
+##18106, obj43_bow_L_1, obj43, 8, 0
+#######12664, obj15_vest_1,
+##18107, obj43_feathers_1, obj43, 16, 4
+##18108, obj43_armor_3, obj43, 30, 0
+##
+##18110, obj43_baloons_1, obj43, 24, 0
+#18111, obj43_smile_1, obj43, 22, 0
+##obj44
+#######19624, Case1,
+##17485, obj44_bagf_1, obj44, 20, 0
+#17487, obj44_bagf_3, obj44, 20, 0
+#17488, obj44_chest_1, obj44, 20, 0
+#17489, obj44_boombx_1, obj44, 20, 0
+#######6270, obj25_shield_1,
+#17490, obj44_shield_1, obj44, 30, 0
+#######19137, CluckinBellHat1,
+#17491, obj44_marshm_1, obj44, 24, 0
+##17492, obj44_camo_head_1, obj44, 24, 4
+#######19559, HikerBackpack1,
+#17493, obj44_backpack_1, obj44, 24, 0
+#17494, obj44_wheel_1, obj44, 22, 0
+#17495, obj44_tartil_1, obj44, 22, 0
+#17496, obj44_sword_1, obj44, 22, 0
+#17497, obj44_net_1, obj44, 18, 4
+#17498, obj44_fish_2, obj44, 22, 4
+#17499, obj44_compas_1, obj44, 22, 4
+#17975, obj44_anchour_1, obj44, 22, 4
+#######15743, obj38_helmet_1,
+#17977, obj44_helmet_1, obj44, 22, 0
+#17979, obj44_squhat_1, obj44, 20, 0
+#17980, obj44_newshat_1, obj44, 16, 0
+#17981, obj44_crown_1, obj44, 10, 0
+#17982, obj44_hat_1, obj44, 12, 0
+#17983, obj44_hat_2, obj44, 12, 0
+#######19036, HockeyMask1,
+#17984, obj44_mask_1, obj44, 16, 4
+#17985, obj44_fishmask_1, obj44, 16, 4
+#######12664, obj15_vest_1,
+#17986, obj44_banana_1, obj44, 25, 0
+##17987, obj44_camo_chest_1, obj44, 30, 4
+##
+#17988, obj44_fish_1, obj44, 22, 4
+####eat23
+#18169, est23_cap_1, accs_est23, 16, 0
+#18170, est23_mask_1, accs_est23, 18, 0
+#18171, est23_mask_2, accs_est23, 18, 0
+#18172, est23_head_1, accs_est23, 16, 0
+#18173, est23_head_2, accs_est23, 16, 0
+#18174, est23_azirhead_1, accs_est23, 22, 0
+#18175, est23_spivyhead_1, accs_est23, 22, 4
+#18176, est23_womhead_1, accs_est23, 20, 0
+#18177, est23_bag_1, accs_est23, 18, 0
+#18178, est23_bag_2, accs_est23, 18, 0
+#18179, est23_spivytail_1, accs_est23, 24, 4
+#18180, est23_hand_r_1, accs_est23, 18, 0
+#18181, est23_womsld_R_1, accs_est23, 16, 0
+#18182, est23_hand_l_1, accs_est23, 18, 0
+#18183, est23_womsld_L_1, accs_est23, 16, 0
+#18184, est23_gun_1, accs_est23, 16, 4
+#18185, est23_shldr_l_1, accs_est23, 16, 0
+#18186, est23_shldr_r_1, accs_est23, 16, 0
+#18187, est23_vest_1, accs_est23, 100, 0
+#18188, est23_azirtorso_1, accs_est23, 22, 0
+#18189, est23_azirbelt_1, accs_est23, 22, 0
+#18190, est23_spivybelt_1, accs_est23, 18, 4
+#18191, est23_azirhand_R_1, accs_est23, 22, 0
+#18192, est23_spivyspikeR1, accs_est23, 18, 0
+#18193, est23_womhand_R_1, accs_est23, 16, 0
+#18194, est23_azirhand_L_1, accs_est23, 22, 0
+#18195, est23_spivyspikeL1, accs_est23, 18, 0
+#18196, est23_womhand_L_1, accs_est23, 16, 0
+######
+#18197, est23_azirspare_1, accs_est23, 22, 0
+#6601, est23_balhouse_1, accs_est23, 50, 4
+##obj50
+#######19036, HockeyMask1
+#15391, obj50_mask_1,obj50, 16, 4
+#######19624, Case1
+#15393, obj50_goldbag_2,obj50, 22, 4
+#15394, obj50_ironmanbag_1,obj50, 22, 0
+#15395, obj50_magicbag_1,obj50, 22, 4
+#15413, obj50_rgbbag_1,obj50, 22, 0
+15414, obj50_scullbag_2,obj50, 22, 4
+15415, obj50_zombiebag_1,obj50, 22, 4
+##obj51
+##
+#15556, obj51_capacc4, obj51, 16, 0
+##
+#15451, obj51_angel_bp, obj51, 22, 0
+#15452, obj51_banana_cat, obj51, 22, 0
+#15453, obj51_berserk_sw, obj51, 24, 0
+#15454, obj51_bmo, obj51, 22, 0
+#15457, obj51_bp_owl, obj51, 24, 0
+#15553, obj51_bp_shark, obj51, 24, 0
+#15561, obj51_gaara_barrel, obj51, 24, 0
+#15576, obj51_lumpy, obj51, 24, 0
+##
+#15555, obj51_c3po, obj51, 20, 0
+#15563, obj51_helm_horns, obj51, 20, 0
+#15572, obj51_jedi_helmet, obj51, 20, 0
+#15582, obj51_trooper_helm, obj51, 20, 0
+#6626, obj51_helm_pubg1, obj51, 20, 0
+#6627, obj51_helm_pubg2, obj51, 20, 0
+#6628, obj51_helm_pubg3, obj51, 20, 0
+#6629, obj51_helm_pubg4, obj51, 20, 0
+#6630, obj51_helm_pubg5, obj51, 20, 0
+#6631, obj51_helm_pubg6, obj51, 20, 0
+##
+#15560, obj51_chebacca, obj51, 22, 0
+#15564, obj51_hlm_chicken, obj51, 24, 0
+#15577, obj51_mask_shrek, obj51, 24, 0
+#15579, obj51_pepe, obj51, 26, 0
+#15580, obj51_pepe2, obj51, 26, 0
+##
+#15569, obj51_hlm_rooster, obj51, 24, 0
+#15565, obj51_hlm_cobra, obj51, 24, 0
+#15566, obj51_hlm_owl, obj51, 24, 0
+##
+#15581, obj51_shiba_inu, obj51, 18, 0
+#15562, obj51_groot_mini, obj51, 18, 0
+#15554, obj51_bulbasaur, obj51, 18, 0
+#15583, obj51_thing, obj51, 18, 0
+##
+#15575, obj51_jedipink, obj51, 16, 0
+#15578, obj51_movie, obj51, 16, 0
+##accs_east23
+#6632, carrotsword, accs_east23, 16, 0
+#6633, easterback, accs_east23, 16, 0
+#6634, eastercake, accs_east23, 16, 0
+#6635, eggbasket, accs_east23, 16, 0
+#6636, rabbitears1, accs_east23, 16, 0
+#6637, rabbitears2, accs_east23, 16, 0
+#6638, rabbitears3, accs_east23, 16, 0
+#6639, xbvest, accs_east23, 30, 0
+#6640, xbvest1, accs_east23, 30, 0
+#6641, xbvest2, accs_east23, 30, 0
+#6642, xbvest3, accs_east23, 30, 0
+##medieval
+#14149, obj52_balalaika, accs_obj52, 30, 0
+#14150, obj52_crow_bird, accs_obj52, 30, 0
+#14153, obj52_gusli, accs_obj52, 30, 0
+#14155, obj52_kokoshnik_01, accs_obj52, 30, 0
+#14157, obj52_maxe2, accs_obj52, 30, 0
+#14158, obj52_metal_helmet, accs_obj52, 30, 0
+#14159, obj52_mhelmet1, accs_obj52, 30, 0
+#14160, obj52_mhelmet2, accs_obj52, 30, 0
+#14161, obj52_mmace, accs_obj52, 30, 0
+#14162, obj52_mshield1, accs_obj52, 30, 0
+#14163, obj52_mshield2, accs_obj52, 30, 0
+#14164, obj52_msword, accs_obj52, 30, 0
+#####obj52
+##бронtжелеты
+#14190, obj52_vestaot, obj52_1, 10, 0
+#14191, obj52_vestaway, obj52_1, 10, 0
+#14196, obj52_vestbojack, obj52_1, 10, 0
+#14197, obj52_vestdn, obj52_1, 10, 0
+#14198, obj52_vestgf, obj52_1, 10, 0
+#14199, obj52_vesthorde, obj52_1, 10, 0
+#14200, obj52_vestmarvel, obj52_1, 10, 0
+#14201, obj52_vestmk, obj52_1, 10, 0
+#14202, obj52_vestsg, obj52_1, 10, 0
+#14203, obj52_vestsimp, obj52_1, 10, 0
+#14204, obj52_vestsp, obj52_1, 10, 0
+#14205, obj52_vestuchiha, obj52_1, 10, 0
+#14206, obj52_vestwd, obj52_1, 10, 0
+##голова
+#14207, obj52_cap_stone, obj52_1, 25, 0
+#14208, obj52_glasses_8bit, obj52_1, 25, 4
+#14209, obj52_glasses_bal, obj52_1, 25, 4
+#14210, obj52_head_panam_6, obj52_1, 25, 0
+#14211, obj52_head_panam_7, obj52_1, 25, 0
+#14212, obj52_heart_glasses, obj52_1, 25, 4
+#14213, obj52_cap_gucci, obj52_1, 25, 0
+#14214, obj52_anglerfish, obj52_1, 25, 0
+#14215, obj52_candlehat, obj52_1, 25, 0
+#14216, obj52_chainsawman, obj52_1, 25, 0
+#14217, obj52_haganezuka, obj52_1, 25, 0
+#14218, obj52_onimask, obj52_1, 25, 0
+#14219, obj52_samhelmet, obj52_1, 25, 0
+#14220, obj52_antmanhelmet, obj52_1, 20, 0
+#14221, obj52_bojack, obj52_1, 25, 0
+#14222, obj52_gruncle, obj52_1, 15, 0
+#14223, obj52_kabuka, obj52_1, 20, 0
+#14224, obj52_kashirahead, obj52_1, 15, 0
+#14225, obj52_noface, obj52_1, 15, 0
+#14226, obj52_stcap, obj52_1, 15, 0
+##нагурудь
+#14227, obj52_wolfmedal, obj52_1, 10, 0
+##поясница
+#14228, obj52_ninetails, obj52_1, 20, 0
+#14229, obj52_odm, obj52_1, 20, 0
+##рука
+#14230, obj52_bag_prem1, obj52_1, 25, 0
+#14231, obj52_bag_prem2, obj52_1, 25, 0
+#14232, obj52_bag_prem3, obj52_1, 25, 0
+#14233, obj52_bag_prem4, obj52_1, 25, 0
+#14234, obj52_bag_prem5, obj52_1, 25, 0
+#14235, obj52_bag_prem6, obj52_1, 25, 0
+#14236, obj52_fortaxe, obj52_1, 25, 0
+#14237, obj52_hookmodern, obj52_1, 25, 0
+#14238, obj52_portalgun, obj52_1, 25, 0
+#14239, obj52_shashleek, obj52_1, 25, 0
+#14240, obj52_aotblade, obj52_1, 15, 0
+#14241, obj52_aotspear, obj52_1, 15, 0
+#14242, obj52_deathnote, obj52_1, 10, 0
+#14243, obj52_duffhummer, obj52_1, 25, 0
+#14244, obj52_stormbreaker, obj52_1, 25, 0
+#14245, obj52_sulfuras, obj52_1, 25, 0
+##рядомсплечем
+#14246, obj52_cartman, obj52_1, 10, 0
+#14247, obj52_kenny, obj52_1, 10, 0
+#14248, obj52_kyle, obj52_1, 10, 0
+#14249, obj52_sgchibi1, obj52_1, 10, 0
+#14250, obj52_sgchibi2, obj52_1, 10, 0
+#14251, obj52_sgchibi3, obj52_1, 10, 0
+#14252, obj52_stan, obj52_1, 10, 0
+##спина
+#14253, obj52_bars005, obj52_1, 25, 0
+#14254, obj52_bars006, obj52_1, 25, 0
+#14255, obj52_bars007, obj52_1, 25, 0
+#14256, obj52_bigbacksword, obj52_1, 25, 0
+#14257, obj52_davinchiwings, obj52_1, 25, 0
+#14258, obj52_energypack, obj52_1, 25, 0
+#14259, obj52_medbackpack, obj52_1, 25, 0
+#14260, obj52_regbackpack, obj52_1, 25, 0
+#14261, obj52_akatsukibp, obj52_1, 15, 0
+#14262, obj52_aotbacklogo, obj52_1, 10, 0
+#14263, obj52_aotbackpack, obj52_1, 15, 0
+#14264, obj52_dnbackpack, obj52_1, 15, 0
+#14265, obj52_dollwd, obj52_1, 15, 0
+#14266, obj52_dpkatanas, obj52_1, 15, 0
+#14267, obj52_gfbackpack, obj52_1, 15, 0
+#14268, obj52_hordeshield, obj52_1, 20, 0
+#14269, obj52_marvelbp, obj52_1, 15, 0
+#14270, obj52_narutobp, obj52_1, 15, 0
+#14271, obj52_samehada, obj52_1, 25, 0
+#14272, obj52_sgbackpack, obj52_1, 15, 0
+#14273, obj52_spiritedaw, obj52_1, 15, 0
+#14274, obj52_stbackpack, obj52_1, 15, 0
+#14275, obj52_wdbackpack, obj52_1, 15, 0
+#####obj53
+#######19006, GlassesType1,
+#14284, obj53_glasses_1, obj53, 10, 2097284
+##HardHat1
+#14285, obj53_helmet_2, obj53, 299, 0
+#14286, obj53_dread_2, obj53, 299, 0
+#14287, obj53_dread_3, obj53, 299, 0
+#14288, obj53_dread_1, obj53, 299, 0
+#######6264, obj25_necklace_1,
+#14289, obj53_decoration_1, obj53, 299, 4
+#######19137, CluckinBellHat1,
+#14290, obj53_mask_1, obj53, 299, 2097284
+#14291, obj53_mask_2, obj53, 299, 2097284
+#14292, obj53_mask_4, obj53, 299, 2097284
+#14293, obj53_mask_5, obj53, 299, 2097284
+#14294, obj53_helmet_1, obj53, 299, 2097284
+#######19559, HikerBackpack1,
+#14295, obj53_back_2, obj53, 299, 0
+#14296, obj53_marijuana_1, obj53, 299, 0
+#14297, obj53_body_1, obj53, 299, 0
+#14298, obj53_back_1, obj53, 299, 4
+##БРОНЕЖЕЛЕТ
+#14299, obj53_armor_2, obj53, 299, 4
+#14300, obj53_beassire_1, obj53, 299, 4
+#14301, obj53_armor_1, obj53, 299, 4
+#######16914, obj40_santa_belt_1,
+#14302, obj53_belt_1, obj53, 299, 0
+#14303, obj53_belt_2, obj53, 299, 20972840
+#######19036, HockeyMask1,
+#14304, obj53_mask_3, obj53, 299, 0
+##БИТА
+#14305, obj53_knife_1, obj53, 299, 0
+#14306, obj53_axe_2, obj53, 299, 0
+#14307, obj53_banana_1, obj53, 299, 0
+#14308, obj53_bomb_1, obj53, 299, 4
+#14309, obj53_bomb_2, obj53, 299, 4
+#14310, obj53_gun_1, obj53, 299, 4
+#14311, obj53_gun_2, obj53, 299, 4
+#14312, obj53_ration_1, obj53, 299, 4
+#14313, obj53_sword_1, obj53, 299, 0
+#14314, obj53_axe_1, obj53, 299, 0
+14315, obj53_signprt_1, obj53, 299, 0
+14316, obj53_signprt_2, obj53, 299, 0
+14317, obj53_signprt_3, obj53, 299, 0
+14318, obj53_signprt_4, obj53, 299, 0
+##СУМКА В РУКУ
+#14319, obj53_back_4, obj53, 299, 4
+#14320, obj53_back_3, obj53, 299, 4
+#######16909, obj40_glove_L_1,
+#14321, obj53_hand_L_1, obj53, 299, 2097284
+#######16910, obj40_glove_R_1,
+#14322, obj53_hand_R_1, obj53, 299, 2097284
+######obj54
+#11842, obj54_tentacles, obj54, 30, 0
+#11848, obj54_raincoat_ds, obj54, 20, 0
+#11854, obj54_axebass, obj54, 20, 0
+#11860, obj54_daftpunk, obj54, 20, 0
+#11866, obj54_devilfork, obj54, 25, 0
+#11872, obj54_headcrab, obj54, 20, 0
+#11878, obj54_predator_mask, obj54, 20, 0
+#11884, obj54_zabimaru, obj54, 20, 0
+#11890, obj54_supreme_back, obj54, 20, 0
+#11898, obj54_suitcas, obj54, 20, 0
+#11905, obj54_samurai_hat, obj54, 20, 0
+#11911, obj54_samurai_back, obj54, 20, 0
+#11917, obj54_red_heart_gla, obj54, 18, 4
+#11923, obj54_red_backpack, obj54, 20, 0
+#11929, obj54_hover_board, obj54, 20, 0
+#11935, obj54_hatter_hat, obj54, 20, 0
+#11941, obj54_glass_sequin, obj54, 18, 4
+#11947, obj54_glasses_kenzo, obj54, 18, 4
+#11953, obj54_fox_mask, obj54, 20, 0
+#11959, obj54_fire_glasses, obj54, 18, 4
+#11964, obj54_diad_sun, obj54, 20, 0
+#11970, obj54_diad_butterf, obj54, 20, 0
+#11976, obj54_cow_backpack, obj54, 20, 0
+#6800, obj54_bat_glasses, obj54, 18, 4
+#6806, obj54_backpack_lid1, obj54, 20, 0
+#6812, obj54_air_balloon_3, obj54, 25, 4
+#6818, obj54_air_balloon_4, obj54, 25, 4
+#6824, obj54_air_balloon_6, obj54, 25, 4
+#6830, obj54_air_balloon_7, obj54, 25, 4
+#6835, obj54_air_balloon_8, obj54, 25, 0
+#6842, obj54_air_balloon10, obj54, 25, 0
+#6848, obj54_air_balloon11, obj54, 25, 0
+#6860, obj54_air_balloon13, obj54, 25, 0
+#7396, obj54_air_balloon14, obj54, 25, 0
+#7408, obj54_haishammer, obj54, 25, 0
+#7976, obj54_funvest7, obj54, 25, 0
+#9199, obj54_funvest8, obj54, 25, 0
+#9268, obj54_hlvest, obj54, 25, 0
+#15606, obj54_punishervest, obj54, 25, 0
+#15609, obj54_bdglass, obj54, 25, 0
+#15612, obj54_sword_guard, obj54, 25, 0
+#15613, obj54_pip_boy, obj54, 25, 0
+#15615, obj54_astronauthelm, obj54, 25, 0
+#15616, obj54_ffhelmet, obj54, 25, 0
+#12749, obj54_gretsch, obj54, 25, 0
+#12765, obj54_killsword, obj54, 25, 0
+#12771, obj54_robothelmet, obj54, 25, 0
+#12777, obj54_unicornballon, obj54, 25, 0
+#12783, obj54_wmhelmet, obj54, 25, 0
+#12789, obj54_advancebp1, obj54, 25, 0
+#12795, obj54_advancebp2, obj54, 25, 0
+#13565, obj54_advest1, obj54, 25, 0
+#13571, obj54_advest2, obj54, 25, 0
+#13577, obj54_diamondbp1, obj54, 25, 0
+#13583, obj54_diamondbp2, obj54, 25, 0
+#13589, obj54_diamondvest1, obj54, 25, 0
+#13892, obj54_diamondvest2, obj54, 25, 0
+#13898, obj54_bag_advance, obj54, 25, 0
+#13904, obj54_bag_advance_2, obj54, 25, 0
+#13910, obj54_bag_diamond_1, obj54, 25, 0
+#13916, obj54_bag_diamond_2, obj54, 25, 0
+#13922, obj54_bag_diamond_3, obj54, 25, 0
+#13928, obj54_panama_advan, obj54, 25, 0
+#13934, obj54_panama_advan1, obj54, 25, 0
+#14126, obj54_panama_advan2, obj54, 25, 0
+#14127, obj54_panama_diam, obj54, 25, 0
+#14128, obj54_panama_diam_1, obj54, 25, 0
+#14129, obj54_adbox, obj54, 25, 0
+#14130, obj54_adglass1, obj54, 25, 0
+#14340, obj54_adglass2, obj54, 25, 0
+#14356, obj54_adgrenade, obj54, 25, 0
+#14357, obj54_adshield, obj54, 25, 0# в левую руку
+##14358, obj54_adshoulders, obj54, 25, 0 #в правую руку
+#14359, obj54_adsword, obj54, 25, 0
+#14360, obj54_adwings1, obj54, 25, 0
+#14361, obj54_adwings2, obj54, 25, 0
+#14362, obj54_diamond_sword, obj54, 25, 0
+#14363, obj54_glass_diamond, obj54, 25, 0
+#14364, obj54_hammer_diam, obj54, 18, 4
+#14365, obj54_helmet_diam, obj54, 20, 0
+#14366, obj54_shield_diam, obj54, 30, 0
+#14367, obj54_sword_diam_1, obj54, 20, 4
+##pubg
+#12598, obj9_helmet_1, sa_pubg, 300, 2097152
+#12599, obj9_backp_1, sa_pubg, 300, 2097152
+#12600, obj9_vest_1, sa_pubg, 300, 0
+#12601, ak47a, sa_pubg, 300, 0
+#12602, ak47b, sa_pubg, 300, 0
+#12603, ak47c, sa_pubg, 300, 0
+#12604, ak47d, sa_pubg, 300, 0
+#12605, desert_eaglea, sa_pubg, 300, 0
+#12606, desert_eagleb, sa_pubg, 300, 0
+#12607, desert_eaglec, sa_pubg, 300, 0
+#12608, desert_eagled, sa_pubg, 300, 0
+#12609, m4a, sa_pubg, 300, 0
+#12610, m4b, sa_pubg, 300, 0
+#12611, m4c, sa_pubg, 300, 0
+#12612, m4d, sa_pubg, 300, 0
+#12613, obj9_backp_1a, sa_pubg, 300, 2097152
+#12614, obj9_backp_1b, sa_pubg, 300, 2097152
+#12615, obj9_backp_1c, sa_pubg, 300, 2097152
+#12616, obj9_backp_1d, sa_pubg, 300, 2097152
+#12617, obj9_helmet_1a, sa_pubg, 300, 2097152
+#12618, obj9_helmet_1b, sa_pubg, 300, 2097152
+#12619, obj9_helmet_1c, sa_pubg, 300, 2097152
+#12620, obj9_helmet_1d, sa_pubg, 300, 2097152
+#12621, obj9_vest_1a, sa_pubg, 300, 0
+#12622, obj9_vest_1b, sa_pubg, 300, 0
+#12623, obj9_vest_1c, sa_pubg, 300, 0
+#12624, obj9_vest_1d, sa_pubg, 300, 0
+#12625, snipera, sa_pubg, 300, 0
+#12626, sniperb, sa_pubg, 300, 0
+#12627, sniperc, sa_pubg, 300, 0
+#12628, sniperd, sa_pubg, 300, 0
+#12630, chromeguna, sa_pubg, 300, 0
+#12631, chromegunb, sa_pubg, 300, 0
+#12632, chromegunc, sa_pubg, 300, 0
+#12633, chromegund, sa_pubg, 300, 0
+
+#obj55_hell
+#24000, obj55_angel_mask, obj55, 100, 0
+#24001, obj55_bat_back, obj55, 100, 0
+#
+#24003, obj55_braid, obj55, 100, 0
+#24004, obj55_greengoblin, obj55, 100, 0
+#24005, obj55_headaxe, obj55, 100, 0
+6570, obj55_muertosmask, obj55, 100, 0###
+#24007, obj55_pumpkinmask, obj55, 100, 0
+#24008, obj55_pumpkin_girl, obj55, 100, 0
+#24009, obj55_pumpkin_gl, obj55, 100, 0
+#24010, obj55_pumpkin_head, obj55, 100, 0
+#24011, obj55_soulscythe, obj55, 100, 0
+#24012, obj55_syringe, obj55, 100, 0
+#24013, obj55_voodootoy, obj55, 100, 0
+#24014, obj55_wings_bat, obj55, 100, 0
+
+##obj56_bp
+#24055, obj56_bbbackpack, obj56, 100, 0
+#24056, obj56_bbhelmet, obj56, 100, 0
+#24057, obj56_optimushelmet, obj56, 100, 0
+#24058, obj56_optimustoy, obj56, 100, 0
+#24059, obj56_scooby_bag, obj56, 100, 0
+#24060, obj56_scooby_bp, obj56, 100, 0
+#24061, obj56_scooby_bp_1, obj56, 100, 0
+#24062, obj56_scooby_cap, obj56, 100, 0
+#24063, obj56_scooby_collar, obj56, 100, 0
+#24064, obj56_starsaber, obj56, 100, 0
+#24065, obj56_windblade, obj56, 100, 0
+##bp_for_newbie
+#24066, obj56_beer_cap, obj56, 100, 0
+#24067, obj56_bomjgangneck, obj56, 100, 0
+#24068, obj56_camera_graff, obj56, 100, 0
+#24069, obj56_cbbackpack, obj56, 100, 0
+#24070, obj56_cbcamera, obj56, 100, 0
+#24071, obj56_cbgun, obj56, 100, 0
+#24072, obj56_cbhelmet, obj56, 100, 0
+#24073, obj56_cbshoulders, obj56, 100, 0
+#24074, obj56_cbsign1, obj56, 100, 0
+#24075, obj56_cbsign2, obj56, 100, 0
+#24076, obj56_cbsword, obj56, 100, 0
+#24077, obj56_cbukulele, obj56, 100, 0ц
+#24078, obj56_cbwings, obj56, 100, 0
+#24079, obj56_graffiti_bac, obj56, 100, 0
+#24080, obj56_graffiti_bag, obj56, 100, 0
+#24081, obj56_graffiti_bit, obj56, 100, 0
+##24082, obj56_shoulder_pad, obj56, 100, 0
+
+##obj57
+
+######19006, GlassesType1
+#24053, obj57_glasses_2, obj57, 100, 2097156
+
+######HardHat1
+#24055, obj57_chinese_1, obj57, 100, 0
+
+######19137, CluckinBellHat1
+#24057, obj57_moneyface_1, obj57, 100, 0
+#24058, obj57_pringles_1, obj57, 100, 2097156
+#24059, obj57_toilet_1, obj57, 100, 2097156
+#24060, obj57_toilet_2, obj57, 100, 0
+
+######19036, HockeyMask1
+
+######18936, Helmet1
+
+######19528, WitchesHat1
+
+######19559, HikerBackpack1
+#24065, obj57_festive_1, obj57, 100, 2097156
+#24067, obj57_lego_1, obj57, 100, 0
+#24068, obj57_tonk_1, obj57, 100, 0
+#24069, obj57_tree_1, obj57, 100, 0
+#24070, obj57_tree_2, obj57, 100, 2097156
+#24071, obj57_heart_1, obj57, 100, 2097156
+
+##obj58 test
+#23983, obj58_backpackcat, obj58, 100, 0
+#23984, obj58_bigforkshrek, obj58, 100, 0
+#23985, obj58_blindmice, obj58, 100, 0
+#23986, obj58_boxhammer, obj58, 100, 0
+#23987, obj58_chainshrek, obj58, 100, 0
+#23988, obj58_charminghorse, obj58, 100, 0
+#23989, obj58_chrisbells, obj58, 100, 0
+#23990, obj58_chrislantern, obj58, 100, 0
+#23993, obj58_cucumberric, obj58, 100, 0
+#23994, obj58_deerhat, obj58, 100, 0
+#23995, obj58_donkeyhead, obj58, 100, 0
+#23996, obj58_frogballoon, obj58, 100, 0
+#23997, obj58_guitarrick, obj58, 100, 0
+#23998, obj58_icefroge, obj58, 100, 0
+#24003, obj58_mindhelmet, obj58, 100, 0
+#24005, obj58_ogresign, obj58, 100, 0
+#24006, obj58_penguinbp, obj58, 100, 0
+#24007, obj58_portalgun, obj58, 100, 2097156
+#24008, obj58_pusshat, obj58, 100, 0
+#24009, obj58_rickbackpack, obj58, 100, 0
+#24010, obj58_rickhead1, obj58, 100, 0
+#24028, obj58_rnmvest, obj58, 100, 0 #24011
+#24064, obj58_shrekbackpack, obj58, 100, 0 #24014
+#24016, obj58_shrekhelm, obj58, 100, 0
+#24017, obj58_shrekvest, obj58, 100, 0
+#24018, obj58_snowglasses, obj58, 100, 0
+#24019, obj58_snowmanmini, obj58, 100, 0
+#24020, obj58_snowstaff, obj58, 100, 0
+#24023, obj58_swordcat, obj58, 100, 0
+#24024, obj58_toyrick, obj58, 100, 0
+#24025, obj58_vest2024, obj58, 100, 0
+#24030, obj59_lavkarickbp1, obj59, 100, 0
+#24031, obj59_lavkarickbp2, obj59, 100, 0
+#24032, obj59_lavkashrekbp1, obj59, 100, 0
+#24033, obj59_lavkashrekbp2, obj59, 100, 0
+
+###obj60
+#6600, obj60_bigbutton, obj60, 100, 0
+#6601, obj60_freddy, obj60, 100, 0
+#6603, obj60_frognaruto, obj60, 100, 0
+#6626, obj60_hammer3310, obj60, 100, 0
+#6628, obj60_hatsumiku, obj60, 100, 0
+#6630, obj60_hokagehat, obj60, 100, 0
+#6631, obj60_jinpuritta, obj60, 100, 0
+#6632, obj60_karlbag, obj60, 100, 0
+#6633, obj60_karlbp1, obj60, 100, 0
+#6634, obj60_karlbp2, obj60, 100, 0
+#6636, obj60_littleanimal, obj60, 100, 0
+#6637, obj60_lvbox, obj60, 100, 0
+#6638, obj60_magichat, obj60, 100, 0
+#6639, obj60_mariohat, obj60, 100, 0
+#6640, obj60_moneybag, obj60, 100, 0
+6641, obj60_mtoolmk2, obj60, 100, 0
+#6643, obj60_skullgold, obj60, 100, 0
+#6698, obj60_voodoo, obj60, 100, 0
+6724, obj60_standdotaacc, obj60, 100, 0
+6725, obj60_rifflecase, obj60, 100, 0
+###obj62
+#14210, obj62_astrohelm, obj62, 25, 0
+#14212, obj62_alien_toy, obj62, 18, 0
+#14213, obj62_bacastronaut, obj62, 18, 0
+#14214, obj62_vostok, obj62, 30, 0
+#14216, obj62_telescope, obj62, 25, 0
+#14217, obj62_space, obj62, 25, 0
+#14218, obj62_buran, obj62, 25, 0 
+#14219, obj62_bag_rosko, obj62, 18, 0
+#14220, obj62_lagann, obj62, 25, 0
+#14221, obj62_gagvest, obj62, 25, 0
+#14222, obj62_nlobp, obj62, 25, 2097156
+###obj_64
+#14232, obj64_bunnyhead, obj64, 25, 0
+#14233, obj64_chchps, obj64, 25, 0
+#14235, obj64_egghelm, obj64, 18, 0
+#14236, obj64_bunny_ball, obj64, 20, 0
+#14237, obj64_bh, obj64, 20, 0
+#14239, obj64_hat_bows, obj64, 15, 0
+#14241, obj64_basket_eggs, obj64, 20, 0
+#14242, obj64_bunnyhp, obj64, 20, 0
+#14245, obj64_kirk, obj64, 20, 0
+#14246, obj64_eggs_chest, obj64, 18, 0
+#14247, obj64_bunnymask, obj64, 15, 0
+#14249, obj64_carrotbp, obj64, 20, 0
+#14250, obj64_rabbit_ears, obj64, 20, 0
+###obj66
+#14252, obj66_fastfood, obj66, 20, 0
+#14256, obj66_shark, obj66, 20, 0
+#14257, obj66_chicken, obj66, 15, 0
+#14258, obj66_grass, obj66, 15, 0
+#14259, obj66_monster, obj66, 15, 0
+#14260, obj66_mustache, obj66, 15, 0
+#14262, obj66_snail, obj66, 15, 0
+#14264, obj66_birdhat, obj66, 20, 0
+#14265, obj66_chickhead, obj66, 20, 0
+#14267, obj66_fishhat, obj66, 20, 0
+#14270, obj66_pandahead, obj66, 20, 0
+#14272, obj66_sharkhelm, obj66, 20, 0
+#14273, obj66_tengum, obj66, 20, 0
+#14274, obj66_unclem, obj66, 20, 0
+#14275, obj66_yellowm, obj66, 20, 0
+#14277, obj66_pangraph, obj66, 15, 0
+#14278, obj66_panmark, obj66, 15, 0
+#14279, obj66_pack, obj66, 20, 0
+#14281, obj66_silencer, obj66, 20, 0
+#14282, obj66_scribble, obj66, 20, 0
+#14284, obj66_roseform, obj66, 20, 0
+#14285, obj66_feline, obj66, 20, 0
+#14287, obj66_pickaxe, obj66, 20, 0
+#14289, obj66_carrot, obj66, 20, 0
+#14291, obj66_skull, obj66, 20, 0
+#14292, obj66_squatter, obj66, 20, 0
+#14296, obj66_banana, obj66, 20, 0
+#14298, obj66_loofah, obj66, 20, 0
+#14300, obj66_bluerab, obj66, 20, 0
+#14303, obj66_katanaback, obj66, 20, 0
+#14304, obj66_safe, obj66, 20, 0
+#14309, obj66_axepink, obj66, 20, 0
+#14310, obj66_claw, obj66, 20, 0
+#14312, obj66_guitar, obj66, 20, 0
+#14313, obj66_hammer, obj66, 20, 0
+#14314, obj66_stolb, obj66, 20, 0
+#14319, obj66_sword, obj66, 20, 0
+#obj68
+#15602, obj68_bbgun, obj68, 20, 0
+#15603, obj68_stonemask, obj68, 20, 0
+#15580, obj68_axesummer, obj68, 20, 0
+#15581, obj68_catmelon, obj68, 20, 0
+#15582, obj68_figoctopus, obj68, 20, 0
+#15583, obj68_icecreame, obj68, 20, 0
+#15585, obj68_octopus, obj68, 20, 0
+#15586, obj68_redmask, obj68, 20, 0
+#15587, obj68_turtle, obj68, 20, 0
+#15588, obj68_umbrella, obj68, 20, 0
+#
+#14210, obj68_bulletbelt, obj68, 20, 0
+#14211, obj68_exoback, obj68, 20, 0
+14212, obj68_jayce, obj68, 20, 0
+14213, obj68_lava, obj68, 20, 0
+#14214, obj68_stoneisl, obj68, 20, 0
+14215, obj68_vi, obj68, 20, 0
+#14216, obj68_visionpro, obj68, 20, 2097284
+#
+#14231, obj68_board, obj68, 30, 0
+#14232, obj68_chipglass, obj68, 30, 0
+#14233, obj68_dice, obj68, 30, 0
+# obj70
+#14218, obj70_watergun, obj70, 25, 0
+14219, obj70_surf, obj70, 25, 0
+#14220, obj70_starme, obj70, 20, 0
+#14222, obj70_googles, obj70, 15, 4
+#14223, obj70_icehead, obj70, 15, 2097156
+#14224, obj70_crab, obj70, 20, 4
+#14226, obj70_duck, obj70, 20, 1
+#14227, obj70_ghost_mask, obj70, 15, 0
+#14228, obj70_bag, obj70, 15, 2097156
+#14229, obj70_dirt_bp, obj70, 20, 0
+#14231, obj70_box, obj70, 20, 0
+#14232, obj70_cap, obj70, 15, 0
+#14233, obj70_cup, obj70, 25, 0
+#14234, obj70_toyback, obj70, 25, 0
+#14235, obj70_canister, obj70, 25, 0
+#14236, obj70_cans, obj70, 25, 0
+#14237, obj70_cbman, obj70, 25, 0
+#
+#15352, obj70_blavkacs, obj71, 25, 0
+#
+#15354, obj70_anvestgun, obj70, 25, 0
+#15355, obj70_mwh, obj70, 25, 0
+#15356, obj70_mwvest, obj70, 25, 0
+#
+#15610, obj70_mask3, obj70, 25, 0
+#15611, obj70_mask2, obj70, 25, 0
+#15612, obj70_mask1, obj70, 25, 0
+#15613, obj70_bomj3, obj70, 25, 0
+#15614, obj70_bomj2, obj70, 25, 0
+#15615, obj70_bomj1, obj70, 25, 0
+#
+#15950, obj70_cake, obj70, 25, 0
+#15951, obj70_cakehand, obj70, 25, 0
+# obj72
+15950, obj72_hotcap, obj72, 25, 0
+15951, obj72_hotlav, obj73, 25, 0
+# obj74
+16825, obj74_broom, obj74, 35, 2097156
+#24270, obj74_back, obj74, 35, 0
+#24271, obj74_cloak, obj74, 35, 0
+#24272, obj74_coffin, obj74, 35, 0
+#24273, obj74_deadcat, obj74, 35, 0
+#24274, obj74_doll, obj74, 35, 0
+#24275, obj74_glass, obj74, 35, 0
+#24276, obj74_hat, obj74, 35, 0
+#24277, obj74_head, obj74, 35, 0
+#24278, obj74_mask_wing, obj74, 35, 0
+#24279, obj74_maskblack, obj74, 35, 0
+#24280, obj74_maskhello, obj74, 35, 0
+#24281, obj74_maskinv, obj74, 35, 2097156
+#24282, obj74_masksilver, obj74, 35, 0
+#24283, obj74_phead, obj74, 35, 0
+16824, obj74_pump, obj74, 35, 0
+#24285, obj74_rabbit, obj74, 35, 0
+#24286, obj74_sholder, obj74, 35, 0
+#24287, obj74_protonpack, obj74, 35, 0
+#24288, obj74_staffp, obj74, 35, 0
+#24289, obj74_taverna1, obj74, 35, 0
+#24290, obj74_toythief, obj74, 35, 0
+#24291, obj74_weapon, obj74, 35, 0
+#24292, obj74_wings, obj74, 35, 2097156
+#24293, obj74_sandstone, obj74, 35, 0
+#24294, obj74_fan, obj74, 35, 0
+#24298, obj74_flashlight, obj74, 35, 0
+#24299, obj74_jap_mask, obj74, 35, 0
+#16792, obj74_japback, obj74, 35, 0
+#16809, obj74_switch, obj74, 35, 0
+#16811, obj74_tako, obj74, 35, 0
+#16812, obj74_toycat, obj74, 35, 0
+# obj76
+#6791, obj76_aegis1, obj76, 25, 0
+#6792, obj76_shb, obj76, 15, 0
+#6794, obj76_rapier, obj76, 15, 0
+#6795, obj76_desol, obj76, 15, 0
+#6796, obj76_aghanim, obj76, 18, 0
+#6797, obj76_aegis, obj76, 25, 0
+#6798, obj76_bfury, obj76, 25, 0
+#6799, obj76_blinkdag, obj76, 15, 0
+#6801, obj76_radiance, obj76, 25, 0
+#6802, obj76_shiva, obj76, 20, 2097156
+#6803, obj76_hook, obj76, 15, 0
+#6804, obj76_weapon_am, obj76, 18, 2097156
+#6805, obj76_headdress_am, obj76, 20, 0
+#6807, obj76_shoulpad_am, obj76, 20, 2097156
+#6808, obj76_basher, obj76, 25, 0
+#6809, obj76_cowl_cm, obj76, 18, 0
+#6810, obj76_sword_wk, obj76, 20, 0
+##6811, obj76_flashlight, obj76, 18, 0
+#6814, obj76_marci, obj76, 20, 0
+##6815, obj76_scarf, obj76, 18, 0
+#6816, obj76_midas, obj76, 18, 0
+#6817, obj76_hammer, obj76, 20, 0
+#6819, obj76_shoulpads, obj76, 18, 0
+#6821, obj76_ringbox, obj76, 20, 0
+#6822, obj76_void, obj76, 20, 0
+#6823, obj76_button_left, obj76, 15, 0
+#6826, obj76_dbag, obj76, 20, 0
+#11760, obj76_bag, obj76, 20, 0
+#11762, obj76_chill, obj76, 20, 0
+#11763, obj76_goblinp, obj76, 20, 0
+#11765, obj76_mpanda, obj76, 20, 0
+#11766, obj76_swords, obj76, 20, 0
+##
+#12077, obj76_axe, obj76, 20, 0
+#12078, obj76_backpack, obj76, 20, 0
+#12079, obj76_cap, obj76, 20, 0
+#12080, obj76_snowball, obj76, 20, 0
+#12081, obj76_wreath, obj76, 20, 0
+## obj78
+12275, obj78_ccat, obj78, 15, 0
+12277, obj78_ebow, obj78, 15, 0
+12278, obj78_ehammer, obj78, 15, 0
+#12285, obj78_shovel, obj78, 15, 0
+#12286, obj78_hat, obj78, 15, 0
+#12289, obj78_roadhogmask, obj78, 15, 0
+#12290, obj78_spgrenades, obj78, 15, 0
+#12291, obj78_sproadhog, obj78, 15, 0
+#12292, obj78_glassest, obj78, 15, 2097152
+#12293, obj78_backpackg, obj78, 15, 0
+#12294, obj78_bulletproof, obj78, 15, 0
+#12295, obj78_bodyarmor, obj78, 15, 0
+#12296, obj78_minion, obj78, 15, 0
+#12297, obj78_megaphone, obj78, 15, 0
+#12298, obj78_selfiestick, obj78, 15, 0
+#12299, obj78_sickle, obj78, 15, 2097152
+#12300, obj78_chif, obj78, 15, 0
+#12301, obj78_glasses, obj78, 15, 0
+#12302, obj78_kermit, obj78, 15, 0
+#12303, obj78_sonic, obj78, 15, 0
+#12304, obj78_b_molli1, obj78, 15, 0
+#12305, obj78_b_molli2, obj78, 15, 0
+#12306, obj78_b_dora1, obj78, 15, 0
+#12307, obj78_b_dora2, obj78, 15, 0
+#12308, obj78_b_dratuti, obj78, 15, 0
+#12309, obj78_shield, obj78, 15, 0
+#12310, obj78_helmet, obj78, 15, 0
+#12311, obj78_crown, obj78, 15, 0
+#12312, obj78_cat, obj78, 15, 0
+#12313, obj78_thrasher, obj78, 15, 2097152
+#12314, obj78_glove, obj78, 15, 0
+#12315, obj78_jetpack, obj78, 15, 0
+##
+#12396, obj80_monster, obj80, 35, 0
+#13977, obj80_axolotl, obj80, 35, 0
+#13978, obj80_backpack, obj80, 35, 0
+#13979, obj80_braid, obj80, 35, 0
+#13980, obj80_dragon, obj80, 35, 2097152
+#13981, obj80_hammer, obj80, 35, 2097152
+#13982, obj80_hatcan, obj80, 35, 0
+#13983, obj80_hatoran, obj80, 35, 0
+#13984, obj80_magichat, obj80, 35, 2097152
+#13985, obj80_mono, obj80, 35, 0
+#13990, obj80_bluemask, obj80, 35, 0
+#13991, obj80_darkmask, obj80, 35, 0
+#13992, obj80_eevee, obj80, 35, 0
+#13993, obj80_emoji, obj80, 35, 0
+#13994, obj80_frog, obj80, 35, 0
+#13995, obj80_ofrog, obj80, 35, 0
+#13996, obj80_pgirl, obj80, 35, 0
+#14042, obj80_chain, obj80, 35, 0
+# obj82
+#13993, obj82_msearch1, obj82, 35, 0
+#13994, obj82_msearch2, obj82, 35, 0
+#13995, obj82_msearch3, obj82, 35, 0
+#13996, obj82_msearch4, obj82, 35, 0
+#14042, obj82_msearch5, obj82, 35, 0
+##
+#15156, obj82_backpack, obj82, 35, 0
+#15157, obj82_earflaps, obj82, 35, 0
+#15158, obj82_grenade, obj82, 35, 0
+#15159, obj82_pigeon, obj82, 35, 0
+#15160, obj82_shovel, obj82, 35, 0
+##
+#15163, obj82_gasmask, obj82, 35, 0
+#15167, obj82_mot, obj82, 35, 0
+##
+15180, obj82_axe, obj82, 35, 0
+##obj84 
+#11960, obj84_himikotoga, obj84, 15, 0
+#11961, obj84_braid, obj84, 15, 0
+#11962, obj84_mask, obj84, 15, 0
+#11963, obj84_sword, obj84, 15, 0
+#11964, obj84_lamp, obj84, 15, 0
+#11965, obj84_hat2, obj84, 15, 2097152
+#11966, obj84_hat3, obj84, 15, 2097152
+#11967, obj84_goldencap, obj84, 15, 0
+#11968, obj84_chain, obj84, 15, 0
+#11969, obj84_glassesg, obj84, 15, 4
+#11970, obj84_sneakers, obj84, 15, 0
+#11971, obj84_eboombox, obj84, 15, 0
+#11972, obj84_roadsign, obj84, 15, 0
+#11973, obj84_allred, obj84, 15, 0
+#11974, obj84_rsneakers, obj84, 15, 0
+#11975, obj84_wsneakers, obj84, 15, 0
+#11977, obj84_psneakers, obj84, 15, 0
+#11978, obj84_cucumber, obj84, 15, 0
+#11980, obj84_back_ball, obj84, 15, 0
+11981, obj84_tablet, obj84, 15, 0
+#11982, obj84_swag, obj84, 15, 0
+#11983, obj84_swaga, obj84, 15, 0
+#11984, obj84_crossbow, obj84, 15, 2097152
+#11986, obj84_getup, obj84, 15, 0
+#11987, obj84_fboombox, obj84, 15, 0
+11988, obj84_gloskate1, obj84, 15, 0
+11989, obj84_gloskate2, obj84, 15, 0
+#11990, obj84_funkopop, obj84, 15, 2097152
+#11992, obj84_knuckles, obj84, 15, 0
+#11993, obj84_moneybag, obj84, 15, 2097152
+##
+#12051, obj84_chainsaw, obj84, 30, 0
+#12052, obj84_ch_gold, obj84, 30, 0
+##
+#12054, obj84_bulletproof, obj84, 15, 0
+#12055, obj84_crown, obj84, 15, 0
+#12057, obj84_ghettobx, obj84, 15, 0
+# obj86
+12763, obj86_hov, obj86, 15, 0
+#12764, obj86_hov1, obj86, 15, 0
+#12766, obj86_helmet_r, obj86, 15, 0
+#12767, obj86_shoulder_r, obj86, 15, 0
+#12768, obj86_armor_r, obj86, 15, 2097152
+#12769, obj86_robothat, obj86, 15, 2097152
+#12770, obj86_flowerbp, obj86, 15, 0
+12771, obj86_evamask, obj86, 15, 0
+#12772, obj86_cpmask, obj86, 15, 2097152
+#12773, obj86_dskid, obj86, 15, 4
+12774, obj86_helmet_w, obj86, 15, 0
+12775, obj86_spacejet, obj86, 15, 0
+#12776, obj86_thanos_1, obj86, 15, 0
+#12777, obj86_cyberboot_1, obj86, 15, 0
+12797, obj86_ship, obj86, 300, 2097152
+##
+15636, obj86_boots, obj86, 30, 0
+15637, obj86_bp, obj86, 30, 0
+#15638, obj86_dmblade, obj86, 30, 0
+15639, obj86_hand, obj86, 30, 0
+15640, obj86_headphones, obj86, 30, 0
+15641, obj86_scythe, obj86, 30, 0
+15642, obj86_shield, obj86, 30, 0
+end
+anim
+#6573, obj28_wings_1, acs1, anim_accs, 30, 2097284
+##acs36_37
+#15868, obj37_drone_1, acs36_37, anim_accs, 30, 0
+#15867, obj37_drone_2, acs36_37, anim_accs, 30, 0
+#15716, obj37_drone_3, acs36_37, anim_accs, 30, 0
+#15715, obj37_mag_sphr_1, acs36_37, anim_accs, 30, 4
+#15717, obj37_mag_sphr_2, acs36_37, anim_accs, 30, 4
+#15718, obj37_mag_sphr_3, acs36_37, anim_accs, 30, 4
+#15719, obj37_mag_sphr_4, acs36_37, anim_accs, 30, 4
+#16865, mech_cat, mech_cat, anim_accs, 30, 0
+#16866, bug_body, mech_cat, anim_accs, 30, 0
+#16867, mech_teddy, mech_cat, anim_accs, 30, 0
+##surikeni
+#15346, surikeni_cel1, acs_middle_ages, anim_accs, 30, 0
+#15347, surikeni_cel2, acs_middle_ages, anim_accs, 30, 0
+#15348, surikeni_cel3, acs_middle_ages, anim_accs, 30, 0
+#15349, surikeni_cel4, acs_middle_ages, anim_accs, 30, 0
+##halloween
+#15951, obj39_bat_1, obj39, anim_accs, 30, 4
+6571, obj39_tyre_1_base, obj39, anim_accs, 30, 0###
+#15953, obj39_pumpkin_1, obj39, anim_accs, 30, 0
+#15954, obj39_particle1, obj39,anim_accs, 30, 4
+#15955, obj39_sphere_1, obj39,anim_accs, 30, 4
+#15956, obj39_shark_1, obj39,anim_accs, 30, 4
+#15957, obj39_dem_wing_1, obj39,anim_accs, 30, 4
+#15958, obj39_jetpack_1, obj39, anim_accs, 30, 0
+#15959, obj39_sword_1, obj39,anim_accs, 30, 4
+#Hot_Air_Bal
+16807, Hot_Air_Bal_n1, balloon_texts, anim_accs, 30, 2097284
+16801, Hot_Air_Bal_n2, balloon_texts, anim_accs, 30, 2097284
+16802, Hot_Air_Bal_n3, balloon_texts, anim_accs, 30, 2097284
+16803, Hot_Air_Bal_n4, balloon_texts, anim_accs, 30, 2097284
+16804, Hot_Air_Bal_n5, balloon_texts, anim_accs, 30, 2097284
+16805, Hot_Air_Bal_n6, balloon_texts, anim_accs, 30, 2097284
+16806, Hot_Air_Bal_n7, balloon_texts, anim_accs, 30, 2097284
+#obj40
+15995, obj40_fx, obj40_42, anim_accs, 30, 4
+##newyear22
+#16876, but_wings04, new_year2023, anim_accs, 25, 4
+#16877, wings_snow, new_year2023, anim_accs, 25, 0
+#16878, snowflake, new_year2023, anim_accs, 25, 4
+#16858, paimon_rim, acs_armor, anim_accs, 22, 0
+##
+#16933, obj40_adm_band_1, obj40_42, anim_accs, 30, 0
+#16934, obj40_adm_ef_base_1, obj40_42, anim_accs, 30, 4
+#16935, obj40_adm_glass_1, obj40_42, anim_accs, 8, 4
+#16936, obj40_amulet_base_1, obj40_42, anim_accs, 30, 0
+#16937, obj40_fish_ef, obj40_42, anim_accs, 30, 0
+#16938, obj40_rubik, obj40_42, anim_accs, 30, 0
+##16939, obj40_snow_globe_1, obj40_42, anim_accs, 30, 4
+#16940, obj40_tree_effect_1, obj40_42, anim_accs, 30, 4
+#16941, obj40_wings_base_1, obj40_42, anim_accs, 30, 0
+#16908, obj40_drone_1, obj40_42, anim_accs, 30, 0
+##obj43
+#17998, obj43_wings_1, obj43, anim_accs, 30, 4
+##obj44
+##17486, obj44_bagf_2, obj44, anim_accs, 30, 0
+##est23
+######16908, obj40_drone_1
+#18198, est23_drone_1, accs_est23, anim_accs, 30, 0
+##obj51
+#15584, obj51_bb8_zv, obj51, anim_accs, 25, 0
+#15585, obj51_death_star, obj51, anim_accs, 25, 0
+#15586, obj51_yoda_zv, obj51, anim_accs, 25, 0
+#15588, obj51_tiefighter, obj51, anim_accs, 25, 0
+#15590, obj51_wings_over, obj51, anim_accs, 25, 0
+#15593, obj51_xwing, obj51, anim_accs, 25, 0
+#15606, obj51_chain_sch, obj51, anim_accs, 25, 0
+##accs_east23
+#6643, flyingeggs, accs_east23, anim_accs, 25, 0
+#6644, nestchicken, accs_east23, anim_accs, 25, 0
+#####obj52
+##голова
+#14276, obj52_misterioback, obj52_1, anim_accs, 25, 0
+#14277, obj52_citrion, obj52_1, anim_accs, 25, 0
+##надголовой
+#14278, obj52_calcifer, obj52_1, anim_accs, 10, 4
+#14279, obj52_donutsnimbus, obj52_1, anim_accs, 25, 0
+##рука
+#14280, obj52_rasenshuriken, obj52_1, anim_accs, 25, 4
+##спина
+#14281, obj52_gfbill, obj52_1, anim_accs, 25, 0 
+#14282, obj52_dococ, obj52_1, anim_accs, 25, 0
+#####obj54
+#6657,obj54_nimb_1, obj54, anim_accs, 25, 2097284
+#6658,obj54_nimb_2, obj54, anim_accs, 25, 2097284 
+#6659,obj54_nimb_3, obj54, anim_accs, 25, 2097284 
+####rodina
+#10313, obj54_wing_wasp, obj54, anim_accs, 30, 0
+#10749, obj54_wings_of_ca, obj54, anim_accs, 30, 0
+#11758, obj54_planetexp, obj54, anim_accs, 30, 0
+#11764, obj54_mechwings, obj54, anim_accs, 30, 0 # доделать анимацию
+#11770, obj54_sims, obj54, anim_accs, 20, 0
+11776, obj54_magic_circle, obj54, anim_accs, 30, 0 # убрать два верхних слоя
+#11782, obj54_golden_crown, obj54, anim_accs, 20, 0
+6572, obj54_crown_thorn, obj54, anim_accs, 20, 0###
+#11794, obj54_deloreantoy, obj54, anim_accs, 20, 0
+#11800, obj54_novochrono, obj54, anim_accs, 20, 5
+6573, obj54_timegear, obj54, anim_accs, 25, 0###
+#11815, obj54_crys_diamond, obj54, anim_accs, 25, 4
+#11822, obj54_diamond_nimb1, obj54, anim_accs, 25, 0
+#11830, obj54_stick_diamond, obj54, anim_accs, 25, 0
+#11836, obj54_wings_diam, obj54, anim_accs, 30, 4
+#obj55_hell
+#24015, obj55_bloody_hands, obj55, anim_accs, 100, 0
+#24016, obj55_cuteghost, obj55, anim_accs, 100, 0
+#24017, obj55_cute_bat, obj55, anim_accs, 100, 0
+6812, obj55_eye_with_f, obj55, anim_accs, 100, 0###
+#24019, obj55_grimchield, obj55, anim_accs, 100, 0
+#24002, obj55_bonewings, obj55, anim_accs, 100, 0
+
+##obj58 test
+#23981, obj58_alphatree, obj58, anim_accs, 100, 2097286
+#23982, obj58_backhands, obj58, anim_accs, 100, 0
+#23991, obj58_citofricks, obj58, anim_accs, 100, 0
+#23992, obj58_cromurlones, obj58, anim_accs, 100, 0
+#24013, obj58_shieldsnowfl, obj58, anim_accs, 100, 0
+#24021, obj58_starwand, obj58, anim_accs, 100, 0
+#24022, obj58_alphashield, obj58, anim_accs, 100, 2097286 #добавил Энергетический Щит
+#24034, obj58_inspiremod, obj58, anim_accs, 100, 0
+#24050, obj58_santarobot, obj58,anim_accs, 100, 0 #24012
+
+###obj60
+#6702, obj60a_amber, obj60, anim_accs, 100, 0
+#6709, obj60a_dragon, obj60, anim_accs, 100, 0
+#6720, obj60a_dronguard, obj60, anim_accs, 100, 0
+##Balloon
+6723, obj60a_eballon, obj60, anim_accs, 100, 2097156
+##obj62a
+#14223, obj62a_solar_system, obj62, anim_accs, 200, 2097156
+#14225, obj62a_voyager1, obj62, anim_accs, 200, 0
+#14226, obj62a_astroback, obj62, anim_accs, 200, 0
+#14228, obj62a_plasma, obj62, anim_accs, 200, 0
+#14229, obj62a_cosmokot, obj62, anim_accs, 200, 2097156
+#14230, obj62a_bhole, obj62, anim_accs, 200, 4
+###obj68
+#15600, obj68_stonewings, obj68, anim_accs, 200, 0
+#15601, obj68_robot, obj68, anim_accs, 200, 4
+#15589, obj68a_bee, obj68, anim_accs, 200, 0
+#15406, obj68a_ironspider, obj68, anim_accs, 200, 0
+#
+14217, obj68a_ankh, obj68, anim_accs, 200, 0
+#14218, obj68a_di, obj68, anim_accs, 200, 2097156
+#14219, obj68a_rtx4090, obj68, anim_accs, 200, 0
+#14220, obj68a_zelda, obj68, anim_accs, 200, 0
+#
+12680, obj68a_jejtsb, obj68, anim_accs, 30, 2097156
+12681, obj68a_helib, obj68, anim_accs, 30, 0
+12682, obj68a_hover, obj68, anim_accs, 30, 2097156
+#
+#14234, obj68a_slots, obj68, anim_accs, 30, 0
+#14235, obj68a_roulette, obj68, anim_accs, 30, 0
+#14236, obj68a_hammer, obj68, anim_accs, 30, 0
+#14237, obj68a_sflash, obj68, anim_accs, 30, 0
+#
+14238, obj68a_circle1, obj68, anim_accs, 30, 2097156
+14239, obj68a_circle2, obj68, anim_accs, 30, 2097156
+14240, obj68a_circle3, obj68, anim_accs, 30, 2097156
+#
+#14241, obj68a_bird, obj68, anim_accs, 30, 0
+# obj70
+#14284, obj70a_yacht, obj70, anim_accs, 30, 2097156
+#14285, obj70a_stun, obj70, anim_accs, 30, 2097156
+#14286, obj70a_windmill, obj70, anim_accs, 30, 2097156
+#14287, obj70a_garbages, obj70, anim_accs, 30, 0
+#14288, obj70a_mahenergy, obj70, anim_accs, 30, 2097156
+#
+#15616, obj70a_bonjcase, obj70, anim_accs, 30, 0
+#
+#15952, obj70a_arizball, obj70, anim_accs, 30, 0
+#15953, obj70a_cakes, obj70, anim_accs, 30, 0
+#15954, obj70a_neoncake, obj70, anim_accs, 30, 2097156
+# obj72a
+15952, obj72a_hotfork, obj72, anim_accs, 30, 0
+15953, obj72a_hothelm, obj72, anim_accs, 30, 0
+# obj74
+#15940, obj74a_cat, obj74, anim_accs, 35, 0
+#15941, obj74a_club, obj74, anim_accs, 35, 0
+#15944, obj74a_darkhalo, obj74, anim_accs, 35, 0
+#15946, obj74a_ender, obj74, anim_accs, 35, 2097152
+#15955, obj74a_tentacles, obj74, anim_accs, 35, 0
+#15956, obj74a_tnimb, obj74, anim_accs, 35, 0
+#15957, obj74a_watch, obj74, anim_accs, 35, 2097156
+#
+#16814, obj74a_maneki, obj74, anim_accs, 40, 0
+#16823, obj74a_noodles, obj74, anim_accs, 40, 0
+#16824, obj74a_shur, obj74, anim_accs, 40, 0
+#16825, obj74a_stick, obj74, anim_accs, 40, 0
+#
+# obj76 
+#16813, obj76a_red_wings, obj76, anim_accs, 40, 0
+#6785, obj76a_courier, obj76, anim_accs, 30, 0
+#6786, obj76a_skadi, obj76, anim_accs, 30, 0
+#6787, obj76a_inv_sphere, obj76, anim_accs, 30, 2097156
+#6788, obj76a_stick_cm, obj76, anim_accs, 30, 2097156
+##6789, obj76a_snake, obj76, anim_accs, 30, 0
+6790, obj76a_dog, obj76, anim_accs, 30, 0
+#11771, obj76a_io, obj76, anim_accs, 30, 2097156
+#11772, obj76a_oracle, obj76, anim_accs, 30, 0
+#11773, obj76a_roll, obj76, anim_accs, 30, 0
+#11774, obj76a_tango, obj76, anim_accs, 30, 2097156
+#11761, obj76a_barrel, obj76, anim_accs, 20, 0
+#6813, obj76a_wings, obj76, anim_accs, 20, 2097156
+#6820, obj76a_trax, obj76, anim_accs, 20, 0
+# obj78
+#12172, obj78a_eye, obj78, anim_accs, 300, 2097156
+#12320, obj78a_spinner, obj78, anim_accs, 30, 0
+#12321, obj78a_wings, obj78, anim_accs, 30, 2097156
+#12322, obj78a_sun, obj78, anim_accs, 30, 0
+#12323, obj78a_duck, obj78, anim_accs, 30, 0
+#12324, obj78a_nimb, obj78, anim_accs, 30, 0
+#12325, obj78a_lotr, obj78, anim_accs, 30, 0
+#12326, obj78a_dudec, obj78, anim_accs, 30, 2097152
+#12327, obj78a_dora_n, obj78, anim_accs, 30, 2097152
+#12328, obj78a_pmolli_n, obj78, anim_accs, 30, 2097152
+#12329, obj78a_geom, obj78, anim_accs, 30, 2097152
+#12330, obj78a_sonring, obj78, anim_accs, 30, 0
+#12331, obj78a_tail, obj78, anim_accs, 30, 0
+#12332, obj78a_pokeball, obj78, anim_accs, 30, 0
+#12333, obj78a_rpokeball, obj78, anim_accs, 30, 2097152
+#12334, obj78a_spokeball, obj78, anim_accs, 30, 0
+#12335, obj78a_bpokeball, obj78, anim_accs, 30, 0
+#12336, obj78a_cpokebal, obj78, anim_accs, 30, 0
+#
+#12394, obj80a_elym, obj80, anim_accs, 30, 0
+#13986, obj80a_staff, obj80, anim_accs, 30, 2097152
+#13997, obj80a_appa, obj80, anim_accs, 30, 2097152
+#13998, obj80a_nemoji, obj80, anim_accs, 30, 0
+#13999, obj80a_pbook, obj80, anim_accs, 30, 0
+#14000, obj80a_pwings, obj80, anim_accs, 30, 2097152
+#14001, obj80a_redrobot, obj80, anim_accs, 30, 0
+#14002, obj80a_stwings, obj80, anim_accs, 30, 0
+#14043, obj80a_flyhand, obj80, anim_accs, 30, 2097152
+#14045, obj80a_fishbp, obj81, anim_accs, 30, 2097152
+14047, obj80a_aura, obj80, anim_accs, 30, 2097152
+# obj82
+#14002, obj82_msearch6, obj82, anim_accs, 30, 0
+#15161, obj82a_redstar, obj82, anim_accs, 30, 2097152
+#obj84 
+11995, obj84a_rubmbleball, obj84, anim_accs, 30, 0
+11996, obj84a_akatsuki, obj84, anim_accs, 30, 0
+#11997, obj84a_girl, obj84, anim_accs, 30, 2097284
+#11998, obj84a_sushi, obj84, anim_accs, 30, 0
+#11999, obj84a_compass, obj84, anim_accs, 30, 0
+#12018, obj84a_sabers, obj84, anim_accs, 30, 0
+#12019, obj84a_hat1, obj84, anim_accs, 30, 2097152
+#12020, obj84a_chest, obj84, anim_accs, 30, 2097152
+#12021, obj84a_scull, obj84, anim_accs, 30, 0
+#12022, obj84a_anchor, obj84, anim_accs, 30, 0
+#12023, obj84a_ghost, obj84, anim_accs, 30, 2097152
+#12024, obj84a_rudder, obj84, anim_accs, 30, 2097152
+#12025, obj84a_energo_g, obj84, anim_accs, 30, 2097152
+12026, obj84a_nimb_star, obj84, anim_accs, 30, 0
+# obj86
+#12612, obj86a_suitcaselab, obj86, anim_accs, 30, 0
+#12790, obj86a_g_nimb, obj86, anim_accs, 30, 0
+#12791, obj86a_wings, obj86, anim_accs, 30, 0
+12792, obj86a_drilllagann, obj86, anim_accs, 30, 0
+#12794, obj86a_backpackds, obj86, anim_accs, 30, 0
+#12796, obj86a_knoier, obj86, anim_accs, 30, 2097152
+#
+#15643, obj86a_dmshield, obj86, anim_accs, 30, 0
+#15644, obj86a_heart, obj86, anim_accs, 30, 0
+#15645, obj86a_labubu, obj86, anim_accs, 30, 0
+#15646, obj86a_lacola, obj86, anim_accs, 30, 0
+#
+15195, obj88a_ping, obj88, anim_accs, 30, 0
+end
+txdp
+balloon_texts, balloon_texts1
+end
