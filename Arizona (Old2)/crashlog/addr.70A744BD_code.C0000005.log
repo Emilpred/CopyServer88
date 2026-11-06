@@ -1,0 +1,47 @@
+Crash at: 0x70A744BD: c0000005
+EAX: 4af0ee0
+ECX: be6978eb
+EDX: 4af0ee0
+EBX: 3c965d8
+ESP: 177f7dc
+EBP: 177f834
+ESI: 177f7f8
+EDI: 1
+EIP: 70a744bd
+Flags: 210286
+ZF: false
+CF: false
+SF: true
+OF: false
+PF: true
+Trace 0: 70a744bd -> serverconnect.asi + 0x344BD 
+Trace 1: 70a7443a -> serverconnect.asi + 0x3443A 
+Trace 2: 70a72ed1 -> serverconnect.asi + 0x32ED1 
+Trace 3: 70a5d325 -> serverconnect.asi + 0x1D325 
+Trace 4: 70a41259 -> serverconnect.asi + 0x1259 
+Trace 5: 77ab2984 -> ntdll.dll + 0xB2984 
+Trace 6: 77a393e3 -> ntdll.dll + 0x393E3 
+Trace 7: 77a35529 -> ntdll.dll + 0x35529 
+Trace 8: 77a3236e -> ntdll.dll + 0x3236E 
+Trace 9: 7639b6f3 -> kernel32.dll + 0x2B6F3 
+Trace a: 5283186f -> vorbisfile.dll + 0x2C186F 
+Trace b: 3bdf816 -> vorbisfile.dll + 0xB166F816 
+Last opcodes: 0248 0248 0248 0248 052C 09BA 00FE 0470 077E 077E 
+Last created vehicle: 527(624)
+Last prerendered vehicle: 527
+Last removed model: 19445
+Last removed car: 14121
+Last removed ped: 78
+Last removed object: 19445
+Last created object: 65535(65535)
+Last GetColModel: 19671
+Last anim group: 54
+Last anim id: 3
+Last anim current time: 0
+Last anim total time: 1.5
+Last CSprite2d::Draw texture:radar_ZERO
+CRenderer lists:
+	CRenderer::ms_nNoOfVisibleLods = 56
+	CRenderer::ms_nNoOfVisibleEntities = 109
+	CRenderer::ms_nNoOfVisibleSuperLods = 0
+	CRenderer::ms_nNoOfInVisibleEntities = 10

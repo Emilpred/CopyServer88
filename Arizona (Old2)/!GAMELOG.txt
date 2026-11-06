@@ -1,0 +1,384 @@
+08:59:18 | [info] Start game (commit e8cf2a82)
+08:59:18 | [info] Hook crt
+08:59:18 | [info] Initialize minhook
+08:59:18 | [info] CrtMain
+08:59:18 | [info] Disable DEP
+08:59:18 | [error] Failed to enable fullscreen optimization
+08:59:18 | [info] Game: Arizona
+08:59:18 | [info] Branch: Main
+08:59:18 | [info] desctent_builder initialize stage on_load_library
+08:59:18 | [info] Fix default resolution
+08:59:18 | [info] Disable 16bit
+08:59:18 | [info] Extend SDR formats support
+08:59:18 | [info] Disable DWM
+08:59:18 | [info] SirenAnimations: Loaded 10 siren animations for 26 vehicle settings
+08:59:18 | [error] Hook launch errors
+08:59:18 | [info] Hook game exit
+08:59:18 | [info] Hook game load logging
+08:59:18 | [info] Fix refresh rate
+08:59:18 | [error] Fix startup errors
+08:59:18 | [info] Hook fonts
+08:59:18 | [info] Find documets dir
+08:59:18 | [info] Use default SAMP font
+08:59:18 | [info] Load SAMP R3 ( 0x4a90000 )
+08:59:18 | [info] Force use russian fonts
+08:59:18 | [info] Locale: en-US (1252)
+08:59:18 | [info] Detect multibyte locale without russian characters. Using wide chars convertation
+08:59:18 | [info] Disable limit for maximum FPS
+08:59:18 | [info] desctent_builder initialize stage on_load_samp
+08:59:19 | [info] desctent_builder initialize stage on_load_limit_adjuster
+08:59:19 | [info] Create compatible layer for mods without FLA support
+08:59:19 | [info] ImproveMods: IMG archives was supported - loading module
+08:59:19 | [error] descent_builder: Can't initialize ImproveMods - filesystem error: directory iterator cannot open directory: No such file or directory [C:\Users\Arminas\AppData\Roaming\polyvBu10wkPQv6zcZ2cptsa1w\samp03\game\mods]
+08:59:19 | [info] Extend dff limits in SAMP
+08:59:19 | [info] CColStore: Add names to each col slot. Now `ColDef::name[18]` (pSlot+0x10) field is used
+08:59:19 | [info] Hook startupInfo
+08:59:19 | [info] Replace settings file to: arizona.set
+08:59:19 | [info] Seasons disabled
+08:59:19 | [info] Hook SAA
+08:59:19 | [info] Hook gameloop
+08:59:19 | [info] Init events (early)
+08:59:19 | [info] desctent_builder initialize stage on_init_events
+08:59:20 | [info] desctent_builder initialize stage on_after_crt_main
+08:59:20 | [info] Load Runtime
+08:59:20 | [info] Done
+08:59:20 | [info] Load crashlog
+08:59:20 | [info] Load dbg symbols
+08:59:20 | [info] Hook UEF
+08:59:20 | [info] Hook SetUnhandledExceptionFilter (0x7638d330)
+08:59:20 | [info] Time start 08:59:20
+08:59:20 | [info] Win ver: 10.0 build 26200 (10)
+08:59:20 | [info] Load asi-plugins
+08:59:20 | [info] Load ASI "$fastman92limitAdjuster.asi" at 0x51850000
+08:59:20 | [info] Load ASI "AZVoice.asi" at 0x50a60000
+08:59:21 | [info] Load ASI "core.asi" at 0x506b0000
+08:59:21 | [info] Load ASI "crashes.asi" at 0x50660000
+08:59:21 | [info] Load ASI "fixFTH.asi" at 0x505d0000
+08:59:21 | [info] Load ASI "FramerateVigilante.SA.asi" at 0x505b0000
+08:59:21 | [info] Load ASI "libcef.asi" at 0x50520000
+08:59:21 | [info] Load ASI "mousefix.asi" at 0x50500000
+08:59:21 | [info] Load ASI "NormalMapFix.asi" at 0x43c0000
+08:59:21 | [info] Load ASI "ServerConnect.asi" at 0x70a40000
+08:59:21 | [info] Load ASI "SilentPatchSA.asi" at 0x50490000
+08:59:21 | [info] Load ASI "StreamMemFix.asi" at 0x4460000
+08:59:21 | [info] Load ASI "_chat.asi" at 0x502f0000
+08:59:21 | [info] Load ASI "_CoreGame.asi" at 0x50230000
+08:59:21 | [info] Fix CLEO opcodes
+08:59:21 | [info] Loading CEF
+08:59:21 | [info] Done
+08:59:21 | [info] desctent_builder initialize stage on_load_plugins
+08:59:21 | [info] All plugins is loaded
+08:59:21 | [info] DEBUG: The previously saved language is now in use
+08:59:22 | [debug] 3rd-party hooks of Direct3DCreate9 not matched, try to access d3d9.dll directly
+08:59:22 | [warning] Mip mapping force disabled, due to high memory usage by DirectX9! Reason: Direct3D9 backend is not DXVK
+08:59:22 | [info] CPU:
+08:59:22 | [info] 	Arch: 9 (x64)
+08:59:22 | [info] 	Level: 0x19 (x86/x64 family (vendor-defined))
+08:59:22 | [info] 	Type: 0x21d8 (x86-64 (AMD/Intel))
+08:59:22 | [info] 	Count: 24
+08:59:22 | [info] MEMORY:
+08:59:22 | [info] 	Page size: 4096
+08:59:22 | [info] 	Min address: 0x10000
+08:59:22 | [info] 	Max address: 0xfffeffff
+08:59:22 | [info] 	Total: 31889MB
+08:59:22 | [info] 	Available for system: 18092MB
+08:59:22 | [info] 	Available for game: 3358MB
+08:59:22 | [info] VIDEO:
+08:59:22 | [info] 	Video adapter 0:
+08:59:22 | [info] 		Device: \\.\DISPLAY1 ( 0x10de, 0x2c05 )
+08:59:22 | [info] 		Driver: nvldumd.dll ( 9007199255791260 )
+08:59:22 | [info] 		Description: NVIDIA GeForce RTX 5070 Ti
+08:59:22 | [info] 		Vertex shader version: 0xfffe0300
+08:59:22 | [info] 		Pixel shader version: 0xffff0300
+08:59:22 | [info] Load videomode: 23
+08:59:22 | [info] Use resolution settings profile: arizona.set
+08:59:22 | [info] Found resolution settings in registry: 2560x1440@144 scale 10000/10000
+08:59:22 | [info] Using exact resolution from registry: id 0 -> 2560x1440@144
+08:59:22 | [info] Corrected videomode: 0
+08:59:22 | [debug] 3rd-party hooks of Direct3DCreate9 not matched, try to access d3d9.dll directly
+08:59:23 | [debug] Initialised SoundManager
+08:59:23 | [info] Init cursor
+08:59:23 | [info] Init d3d9
+08:59:23 | [info] Hook dx
+08:59:23 | [info] desctent_builder initialize stage on_load_hook_d3d9
+08:59:23 | [info] Load IMG archives
+08:59:23 | [debug] Loading the Game: Loading DEFAULT.IDE 
+08:59:23 | [debug] Loading the Game: Loading VEHICLES.IDE 
+08:59:23 | [debug] Loading the Game: Loading PEDS.IDE 
+08:59:23 | [debug] Loading the Game: Loading WEAPONS.IDE 
+08:59:23 | [debug] Loading the Game: Loading WEAPONS.COL
+08:59:23 | [debug] Loading the Game: Loading vegepart.IDE 
+08:59:23 | [debug] Loading the Game: Loading barriers.IDE 
+08:59:23 | [debug] Loading the Game: Loading dynamic.IDE 
+08:59:23 | [debug] Loading the Game: Loading dynamic2.IDE 
+08:59:23 | [debug] Loading the Game: Loading multiobj.IDE 
+08:59:23 | [debug] Loading the Game: Loading procobj.IDE 
+08:59:23 | [debug] Loading the Game: Loading LAn.IDE 
+08:59:23 | [debug] Loading the Game: Loading LAn2.IDE 
+08:59:23 | [debug] Loading the Game: Loading LAs.IDE 
+08:59:23 | [debug] Loading the Game: Loading LAs2.IDE 
+08:59:23 | [debug] Loading the Game: Loading LAe.IDE 
+08:59:23 | [debug] Loading the Game: Loading LAe2.IDE 
+08:59:23 | [debug] Loading the Game: Loading LAw2.IDE 
+08:59:23 | [debug] Loading the Game: Loading LAw.IDE 
+08:59:23 | [debug] Loading the Game: Loading LAwn.IDE 
+08:59:23 | [debug] Loading the Game: Loading LAhills.IDE 
+08:59:23 | [debug] Loading the Game: Loading LAxref.IDE 
+08:59:23 | [debug] Loading the Game: Loading SFn.IDE 
+08:59:23 | [debug] Loading the Game: Loading SFs.IDE 
+08:59:23 | [debug] Loading the Game: Loading SFse.IDE 
+08:59:23 | [debug] Loading the Game: Loading SFe.IDE 
+08:59:23 | [debug] Loading the Game: Loading SFw.IDE 
+08:59:23 | [debug] Loading the Game: Loading SFxref.IDE 
+08:59:23 | [debug] Loading the Game: Loading vegasN.IDE 
+08:59:23 | [debug] Loading the Game: Loading vegasS.IDE 
+08:59:23 | [debug] Loading the Game: Loading vegasE.IDE 
+08:59:23 | [debug] Loading the Game: Loading vegasW.IDE 
+08:59:23 | [debug] Loading the Game: Loading vegaxref.IDE 
+08:59:23 | [debug] Loading the Game: Loading countryN.IDE 
+08:59:23 | [debug] Loading the Game: Loading countN2.IDE 
+08:59:23 | [debug] Loading the Game: Loading countryS.IDE 
+08:59:23 | [debug] Loading the Game: Loading countryE.IDE 
+08:59:23 | [debug] Loading the Game: Loading countryW.IDE 
+08:59:23 | [debug] Loading the Game: Loading counxref.IDE 
+08:59:23 | [debug] Loading the Game: Loading int_LA.IDE 
+08:59:23 | [debug] Loading the Game: Loading int_SF.IDE 
+08:59:23 | [debug] Loading the Game: Loading int_veg.IDE 
+08:59:23 | [debug] Loading the Game: Loading int_cont.IDE 
+08:59:23 | [debug] Loading the Game: Loading levelmap.IDE 
+08:59:23 | [debug] Loading the Game: Loading levelxre.IDE 
+08:59:23 | [debug] Loading the Game: Loading gen_int1.IDE 
+08:59:23 | [debug] Loading the Game: Loading gen_int2.IDE 
+08:59:23 | [debug] Loading the Game: Loading gen_intb.IDE 
+08:59:23 | [debug] Loading the Game: Loading gen_int3.IDE 
+08:59:23 | [debug] Loading the Game: Loading gen_int4.IDE 
+08:59:23 | [debug] Loading the Game: Loading gen_int5.IDE 
+08:59:23 | [debug] Loading the Game: Loading savehous.IDE 
+08:59:23 | [debug] Loading the Game: Loading stadint.IDE 
+08:59:23 | [debug] Loading the Game: Loading seabed.IDE 
+08:59:23 | [debug] Loading the Game: Loading ACCESSORIES.IDE 
+08:59:23 | [debug] Loading the Game: Loading gamemods.IDE 
+08:59:23 | [debug] Loading the Game: Loading pubg.IDE 
+08:59:23 | [debug] Loading the Game: Loading easter.ide 
+08:59:23 | [debug] Loading the Game: Loading tower.ide 
+08:59:23 | [debug] Loading the Game: Loading arz_cm.ide 
+08:59:23 | [debug] Loading the Game: Loading nvm.ide 
+08:59:23 | [debug] Loading the Game: Loading auto_school.ide 
+08:59:23 | [debug] Loading the Game: Loading winter_loc.ide 
+08:59:23 | [debug] Loading the Game: Loading lux_village.ide 
+08:59:23 | [debug] Loading the Game: Loading map_props.ide 
+08:59:23 | [debug] Loading the Game: Loading map_loc.ide 
+08:59:23 | [debug] Loading the Game: Loading CUSTOM_INT.IDE 
+08:59:23 | [debug] Loading the Game: Loading LODvegetation.ide 
+08:59:23 | [debug] Loading the Game: Loading ProperFixes.ide 
+08:59:23 | [debug] Loading the Game: Loading airport.IDE 
+08:59:23 | [debug] Loading the Game: Loading airportN.IDE 
+08:59:23 | [debug] Loading the Game: Loading VC_generic.IDE 
+08:59:23 | [debug] Loading the Game: Loading bank.IDE 
+08:59:23 | [debug] Loading the Game: Loading bridge.IDE 
+08:59:23 | [debug] Loading the Game: Loading cisland.IDE 
+08:59:23 | [debug] Loading the Game: Loading club.IDE 
+08:59:23 | [debug] Loading the Game: Loading concerth.IDE 
+08:59:23 | [debug] Loading the Game: Loading docks.IDE 
+08:59:23 | [debug] Loading the Game: Loading downtown.IDE 
+08:59:23 | [debug] Loading the Game: Loading downtows.IDE 
+08:59:24 | [debug] Loading the Game: Loading golf.IDE 
+08:59:24 | [debug] Loading the Game: Loading haiti.IDE 
+08:59:24 | [debug] Loading the Game: Loading haitin.IDE 
+08:59:24 | [debug] Loading the Game: Loading hotel.IDE 
+08:59:24 | [debug] Loading the Game: Loading islandsf.IDE 
+08:59:24 | [debug] Loading the Game: Loading lawyers.IDE 
+08:59:24 | [debug] Loading the Game: Loading littleha.IDE 
+08:59:24 | [debug] Loading the Game: Loading mall.IDE 
+08:59:24 | [debug] Loading the Game: Loading mansion.IDE 
+08:59:24 | [debug] Loading the Game: Loading nbeach.IDE 
+08:59:24 | [debug] Loading the Game: Loading nbeachbt.IDE 
+08:59:24 | [debug] Loading the Game: Loading nbeachw.IDE 
+08:59:24 | [debug] Loading the Game: Loading oceandn.IDE 
+08:59:24 | [debug] Loading the Game: Loading oceandrv.IDE 
+08:59:24 | [debug] Loading the Game: Loading stadint_vc.IDE 
+08:59:24 | [debug] Loading the Game: Loading starisl.IDE 
+08:59:24 | [debug] Loading the Game: Loading stripclb.IDE 
+08:59:24 | [debug] Loading the Game: Loading washintn.IDE 
+08:59:24 | [debug] Loading the Game: Loading washints.IDE 
+08:59:24 | [debug] Loading the Game: Loading VC_seabed.IDE 
+08:59:24 | [debug] Loading the Game: Loading props.IDE 
+08:59:24 | [debug] Loading the Game: Loading props2.IDE 
+08:59:24 | [debug] Loading the Game: Loading propext.IDE 
+08:59:24 | [debug] Loading the Game: Loading veh_mods.IDE 
+08:59:24 | [debug] Loading the Game: Loading TXDCUT.IDE 
+08:59:24 | [debug] Loading the Game: Loading samp.IDE 
+08:59:24 | [debug] Loading the Game: Loading custom.IDE 
+08:59:24 | [debug] Loading the Game: Loading Object Data
+08:59:24 | [debug] Loading the Game: Loading Setup vehicle info data
+08:59:24 | [debug] Loading the Game: Loading Streaming Init
+08:59:24 | [debug] Loading the Game: Loading Collision
+08:59:24 | [debug] Loading the Game: Loading MAP.ZON 
+08:59:24 | [debug] Loading the Game: Loading INFO.ZON 
+08:59:24 | [debug] Loading the Game: Loading LAn.IPL 
+08:59:24 | [debug] Loading the Game: Loading LAn2.IPL 
+08:59:24 | [debug] Loading the Game: Loading LAs.IPL 
+08:59:24 | [debug] Loading the Game: Loading LAs2.IPL 
+08:59:24 | [debug] Loading the Game: Loading LAe.IPL 
+08:59:24 | [debug] Loading the Game: Loading LAe2.IPL 
+08:59:24 | [debug] Loading the Game: Loading LAw.IPL 
+08:59:24 | [debug] Loading the Game: Loading LAwn.IPL 
+08:59:24 | [debug] Loading the Game: Loading LAw2.IPL 
+08:59:24 | [debug] Loading the Game: Loading LAhills.IPL 
+08:59:24 | [debug] Loading the Game: Loading SFn.IPL 
+08:59:24 | [debug] Loading the Game: Loading SFs.IPL 
+08:59:24 | [debug] Loading the Game: Loading SFse.IPL 
+08:59:24 | [debug] Loading the Game: Loading SFe.IPL 
+08:59:24 | [debug] Loading the Game: Loading SFw.IPL 
+08:59:24 | [debug] Loading the Game: Loading vegasN.IPL 
+08:59:24 | [debug] Loading the Game: Loading vegasS.IPL 
+08:59:24 | [debug] Loading the Game: Loading vegasE.IPL 
+08:59:24 | [debug] Loading the Game: Loading vegasW.IPL 
+08:59:24 | [debug] Loading the Game: Loading countryN.IPL 
+08:59:24 | [debug] Loading the Game: Loading countN2.IPL 
+08:59:24 | [debug] Loading the Game: Loading countrys.IPL 
+08:59:24 | [debug] Loading the Game: Loading countryE.IPL 
+08:59:24 | [debug] Loading the Game: Loading countryW.IPL 
+08:59:24 | [debug] Loading the Game: Loading pubg.ipl 
+08:59:24 | [debug] Loading the Game: Loading pubg1.ipl 
+08:59:24 | [debug] Loading the Game: Loading pubg2.ipl 
+08:59:24 | [debug] Loading the Game: Loading pubg_1.ipl 
+08:59:24 | [debug] Loading the Game: Loading pubgV1.ipl 
+08:59:24 | [debug] Loading the Game: Loading pubgV2.ipl 
+08:59:24 | [debug] Loading the Game: Loading pubgV3.ipl 
+08:59:24 | [debug] Loading the Game: Loading pubgV4.ipl 
+08:59:24 | [debug] Loading the Game: Loading easter.ipl 
+08:59:24 | [debug] Loading the Game: Loading tower.ipl 
+08:59:24 | [debug] Loading the Game: Loading arz_cm.ipl 
+08:59:24 | [debug] Loading the Game: Loading nvm.ipl 
+08:59:24 | [debug] Loading the Game: Loading winter_loc.ipl 
+08:59:24 | [debug] Loading the Game: Loading lux_village.ipl 
+08:59:24 | [debug] Loading the Game: Loading map_loc.ipl 
+08:59:24 | [debug] Loading the Game: Loading partikel.ipl 
+08:59:24 | [debug] Loading the Game: Loading CUSTOM_INT.IPL 
+08:59:24 | [debug] Loading the Game: Loading GAMEMODS.IPL 
+08:59:24 | [debug] Loading the Game: Loading addons.IPL 
+08:59:24 | [debug] Loading the Game: Loading airport.IPL 
+08:59:24 | [debug] Loading the Game: Loading bank.IPL 
+08:59:24 | [debug] Loading the Game: Loading bridge.IPL 
+08:59:24 | [debug] Loading the Game: Loading cisland.IPL 
+08:59:24 | [debug] Loading the Game: Loading club.IPL 
+08:59:24 | [debug] Loading the Game: Loading concerth.IPL 
+08:59:24 | [debug] Loading the Game: Loading docks.IPL 
+08:59:24 | [debug] Loading the Game: Loading downtown.IPL 
+08:59:24 | [debug] Loading the Game: Loading golf.IPL 
+08:59:24 | [debug] Loading the Game: Loading haiti.IPL 
+08:59:24 | [debug] Loading the Game: Loading hotel.IPL 
+08:59:24 | [debug] Loading the Game: Loading islandsf.IPL 
+08:59:24 | [debug] Loading the Game: Loading lawyers.IPL 
+08:59:24 | [debug] Loading the Game: Loading littleha.IPL 
+08:59:24 | [debug] Loading the Game: Loading mall.IPL 
+08:59:24 | [debug] Loading the Game: Loading mansion.IPL 
+08:59:24 | [debug] Loading the Game: Loading nbeach.IPL 
+08:59:24 | [debug] Loading the Game: Loading nbeachbt.IPL 
+08:59:24 | [debug] Loading the Game: Loading nbeachw.IPL 
+08:59:24 | [debug] Loading the Game: Loading oceandn.IPL 
+08:59:24 | [debug] Loading the Game: Loading oceandrv.IPL 
+08:59:24 | [debug] Loading the Game: Loading stadint_vc.IPL 
+08:59:24 | [debug] Loading the Game: Loading starisl.IPL 
+08:59:24 | [debug] Loading the Game: Loading stripclb.IPL 
+08:59:24 | [debug] Loading the Game: Loading washintn.IPL 
+08:59:24 | [debug] Loading the Game: Loading washints.IPL 
+08:59:24 | [debug] Loading the Game: Loading VC_seabed.IPL 
+08:59:24 | [debug] Loading the Game: Loading ProperFixes.ipl 
+08:59:24 | [debug] Loading the Game: Loading int_LA.IPL 
+08:59:24 | [debug] Loading the Game: Loading int_SF.IPL 
+08:59:24 | [debug] Loading the Game: Loading int_veg.IPL 
+08:59:25 | [debug] Loading the Game: Loading int_cont.IPL 
+08:59:25 | [debug] Loading the Game: Loading gen_int1.IPL 
+08:59:25 | [debug] Loading the Game: Loading gen_int2.IPL 
+08:59:25 | [debug] Loading the Game: Loading gen_intb.IPL 
+08:59:25 | [debug] Loading the Game: Loading gen_int3.IPL 
+08:59:25 | [debug] Loading the Game: Loading gen_int4.IPL 
+08:59:25 | [debug] Loading the Game: Loading gen_int5.IPL 
+08:59:25 | [debug] Loading the Game: Loading stadint.IPL 
+08:59:25 | [debug] Loading the Game: Loading savehous.IPL 
+08:59:25 | [debug] Loading the Game: Loading seabed.IPL 
+08:59:25 | [debug] Loading the Game: Loading paths.ipl 
+08:59:25 | [debug] Loading the Game: Loading paths2.ipl 
+08:59:25 | [debug] Loading the Game: Loading paths3.ipl 
+08:59:25 | [debug] Loading the Game: Loading paths4.ipl 
+08:59:25 | [debug] Loading the Game: Loading paths5.ipl 
+08:59:25 | [debug] Loading the Game: Loading cull.ipl 
+08:59:25 | [debug] Loading the Game: Loading tunnels.ipl 
+08:59:25 | [debug] Loading the Game: Loading occluSF.ipl 
+08:59:25 | [debug] Loading the Game: Loading occluveg.ipl 
+08:59:25 | [debug] Loading the Game: Loading occluLA.ipl 
+08:59:25 | [debug] Loading the Game: Loading occluint.ipl 
+08:59:25 | [debug] Loading the Game: Loading audiozon.ipl 
+08:59:25 | [debug] Loading the Game: Add Particles
+08:59:25 | [debug] Loading the Game: Setup paths
+08:59:25 | [debug] Loading the Game: Setup water
+08:59:25 | [debug] Loading the Game: Setup streaming
+08:59:25 | [debug] Loading the Game: Load animations
+08:59:25 | [debug] Loading the Game: Setup streaming
+08:59:25 | [debug] Loading the Game: Ped Init
+08:59:25 | [debug] Loading the Game: Setup game variables
+08:59:25 | [debug] Loading the Game: Load scripts
+08:59:25 | [debug] Loading the Game: Setup game variables
+08:59:25 | [debug] Loading the Game: Start script
+08:59:25 | [debug] Loading the Game: Load scene
+08:59:25 | [debug] Loading the Game: Procedural Interiors
+08:59:26 | [info] Load turnlights.txd
+08:59:26 | [info] Create plugin
+08:59:26 | [info] Subscribe on mainloop
+08:59:26 | [info] Init game
+08:59:26 | [info] Initialize custom menu
+08:59:26 | [info] Initialize limits
+08:59:26 | [info] Initialize photo fix
+08:59:26 | [info] Initialize translation
+08:59:26 | [info] Initialize chat key
+08:59:26 | [info] Initialize custom screens
+08:59:26 | [info] Initialize fast fonts
+08:59:26 | [info] Initialize chat state
+08:59:26 | [info] Initialize preloader
+08:59:26 | [info] Initialize base time: 235970000ns
+08:59:26 | [info] Initialize stream fix
+08:59:26 | [info] AutoLogin is enabled
+08:59:26 | [warning] Arizona.asi not found, car reflections will not work
+08:59:26 | [info] Initialize net time: 270072000ns
+08:59:26 | [info] Initialize plugins
+08:59:26 | [info] Initialize time: 510778000ns
+08:59:26 | [info] desctent_builder initialize stage on_load_game
+08:59:27 | [info] Hook RakClient
+08:59:27 | [info] Hook RakClient vtbl
+08:59:27 | [info] desctent_builder initialize stage on_samp_initialized
+08:59:27 | [info] AntiCrasher: vectored exception handler added
+08:59:28 | [info] Register fps command
+08:59:28 | [info] Register fogdist command
+08:59:28 | [info] FreeMemory: Increase memory usage - 1625/4095MB
+08:59:28 | [info] FreeMemory: Increase memory usage - 1731/4095MB
+08:59:29 | [info] FreeMemory: Increase memory usage - 1839/4095MB
+08:59:32 | [debug] Invalid node name Para_Harness_SpineTrace  - too long (24). Stripped to Para_Harness_SpineT
+08:59:33 | [info] FreeMemory: Increase memory usage - 1940/4095MB
+08:59:34 | [info] FreeMemory: Increase stream memory usage - 101/1024MB
+08:59:36 | [debug] Invalid node name Para_Harness_SpineTrace  - too long (24). Stripped to Para_Harness_SpineT
+08:59:36 | [info] FreeMemory: Decrease stream memory usage - 87/1024MB
+08:59:43 | [debug] Invalid node name Para_Harness_SpineTrace  - too long (24). Stripped to Para_Harness_SpineT
+08:59:43 | [info] FreeMemory: Increase memory usage - 2049/4095MB
+08:59:45 | [info] FreeMemory: Increase memory usage - 2163/4095MB
+09:00:11 | [info] FreeMemory: Increase stream memory usage - 187/1024MB
+09:00:40 | [info] FreeMemory: Decrease stream memory usage - 160/1024MB
+09:00:40 | [debug] Invalid node name Para_Harness_SpineTrace  - too long (24). Stripped to Para_Harness_SpineT
+09:00:52 | [info] Use resolution settings profile: arizona.set
+09:00:52 | [info] Saved resolution settings to registry: 2560x1440@144 scale 10000/10000
+09:00:52 | [info] Use resolution settings profile: arizona.set
+09:00:52 | [info] Saved resolution settings to registry: 2560x1440@144 scale 10000/10000
+09:00:54 | [info] Exit process from 50760724
+09:00:54 | [info] Exception c0000005(0) at 0x70a744bd
+09:00:54 | [info] EAX: 4af0ee0	ECX: be6978eb	EDX: 4af0ee0	EBX: 3c965d8	ESP: 177f7dc	EBP: 177f834	ESI: 177f7f8	EDI: 1	FLAGS: 210286
+09:00:54 | [info] Get backtrace
+09:00:54 | [info] Create unique ID
+09:00:54 | [info] Save crash to file crashlog/addr.70A744BD_code.C0000005.log
+09:00:54 | [info] Find crash module: ; offset: 344bd
+09:00:54 | [info] Find crash module: serverconnect.asi; offset: 344bd
+09:00:54 | [info] Send crash
+09:00:54 | [info] Can't handle crash: Resource temporarily unavailable
+09:01:00 | [info] Trying to call SetUnhandledExceptionFilter, after crashlog initialization
+09:01:00 | [info] SetUnhandledExceptionFilter: called from 0x82ac73 -> gta_sa.exe+0x42ac73, handler address is 0x518ef3a0
+09:01:00 | [info] SetUnhandledExceptionFilter: added handler to vector with handle 0x56228f48

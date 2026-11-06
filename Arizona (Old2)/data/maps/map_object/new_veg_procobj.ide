@@ -1,0 +1,69 @@
+objs
+#DATA\default.IDE
+
+325, flowera, flowera, null, 1, 30, 0
+334, nitestick, nitestick, null, 1, 50, 0
+341, chnsaw, chnsaw, chainsaw, 1, 50, 0
+352, micro_uzi, micro_uzi, colt45, 1, 30, 0
+365, spraycan, spraycan, spraycan, 1, 50, 0
+#DATA\MAPS\generic\dynamic.IDE
+
+1317, Cylinder, ingame, 100, 2097152 //скип
+#DATA\MAPS\generic\dynamic2.IDE
+
+1559, diamond_3, DIAMOND, 100, 2097156 //скип
+#DATA\MAPS\generic\multiobj.IDE
+
+1582, pizzabox, prop_pizzabox, 40, 128
+#DATA\MAPS\generic\procobj.IDE
+
+859, sand_plant04, n_icons, 50, 2097156
+#DATA\MAPS\interior\props2.IDE
+
+2861, gb_foodwrap03, gb_foodwrap01, 100, 0
+#DATA\MAPS\leveldes\levelxre.IDE
+
+2901, kmb_marijuana, kmb_marijtxd, 100, 4 //отправлено на переделку
+2912, temp_crate1, kmb_crateX, 100, 0
+
+#DATA\MAPS\gamemods\gamemods.IDE
+
+6542, exclamation, exclamation, gamemods, 50, 0 //скип
+6635, obj61_rentbike, n_icons, 100, 0
+6688, rcmavic_object, n_icons, 90, 4
+6731, obj61_permission, n_icons, 100, 0
+6732, obj61_rstinfo, n_icons, 100, 0
+6836, obj77_pk_ahome, n_icons, 300, 0
+12224, obj79_demorgan, n_icons, 300, 0
+12683, obj69_arizonapass, n_icons, 200, 0
+14075, obj81_box, n_icons, 100, 0
+14200, obj65_bounty, n_icons, 180, 0
+14201, obj65_ladder, n_icons, 180, 0
+14202, obj65_mason, n_icons, 180, 0
+14203, obj65_pickup_bus, n_icons, 180, 0
+14204, obj65_pickup_taxi, n_icons, 180, 0
+14230, obj69_chip, n_icons, 30, 0
+15349, obj71_charity, n_icons, 200, 0
+15541, obj87_home_x2, n_icons, 50, 0
+15543, obj87_home4_x2, n_icons, 50, 0
+15590, obj69_chart, n_icons, 200, 0
+15591, obj69_family, n_icons, 200, 0
+15592, obj69_roadsign, n_icons, 200, 0
+#SAMP\SAMP.IDE
+
+18631, NoModelFile, NoModelFile, 50, 0 //скип
+18632, FishingRod, FishingRod, 100, 0 //скип
+18635, GTASAHammer1, MatTextures, 100, 0
+19197, EnExMarker2, EnExMarkers, 150, 2097220 //скип
+19198, EnExMarker3, EnExMarkers, 150, 2097220 //скип
+19300, blankmodel, MatTextures, 100, 0 //скип
+19422, headphones02, headphones, 100, 0
+19475, Plane001, signsurf, 299, 2097284 //скип
+19523, property_orange, SAMPIcons, 200, 128 //-заменить в моде на 15650
+19610, Microphone1, Microphone1, 100, 0
+19792, SAMPKeycard1, SAMPKeycard1, 50, 0
+19832, AmmoBox1, csammobox, 50, 0
+19847, LegHam1, LegHam1, 50, 0
+19894, LaptopSAMP2, LaptopSAMP1, 50, 0
+19902, EnExMarker4, EnExMarkers, EnExMarker4, 150, 68 //скип
+end

@@ -1,6 +1,0 @@
-[1106/003630.958:ERROR:gpu_init.cc(440)] Passthrough is not supported, GL is swiftshader
-[1106/003630.995:INFO:CONSOLE(281067)] "[debug] app init 1021 561a4a44", source: file:///C:/Users/Arminas/AppData/Roaming/polyvBu10wkPQv6zcZ2cptsa1w/samp03/game/frontend/svelte_js/main.bundle.js (281067)
-[1106/003631.005:INFO:CONSOLE(281026)] "[onRegRead] [auth:muted] value = false / data: ", source: file:///C:/Users/Arminas/AppData/Roaming/polyvBu10wkPQv6zcZ2cptsa1w/samp03/game/frontend/svelte_js/main.bundle.js (281026)
-[1106/003631.005:INFO:CONSOLE(281030)] "[onRegRead] [auth:paused] value = false / data: ", source: file:///C:/Users/Arminas/AppData/Roaming/polyvBu10wkPQv6zcZ2cptsa1w/samp03/game/frontend/svelte_js/main.bundle.js (281030)
-[1106/003631.005:INFO:CONSOLE(281022)] "[onRegRead] [auth:blockVideo] value = NaN / data: ", source: file:///C:/Users/Arminas/AppData/Roaming/polyvBu10wkPQv6zcZ2cptsa1w/samp03/game/frontend/svelte_js/main.bundle.js (281022)
-[1106/003631.006:INFO:CONSOLE(281052)] "[debug] auth background video changed to => false (mount)", source: file:///C:/Users/Arminas/AppData/Roaming/polyvBu10wkPQv6zcZ2cptsa1w/samp03/game/frontend/svelte_js/main.bundle.js (281052)

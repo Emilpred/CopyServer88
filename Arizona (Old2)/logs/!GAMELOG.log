@@ -1,0 +1,155 @@
+06:59:18 | [info] Start game (commit e8cf2a82)
+06:59:18 | [info] Hook crt
+06:59:18 | [info] Initialize minhook
+06:59:18 | [info] CrtMain
+06:59:18 | [info] Disable DEP
+06:59:18 | [error] Failed to enable fullscreen optimization
+06:59:18 | [info] Game: Arizona
+06:59:18 | [info] Branch: Main
+06:59:18 | [info] desctent_builder initialize stage on_load_library
+06:59:18 | [info] Fix default resolution
+06:59:18 | [info] Disable 16bit
+06:59:18 | [info] Extend SDR formats support
+06:59:18 | [info] Disable DWM
+06:59:18 | [info] SirenAnimations: Loaded 10 siren animations for 26 vehicle settings
+06:59:18 | [error] Hook launch errors
+06:59:18 | [info] Hook game exit
+06:59:18 | [info] Hook game load logging
+06:59:18 | [info] Fix refresh rate
+06:59:18 | [error] Fix startup errors
+06:59:18 | [info] Hook fonts
+06:59:18 | [info] Find documets dir
+06:59:18 | [info] Use default SAMP font
+06:59:18 | [info] Load SAMP R3 ( 0x4a90000 )
+06:59:18 | [info] Force use russian fonts
+06:59:18 | [info] Locale: en-US (1252)
+06:59:18 | [info] Detect multibyte locale without russian characters. Using wide chars convertation
+06:59:18 | [info] Disable limit for maximum FPS
+06:59:18 | [info] desctent_builder initialize stage on_load_samp
+06:59:19 | [info] desctent_builder initialize stage on_load_limit_adjuster
+06:59:19 | [info] Create compatible layer for mods without FLA support
+06:59:19 | [info] ImproveMods: IMG archives was supported - loading module
+06:59:19 | [error] descent_builder: Can't initialize ImproveMods - filesystem error: directory iterator cannot open directory: No such file or directory [C:\Users\Arminas\AppData\Roaming\polyvBu10wkPQv6zcZ2cptsa1w\samp03\game\mods]
+06:59:19 | [info] Extend dff limits in SAMP
+06:59:19 | [info] CColStore: Add names to each col slot. Now `ColDef::name[18]` (pSlot+0x10) field is used
+06:59:19 | [info] Hook startupInfo
+06:59:19 | [info] Replace settings file to: arizona.set
+06:59:19 | [info] Seasons disabled
+06:59:19 | [info] Hook SAA
+06:59:19 | [info] Hook gameloop
+06:59:19 | [info] Init events (early)
+06:59:19 | [info] desctent_builder initialize stage on_init_events
+06:59:20 | [info] desctent_builder initialize stage on_after_crt_main
+06:59:20 | [info] Load Runtime
+06:59:20 | [info] Done
+06:59:20 | [info] Load crashlog
+06:59:20 | [info] Load dbg symbols
+06:59:20 | [info] Hook UEF
+06:59:20 | [info] Hook SetUnhandledExceptionFilter (0x7638d330)
+06:59:20 | [info] Time start 08:59:20
+06:59:20 | [info] Win ver: 10.0 build 26200 (10)
+06:59:20 | [info] Load asi-plugins
+06:59:20 | [info] Load ASI "$fastman92limitAdjuster.asi" at 0x51850000
+06:59:20 | [info] Load ASI "AZVoice.asi" at 0x50a60000
+06:59:21 | [info] Load ASI "core.asi" at 0x506b0000
+06:59:21 | [info] Load ASI "crashes.asi" at 0x50660000
+06:59:21 | [info] Load ASI "fixFTH.asi" at 0x505d0000
+06:59:21 | [info] Load ASI "FramerateVigilante.SA.asi" at 0x505b0000
+06:59:21 | [info] Load ASI "libcef.asi" at 0x50520000
+06:59:21 | [info] Load ASI "mousefix.asi" at 0x50500000
+06:59:21 | [info] Load ASI "NormalMapFix.asi" at 0x43c0000
+06:59:21 | [info] Load ASI "ServerConnect.asi" at 0x70a40000
+06:59:21 | [info] Load ASI "SilentPatchSA.asi" at 0x50490000
+06:59:21 | [info] Load ASI "StreamMemFix.asi" at 0x4460000
+06:59:21 | [info] Load ASI "_chat.asi" at 0x502f0000
+06:59:21 | [info] Load ASI "_CoreGame.asi" at 0x50230000
+06:59:21 | [info] Fix CLEO opcodes
+06:59:21 | [info] Loading CEF
+06:59:21 | [info] Done
+06:59:21 | [info] desctent_builder initialize stage on_load_plugins
+06:59:21 | [info] All plugins is loaded
+06:59:21 | [info] DEBUG: The previously saved language is now in use
+06:59:22 | [warning] Mip mapping force disabled, due to high memory usage by DirectX9! Reason: Direct3D9 backend is not DXVK
+06:59:22 | [info] CPU:
+06:59:22 | [info] 	Arch: 9 (x64)
+06:59:22 | [info] 	Level: 0x19 (x86/x64 family (vendor-defined))
+06:59:22 | [info] 	Type: 0x21d8 (x86-64 (AMD/Intel))
+06:59:22 | [info] 	Count: 24
+06:59:22 | [info] MEMORY:
+06:59:22 | [info] 	Page size: 4096
+06:59:22 | [info] 	Min address: 0x10000
+06:59:22 | [info] 	Max address: 0xfffeffff
+06:59:22 | [info] 	Total: 31889MB
+06:59:22 | [info] 	Available for system: 18092MB
+06:59:22 | [info] 	Available for game: 3358MB
+06:59:22 | [info] VIDEO:
+06:59:22 | [info] 	Video adapter 0:
+06:59:22 | [info] 		Device: \\.\DISPLAY1 ( 0x10de, 0x2c05 )
+06:59:22 | [info] 		Driver: nvldumd.dll ( 9007199255791260 )
+06:59:22 | [info] 		Description: NVIDIA GeForce RTX 5070 Ti
+06:59:22 | [info] 		Vertex shader version: 0xfffe0300
+06:59:22 | [info] 		Pixel shader version: 0xffff0300
+06:59:22 | [info] Load videomode: 23
+06:59:22 | [info] Use resolution settings profile: arizona.set
+06:59:22 | [info] Found resolution settings in registry: 2560x1440@144 scale 10000/10000
+06:59:22 | [info] Using exact resolution from registry: id 0 -> 2560x1440@144
+06:59:22 | [info] Corrected videomode: 0
+06:59:23 | [info] Init cursor
+06:59:23 | [info] Init d3d9
+06:59:23 | [info] Hook dx
+06:59:23 | [info] desctent_builder initialize stage on_load_hook_d3d9
+06:59:23 | [info] Load IMG archives
+06:59:26 | [info] Load turnlights.txd
+06:59:26 | [info] Create plugin
+06:59:26 | [info] Subscribe on mainloop
+06:59:26 | [info] Init game
+06:59:26 | [info] Initialize custom menu
+06:59:26 | [info] Initialize limits
+06:59:26 | [info] Initialize photo fix
+06:59:26 | [info] Initialize translation
+06:59:26 | [info] Initialize chat key
+06:59:26 | [info] Initialize custom screens
+06:59:26 | [info] Initialize fast fonts
+06:59:26 | [info] Initialize chat state
+06:59:26 | [info] Initialize preloader
+06:59:26 | [info] Initialize base time: 235970000ns
+06:59:26 | [info] Initialize stream fix
+06:59:26 | [info] AutoLogin is enabled
+06:59:26 | [warning] Arizona.asi not found, car reflections will not work
+06:59:26 | [info] Initialize net time: 270072000ns
+06:59:26 | [info] Initialize plugins
+06:59:26 | [info] Initialize time: 510778000ns
+06:59:26 | [info] desctent_builder initialize stage on_load_game
+06:59:27 | [info] Hook RakClient
+06:59:27 | [info] Hook RakClient vtbl
+06:59:27 | [info] desctent_builder initialize stage on_samp_initialized
+06:59:27 | [info] AntiCrasher: vectored exception handler added
+06:59:28 | [info] Register fps command
+06:59:28 | [info] Register fogdist command
+06:59:28 | [info] FreeMemory: Increase memory usage - 1625/4095MB
+06:59:28 | [info] FreeMemory: Increase memory usage - 1731/4095MB
+06:59:29 | [info] FreeMemory: Increase memory usage - 1839/4095MB
+06:59:33 | [info] FreeMemory: Increase memory usage - 1940/4095MB
+06:59:34 | [info] FreeMemory: Increase stream memory usage - 101/1024MB
+06:59:36 | [info] FreeMemory: Decrease stream memory usage - 87/1024MB
+06:59:43 | [info] FreeMemory: Increase memory usage - 2049/4095MB
+06:59:45 | [info] FreeMemory: Increase memory usage - 2163/4095MB
+07:00:11 | [info] FreeMemory: Increase stream memory usage - 187/1024MB
+07:00:40 | [info] FreeMemory: Decrease stream memory usage - 160/1024MB
+07:00:52 | [info] Use resolution settings profile: arizona.set
+07:00:52 | [info] Saved resolution settings to registry: 2560x1440@144 scale 10000/10000
+07:00:52 | [info] Use resolution settings profile: arizona.set
+07:00:52 | [info] Saved resolution settings to registry: 2560x1440@144 scale 10000/10000
+07:00:54 | [info] Exit process from 50760724
+07:00:54 | [info] Exception c0000005(0) at 0x70a744bd
+07:00:54 | [info] EAX: 4af0ee0	ECX: be6978eb	EDX: 4af0ee0	EBX: 3c965d8	ESP: 177f7dc	EBP: 177f834	ESI: 177f7f8	EDI: 1	FLAGS: 210286
+07:00:54 | [info] Get backtrace
+07:00:54 | [info] Create unique ID
+07:00:54 | [info] Save crash to file crashlog/addr.70A744BD_code.C0000005.log
+07:00:54 | [info] Find crash module: ; offset: 344bd
+07:00:54 | [info] Find crash module: serverconnect.asi; offset: 344bd
+07:00:54 | [info] Send crash
+07:00:54 | [info] Can't handle crash: Resource temporarily unavailable
+07:01:00 | [info] Trying to call SetUnhandledExceptionFilter, after crashlog initialization
+07:01:00 | [info] SetUnhandledExceptionFilter: called from 0x82ac73 -> gta_sa.exe+0x42ac73, handler address is 0x518ef3a0
+07:01:00 | [info] SetUnhandledExceptionFilter: added handler to vector with handle 0x56228f48
